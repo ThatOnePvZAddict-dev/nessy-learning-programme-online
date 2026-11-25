@@ -1,0 +1,20 @@
+<list name="double -y" location="" sentence="">
+	<word soundFileName="fizzy.mp3"><![CDATA[fizzy]]></word>
+	<word soundFileName="baggy.mp3"><![CDATA[baggy]]></word>
+	<word soundFileName="foggy.mp3"><![CDATA[foggy]]></word>
+	<word soundFileName="puppy.mp3"><![CDATA[puppy]]></word>
+	<word soundFileName="holly.mp3"><![CDATA[holly]]></word>
+	<word soundFileName="teddy.mp3"><![CDATA[teddy]]></word>
+	<word soundFileName="muddy.mp3"><![CDATA[muddy]]></word>
+	<word soundFileName="jelly.mp3"><![CDATA[jelly]]></word>
+	<word soundFileName="daddy.mp3"><![CDATA[daddy]]></word>
+	<word soundFileName="happy.mp3"><![CDATA[happy]]></word>
+	<word soundFileName="poppy.mp3"><![CDATA[poppy]]></word>
+	<word soundFileName="funny.mp3"><![CDATA[funny]]></word>
+	<word soundFileName="sunny.mp3"><![CDATA[sunny]]></word>
+	<!--<word soundFileName="fussy.mp3"><![CDATA[fussy]]></word>-->
+	<word soundFileName="mummy.mp3"><![CDATA[mummy]]></word>
+	<word soundFileName="hobby.mp3"><![CDATA[hobby]]></word>
+	<word soundFileName="spotty.mp3"><![CDATA[spotty]]></word>
+
+</list>

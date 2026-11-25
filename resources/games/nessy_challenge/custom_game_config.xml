@@ -1,0 +1,1935 @@
+<customGame>
+	
+<!--
+
+The data in the 'standard' node uses the same schema for all non-dynamic games, so that
+it can be parsed by the game API. Its task is to define all 'word' and 'sentence' word
+lists for automated declaration and sound loading.
+
+The lists include their sound file locations so that punctuations can be used if required.
+
+-->
+
+	<standard>
+		
+		<words>
+			
+			<list name="challenge nessy island 1" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="i.mp3"><![CDATA[i]]></word>
+				<word soundFileName="e.mp3"><![CDATA[e]]></word>
+				<word soundFileName="a.mp3"><![CDATA[a]]></word>
+				<word soundFileName="pan.mp3"><![CDATA[pan]]></word>
+				<word soundFileName="sat.mp3"><![CDATA[sat]]></word>
+				<word soundFileName="fix.mp3"><![CDATA[fix]]></word>
+				<word soundFileName="fed.mp3"><![CDATA[fed]]></word>
+				<word soundFileName="fan.mp3"><![CDATA[fan]]></word>
+				<word soundFileName="rim.mp3"><![CDATA[rim]]></word>
+				<word soundFileName="hid.mp3"><![CDATA[hid]]></word>
+				<word soundFileName="hop.mp3"><![CDATA[hop]]></word>
+				<word soundFileName="hen.mp3"><![CDATA[hen]]></word>
+				<word soundFileName="him.mp3"><![CDATA[him]]></word>
+				<word soundFileName="fox.mp3"><![CDATA[fox]]></word>
+				<word soundFileName="log.mp3"><![CDATA[log]]></word>
+				<word soundFileName="bug.mp3"><![CDATA[bug]]></word>
+				<word soundFileName="dug.mp3"><![CDATA[dug]]></word>
+				<word soundFileName="bud.mp3"><![CDATA[bud]]></word>
+				<word soundFileName="vet.mp3"><![CDATA[vet]]></word>
+				<word soundFileName="yes.mp3"><![CDATA[yes]]></word>
+				<word soundFileName="shop.mp3"><![CDATA[shop]]></word>
+				<word soundFileName="shot.mp3"><![CDATA[shot]]></word>
+				<word soundFileName="she.mp3"><![CDATA[she]]></word>
+				<word soundFileName="jug.mp3"><![CDATA[jug]]></word>
+				<word soundFileName="cut.mp3"><![CDATA[cut]]></word>
+				<word soundFileName="chop.mp3"><![CDATA[chop]]></word>
+				<word soundFileName="chat.mp3"><![CDATA[chat]]></word>
+				<word soundFileName="chin.mp3"><![CDATA[chin]]></word>
+				<word soundFileName="mesh.mp3"><![CDATA[mesh]]></word>
+				<word soundFileName="shed.mp3"><![CDATA[shed]]></word>
+				<word soundFileName="this.mp3"><![CDATA[this]]></word>
+				<word soundFileName="then.mp3"><![CDATA[then]]></word>
+				<word soundFileName="thin.mp3"><![CDATA[thin]]></word>
+				<word soundFileName="such.mp3"><![CDATA[such]]></word>
+				<word soundFileName="chip.mp3"><![CDATA[chip]]></word>
+				<word soundFileName="trip.mp3"><![CDATA[trip]]></word>
+				<word soundFileName="trim.mp3"><![CDATA[trim]]></word>
+				<word soundFileName="trap.mp3"><![CDATA[trap]]></word>
+				<word soundFileName="with.mp3"><![CDATA[with]]></word>
+				<word soundFileName="that.mp3"><![CDATA[that]]></word>
+				<word soundFileName="slug.mp3"><![CDATA[slug]]></word>
+				<word soundFileName="slam.mp3"><![CDATA[slam]]></word>
+				<word soundFileName="slip.mp3"><![CDATA[slip]]></word>
+				<word soundFileName="flip.mp3"><![CDATA[flip]]></word>
+				<word soundFileName="clap.mp3"><![CDATA[clap]]></word>
+				<word soundFileName="spy.mp3"><![CDATA[spy]]></word>
+				<word soundFileName="sky.mp3"><![CDATA[sky]]></word>
+				<word soundFileName="sly.mp3"><![CDATA[sly]]></word>
+				<word soundFileName="try.mp3"><![CDATA[try]]></word>
+				<word soundFileName="fry.mp3"><![CDATA[fry]]></word>
+			</list>
+
+			<list name="challenge nessy island 2" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="wall.mp3"><![CDATA[wall]]></word>
+				<word soundFileName="well.mp3"><![CDATA[well]]></word>
+				<word soundFileName="will.mp3"><![CDATA[will]]></word>
+				<word soundFileName="call.mp3"><![CDATA[call]]></word>
+				<word soundFileName="bell.mp3"><![CDATA[bell]]></word>
+				<word soundFileName="hold.mp3"><![CDATA[hold]]></word>
+				<word soundFileName="hand.mp3"><![CDATA[hand]]></word>
+				<word soundFileName="help.mp3"><![CDATA[help]]></word>
+				<word soundFileName="grass.mp3"><![CDATA[grass]]></word>
+				<word soundFileName="sniff.mp3"><![CDATA[sniff]]></word>
+				<word soundFileName="sang.mp3"><![CDATA[sang]]></word>
+				<word soundFileName="song.mp3"><![CDATA[song]]></word>
+				<word soundFileName="sung.mp3"><![CDATA[sung]]></word>
+				<word soundFileName="tank.mp3"><![CDATA[tank]]></word>
+				<word soundFileName="land.mp3"><![CDATA[land]]></word>
+				<word soundFileName="card.mp3"><![CDATA[card]]></word>
+				<word soundFileName="cart.mp3"><![CDATA[cart]]></word>
+				<word soundFileName="charm.mp3"><![CDATA[charm]]></word>
+				<word soundFileName="milk.mp3"><![CDATA[milk]]></word>
+				<word soundFileName="cold.mp3"><![CDATA[cold]]></word>
+				<word soundFileName="cord.mp3"><![CDATA[cord]]></word>
+				<word soundFileName="cork.mp3"><![CDATA[cork]]></word>
+				<word soundFileName="corn.mp3"><![CDATA[corn]]></word>
+				<word soundFileName="jump.mp3"><![CDATA[jump]]></word>
+				<word soundFileName="damp.mp3"><![CDATA[damp]]></word>
+				<word soundFileName="skirt.mp3"><![CDATA[skirt]]></word>
+				<word soundFileName="stir.mp3"><![CDATA[stir]]></word>
+				<word soundFileName="shirt.mp3"><![CDATA[shirt]]></word>
+				<word soundFileName="long.mp3"><![CDATA[long]]></word>
+				<word soundFileName="sting.mp3"><![CDATA[sting]]></word>
+				<word soundFileName="burst.mp3"><![CDATA[burst]]></word>
+				<word soundFileName="burp.mp3"><![CDATA[burp]]></word>
+				<word soundFileName="burn.mp3"><![CDATA[burn]]></word>
+				<word soundFileName="stick.mp3"><![CDATA[stick]]></word>
+				<word soundFileName="track.mp3"><![CDATA[track]]></word>
+				<word soundFileName="cannon.mp3"><![CDATA[cannon]]></word>
+				<word soundFileName="cobweb.mp3"><![CDATA[cobweb]]></word>
+				<word soundFileName="cactus.mp3"><![CDATA[cactus]]></word>
+				<word soundFileName="sharp.mp3"><![CDATA[sharp]]></word>
+				<word soundFileName="park.mp3"><![CDATA[park]]></word>
+				<word soundFileName="rocky.mp3"><![CDATA[rocky]]></word>
+				<word soundFileName="rusty.mp3"><![CDATA[rusty]]></word>
+				<word soundFileName="frosty.mp3"><![CDATA[frosty]]></word>
+				<word soundFileName="porch.mp3"><![CDATA[porch]]></word>
+				<word soundFileName="sort.mp3"><![CDATA[sort]]></word>
+				<word soundFileName="beep.mp3"><![CDATA[beep]]></word>
+				<word soundFileName="bleed.mp3"><![CDATA[bleed]]></word>
+				<word soundFileName="bead.mp3"><![CDATA[bead]]></word>
+				<word soundFileName="week.mp3"><![CDATA[week]]></word>
+				<word soundFileName="tree.mp3"><![CDATA[tree]]></word>
+			</list>
+
+			<list name="challenge nessy island 3" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="rope.mp3"><![CDATA[rope]]></word>
+				<word soundFileName="ride.mp3"><![CDATA[ride]]></word>
+				<word soundFileName="rule.mp3"><![CDATA[rule]]></word>
+				<word soundFileName="quake.mp3"><![CDATA[quake]]></word>
+				<word soundFileName="grape.mp3"><![CDATA[grape]]></word>
+				<word soundFileName="price.mp3"><![CDATA[price]]></word>
+				<word soundFileName="prince.mp3"><![CDATA[prince]]></word>
+				<word soundFileName="pence.mp3"><![CDATA[pence]]></word>
+				<word soundFileName="white.mp3"><![CDATA[white]]></word>
+				<word soundFileName="like.mp3"><![CDATA[like]]></word>
+				<word soundFileName="gel.mp3"><![CDATA[gel]]></word>
+				<word soundFileName="gem.mp3"><![CDATA[gem]]></word>
+				<word soundFileName="giant.mp3"><![CDATA[giant]]></word>
+				<word soundFileName="tune.mp3"><![CDATA[tune]]></word>
+				<word soundFileName="rude.mp3"><![CDATA[rude]]></word>
+				<word soundFileName="when.mp3"><![CDATA[when]]></word>
+				<word soundFileName="which.mp3"><![CDATA[which]]></word>
+				<word soundFileName="where.mp3"><![CDATA[where]]></word>
+				<word soundFileName="page.mp3"><![CDATA[page]]></word>
+				<word soundFileName="space.mp3"><![CDATA[space]]></word>
+				<word soundFileName="train.mp3"><![CDATA[train]]></word>
+				<word soundFileName="tray.mp3"><![CDATA[tray]]></word>
+				<word soundFileName="trail.mp3"><![CDATA[trail]]></word>
+				<word soundFileName="paint.mp3"><![CDATA[paint]]></word>
+				<word soundFileName="brain.mp3"><![CDATA[brain]]></word>
+				<word soundFileName="thigh.mp3"><![CDATA[thigh]]></word>
+				<word soundFileName="tight.mp3"><![CDATA[tight]]></word>
+				<word soundFileName="tie.mp3"><![CDATA[tie]]></word>
+				<word soundFileName="bright.mp3"><![CDATA[bright]]></word>
+				<word soundFileName="flight.mp3"><![CDATA[flight]]></word>
+				<word soundFileName="toad.mp3"><![CDATA[toad]]></word>
+				<word soundFileName="tow.mp3"><![CDATA[tow]]></word>
+				<word soundFileName="toast.mp3"><![CDATA[toast]]></word>
+				<word soundFileName="blow.mp3"><![CDATA[blow]]></word>
+				<word soundFileName="soap.mp3"><![CDATA[soap]]></word>
+				<word soundFileName="hood.mp3"><![CDATA[hood]]></word>
+				<word soundFileName="hoop.mp3"><![CDATA[hoop]]></word>
+				<word soundFileName="hoof.mp3"><![CDATA[hoof]]></word>
+				<word soundFileName="good.mp3"><![CDATA[good]]></word>
+				<word soundFileName="spoon.mp3"><![CDATA[spoon]]></word>
+				<word soundFileName="carpet.mp3"><![CDATA[carpet]]></word>
+				<word soundFileName="corner.mp3"><![CDATA[corner]]></word>
+				<word soundFileName="cornet.mp3"><![CDATA[cornet]]></word>
+				<word soundFileName="fetch.mp3"><![CDATA[fetch]]></word>
+				<word soundFileName="match.mp3"><![CDATA[match]]></word>
+				<word soundFileName="turkey.mp3"><![CDATA[turkey]]></word>
+				<word soundFileName="turban.mp3"><![CDATA[turban]]></word>
+				<word soundFileName="turnip.mp3"><![CDATA[turnip]]></word>
+				<word soundFileName="order.mp3"><![CDATA[order]]></word>
+				<word soundFileName="garden.mp3"><![CDATA[garden]]></word>
+			</list>
+
+			<list name="challenge nessy island 4" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="strong.mp3"><![CDATA[strong]]></word>
+				<word soundFileName="stretch.mp3"><![CDATA[stretch]]></word>
+				<word soundFileName="straps.mp3"><![CDATA[straps]]></word>
+				<word soundFileName="shrink.mp3"><![CDATA[shrink]]></word>
+				<word soundFileName="thrash.mp3"><![CDATA[thrash]]></word>
+				<word soundFileName="problem.mp3"><![CDATA[problem]]></word>
+				<word soundFileName="pumpkin.mp3"><![CDATA[pumpkin]]></word>
+				<word soundFileName="punish.mp3"><![CDATA[punish]]></word>
+				<word soundFileName="rabbit.mp3"><![CDATA[rabbit]]></word>
+				<word soundFileName="cobweb.mp3"><![CDATA[cobweb]]></word>
+				<word soundFileName="basic.mp3"><![CDATA[basic]]></word>
+				<word soundFileName="bacon.mp3"><![CDATA[bacon]]></word>
+				<word soundFileName="basin.mp3"><![CDATA[basin]]></word>
+				<word soundFileName="plaster.mp3"><![CDATA[plaster]]></word>
+				<word soundFileName="after.mp3"><![CDATA[after]]></word>
+				<word soundFileName="costume.mp3"><![CDATA[costume]]></word>
+				<word soundFileName="concrete.mp3"><![CDATA[concrete]]></word>
+				<word soundFileName="confuse.mp3"><![CDATA[confuse]]></word>
+				<word soundFileName="paper.mp3"><![CDATA[paper]]></word>
+				<word soundFileName="baby.mp3"><![CDATA[baby]]></word>
+				<word soundFileName="flipped.mp3"><![CDATA[flipped]]></word>
+				<word soundFileName="filmed.mp3"><![CDATA[filmed]]></word>
+				<word soundFileName="folded.mp3"><![CDATA[folded]]></word>
+				<word soundFileName="mistake.mp3"><![CDATA[mistake]]></word>
+				<word soundFileName="tadpole.mp3"><![CDATA[tadpole]]></word>
+				<word soundFileName="stew.mp3"><![CDATA[stew]]></word>
+				<word soundFileName="statue.mp3"><![CDATA[statue]]></word>
+				<word soundFileName="suit.mp3"><![CDATA[suit]]></word>
+				<word soundFileName="planted.mp3"><![CDATA[planted]]></word>
+				<word soundFileName="wanted.mp3"><![CDATA[wanted]]></word>
+				<word soundFileName="avoid.mp3"><![CDATA[avoid]]></word>
+				<word soundFileName="voice.mp3"><![CDATA[voice]]></word>
+				<word soundFileName="choice.mp3"><![CDATA[choice]]></word>
+				<word soundFileName="screw.mp3"><![CDATA[screw]]></word>
+				<word soundFileName="chew.mp3"><![CDATA[chew]]></word>
+				<word soundFileName="annoy.mp3"><![CDATA[annoy]]></word>
+				<word soundFileName="loyal.mp3"><![CDATA[loyal]]></word>
+				<word soundFileName="royal.mp3"><![CDATA[royal]]></word>
+				<word soundFileName="true.mp3"><![CDATA[true]]></word>
+				<word soundFileName="fruit.mp3"><![CDATA[fruit]]></word>
+				<word soundFileName="pound.mp3"><![CDATA[pound]]></word>
+				<word soundFileName="poison.mp3"><![CDATA[poison]]></word>
+				<word soundFileName="pounce.mp3"><![CDATA[pounce]]></word>
+				<word soundFileName="noise.mp3"><![CDATA[noise]]></word>
+				<word soundFileName="join.mp3"><![CDATA[join]]></word>
+				<word soundFileName="crown.mp3"><![CDATA[crown]]></word>
+				<word soundFileName="crowd.mp3"><![CDATA[crowd]]></word>
+				<word soundFileName="clown.mp3"><![CDATA[clown]]></word>
+				<word soundFileName="mouth.mp3"><![CDATA[mouth]]></word>
+				<word soundFileName="flower.mp3"><![CDATA[flower]]></word>
+			</list>
+
+			<list name="challenge nessy island 5" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="phonic.mp3"><![CDATA[phonic]]></word>
+				<word soundFileName="phrase.mp3"><![CDATA[phrase]]></word>
+				<word soundFileName="phantom.mp3"><![CDATA[phantom]]></word>
+				<word soundFileName="elephant.mp3"><![CDATA[elephant]]></word>
+				<word soundFileName="graph.mp3"><![CDATA[graph]]></word>
+				<word soundFileName="sledge.mp3"><![CDATA[sledge]]></word>
+				<word soundFileName="sludge.mp3"><![CDATA[sludge]]></word>
+				<word soundFileName="smudge.mp3"><![CDATA[smudge]]></word>
+				<word soundFileName="dodge.mp3"><![CDATA[dodge]]></word>
+				<word soundFileName="edge.mp3"><![CDATA[edge]]></word>
+				<word soundFileName="defeat.mp3"><![CDATA[defeat]]></word>
+				<word soundFileName="disease.mp3"><![CDATA[disease]]></word>
+				<word soundFileName="deserve.mp3"><![CDATA[deserve]]></word>
+				<word soundFileName="demand.mp3"><![CDATA[demand]]></word>
+				<word soundFileName="reject.mp3"><![CDATA[reject]]></word>
+				<word soundFileName="perfect.mp3"><![CDATA[perfect]]></word>
+				<word soundFileName="perform.mp3"><![CDATA[perform]]></word>
+				<word soundFileName="pretend.mp3"><![CDATA[pretend]]></word>
+				<word soundFileName="pocket.mp3"><![CDATA[pocket]]></word>
+				<word soundFileName="safely.mp3"><![CDATA[safely]]></word>
+				<word soundFileName="rocket.mp3"><![CDATA[rocket]]></word>
+				<word soundFileName="relish.mp3"><![CDATA[relish]]></word>
+				<word soundFileName="ridden.mp3"><![CDATA[ridden]]></word>
+				<word soundFileName="grabbing.mp3"><![CDATA[grabbing]]></word>
+				<word soundFileName="grinning.mp3"><![CDATA[grinning]]></word>
+				<word soundFileName="trapping.mp3"><![CDATA[trapping]]></word>
+				<word soundFileName="tripping.mp3"><![CDATA[tripping]]></word>
+				<word soundFileName="trading.mp3"><![CDATA[trading]]></word>
+				<word soundFileName="sliding.mp3"><![CDATA[sliding]]></word>
+				<word soundFileName="riding.mp3"><![CDATA[riding]]></word>
+				<word soundFileName="mirror.mp3"><![CDATA[mirror]]></word>
+				<word soundFileName="merry.mp3"><![CDATA[merry]]></word>
+				<word soundFileName="marrow.mp3"><![CDATA[marrow]]></word>
+				<word soundFileName="correct.mp3"><![CDATA[correct]]></word>
+				<word soundFileName="borrow.mp3"><![CDATA[borrow]]></word>
+				<word soundFileName="tickle.mp3"><![CDATA[tickle]]></word>
+				<word soundFileName="title.mp3"><![CDATA[title]]></word>
+				<word soundFileName="thistle.mp3"><![CDATA[thistle]]></word>
+				<word soundFileName="drizzle.mp3"><![CDATA[drizzle]]></word>
+				<word soundFileName="kettle.mp3"><![CDATA[kettle]]></word>
+				<word soundFileName="earn.mp3"><![CDATA[earn]]></word>
+				<word soundFileName="earth.mp3"><![CDATA[earth]]></word>
+				<word soundFileName="early.mp3"><![CDATA[early]]></word>
+				<word soundFileName="search.mp3"><![CDATA[search]]></word>
+				<word soundFileName="clear.mp3"><![CDATA[clear]]></word>
+				<word soundFileName="august.mp3"><![CDATA[august]]></word>
+				<word soundFileName="author.mp3"><![CDATA[author]]></word>
+				<word soundFileName="awful.mp3"><![CDATA[awful]]></word>
+				<word soundFileName="repair.mp3"><![CDATA[repair]]></word>
+				<word soundFileName="fairy.mp3"><![CDATA[fairy]]></word>
+			</list>
+
+			<list name="challenge nessy island 6" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="wander.mp3"><![CDATA[wander]]></word>
+				<word soundFileName="wallop.mp3"><![CDATA[wallop]]></word>
+				<word soundFileName="waffle.mp3"><![CDATA[waffle]]></word>
+				<word soundFileName="world.mp3"><![CDATA[world]]></word>
+				<word soundFileName="worst.mp3"><![CDATA[worst]]></word>
+				<word soundFileName="wrong.mp3"><![CDATA[wrong]]></word>
+				<word soundFileName="wreath.mp3"><![CDATA[wreath]]></word>
+				<word soundFileName="wreck.mp3"><![CDATA[wreck]]></word>
+				<word soundFileName="hopped.mp3"><![CDATA[hopped]]></word>
+				<word soundFileName="hoped.mp3"><![CDATA[hoped]]></word>
+				<word soundFileName="knuckle.mp3"><![CDATA[knuckle]]></word>
+				<word soundFileName="knack.mp3"><![CDATA[knack]]></word>
+				<word soundFileName="knowledge.mp3"><![CDATA[knowledge]]></word>
+				<word soundFileName="writing.mp3"><![CDATA[writing]]></word>
+				<word soundFileName="thumb.mp3"><![CDATA[thumb]]></word>
+				<word soundFileName="prepare.mp3"><![CDATA[prepare]]></word>
+				<word soundFileName="parents.mp3"><![CDATA[parents]]></word>
+				<word soundFileName="pressure.mp3"><![CDATA[pressure]]></word>
+				<word soundFileName="know.mp3"><![CDATA[know]]></word>
+				<word soundFileName="build.mp3"><![CDATA[build]]></word>
+				<word soundFileName="inspire.mp3"><![CDATA[inspire]]></word>
+				<word soundFileName="injure.mp3"><![CDATA[injure]]></word>
+				<word soundFileName="insure.mp3"><![CDATA[insure]]></word>
+				<word soundFileName="spare.mp3"><![CDATA[spare]]></word>
+				<word soundFileName="scare.mp3"><![CDATA[scare]]></word>
+				<word soundFileName="monkey.mp3"><![CDATA[monkey]]></word>
+				<word soundFileName="month.mp3"><![CDATA[month]]></word>
+				<word soundFileName="money.mp3"><![CDATA[money]]></word>
+				<word soundFileName="retire.mp3"><![CDATA[retire]]></word>
+				<word soundFileName="vampire.mp3"><![CDATA[vampire]]></word>
+				<word soundFileName="circus.mp3"><![CDATA[circus]]></word>
+				<word soundFileName="certain.mp3"><![CDATA[certain]]></word>
+				<word soundFileName="centre.mp3"><![CDATA[centre]]></word>
+				<word soundFileName="honey.mp3"><![CDATA[honey]]></word>
+				<word soundFileName="above.mp3"><![CDATA[above]]></word>
+				<word soundFileName="ginger.mp3"><![CDATA[ginger]]></word>
+				<word soundFileName="giraffe.mp3"><![CDATA[giraffe]]></word>
+				<word soundFileName="gerbil.mp3"><![CDATA[gerbil]]></word>
+				<word soundFileName="false.mp3"><![CDATA[false]]></word>
+				<word soundFileName="course.mp3"><![CDATA[course]]></word>
+				<word soundFileName="sausage.mp3"><![CDATA[sausage]]></word>
+				<word soundFileName="salvage.mp3"><![CDATA[salvage]]></word>
+				<word soundFileName="savage.mp3"><![CDATA[savage]]></word>
+				<word soundFileName="message.mp3"><![CDATA[message]]></word>
+				<word soundFileName="damage.mp3"><![CDATA[damage]]></word>
+				<word soundFileName="everyone.mp3"><![CDATA[everyone]]></word>
+				<word soundFileName="everywhere.mp3"><![CDATA[everywhere]]></word>
+				<word soundFileName="somewhere.mp3"><![CDATA[somewhere]]></word>
+				<word soundFileName="firework.mp3"><![CDATA[firework]]></word>
+				<word soundFileName="sometimes.mp3"><![CDATA[sometimes]]></word>
+			</list>
+
+			<list name="challenge nessy island 7" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="senior.mp3"><![CDATA[senior]]></word>
+				<word soundFileName="serial.mp3"><![CDATA[serial]]></word>
+				<word soundFileName="serious.mp3"><![CDATA[serious]]></word>
+				<word soundFileName="duties.mp3"><![CDATA[duties]]></word>
+				<word soundFileName="copies.mp3"><![CDATA[copies]]></word>
+				<word soundFileName="material.mp3"><![CDATA[material]]></word>
+				<word soundFileName="memorial.mp3"><![CDATA[memorial]]></word>
+				<word soundFileName="maniac.mp3"><![CDATA[maniac]]></word>
+				<word soundFileName="earliest.mp3"><![CDATA[earliest]]></word>
+				<word soundFileName="medium.mp3"><![CDATA[medium]]></word>
+				<word soundFileName="invention.mp3"><![CDATA[invention]]></word>
+				<word soundFileName="infection.mp3"><![CDATA[infection]]></word>
+				<word soundFileName="inspection.mp3"><![CDATA[inspection]]></word>
+				<word soundFileName="description.mp3"><![CDATA[description]]></word>
+				<word soundFileName="condition.mp3"><![CDATA[condition]]></word>
+				<word soundFileName="conclusion.mp3"><![CDATA[conclusion]]></word>
+				<word soundFileName="conversion.mp3"><![CDATA[conversion]]></word>
+				<word soundFileName="confusion.mp3"><![CDATA[confusion]]></word>
+				<word soundFileName="confession.mp3"><![CDATA[confession]]></word>
+				<word soundFileName="discussion.mp3"><![CDATA[discussion]]></word>
+				<word soundFileName="quality.mp3"><![CDATA[quality]]></word>
+				<word soundFileName="qualify.mp3"><![CDATA[qualify]]></word>
+				<word soundFileName="quantity.mp3"><![CDATA[quantity]]></word>
+				<word soundFileName="squashed.mp3"><![CDATA[squashed]]></word>
+				<word soundFileName="quarry.mp3"><![CDATA[quarry]]></word>
+				<word soundFileName="smoulder.mp3"><![CDATA[smoulder]]></word>
+				<word soundFileName="shoulder.mp3"><![CDATA[shoulder]]></word>
+				<word soundFileName="nourishment.mp3"><![CDATA[nourishment]]></word>
+				<word soundFileName="volcanoes.mp3"><![CDATA[volcanoes]]></word>
+				<word soundFileName="tomatoes.mp3"><![CDATA[tomatoes]]></word>
+				<word soundFileName="through.mp3"><![CDATA[through]]></word>
+				<word soundFileName="thoughtful.mp3"><![CDATA[thoughtful]]></word>
+				<word soundFileName="thoroughly.mp3"><![CDATA[thoroughly]]></word>
+				<word soundFileName="courage.mp3"><![CDATA[courage]]></word>
+				<word soundFileName="country.mp3"><![CDATA[country]]></word>
+				<word soundFileName="daughter.mp3"><![CDATA[daughter]]></word>
+				<word soundFileName="laughter.mp3"><![CDATA[laughter]]></word>
+				<word soundFileName="naughty.mp3"><![CDATA[naughty]]></word>
+				<word soundFileName="although.mp3"><![CDATA[although]]></word>
+				<word soundFileName="enough.mp3"><![CDATA[enough]]></word>
+				<word soundFileName="theory.mp3"><![CDATA[theory]]></word>
+				<word soundFileName="theatre.mp3"><![CDATA[theatre]]></word>
+				<word soundFileName="triumph.mp3"><![CDATA[triumph]]></word>
+				<word soundFileName="ruined.mp3"><![CDATA[ruined]]></word>
+				<word soundFileName="museum.mp3"><![CDATA[museum]]></word>
+				<word soundFileName="violet.mp3"><![CDATA[violet]]></word>
+				<word soundFileName="violin.mp3"><![CDATA[violin]]></word>
+				<word soundFileName="violent.mp3"><![CDATA[violent]]></word>
+				<word soundFileName="break.mp3"><![CDATA[break]]></word>
+				<word soundFileName="obey.mp3"><![CDATA[obey]]></word>
+			</list>
+
+			<list name="challenge nessy island 8" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="virtual.mp3"><![CDATA[virtual]]></word>
+				<word soundFileName="virtue.mp3"><![CDATA[virtue]]></word>
+				<word soundFileName="virgin.mp3"><![CDATA[virgin]]></word>
+				<word soundFileName="style.mp3"><![CDATA[style]]></word>
+				<word soundFileName="buy.mp3"><![CDATA[buy]]></word>
+				<word soundFileName="cursor.mp3"><![CDATA[cursor]]></word>
+				<word soundFileName="curtsy.mp3"><![CDATA[curtsy]]></word>
+				<word soundFileName="curtain.mp3"><![CDATA[curtain]]></word>
+				<word soundFileName="towed.mp3"><![CDATA[towed]]></word>
+				<word soundFileName="groan.mp3"><![CDATA[groan]]></word>
+				<word soundFileName="circulate.mp3"><![CDATA[circulate]]></word>
+				<word soundFileName="circumference.mp3"><![CDATA[circumference]]></word>
+				<word soundFileName="circumstances.mp3"><![CDATA[circumstances]]></word>
+				<word soundFileName="cruelty.mp3"><![CDATA[cruelty]]></word>
+				<word soundFileName="suitable.mp3"><![CDATA[suitable]]></word>
+				<word soundFileName="certificate.mp3"><![CDATA[certificate]]></word>
+				<word soundFileName="ceremony.mp3"><![CDATA[ceremony]]></word>
+				<word soundFileName="centipede.mp3"><![CDATA[centipede]]></word>
+				<word soundFileName="receipt.mp3"><![CDATA[receipt]]></word>
+				<word soundFileName="protein.mp3"><![CDATA[protein]]></word>
+				<word soundFileName="germinate.mp3"><![CDATA[germinate]]></word>
+				<word soundFileName="generous.mp3"><![CDATA[generous]]></word>
+				<word soundFileName="generation.mp3"><![CDATA[generation]]></word>
+				<word soundFileName="treatment.mp3"><![CDATA[treatment]]></word>
+				<word soundFileName="breathe.mp3"><![CDATA[breathe]]></word>
+				<word soundFileName="exchange.mp3"><![CDATA[exchange]]></word>
+				<word soundFileName="emergency.mp3"><![CDATA[emergency]]></word>
+				<word soundFileName="engaged.mp3"><![CDATA[engaged]]></word>
+				<word soundFileName="whether.mp3"><![CDATA[whether]]></word>
+				<word soundFileName="passed.mp3"><![CDATA[passed]]></word>
+				<word soundFileName="curiosity.mp3"><![CDATA[curiosity]]></word>
+				<word soundFileName="captivity.mp3"><![CDATA[captivity]]></word>
+				<word soundFileName="capacity.mp3"><![CDATA[capacity]]></word>
+				<word soundFileName="further.mp3"><![CDATA[further]]></word>
+				<word soundFileName="disturb.mp3"><![CDATA[disturb]]></word>
+				<word soundFileName="unanimous.mp3"><![CDATA[unanimous]]></word>
+				<word soundFileName="treacherous.mp3"><![CDATA[treacherous]]></word>
+				<word soundFileName="ridiculous.mp3"><![CDATA[ridiculous]]></word>
+				<word soundFileName="concentrate.mp3"><![CDATA[concentrate]]></word>
+				<word soundFileName="celebrity.mp3"><![CDATA[celebrity]]></word>
+				<word soundFileName="manufacture.mp3"><![CDATA[manufacture]]></word>
+				<word soundFileName="miniature.mp3"><![CDATA[miniature]]></word>
+				<word soundFileName="moisture.mp3"><![CDATA[moisture]]></word>
+				<word soundFileName="urgent.mp3"><![CDATA[urgent]]></word>
+				<word soundFileName="suggest.mp3"><![CDATA[suggest]]></word>
+				<word soundFileName="acrobatic.mp3"><![CDATA[acrobatic]]></word>
+				<word soundFileName="allergic.mp3"><![CDATA[allergic]]></word>
+				<word soundFileName="automatic.mp3"><![CDATA[automatic]]></word>
+				<word soundFileName="enormous.mp3"><![CDATA[enormous]]></word>
+				<word soundFileName="generous.mp3"><![CDATA[generous]]></word>
+			</list>
+
+			<list name="challenge nessy island 9" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="authentic.mp3"><![CDATA[authentic]]></word>
+				<word soundFileName="authority.mp3"><![CDATA[authority]]></word>
+				<word soundFileName="autistic.mp3"><![CDATA[autistic]]></word>
+				<word soundFileName="several.mp3"><![CDATA[several]]></word>
+				<word soundFileName="gradual.mp3"><![CDATA[gradual]]></word>
+				<word soundFileName="audition.mp3"><![CDATA[audition]]></word>
+				<word soundFileName="awkward.mp3"><![CDATA[awkward]]></word>
+				<word soundFileName="awesome.mp3"><![CDATA[awesome]]></word>
+				<word soundFileName="dribbling.mp3"><![CDATA[dribbling]]></word>
+				<word soundFileName="labelling.mp3"><![CDATA[labelling]]></word>
+				<word soundFileName="maniac.mp3"><![CDATA[maniac]]></word>
+				<word soundFileName="malaria.mp3"><![CDATA[malaria]]></word>
+				<word soundFileName="millennium.mp3"><![CDATA[millennium]]></word>
+				<word soundFileName="autograph.mp3"><![CDATA[autograph]]></word>
+				<word soundFileName="auction.mp3"><![CDATA[auction]]></word>
+				<word soundFileName="dubious.mp3"><![CDATA[dubious]]></word>
+				<word soundFileName="delirious.mp3"><![CDATA[delirious]]></word>
+				<word soundFileName="devious.mp3"><![CDATA[devious]]></word>
+				<word soundFileName="material.mp3"><![CDATA[material]]></word>
+				<word soundFileName="furious.mp3"><![CDATA[furious]]></word>
+				<word soundFileName="expensive.mp3"><![CDATA[expensive]]></word>
+				<word soundFileName="excessive.mp3"><![CDATA[excessive]]></word>
+				<word soundFileName="exquisite.mp3"><![CDATA[exquisite]]></word>
+				<word soundFileName="definite.mp3"><![CDATA[definite]]></word>
+				<word soundFileName="genuine.mp3"><![CDATA[genuine]]></word>
+				<word soundFileName="masculine.mp3"><![CDATA[masculine]]></word>
+				<word soundFileName="margarine.mp3"><![CDATA[margarine]]></word>
+				<word soundFileName="magazine.mp3"><![CDATA[magazine]]></word>
+				<word soundFileName="vulnerable.mp3"><![CDATA[vulnerable]]></word>
+				<word soundFileName="compatible.mp3"><![CDATA[compatible]]></word>
+				<word soundFileName="cholesterol.mp3"><![CDATA[cholesterol]]></word>
+				<word soundFileName="chlorine.mp3"><![CDATA[chlorine]]></word>
+				<word soundFileName="chaotic.mp3"><![CDATA[chaotic]]></word>
+				<word soundFileName="scheme.mp3"><![CDATA[scheme]]></word>
+				<word soundFileName="mechanical.mp3"><![CDATA[mechanical]]></word>
+				<word soundFileName="chauffeur.mp3"><![CDATA[chauffeur]]></word>
+				<word soundFileName="chandelier.mp3"><![CDATA[chandelier]]></word>
+				<word soundFileName="chivalry.mp3"><![CDATA[chivalry]]></word>
+				<word soundFileName="catastrophe.mp3"><![CDATA[catastrophe]]></word>
+				<word soundFileName="atmosphere.mp3"><![CDATA[atmosphere]]></word>
+				<word soundFileName="phosphorous.mp3"><![CDATA[phosphorous]]></word>
+				<word soundFileName="phenomenal.mp3"><![CDATA[phenomenal]]></word>
+				<word soundFileName="philosophy.mp3"><![CDATA[philosophy]]></word>
+				<word soundFileName="unique.mp3"><![CDATA[unique]]></word>
+				<word soundFileName="technique.mp3"><![CDATA[technique]]></word>
+				<word soundFileName="mosque.mp3"><![CDATA[mosque]]></word>
+				<word soundFileName="mosquito.mp3"><![CDATA[mosquito]]></word>
+				<word soundFileName="mystique.mp3"><![CDATA[mystique]]></word>
+				<word soundFileName="gradually.mp3"><![CDATA[gradually]]></word>
+				<word soundFileName="basically.mp3"><![CDATA[basically]]></word>
+			</list>
+
+			<list name="challenge nessy island 10" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="succumb.mp3"><![CDATA[succumb]]></word>
+				<word soundFileName="subtle.mp3"><![CDATA[subtle]]></word>
+				<word soundFileName="solemn.mp3"><![CDATA[solemn]]></word>
+				<word soundFileName="disguise.mp3"><![CDATA[disguise]]></word>
+				<word soundFileName="silhouette.mp3"><![CDATA[silhouette]]></word>
+				<word soundFileName="technology.mp3"><![CDATA[technology]]></word>
+				<word soundFileName="terminology.mp3"><![CDATA[terminology]]></word>
+				<word soundFileName="theology.mp3"><![CDATA[theology]]></word>
+				<word soundFileName="ecology.mp3"><![CDATA[ecology]]></word>
+				<word soundFileName="desperate.mp3"><![CDATA[desperate]]></word>
+				<word soundFileName="indiscriminate.mp3"><![CDATA[indiscriminate]]></word>
+				<word soundFileName="inadequate.mp3"><![CDATA[inadequate]]></word>
+				<word soundFileName="immaculate.mp3"><![CDATA[immaculate]]></word>
+				<word soundFileName="physician.mp3"><![CDATA[physician]]></word>
+				<word soundFileName="unconscious.mp3"><![CDATA[unconscious]]></word>
+				<word soundFileName="substantial.mp3"><![CDATA[substantial]]></word>
+				<word soundFileName="superstitious.mp3"><![CDATA[superstitious]]></word>
+				<word soundFileName="suspicious.mp3"><![CDATA[suspicious]]></word>
+				<word soundFileName="individual.mp3"><![CDATA[individual]]></word>
+				<word soundFileName="privilege.mp3"><![CDATA[privilege]]></word>
+				<word soundFileName="pasteurise.mp3"><![CDATA[pasteurise]]></word>
+				<word soundFileName="therapeutic.mp3"><![CDATA[therapeutic]]></word>
+				<word soundFileName="euphoria.mp3"><![CDATA[euphoria]]></word>
+				<word soundFileName="refrigerator.mp3"><![CDATA[refrigerator]]></word>
+				<word soundFileName="particular.mp3"><![CDATA[particular]]></word>
+				<word soundFileName="synopsis.mp3"><![CDATA[synopsis]]></word>
+				<word soundFileName="synthetic.mp3"><![CDATA[synthetic]]></word>
+				<word soundFileName="syndrome.mp3"><![CDATA[syndrome]]></word>
+				<word soundFileName="manoeuvre.mp3"><![CDATA[manoeuvre]]></word>
+				<word soundFileName="europe.mp3"><![CDATA[Europe]]></word>
+				<word soundFileName="hysterical.mp3"><![CDATA[hysterical]]></word>
+				<word soundFileName="hypocrisy.mp3"><![CDATA[hypocrisy]]></word>
+				<word soundFileName="hygiene.mp3"><![CDATA[hygiene]]></word>
+				<word soundFileName="hydraulic.mp3"><![CDATA[hydraulic]]></word>
+				<word soundFileName="paralyse.mp3"><![CDATA[paralyse]]></word>
+				<word soundFileName="irresponsible.mp3"><![CDATA[irresponsible]]></word>
+				<word soundFileName="irrigation.mp3"><![CDATA[irrigation]]></word>
+				<word soundFileName="irresistible.mp3"><![CDATA[irresistible]]></word>
+				<word soundFileName="immediately.mp3"><![CDATA[immediately]]></word>
+				<word soundFileName="immaculate.mp3"><![CDATA[immaculate]]></word>
+				<word soundFileName="illiterate.mp3"><![CDATA[illiterate]]></word>
+				<word soundFileName="illegible.mp3"><![CDATA[illegible]]></word>
+				<word soundFileName="illuminate.mp3"><![CDATA[illuminate]]></word>
+				<word soundFileName="annihilate.mp3"><![CDATA[annihilate]]></word>
+				<word soundFileName="assignment.mp3"><![CDATA[assignment]]></word>
+				<word soundFileName="transaction.mp3"><![CDATA[transaction]]></word>
+				<word soundFileName="transparent.mp3"><![CDATA[transparent]]></word>
+				<word soundFileName="transfusion.mp3"><![CDATA[transfusion]]></word>
+				<word soundFileName="nonalcoholic.mp3"><![CDATA[nonalcoholic]]></word>
+				<word soundFileName="antibacterial.mp3"><![CDATA[antibacterial]]></word>
+			</list>
+
+			<list name="challenge nessy all islands" location="resources/games/nessy_challenge/sounds/" sentence="">
+				<word soundFileName="i.mp3"><![CDATA[i]]></word>
+				<word soundFileName="e.mp3"><![CDATA[e]]></word>
+				<word soundFileName="a.mp3"><![CDATA[a]]></word>
+				<word soundFileName="pan.mp3"><![CDATA[pan]]></word>
+				<word soundFileName="sat.mp3"><![CDATA[sat]]></word>
+				<word soundFileName="fix.mp3"><![CDATA[fix]]></word>
+				<word soundFileName="fed.mp3"><![CDATA[fed]]></word>
+				<word soundFileName="fan.mp3"><![CDATA[fan]]></word>
+				<word soundFileName="rim.mp3"><![CDATA[rim]]></word>
+				<word soundFileName="hid.mp3"><![CDATA[hid]]></word>
+				<word soundFileName="hop.mp3"><![CDATA[hop]]></word>
+				<word soundFileName="hen.mp3"><![CDATA[hen]]></word>
+				<word soundFileName="him.mp3"><![CDATA[him]]></word>
+				<word soundFileName="fox.mp3"><![CDATA[fox]]></word>
+				<word soundFileName="log.mp3"><![CDATA[log]]></word>
+				<word soundFileName="bug.mp3"><![CDATA[bug]]></word>
+				<word soundFileName="dug.mp3"><![CDATA[dug]]></word>
+				<word soundFileName="bud.mp3"><![CDATA[bud]]></word>
+				<word soundFileName="vet.mp3"><![CDATA[vet]]></word>
+				<word soundFileName="yes.mp3"><![CDATA[yes]]></word>
+				<word soundFileName="shop.mp3"><![CDATA[shop]]></word>
+				<word soundFileName="shot.mp3"><![CDATA[shot]]></word>
+				<word soundFileName="she.mp3"><![CDATA[she]]></word>
+				<word soundFileName="jug.mp3"><![CDATA[jug]]></word>
+				<word soundFileName="cut.mp3"><![CDATA[cut]]></word>
+				<word soundFileName="chop.mp3"><![CDATA[chop]]></word>
+				<word soundFileName="chat.mp3"><![CDATA[chat]]></word>
+				<word soundFileName="chin.mp3"><![CDATA[chin]]></word>
+				<word soundFileName="mesh.mp3"><![CDATA[mesh]]></word>
+				<word soundFileName="shed.mp3"><![CDATA[shed]]></word>
+				<word soundFileName="this.mp3"><![CDATA[this]]></word>
+				<word soundFileName="then.mp3"><![CDATA[then]]></word>
+				<word soundFileName="thin.mp3"><![CDATA[thin]]></word>
+				<word soundFileName="such.mp3"><![CDATA[such]]></word>
+				<word soundFileName="chip.mp3"><![CDATA[chip]]></word>
+				<word soundFileName="trip.mp3"><![CDATA[trip]]></word>
+				<word soundFileName="trim.mp3"><![CDATA[trim]]></word>
+				<word soundFileName="trap.mp3"><![CDATA[trap]]></word>
+				<word soundFileName="with.mp3"><![CDATA[with]]></word>
+				<word soundFileName="that.mp3"><![CDATA[that]]></word>
+				<word soundFileName="slug.mp3"><![CDATA[slug]]></word>
+				<word soundFileName="slam.mp3"><![CDATA[slam]]></word>
+				<word soundFileName="slip.mp3"><![CDATA[slip]]></word>
+				<word soundFileName="flip.mp3"><![CDATA[flip]]></word>
+				<word soundFileName="clap.mp3"><![CDATA[clap]]></word>
+				<word soundFileName="spy.mp3"><![CDATA[spy]]></word>
+				<word soundFileName="sky.mp3"><![CDATA[sky]]></word>
+				<word soundFileName="sly.mp3"><![CDATA[sly]]></word>
+				<word soundFileName="try.mp3"><![CDATA[try]]></word>
+				<word soundFileName="fry.mp3"><![CDATA[fry]]></word>
+
+				<word soundFileName="wall.mp3"><![CDATA[wall]]></word>
+				<word soundFileName="well.mp3"><![CDATA[well]]></word>
+				<word soundFileName="will.mp3"><![CDATA[will]]></word>
+				<word soundFileName="call.mp3"><![CDATA[call]]></word>
+				<word soundFileName="bell.mp3"><![CDATA[bell]]></word>
+				<word soundFileName="hold.mp3"><![CDATA[hold]]></word>
+				<word soundFileName="hand.mp3"><![CDATA[hand]]></word>
+				<word soundFileName="help.mp3"><![CDATA[help]]></word>
+				<word soundFileName="grass.mp3"><![CDATA[grass]]></word>
+				<word soundFileName="sniff.mp3"><![CDATA[sniff]]></word>
+				<word soundFileName="sang.mp3"><![CDATA[sang]]></word>
+				<word soundFileName="song.mp3"><![CDATA[song]]></word>
+				<word soundFileName="sung.mp3"><![CDATA[sung]]></word>
+				<word soundFileName="tank.mp3"><![CDATA[tank]]></word>
+				<word soundFileName="land.mp3"><![CDATA[land]]></word>
+				<word soundFileName="card.mp3"><![CDATA[card]]></word>
+				<word soundFileName="cart.mp3"><![CDATA[cart]]></word>
+				<word soundFileName="charm.mp3"><![CDATA[charm]]></word>
+				<word soundFileName="milk.mp3"><![CDATA[milk]]></word>
+				<word soundFileName="cold.mp3"><![CDATA[cold]]></word>
+				<word soundFileName="cord.mp3"><![CDATA[cord]]></word>
+				<word soundFileName="cork.mp3"><![CDATA[cork]]></word>
+				<word soundFileName="corn.mp3"><![CDATA[corn]]></word>
+				<word soundFileName="jump.mp3"><![CDATA[jump]]></word>
+				<word soundFileName="damp.mp3"><![CDATA[damp]]></word>
+				<word soundFileName="skirt.mp3"><![CDATA[skirt]]></word>
+				<word soundFileName="stir.mp3"><![CDATA[stir]]></word>
+				<word soundFileName="shirt.mp3"><![CDATA[shirt]]></word>
+				<word soundFileName="long.mp3"><![CDATA[long]]></word>
+				<word soundFileName="sting.mp3"><![CDATA[sting]]></word>
+				<word soundFileName="burst.mp3"><![CDATA[burst]]></word>
+				<word soundFileName="burp.mp3"><![CDATA[burp]]></word>
+				<word soundFileName="burn.mp3"><![CDATA[burn]]></word>
+				<word soundFileName="stick.mp3"><![CDATA[stick]]></word>
+				<word soundFileName="track.mp3"><![CDATA[track]]></word>
+				<word soundFileName="cannon.mp3"><![CDATA[cannon]]></word>
+				<word soundFileName="cobweb.mp3"><![CDATA[cobweb]]></word>
+				<word soundFileName="cactus.mp3"><![CDATA[cactus]]></word>
+				<word soundFileName="sharp.mp3"><![CDATA[sharp]]></word>
+				<word soundFileName="park.mp3"><![CDATA[park]]></word>
+				<word soundFileName="rocky.mp3"><![CDATA[rocky]]></word>
+				<word soundFileName="rusty.mp3"><![CDATA[rusty]]></word>
+				<word soundFileName="frosty.mp3"><![CDATA[frosty]]></word>
+				<word soundFileName="porch.mp3"><![CDATA[porch]]></word>
+				<word soundFileName="sort.mp3"><![CDATA[sort]]></word>
+				<word soundFileName="beep.mp3"><![CDATA[beep]]></word>
+				<word soundFileName="bleed.mp3"><![CDATA[bleed]]></word>
+				<word soundFileName="bead.mp3"><![CDATA[bead]]></word>
+				<word soundFileName="week.mp3"><![CDATA[week]]></word>
+				<word soundFileName="tree.mp3"><![CDATA[tree]]></word>
+
+				<word soundFileName="rope.mp3"><![CDATA[rope]]></word>
+				<word soundFileName="ride.mp3"><![CDATA[ride]]></word>
+				<word soundFileName="rule.mp3"><![CDATA[rule]]></word>
+				<word soundFileName="quake.mp3"><![CDATA[quake]]></word>
+				<word soundFileName="grape.mp3"><![CDATA[grape]]></word>
+				<word soundFileName="price.mp3"><![CDATA[price]]></word>
+				<word soundFileName="prince.mp3"><![CDATA[prince]]></word>
+				<word soundFileName="pence.mp3"><![CDATA[pence]]></word>
+				<word soundFileName="white.mp3"><![CDATA[white]]></word>
+				<word soundFileName="like.mp3"><![CDATA[like]]></word>
+				<word soundFileName="gel.mp3"><![CDATA[gel]]></word>
+				<word soundFileName="gem.mp3"><![CDATA[gem]]></word>
+				<word soundFileName="giant.mp3"><![CDATA[giant]]></word>
+				<word soundFileName="tune.mp3"><![CDATA[tune]]></word>
+				<word soundFileName="rude.mp3"><![CDATA[rude]]></word>
+				<word soundFileName="when.mp3"><![CDATA[when]]></word>
+				<word soundFileName="which.mp3"><![CDATA[which]]></word>
+				<word soundFileName="where.mp3"><![CDATA[where]]></word>
+				<word soundFileName="page.mp3"><![CDATA[page]]></word>
+				<word soundFileName="space.mp3"><![CDATA[space]]></word>
+				<word soundFileName="train.mp3"><![CDATA[train]]></word>
+				<word soundFileName="tray.mp3"><![CDATA[tray]]></word>
+				<word soundFileName="trail.mp3"><![CDATA[trail]]></word>
+				<word soundFileName="paint.mp3"><![CDATA[paint]]></word>
+				<word soundFileName="brain.mp3"><![CDATA[brain]]></word>
+				<word soundFileName="thigh.mp3"><![CDATA[thigh]]></word>
+				<word soundFileName="tight.mp3"><![CDATA[tight]]></word>
+				<word soundFileName="tie.mp3"><![CDATA[tie]]></word>
+				<word soundFileName="bright.mp3"><![CDATA[bright]]></word>
+				<word soundFileName="flight.mp3"><![CDATA[flight]]></word>
+				<word soundFileName="toad.mp3"><![CDATA[toad]]></word>
+				<word soundFileName="tow.mp3"><![CDATA[tow]]></word>
+				<word soundFileName="toast.mp3"><![CDATA[toast]]></word>
+				<word soundFileName="blow.mp3"><![CDATA[blow]]></word>
+				<word soundFileName="soap.mp3"><![CDATA[soap]]></word>
+				<word soundFileName="hood.mp3"><![CDATA[hood]]></word>
+				<word soundFileName="hoop.mp3"><![CDATA[hoop]]></word>
+				<word soundFileName="hoof.mp3"><![CDATA[hoof]]></word>
+				<word soundFileName="good.mp3"><![CDATA[good]]></word>
+				<word soundFileName="spoon.mp3"><![CDATA[spoon]]></word>
+				<word soundFileName="carpet.mp3"><![CDATA[carpet]]></word>
+				<word soundFileName="corner.mp3"><![CDATA[corner]]></word>
+				<word soundFileName="cornet.mp3"><![CDATA[cornet]]></word>
+				<word soundFileName="fetch.mp3"><![CDATA[fetch]]></word>
+				<word soundFileName="match.mp3"><![CDATA[match]]></word>
+				<word soundFileName="turkey.mp3"><![CDATA[turkey]]></word>
+				<word soundFileName="turban.mp3"><![CDATA[turban]]></word>
+				<word soundFileName="turnip.mp3"><![CDATA[turnip]]></word>
+				<word soundFileName="order.mp3"><![CDATA[order]]></word>
+				<word soundFileName="garden.mp3"><![CDATA[garden]]></word>
+
+				<word soundFileName="strong.mp3"><![CDATA[strong]]></word>
+				<word soundFileName="stretch.mp3"><![CDATA[stretch]]></word>
+				<word soundFileName="straps.mp3"><![CDATA[straps]]></word>
+				<word soundFileName="shrink.mp3"><![CDATA[shrink]]></word>
+				<word soundFileName="thrash.mp3"><![CDATA[thrash]]></word>
+				<word soundFileName="problem.mp3"><![CDATA[problem]]></word>
+				<word soundFileName="pumpkin.mp3"><![CDATA[pumpkin]]></word>
+				<word soundFileName="punish.mp3"><![CDATA[punish]]></word>
+				<word soundFileName="rabbit.mp3"><![CDATA[rabbit]]></word>
+				<word soundFileName="cobweb.mp3"><![CDATA[cobweb]]></word>
+				<word soundFileName="basic.mp3"><![CDATA[basic]]></word>
+				<word soundFileName="bacon.mp3"><![CDATA[bacon]]></word>
+				<word soundFileName="basin.mp3"><![CDATA[basin]]></word>
+				<word soundFileName="plaster.mp3"><![CDATA[plaster]]></word>
+				<word soundFileName="after.mp3"><![CDATA[after]]></word>
+				<word soundFileName="costume.mp3"><![CDATA[costume]]></word>
+				<word soundFileName="concrete.mp3"><![CDATA[concrete]]></word>
+				<word soundFileName="confuse.mp3"><![CDATA[confuse]]></word>
+				<word soundFileName="paper.mp3"><![CDATA[paper]]></word>
+				<word soundFileName="baby.mp3"><![CDATA[baby]]></word>
+				<word soundFileName="flipped.mp3"><![CDATA[flipped]]></word>
+				<word soundFileName="filmed.mp3"><![CDATA[filmed]]></word>
+				<word soundFileName="folded.mp3"><![CDATA[folded]]></word>
+				<word soundFileName="mistake.mp3"><![CDATA[mistake]]></word>
+				<word soundFileName="tadpole.mp3"><![CDATA[tadpole]]></word>
+				<word soundFileName="stew.mp3"><![CDATA[stew]]></word>
+				<word soundFileName="statue.mp3"><![CDATA[statue]]></word>
+				<word soundFileName="suit.mp3"><![CDATA[suit]]></word>
+				<word soundFileName="planted.mp3"><![CDATA[planted]]></word>
+				<word soundFileName="wanted.mp3"><![CDATA[wanted]]></word>
+				<word soundFileName="avoid.mp3"><![CDATA[avoid]]></word>
+				<word soundFileName="voice.mp3"><![CDATA[voice]]></word>
+				<word soundFileName="choice.mp3"><![CDATA[choice]]></word>
+				<word soundFileName="screw.mp3"><![CDATA[screw]]></word>
+				<word soundFileName="chew.mp3"><![CDATA[chew]]></word>
+				<word soundFileName="annoy.mp3"><![CDATA[annoy]]></word>
+				<word soundFileName="loyal.mp3"><![CDATA[loyal]]></word>
+				<word soundFileName="royal.mp3"><![CDATA[royal]]></word>
+				<word soundFileName="true.mp3"><![CDATA[true]]></word>
+				<word soundFileName="fruit.mp3"><![CDATA[fruit]]></word>
+				<word soundFileName="pound.mp3"><![CDATA[pound]]></word>
+				<word soundFileName="poison.mp3"><![CDATA[poison]]></word>
+				<word soundFileName="pounce.mp3"><![CDATA[pounce]]></word>
+				<word soundFileName="noise.mp3"><![CDATA[noise]]></word>
+				<word soundFileName="join.mp3"><![CDATA[join]]></word>
+				<word soundFileName="crown.mp3"><![CDATA[crown]]></word>
+				<word soundFileName="crowd.mp3"><![CDATA[crowd]]></word>
+				<word soundFileName="clown.mp3"><![CDATA[clown]]></word>
+				<word soundFileName="mouth.mp3"><![CDATA[mouth]]></word>
+				<word soundFileName="flower.mp3"><![CDATA[flower]]></word>
+
+				<word soundFileName="phonic.mp3"><![CDATA[phonic]]></word>
+				<word soundFileName="phrase.mp3"><![CDATA[phrase]]></word>
+				<word soundFileName="phantom.mp3"><![CDATA[phantom]]></word>
+				<word soundFileName="elephant.mp3"><![CDATA[elephant]]></word>
+				<word soundFileName="graph.mp3"><![CDATA[graph]]></word>
+				<word soundFileName="sledge.mp3"><![CDATA[sledge]]></word>
+				<word soundFileName="sludge.mp3"><![CDATA[sludge]]></word>
+				<word soundFileName="smudge.mp3"><![CDATA[smudge]]></word>
+				<word soundFileName="dodge.mp3"><![CDATA[dodge]]></word>
+				<word soundFileName="edge.mp3"><![CDATA[edge]]></word>
+				<word soundFileName="defeat.mp3"><![CDATA[defeat]]></word>
+				<word soundFileName="disease.mp3"><![CDATA[disease]]></word>
+				<word soundFileName="deserve.mp3"><![CDATA[deserve]]></word>
+				<word soundFileName="demand.mp3"><![CDATA[demand]]></word>
+				<word soundFileName="reject.mp3"><![CDATA[reject]]></word>
+				<word soundFileName="perfect.mp3"><![CDATA[perfect]]></word>
+				<word soundFileName="perform.mp3"><![CDATA[perform]]></word>
+				<word soundFileName="pretend.mp3"><![CDATA[pretend]]></word>
+				<word soundFileName="pocket.mp3"><![CDATA[pocket]]></word>
+				<word soundFileName="safely.mp3"><![CDATA[safely]]></word>
+				<word soundFileName="rocket.mp3"><![CDATA[rocket]]></word>
+				<word soundFileName="relish.mp3"><![CDATA[relish]]></word>
+				<word soundFileName="ridden.mp3"><![CDATA[ridden]]></word>
+				<word soundFileName="grabbing.mp3"><![CDATA[grabbing]]></word>
+				<word soundFileName="grinning.mp3"><![CDATA[grinning]]></word>
+				<word soundFileName="trapping.mp3"><![CDATA[trapping]]></word>
+				<word soundFileName="tripping.mp3"><![CDATA[tripping]]></word>
+				<word soundFileName="trading.mp3"><![CDATA[trading]]></word>
+				<word soundFileName="sliding.mp3"><![CDATA[sliding]]></word>
+				<word soundFileName="riding.mp3"><![CDATA[riding]]></word>
+				<word soundFileName="mirror.mp3"><![CDATA[mirror]]></word>
+				<word soundFileName="merry.mp3"><![CDATA[merry]]></word>
+				<word soundFileName="marrow.mp3"><![CDATA[marrow]]></word>
+				<word soundFileName="correct.mp3"><![CDATA[correct]]></word>
+				<word soundFileName="borrow.mp3"><![CDATA[borrow]]></word>
+				<word soundFileName="tickle.mp3"><![CDATA[tickle]]></word>
+				<word soundFileName="title.mp3"><![CDATA[title]]></word>
+				<word soundFileName="thistle.mp3"><![CDATA[thistle]]></word>
+				<word soundFileName="drizzle.mp3"><![CDATA[drizzle]]></word>
+				<word soundFileName="kettle.mp3"><![CDATA[kettle]]></word>
+				<word soundFileName="earn.mp3"><![CDATA[earn]]></word>
+				<word soundFileName="earth.mp3"><![CDATA[earth]]></word>
+				<word soundFileName="early.mp3"><![CDATA[early]]></word>
+				<word soundFileName="search.mp3"><![CDATA[search]]></word>
+				<word soundFileName="clear.mp3"><![CDATA[clear]]></word>
+				<word soundFileName="august.mp3"><![CDATA[august]]></word>
+				<word soundFileName="author.mp3"><![CDATA[author]]></word>
+				<word soundFileName="awful.mp3"><![CDATA[awful]]></word>
+				<word soundFileName="repair.mp3"><![CDATA[repair]]></word>
+				<word soundFileName="fairy.mp3"><![CDATA[fairy]]></word>
+
+				<word soundFileName="wander.mp3"><![CDATA[wander]]></word>
+				<word soundFileName="wallop.mp3"><![CDATA[wallop]]></word>
+				<word soundFileName="waffle.mp3"><![CDATA[waffle]]></word>
+				<word soundFileName="world.mp3"><![CDATA[world]]></word>
+				<word soundFileName="worst.mp3"><![CDATA[worst]]></word>
+				<word soundFileName="wrong.mp3"><![CDATA[wrong]]></word>
+				<word soundFileName="wreath.mp3"><![CDATA[wreath]]></word>
+				<word soundFileName="wreck.mp3"><![CDATA[wreck]]></word>
+				<word soundFileName="hopped.mp3"><![CDATA[hopped]]></word>
+				<word soundFileName="hoped.mp3"><![CDATA[hoped]]></word>
+				<word soundFileName="knuckle.mp3"><![CDATA[knuckle]]></word>
+				<word soundFileName="knack.mp3"><![CDATA[knack]]></word>
+				<word soundFileName="knowledge.mp3"><![CDATA[knowledge]]></word>
+				<word soundFileName="writing.mp3"><![CDATA[writing]]></word>
+				<word soundFileName="thumb.mp3"><![CDATA[thumb]]></word>
+				<word soundFileName="prepare.mp3"><![CDATA[prepare]]></word>
+				<word soundFileName="parents.mp3"><![CDATA[parents]]></word>
+				<word soundFileName="pressure.mp3"><![CDATA[pressure]]></word>
+				<word soundFileName="know.mp3"><![CDATA[know]]></word>
+				<word soundFileName="build.mp3"><![CDATA[build]]></word>
+				<word soundFileName="inspire.mp3"><![CDATA[inspire]]></word>
+				<word soundFileName="injure.mp3"><![CDATA[injure]]></word>
+				<word soundFileName="insure.mp3"><![CDATA[insure]]></word>
+				<word soundFileName="spare.mp3"><![CDATA[spare]]></word>
+				<word soundFileName="scare.mp3"><![CDATA[scare]]></word>
+				<word soundFileName="monkey.mp3"><![CDATA[monkey]]></word>
+				<word soundFileName="month.mp3"><![CDATA[month]]></word>
+				<word soundFileName="money.mp3"><![CDATA[money]]></word>
+				<word soundFileName="retire.mp3"><![CDATA[retire]]></word>
+				<word soundFileName="vampire.mp3"><![CDATA[vampire]]></word>
+				<word soundFileName="circus.mp3"><![CDATA[circus]]></word>
+				<word soundFileName="certain.mp3"><![CDATA[certain]]></word>
+				<word soundFileName="centre.mp3"><![CDATA[centre]]></word>
+				<word soundFileName="honey.mp3"><![CDATA[honey]]></word>
+				<word soundFileName="above.mp3"><![CDATA[above]]></word>
+				<word soundFileName="ginger.mp3"><![CDATA[ginger]]></word>
+				<word soundFileName="giraffe.mp3"><![CDATA[giraffe]]></word>
+				<word soundFileName="gerbil.mp3"><![CDATA[gerbil]]></word>
+				<word soundFileName="false.mp3"><![CDATA[false]]></word>
+				<word soundFileName="course.mp3"><![CDATA[course]]></word>
+				<word soundFileName="sausage.mp3"><![CDATA[sausage]]></word>
+				<word soundFileName="salvage.mp3"><![CDATA[salvage]]></word>
+				<word soundFileName="savage.mp3"><![CDATA[savage]]></word>
+				<word soundFileName="message.mp3"><![CDATA[message]]></word>
+				<word soundFileName="damage.mp3"><![CDATA[damage]]></word>
+				<word soundFileName="everyone.mp3"><![CDATA[everyone]]></word>
+				<word soundFileName="everywhere.mp3"><![CDATA[everywhere]]></word>
+				<word soundFileName="somewhere.mp3"><![CDATA[somewhere]]></word>
+				<word soundFileName="firework.mp3"><![CDATA[firework]]></word>
+				<word soundFileName="sometimes.mp3"><![CDATA[sometimes]]></word>
+
+				<word soundFileName="senior.mp3"><![CDATA[senior]]></word>
+				<word soundFileName="serial.mp3"><![CDATA[serial]]></word>
+				<word soundFileName="serious.mp3"><![CDATA[serious]]></word>
+				<word soundFileName="duties.mp3"><![CDATA[duties]]></word>
+				<word soundFileName="copies.mp3"><![CDATA[copies]]></word>
+				<word soundFileName="material.mp3"><![CDATA[material]]></word>
+				<word soundFileName="memorial.mp3"><![CDATA[memorial]]></word>
+				<word soundFileName="maniac.mp3"><![CDATA[maniac]]></word>
+				<word soundFileName="earliest.mp3"><![CDATA[earliest]]></word>
+				<word soundFileName="medium.mp3"><![CDATA[medium]]></word>
+				<word soundFileName="invention.mp3"><![CDATA[invention]]></word>
+				<word soundFileName="infection.mp3"><![CDATA[infection]]></word>
+				<word soundFileName="inspection.mp3"><![CDATA[inspection]]></word>
+				<word soundFileName="description.mp3"><![CDATA[description]]></word>
+				<word soundFileName="condition.mp3"><![CDATA[condition]]></word>
+				<word soundFileName="conclusion.mp3"><![CDATA[conclusion]]></word>
+				<word soundFileName="conversion.mp3"><![CDATA[conversion]]></word>
+				<word soundFileName="confusion.mp3"><![CDATA[confusion]]></word>
+				<word soundFileName="confession.mp3"><![CDATA[confession]]></word>
+				<word soundFileName="discussion.mp3"><![CDATA[discussion]]></word>
+				<word soundFileName="quality.mp3"><![CDATA[quality]]></word>
+				<word soundFileName="qualify.mp3"><![CDATA[qualify]]></word>
+				<word soundFileName="quantity.mp3"><![CDATA[quantity]]></word>
+				<word soundFileName="squashed.mp3"><![CDATA[squashed]]></word>
+				<word soundFileName="quarry.mp3"><![CDATA[quarry]]></word>
+				<word soundFileName="smoulder.mp3"><![CDATA[smoulder]]></word>
+				<word soundFileName="shoulder.mp3"><![CDATA[shoulder]]></word>
+				<word soundFileName="nourishment.mp3"><![CDATA[nourishment]]></word>
+				<word soundFileName="volcanoes.mp3"><![CDATA[volcanoes]]></word>
+				<word soundFileName="tomatoes.mp3"><![CDATA[tomatoes]]></word>
+				<word soundFileName="through.mp3"><![CDATA[through]]></word>
+				<word soundFileName="thoughtful.mp3"><![CDATA[thoughtful]]></word>
+				<word soundFileName="thoroughly.mp3"><![CDATA[thoroughly]]></word>
+				<word soundFileName="courage.mp3"><![CDATA[courage]]></word>
+				<word soundFileName="country.mp3"><![CDATA[country]]></word>
+				<word soundFileName="daughter.mp3"><![CDATA[daughter]]></word>
+				<word soundFileName="laughter.mp3"><![CDATA[laughter]]></word>
+				<word soundFileName="naughty.mp3"><![CDATA[naughty]]></word>
+				<word soundFileName="although.mp3"><![CDATA[although]]></word>
+				<word soundFileName="enough.mp3"><![CDATA[enough]]></word>
+				<word soundFileName="theory.mp3"><![CDATA[theory]]></word>
+				<word soundFileName="theatre.mp3"><![CDATA[theatre]]></word>
+				<word soundFileName="triumph.mp3"><![CDATA[triumph]]></word>
+				<word soundFileName="ruined.mp3"><![CDATA[ruined]]></word>
+				<word soundFileName="museum.mp3"><![CDATA[museum]]></word>
+				<word soundFileName="violet.mp3"><![CDATA[violet]]></word>
+				<word soundFileName="violin.mp3"><![CDATA[violin]]></word>
+				<word soundFileName="violent.mp3"><![CDATA[violent]]></word>
+				<word soundFileName="break.mp3"><![CDATA[break]]></word>
+				<word soundFileName="obey.mp3"><![CDATA[obey]]></word>
+
+				<word soundFileName="virtual.mp3"><![CDATA[virtual]]></word>
+				<word soundFileName="virtue.mp3"><![CDATA[virtue]]></word>
+				<word soundFileName="virgin.mp3"><![CDATA[virgin]]></word>
+				<word soundFileName="style.mp3"><![CDATA[style]]></word>
+				<word soundFileName="buy.mp3"><![CDATA[buy]]></word>
+				<word soundFileName="cursor.mp3"><![CDATA[cursor]]></word>
+				<word soundFileName="curtsy.mp3"><![CDATA[curtsy]]></word>
+				<word soundFileName="curtain.mp3"><![CDATA[curtain]]></word>
+				<word soundFileName="towed.mp3"><![CDATA[towed]]></word>
+				<word soundFileName="groan.mp3"><![CDATA[groan]]></word>
+				<word soundFileName="circulate.mp3"><![CDATA[circulate]]></word>
+				<word soundFileName="circumference.mp3"><![CDATA[circumference]]></word>
+				<word soundFileName="circumstances.mp3"><![CDATA[circumstances]]></word>
+				<word soundFileName="cruelty.mp3"><![CDATA[cruelty]]></word>
+				<word soundFileName="suitable.mp3"><![CDATA[suitable]]></word>
+				<word soundFileName="certificate.mp3"><![CDATA[certificate]]></word>
+				<word soundFileName="ceremony.mp3"><![CDATA[ceremony]]></word>
+				<word soundFileName="centipede.mp3"><![CDATA[centipede]]></word>
+				<word soundFileName="receipt.mp3"><![CDATA[receipt]]></word>
+				<word soundFileName="protein.mp3"><![CDATA[protein]]></word>
+				<word soundFileName="germinate.mp3"><![CDATA[germinate]]></word>
+				<word soundFileName="generous.mp3"><![CDATA[generous]]></word>
+				<word soundFileName="generation.mp3"><![CDATA[generation]]></word>
+				<word soundFileName="treatment.mp3"><![CDATA[treatment]]></word>
+				<word soundFileName="breathe.mp3"><![CDATA[breathe]]></word>
+				<word soundFileName="exchange.mp3"><![CDATA[exchange]]></word>
+				<word soundFileName="emergency.mp3"><![CDATA[emergency]]></word>
+				<word soundFileName="engaged.mp3"><![CDATA[engaged]]></word>
+				<word soundFileName="whether.mp3"><![CDATA[whether]]></word>
+				<word soundFileName="passed.mp3"><![CDATA[passed]]></word>
+				<word soundFileName="curiosity.mp3"><![CDATA[curiosity]]></word>
+				<word soundFileName="captivity.mp3"><![CDATA[captivity]]></word>
+				<word soundFileName="capacity.mp3"><![CDATA[capacity]]></word>
+				<word soundFileName="further.mp3"><![CDATA[further]]></word>
+				<word soundFileName="disturb.mp3"><![CDATA[disturb]]></word>
+				<word soundFileName="unanimous.mp3"><![CDATA[unanimous]]></word>
+				<word soundFileName="treacherous.mp3"><![CDATA[treacherous]]></word>
+				<word soundFileName="ridiculous.mp3"><![CDATA[ridiculous]]></word>
+				<word soundFileName="concentrate.mp3"><![CDATA[concentrate]]></word>
+				<word soundFileName="celebrity.mp3"><![CDATA[celebrity]]></word>
+				<word soundFileName="manufacture.mp3"><![CDATA[manufacture]]></word>
+				<word soundFileName="miniature.mp3"><![CDATA[miniature]]></word>
+				<word soundFileName="moisture.mp3"><![CDATA[moisture]]></word>
+				<word soundFileName="urgent.mp3"><![CDATA[urgent]]></word>
+				<word soundFileName="suggest.mp3"><![CDATA[suggest]]></word>
+				<word soundFileName="acrobatic.mp3"><![CDATA[acrobatic]]></word>
+				<word soundFileName="allergic.mp3"><![CDATA[allergic]]></word>
+				<word soundFileName="automatic.mp3"><![CDATA[automatic]]></word>
+				<word soundFileName="enormous.mp3"><![CDATA[enormous]]></word>
+				<word soundFileName="generous.mp3"><![CDATA[generous]]></word>
+
+				<word soundFileName="authentic.mp3"><![CDATA[authentic]]></word>
+				<word soundFileName="authority.mp3"><![CDATA[authority]]></word>
+				<word soundFileName="autistic.mp3"><![CDATA[autistic]]></word>
+				<word soundFileName="several.mp3"><![CDATA[several]]></word>
+				<word soundFileName="gradual.mp3"><![CDATA[gradual]]></word>
+				<word soundFileName="audition.mp3"><![CDATA[audition]]></word>
+				<word soundFileName="awkward.mp3"><![CDATA[awkward]]></word>
+				<word soundFileName="awesome.mp3"><![CDATA[awesome]]></word>
+				<word soundFileName="dribbling.mp3"><![CDATA[dribbling]]></word>
+				<word soundFileName="labelling.mp3"><![CDATA[labelling]]></word>
+				<word soundFileName="maniac.mp3"><![CDATA[maniac]]></word>
+				<word soundFileName="malaria.mp3"><![CDATA[malaria]]></word>
+				<word soundFileName="millennium.mp3"><![CDATA[millennium]]></word>
+				<word soundFileName="autograph.mp3"><![CDATA[autograph]]></word>
+				<word soundFileName="auction.mp3"><![CDATA[auction]]></word>
+				<word soundFileName="dubious.mp3"><![CDATA[dubious]]></word>
+				<word soundFileName="delirious.mp3"><![CDATA[delirious]]></word>
+				<word soundFileName="devious.mp3"><![CDATA[devious]]></word>
+				<word soundFileName="material.mp3"><![CDATA[material]]></word>
+				<word soundFileName="furious.mp3"><![CDATA[furious]]></word>
+				<word soundFileName="expensive.mp3"><![CDATA[expensive]]></word>
+				<word soundFileName="excessive.mp3"><![CDATA[excessive]]></word>
+				<word soundFileName="exquisite.mp3"><![CDATA[exquisite]]></word>
+				<word soundFileName="definite.mp3"><![CDATA[definite]]></word>
+				<word soundFileName="genuine.mp3"><![CDATA[genuine]]></word>
+				<word soundFileName="masculine.mp3"><![CDATA[masculine]]></word>
+				<word soundFileName="margarine.mp3"><![CDATA[margarine]]></word>
+				<word soundFileName="magazine.mp3"><![CDATA[magazine]]></word>
+				<word soundFileName="vulnerable.mp3"><![CDATA[vulnerable]]></word>
+				<word soundFileName="compatible.mp3"><![CDATA[compatible]]></word>
+				<word soundFileName="cholesterol.mp3"><![CDATA[cholesterol]]></word>
+				<word soundFileName="chlorine.mp3"><![CDATA[chlorine]]></word>
+				<word soundFileName="chaotic.mp3"><![CDATA[chaotic]]></word>
+				<word soundFileName="scheme.mp3"><![CDATA[scheme]]></word>
+				<word soundFileName="mechanical.mp3"><![CDATA[mechanical]]></word>
+				<word soundFileName="chauffeur.mp3"><![CDATA[chauffeur]]></word>
+				<word soundFileName="chandelier.mp3"><![CDATA[chandelier]]></word>
+				<word soundFileName="chivalry.mp3"><![CDATA[chivalry]]></word>
+				<word soundFileName="catastrophe.mp3"><![CDATA[catastrophe]]></word>
+				<word soundFileName="atmosphere.mp3"><![CDATA[atmosphere]]></word>
+				<word soundFileName="phosphorous.mp3"><![CDATA[phosphorous]]></word>
+				<word soundFileName="phenomenal.mp3"><![CDATA[phenomenal]]></word>
+				<word soundFileName="philosophy.mp3"><![CDATA[philosophy]]></word>
+				<word soundFileName="unique.mp3"><![CDATA[unique]]></word>
+				<word soundFileName="technique.mp3"><![CDATA[technique]]></word>
+				<word soundFileName="mosque.mp3"><![CDATA[mosque]]></word>
+				<word soundFileName="mosquito.mp3"><![CDATA[mosquito]]></word>
+				<word soundFileName="mystique.mp3"><![CDATA[mystique]]></word>
+				<word soundFileName="gradually.mp3"><![CDATA[gradually]]></word>
+				<word soundFileName="basically.mp3"><![CDATA[basically]]></word>
+
+				<word soundFileName="succumb.mp3"><![CDATA[succumb]]></word>
+				<word soundFileName="subtle.mp3"><![CDATA[subtle]]></word>
+				<word soundFileName="solemn.mp3"><![CDATA[solemn]]></word>
+				<word soundFileName="disguise.mp3"><![CDATA[disguise]]></word>
+				<word soundFileName="silhouette.mp3"><![CDATA[silhouette]]></word>
+				<word soundFileName="technology.mp3"><![CDATA[technology]]></word>
+				<word soundFileName="terminology.mp3"><![CDATA[terminology]]></word>
+				<word soundFileName="theology.mp3"><![CDATA[theology]]></word>
+				<word soundFileName="ecology.mp3"><![CDATA[ecology]]></word>
+				<word soundFileName="desperate.mp3"><![CDATA[desperate]]></word>
+				<word soundFileName="indiscriminate.mp3"><![CDATA[indiscriminate]]></word>
+				<word soundFileName="inadequate.mp3"><![CDATA[inadequate]]></word>
+				<word soundFileName="immaculate.mp3"><![CDATA[immaculate]]></word>
+				<word soundFileName="physician.mp3"><![CDATA[physician]]></word>
+				<word soundFileName="unconscious.mp3"><![CDATA[unconscious]]></word>
+				<word soundFileName="substantial.mp3"><![CDATA[substantial]]></word>
+				<word soundFileName="superstitious.mp3"><![CDATA[superstitious]]></word>
+				<word soundFileName="suspicious.mp3"><![CDATA[suspicious]]></word>
+				<word soundFileName="individual.mp3"><![CDATA[individual]]></word>
+				<word soundFileName="privilege.mp3"><![CDATA[privilege]]></word>
+				<word soundFileName="pasteurise.mp3"><![CDATA[pasteurise]]></word>
+				<word soundFileName="therapeutic.mp3"><![CDATA[therapeutic]]></word>
+				<word soundFileName="euphoria.mp3"><![CDATA[euphoria]]></word>
+				<word soundFileName="refrigerator.mp3"><![CDATA[refrigerator]]></word>
+				<word soundFileName="particular.mp3"><![CDATA[particular]]></word>
+				<word soundFileName="synopsis.mp3"><![CDATA[synopsis]]></word>
+				<word soundFileName="synthetic.mp3"><![CDATA[synthetic]]></word>
+				<word soundFileName="syndrome.mp3"><![CDATA[syndrome]]></word>
+				<word soundFileName="manoeuvre.mp3"><![CDATA[manoeuvre]]></word>
+				<word soundFileName="europe.mp3"><![CDATA[Europe]]></word>
+				<word soundFileName="hysterical.mp3"><![CDATA[hysterical]]></word>
+				<word soundFileName="hypocrisy.mp3"><![CDATA[hypocrisy]]></word>
+				<word soundFileName="hygiene.mp3"><![CDATA[hygiene]]></word>
+				<word soundFileName="hydraulic.mp3"><![CDATA[hydraulic]]></word>
+				<word soundFileName="paralyse.mp3"><![CDATA[paralyse]]></word>
+				<word soundFileName="irresponsible.mp3"><![CDATA[irresponsible]]></word>
+				<word soundFileName="irrigation.mp3"><![CDATA[irrigation]]></word>
+				<word soundFileName="irresistible.mp3"><![CDATA[irresistible]]></word>
+				<word soundFileName="immediately.mp3"><![CDATA[immediately]]></word>
+				<word soundFileName="immaculate.mp3"><![CDATA[immaculate]]></word>
+				<word soundFileName="illiterate.mp3"><![CDATA[illiterate]]></word>
+				<word soundFileName="illegible.mp3"><![CDATA[illegible]]></word>
+				<word soundFileName="illuminate.mp3"><![CDATA[illuminate]]></word>
+				<word soundFileName="annihilate.mp3"><![CDATA[annihilate]]></word>
+				<word soundFileName="assignment.mp3"><![CDATA[assignment]]></word>
+				<word soundFileName="transaction.mp3"><![CDATA[transaction]]></word>
+				<word soundFileName="transparent.mp3"><![CDATA[transparent]]></word>
+				<word soundFileName="transfusion.mp3"><![CDATA[transfusion]]></word>
+				<word soundFileName="nonalcoholic.mp3"><![CDATA[nonalcoholic]]></word>
+				<word soundFileName="antibacterial.mp3"><![CDATA[antibacterial]]></word>
+
+			</list>
+
+		</words>
+		
+		<sentences>
+		
+			<list name="" location="">
+			</list>
+		
+		</sentences>
+		
+	</standard>
+	
+<!--
+
+The data in the 'cutom' node is sent directly through to the game for it to handle. It is
+advised to wrap data within nodes with the same name attributes as the word lists that
+their data supports.
+
+-->
+	
+	<custom>
+
+		<!-- ISLAND 1 -->
+		<wordlist name='challenge nessy island 1'>
+			<reading>
+				<island id='1'>
+					<lesson id="1"><w>i</w><w>e</w><w>a</w></lesson>
+					<lesson id="2"><w>fix</w><w>fed</w><w>fan</w></lesson>
+					<lesson id="2"><w>hop</w><w>hen</w><w>him</w></lesson>
+					<lesson id="3"><w>bug</w><w>dug</w><w>bud</w></lesson>
+					<lesson id="5"><w>shop</w><w>shot</w><w>she</w></lesson>
+					<lesson id="6"><w>chop</w><w>chat</w><w>chin</w></lesson>
+					<lesson id="7"><w>this</w><w>then</w><w>thin</w></lesson>
+					<lesson id="8"><w>trip</w><w>trim</w><w>trap</w></lesson>
+					<lesson id="8"><w>slug</w><w>slam</w><w>slip</w></lesson>
+					<lesson id="9"><w>spy</w><w>sky</w><w>sly</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='1'>
+					<set>
+						<lesson id="2">pan</lesson>
+						<lesson id="2">rim</lesson>
+						<lesson id="2">fox</lesson>
+						<lesson id="2">vet</lesson>
+						<lesson id="2">jug</lesson>
+						<lesson id="5">mesh</lesson>
+						<lesson id="6">such</lesson>
+						<lesson id="7">with</lesson>
+						<lesson id="8">flip</lesson>
+						<lesson id="9">try</lesson>
+					</set>
+					<set>
+						<lesson id="2">sat</lesson>
+						<lesson id="2">hid</lesson>
+						<lesson id="2">log</lesson>
+						<lesson id="2">yes</lesson>
+						<lesson id="2">cut</lesson>
+						<lesson id="5">shed</lesson>
+						<lesson id="6">chip</lesson>
+						<lesson id="7">this</lesson>
+						<lesson id="8">clap</lesson>
+						<lesson id="9">fry</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 2 -->
+		<wordlist name='challenge nessy island 2'>
+			<reading>
+				<island id='2'>
+					<lesson id="1"><w>wall</w><w>well</w><w>will</w></lesson>
+					<lesson id="2"><w>hold</w><w>hand</w><w>help</w></lesson>
+					<lesson id="2"><w>sang</w><w>song</w><w>sung</w></lesson>
+					<lesson id="4"><w>card</w><w>cart</w><w>charm</w></lesson>
+					<lesson id="5"><w>cord</w><w>cork</w><w>corn</w></lesson>
+					<lesson id="6"><w>skirt</w><w>stir</w><w>shirt</w></lesson>
+					<lesson id="6"><w>burst</w><w>burp</w><w>burn</w></lesson>
+					<lesson id="7"><w>cannon</w><w>cobweb</w><w>cactus</w></lesson>
+					<lesson id="8"><w>rocky</w><w>rusty</w><w>frosty</w></lesson>
+					<lesson id="9"><w>beep</w><w>bleed</w><w>bead</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='2'>
+					<set>
+						<lesson id="1">call</lesson>
+						<lesson id="1">grass</lesson>
+						<lesson id="2">tank</lesson>
+						<lesson id="2">milk</lesson>
+						<lesson id="2">jump</lesson>
+						<lesson id="2">long</lesson>
+						<lesson id="3">stick</lesson>
+						<lesson id="4">sharp</lesson>
+						<lesson id="5">porch</lesson>
+						<lesson id="9">week</lesson>
+					</set>
+					<set>
+						<lesson id="1">bell</lesson>
+						<lesson id="1">sniff</lesson>
+						<lesson id="2">land</lesson>
+						<lesson id="2">cold</lesson>
+						<lesson id="2">damp</lesson>
+						<lesson id="2">sting</lesson>
+						<lesson id="2">track</lesson>
+						<lesson id="4">park</lesson>
+						<lesson id="5">sort</lesson>
+						<lesson id="9">tree</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 3 -->
+		<wordlist name='challenge nessy island 3'>
+			<reading>
+				<island id='3'>
+					<lesson id="1"><w>rope</w><w>ride</w><w>rule</w></lesson>
+					<lesson id="2"><w>price</w><w>prince</w><w>pence</w></lesson>
+					<lesson id="2"><w>gel</w><w>gem</w><w>giant</w></lesson>
+					<lesson id="3"><w>when</w><w>which</w><w>where</w></lesson>
+					<lesson id="4"><w>train</w><w>tray</w><w>trail</w></lesson>
+					<lesson id="5"><w>thigh</w><w>tight</w><w>tie</w></lesson>
+					<lesson id="6"><w>toad</w><w>tow</w><w>toast</w></lesson>
+					<lesson id="7"><w>hood</w><w>hoop</w><w>hoof</w></lesson>
+					<lesson id="9"><w>carpet</w><w>corner</w><w>cornet</w></lesson>
+					<lesson id="9"><w>turkey</w><w>turban</w><w>turnip</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='3'>
+					<set>
+						<lesson id="1">quake</lesson>
+						<lesson id="1">white</lesson>
+						<lesson id="1">tune</lesson>
+						<lesson id="2">page</lesson>
+						<lesson id="4">paint</lesson>
+						<lesson id="5">bright</lesson>
+						<lesson id="6">blow</lesson>
+						<lesson id="7">good</lesson>
+						<lesson id="8">fetch</lesson>
+						<lesson id="9">order</lesson>
+					</set>
+					<set>
+						<lesson id="1">grape</lesson>
+						<lesson id="1">like</lesson>
+						<lesson id="1">rude</lesson>
+						<lesson id="2">space</lesson>
+						<lesson id="4">brain</lesson>
+						<lesson id="5">flight</lesson>
+						<lesson id="6">soap</lesson>
+						<lesson id="7">spoon</lesson>
+						<lesson id="8">match</lesson>
+						<lesson id="9">garden</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 4 -->
+		<wordlist name='challenge nessy island 4'>
+			<reading>
+				<island id='4'>
+					<lesson id="1"><w>strong</w><w>stretch</w><w>straps</w></lesson>
+					<lesson id="2"><w>problem</w><w>pumpkin</w><w>punish</w></lesson>
+					<lesson id="4"><w>basic</w><w>bacon</w><w>basin</w></lesson>
+					<lesson id="5"><w>costume</w><w>concrete</w><w>confuse</w></lesson>
+					<lesson id="6"><w>flipped</w><w>filmed</w><w>folded</w></lesson>
+					<lesson id="7"><w>stew</w><w>statue</w><w>suit</w></lesson>
+					<lesson id="8"><w>avoid</w><w>voice</w><w>choice</w></lesson>
+					<lesson id="8"><w>annoy</w><w>loyal</w><w>royal</w></lesson>
+					<lesson id="9"><w>pound</w><w>poison</w><w>pounce</w></lesson>
+					<lesson id="9"><w>crown</w><w>crowd</w><w>clown</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='4'>
+					<set>
+						<lesson id="1">shrink</lesson>
+						<lesson id="2">rabbit</lesson>
+						<lesson id="3">plaster</lesson>
+						<lesson id="4">paper</lesson>
+						<lesson id="5">mistake</lesson>
+						<lesson id="6">planted</lesson>
+						<lesson id="7">screw</lesson>
+						<lesson id="7">true</lesson>
+						<lesson id="8">noise</lesson>
+						<lesson id="9">mouth</lesson>
+					</set>
+					<set>
+						<lesson id="1">thrash</lesson>
+						<lesson id="2">cobweb</lesson>
+						<lesson id="3">after</lesson>
+						<lesson id="4">baby</lesson>
+						<lesson id="5">tadpole</lesson>
+						<lesson id="6">wanted</lesson>
+						<lesson id="7">chew</lesson>
+						<lesson id="7">fruit</lesson>
+						<lesson id="8">join</lesson>
+						<lesson id="9">flower</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 5 -->
+		<wordlist name='challenge nessy island 5'>
+			<reading>
+				<island id='5'>
+					<lesson id="1"><w>phonic</w><w>phrase</w><w>phantom</w></lesson>
+					<lesson id="2"><w>sledge</w><w>sludge</w><w>smudge</w></lesson>
+					<lesson id="3"><w>defeat</w><w>disease</w><w>deserve</w></lesson>
+					<lesson id="3"><w>perfect</w><w>perform</w><w>pretend</w></lesson>
+					<lesson id="4"><w>rocket</w><w>relish</w><w>ridden</w></lesson>
+					<lesson id="5"><w>trapping</w><w>tripping</w><w>trading</w></lesson>
+					<lesson id="6"><w>mirror</w><w>merry</w><w>marrow</w></lesson>
+					<lesson id="7"><w>tickle</w><w>title</w><w>thistle</w></lesson>
+					<lesson id="8"><w>earn</w><w>earth</w><w>early</w></lesson>
+					<lesson id="9"><w>august</w><w>author</w><w>awful</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='5'>
+					<set>
+						<lesson id="1">elephant</lesson>
+						<lesson id="2">dodge</lesson>
+						<lesson id="3">demand</lesson>
+						<lesson id="4">pocket</lesson>
+						<lesson id="5">grabbing</lesson>
+						<lesson id="5">sliding</lesson>
+						<lesson id="6">correct</lesson>
+						<lesson id="7">drizzle</lesson>
+						<lesson id="8">search</lesson>
+						<lesson id="8">repair</lesson>
+					</set>
+					<set>
+						<lesson id="1">graph</lesson>
+						<lesson id="2">edge</lesson>
+						<lesson id="3">reject</lesson>
+						<lesson id="4">safely</lesson>
+						<lesson id="5">grinning</lesson>
+						<lesson id="5">riding</lesson>
+						<lesson id="6">borrow</lesson>
+						<lesson id="7">kettle</lesson>
+						<lesson id="8">clear</lesson>
+						<lesson id="8">fairy</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 6 -->
+		<wordlist name='challenge nessy island 6'>
+			<reading>
+				<island id='6'>
+					<lesson id="1"><w>wander</w><w>wallop</w><w>waffle</w></lesson>
+					<lesson id="3"><w>wrong</w><w>wreath</w><w>wreck</w></lesson>
+					<lesson id="3"><w>knuckle</w><w>knack</w><w>knowledge</w></lesson>
+					<lesson id="4"><w>prepare</w><w>parents</w><w>pressure</w></lesson>
+					<lesson id="4"><w>inspire</w><w>injure</w><w>insure</w></lesson>
+					<lesson id="5"><w>monkey</w><w>month</w><w>money</w></lesson>
+					<lesson id="7"><w>circus</w><w>certain</w><w>centre</w></lesson>
+					<lesson id="7"><w>ginger</w><w>giraffe</w><w>gerbil</w></lesson>
+					<lesson id="8"><w>sausage</w><w>salvage</w><w>savage</w></lesson>
+					<lesson id="9"><w>everyone</w><w>everywhere</w><w>somewhere</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='6'>
+					<set>
+						<lesson id="1">world</lesson>
+						<lesson id="2">hopped</lesson>
+						<lesson id="3">writing</lesson>
+						<lesson id="4">know</lesson>
+						<lesson id="4">spare</lesson>
+						<lesson id="4">retire</lesson>
+						<lesson id="5">honey</lesson>
+						<lesson id="6">false</lesson>
+						<lesson id="8">message</lesson>
+						<lesson id="9">firework</lesson>
+					</set>
+					<set>
+						<lesson id="1">worst</lesson>
+						<lesson id="2">hoped</lesson>
+						<lesson id="3">thumb</lesson>
+						<lesson id="4">build</lesson>
+						<lesson id="4">scare</lesson>
+						<lesson id="4">vampire</lesson>
+						<lesson id="5">above</lesson>
+						<lesson id="6">course</lesson>
+						<lesson id="8">damage</lesson>
+						<lesson id="9">sometimes</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 7 -->
+		<wordlist name='challenge nessy island 7'>
+			<reading>
+				<island id='7'>
+					<lesson id="2"><w>senior</w><w>serial</w><w>serious</w></lesson>
+					<lesson id="2"><w>material</w><w>memorial</w><w>maniac</w></lesson>
+					<lesson id="3"><w>invention</w><w>infection</w><w>inspection</w></lesson>
+					<lesson id="3"><w>conclusion</w><w>conversion</w><w>confusion</w></lesson>
+					<lesson id="4"><w>quality</w><w>qualify</w><w>quantity</w></lesson>
+					<lesson id="6"><w>smoulder</w><w>shoulder</w><w>nourishment</w></lesson>
+					<lesson id="7"><w>through</w><w>thoughtful</w><w>thoroughly</w></lesson>
+					<lesson id="7"><w>daughter</w><w>laughter</w><w>naughty</w></lesson>
+					<lesson id="8"><w>theory</w><w>theatre</w><w>triumph</w></lesson>
+					<lesson id="8"><w>violet</w><w>violin</w><w>violent</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='7'>
+					<set>
+						<lesson id="1">duties</lesson>
+						<lesson id="2">earliest</lesson>
+						<lesson id="3">description</lesson>
+						<lesson id="3">confession</lesson>
+						<lesson id="4">squashed</lesson>
+						<lesson id="5">volcanoes</lesson>
+						<lesson id="6">courage</lesson>
+						<lesson id="7">although</lesson>
+						<lesson id="8">ruined</lesson>
+						<lesson id="9">break</lesson>
+					</set>
+					<set>
+						<lesson id="1">copies</lesson>
+						<lesson id="2">medium</lesson>
+						<lesson id="3">condition</lesson>
+						<lesson id="3">discussion</lesson>
+						<lesson id="4">quarry</lesson>
+						<lesson id="5">tomatoes</lesson>
+						<lesson id="6">country</lesson>
+						<lesson id="7">enough</lesson>
+						<lesson id="8">museum</lesson>
+						<lesson id="9">obey</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 8 -->
+		<wordlist name='challenge nessy island 8'>
+			<reading>
+				<island id='8'>
+					<lesson id="7"><w>virtual</w><w>virtue</w><w>virgin</w></lesson>
+					<lesson id="7"><w>cursor</w><w>curtsy</w><w>curtain</w></lesson>
+					<lesson id="8"><w>circulate</w><w>circumference</w><w>circumstances</w></lesson>
+					<lesson id="8"><w>certificate</w><w>ceremony</w><w>centipede</w></lesson>
+					<lesson id="8"><w>germinate</w><w>generous</w><w>generation</w></lesson>
+					<lesson id="8"><w>exchange</w><w>emergency</w><w>engaged</w></lesson>
+					<lesson id="9"><w>curiosity</w><w>captivity</w><w>capacity</w></lesson>
+					<lesson id="9"><w>unanimous</w><w>treacherous</w><w>ridiculous</w></lesson>
+					<lesson id="9"><w>manufacture</w><w>miniature</w><w>moisture</w></lesson>
+					<lesson id="9"><w>acrobatic</w><w>allergic</w><w>automatic</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='8'>
+					<set>
+						<lesson id="1">style</lesson>
+						<lesson id="2">towed</lesson>
+						<lesson id="3">cruelty</lesson>
+						<lesson id="4">receipt</lesson>
+						<lesson id="5">treatment</lesson>
+						<lesson id="6">whether</lesson>
+						<lesson id="7">further</lesson>
+						<lesson id="8">concentrate</lesson>
+						<lesson id="8">urgent</lesson>
+						<lesson id="9">enormous</lesson>
+					</set>
+					<set>
+						<lesson id="1">buy</lesson>
+						<lesson id="2">groan</lesson>
+						<lesson id="3">suitable</lesson>
+						<lesson id="4">protein</lesson>
+						<lesson id="5">breathe</lesson>
+						<lesson id="6">passed</lesson>
+						<lesson id="7">disturb</lesson>
+						<lesson id="8">celebrity</lesson>
+						<lesson id="8">suggest</lesson>
+						<lesson id="9">generous</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 9 -->
+		<wordlist name='challenge nessy island 9'>
+			<reading>
+				<island id='9'>
+					<lesson id="3"><w>authentic</w><w>authority</w><w>autistic</w></lesson>
+					<lesson id="3"><w>audition</w><w>awkward</w><w>awesome</w></lesson>
+					<lesson id="4"><w>maniac</w><w>malaria</w><w>millennium</w></lesson>
+					<lesson id="4"><w>dubious</w><w>delirious</w><w>devious</w></lesson>
+					<lesson id="5"><w>expensive</w><w>excessive</w><w>exquisite</w></lesson>
+					<lesson id="5"><w>masculine</w><w>margarine</w><w>magazine</w></lesson>
+					<lesson id="6"><w>cholesterol</w><w>chlorine</w><w>chaotic</w></lesson>
+					<lesson id="6"><w>chauffeur</w><w>chandelier</w><w>chivalry</w></lesson>
+					<lesson id="7"><w>phosphorous</w><w>phenomenal</w><w>philosophy</w></lesson>
+					<lesson id="8"><w>mosque</w><w>mosquito</w><w>mystique</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='9'>
+					<set>
+						<lesson id="1">several</lesson>
+						<lesson id="2">dribbling</lesson>
+						<lesson id="3">autograph</lesson>
+						<lesson id="4">material</lesson>
+						<lesson id="5">definite</lesson>
+						<lesson id="5">vulnerable</lesson>
+						<lesson id="6">scheme</lesson>
+						<lesson id="7">catastrophe</lesson>
+						<lesson id="8">unique</lesson>
+						<lesson id="9">gradually</lesson>
+					</set>
+					<set>
+						<lesson id="1">gradual</lesson>
+						<lesson id="2">labelling</lesson>
+						<lesson id="3">auction</lesson>
+						<lesson id="4">furious</lesson>
+						<lesson id="5">genuine</lesson>
+						<lesson id="5">compatible</lesson>
+						<lesson id="6">mechanical</lesson>
+						<lesson id="7">atmosphere</lesson>
+						<lesson id="8">technique</lesson>
+						<lesson id="9">basically</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+		<!-- ISLAND 10 -->
+		<wordlist name='challenge nessy island 10'>
+			<reading>
+				<island id='10'>
+					<lesson id="1"><w>succumb</w><w>subtle</w><w>solemn</w></lesson>
+					<lesson id="2"><w>technology</w><w>terminology</w><w>theology</w></lesson>
+					<lesson id="2"><w>indiscriminate</w><w>inadequate</w><w>immaculate</w></lesson>
+					<lesson id="3"><w>substantial</w><w>superstitious</w><w>suspicious</w></lesson>
+					<lesson id="6"><w>pasteurise</w><w>therapeutic</w><w>euphoria</w></lesson>
+					<lesson id="7"><w>synopsis</w><w>synthetic</w><w>syndrome</w></lesson>
+					<lesson id="7"><w>hysterical</w><w>hypocrisy</w><w>hygiene</w></lesson>
+					<lesson id="8"><w>irresponsible</w><w>irrigation</w><w>irresistible</w></lesson>
+					<lesson id="8"><w>illiterate</w><w>illegible</w><w>illuminate</w></lesson>
+					<lesson id="9"><w>transaction</w><w>transparent</w><w>transfusion</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+				<island id='10'>
+					<set>
+						<lesson id="1">disguise</lesson>
+						<lesson id="2">ecology</lesson>
+						<lesson id="3">physician</lesson>
+						<lesson id="4">individual</lesson>
+						<lesson id="5">refrigerator</lesson>
+						<lesson id="6">manoeuvre</lesson>
+						<lesson id="7">hydraulic</lesson>
+						<lesson id="8">immediately</lesson>
+						<lesson id="8">annihilate</lesson>
+						<lesson id="9">nonalcoholic</lesson>
+					</set>
+					<set>
+						<lesson id="1">silhouette</lesson>
+						<lesson id="2">desperate</lesson>
+						<lesson id="3">unconscious</lesson>
+						<lesson id="4">privilege</lesson>
+						<lesson id="5">particular</lesson>
+						<lesson id="6">Europe</lesson>
+						<lesson id="7">paralyse</lesson>
+						<lesson id="8">immaculate</lesson>
+						<lesson id="8">assignment</lesson>
+						<lesson id="9">antibacterial</lesson>
+					</set>
+				</island>
+			</spelling>
+		</wordlist>
+
+
+		<!-- *************** -->
+		<!-- * ALL ISLANDS * -->
+		<!-- *************** -->
+		<wordlist name='challenge nessy all islands'>
+			<reading>
+				<island id='1'>
+					<lesson id="1"><w>i</w><w>e</w><w>a</w></lesson>
+					<lesson id="2"><w>fix</w><w>fed</w><w>fan</w></lesson>
+					<lesson id="2"><w>hop</w><w>hen</w><w>him</w></lesson>
+					<lesson id="3"><w>bug</w><w>dug</w><w>bud</w></lesson>
+					<lesson id="5"><w>shop</w><w>shot</w><w>she</w></lesson>
+					<lesson id="6"><w>chop</w><w>chat</w><w>chin</w></lesson>
+					<lesson id="7"><w>this</w><w>then</w><w>thin</w></lesson>
+					<lesson id="8"><w>trip</w><w>trim</w><w>trap</w></lesson>
+					<lesson id="8"><w>slug</w><w>slam</w><w>slip</w></lesson>
+					<lesson id="9"><w>spy</w><w>sky</w><w>sly</w></lesson>
+				</island>
+				<island id='2'>
+					<lesson id="1"><w>wall</w><w>well</w><w>will</w></lesson>
+					<lesson id="2"><w>hold</w><w>hand</w><w>help</w></lesson>
+					<lesson id="2"><w>sang</w><w>song</w><w>sung</w></lesson>
+					<lesson id="4"><w>card</w><w>cart</w><w>charm</w></lesson>
+					<lesson id="5"><w>cord</w><w>cork</w><w>corn</w></lesson>
+					<lesson id="6"><w>skirt</w><w>stir</w><w>shirt</w></lesson>
+					<lesson id="6"><w>burst</w><w>burp</w><w>burn</w></lesson>
+					<lesson id="7"><w>cannon</w><w>cobweb</w><w>cactus</w></lesson>
+					<lesson id="8"><w>rocky</w><w>rusty</w><w>frosty</w></lesson>
+					<lesson id="9"><w>beep</w><w>bleed</w><w>bead</w></lesson>
+				</island>
+				<island id='3'>
+					<lesson id="1"><w>rope</w><w>ride</w><w>rule</w></lesson>
+					<lesson id="2"><w>price</w><w>prince</w><w>pence</w></lesson>
+					<lesson id="2"><w>gel</w><w>gem</w><w>giant</w></lesson>
+					<lesson id="3"><w>when</w><w>which</w><w>where</w></lesson>
+					<lesson id="4"><w>train</w><w>tray</w><w>trail</w></lesson>
+					<lesson id="5"><w>thigh</w><w>tight</w><w>tie</w></lesson>
+					<lesson id="6"><w>toad</w><w>tow</w><w>toast</w></lesson>
+					<lesson id="7"><w>hood</w><w>hoop</w><w>hoof</w></lesson>
+					<lesson id="9"><w>carpet</w><w>corner</w><w>cornet</w></lesson>
+					<lesson id="9"><w>turkey</w><w>turban</w><w>turnip</w></lesson>
+				</island>
+				<island id='4'>
+					<lesson id="1"><w>strong</w><w>stretch</w><w>straps</w></lesson>
+					<lesson id="2"><w>problem</w><w>pumpkin</w><w>punish</w></lesson>
+					<lesson id="4"><w>basic</w><w>bacon</w><w>basin</w></lesson>
+					<lesson id="5"><w>costume</w><w>concrete</w><w>confuse</w></lesson>
+					<lesson id="6"><w>flipped</w><w>filmed</w><w>folded</w></lesson>
+					<lesson id="7"><w>stew</w><w>statue</w><w>suit</w></lesson>
+					<lesson id="8"><w>avoid</w><w>voice</w><w>choice</w></lesson>
+					<lesson id="8"><w>annoy</w><w>loyal</w><w>royal</w></lesson>
+					<lesson id="9"><w>pound</w><w>poison</w><w>pounce</w></lesson>
+					<lesson id="9"><w>crown</w><w>crowd</w><w>clown</w></lesson>
+				</island>
+				<island id='5'>
+					<lesson id="1"><w>phonic</w><w>phrase</w><w>phantom</w></lesson>
+					<lesson id="2"><w>sledge</w><w>sludge</w><w>smudge</w></lesson>
+					<lesson id="3"><w>defeat</w><w>disease</w><w>deserve</w></lesson>
+					<lesson id="3"><w>perfect</w><w>perform</w><w>pretend</w></lesson>
+					<lesson id="4"><w>rocket</w><w>relish</w><w>ridden</w></lesson>
+					<lesson id="5"><w>trapping</w><w>tripping</w><w>trading</w></lesson>
+					<lesson id="6"><w>mirror</w><w>merry</w><w>marrow</w></lesson>
+					<lesson id="7"><w>tickle</w><w>title</w><w>thistle</w></lesson>
+					<lesson id="8"><w>earn</w><w>earth</w><w>early</w></lesson>
+					<lesson id="9"><w>august</w><w>author</w><w>awful</w></lesson>
+				</island>
+				<island id='6'>
+					<lesson id="1"><w>wander</w><w>wallop</w><w>waffle</w></lesson>
+					<lesson id="3"><w>wrong</w><w>wreath</w><w>wreck</w></lesson>
+					<lesson id="3"><w>knuckle</w><w>knack</w><w>knowledge</w></lesson>
+					<lesson id="4"><w>prepare</w><w>parents</w><w>pressure</w></lesson>
+					<lesson id="4"><w>inspire</w><w>injure</w><w>insure</w></lesson>
+					<lesson id="5"><w>monkey</w><w>month</w><w>money</w></lesson>
+					<lesson id="7"><w>circus</w><w>certain</w><w>centre</w></lesson>
+					<lesson id="7"><w>ginger</w><w>giraffe</w><w>gerbil</w></lesson>
+					<lesson id="8"><w>sausage</w><w>salvage</w><w>savage</w></lesson>
+					<lesson id="9"><w>everyone</w><w>everywhere</w><w>somewhere</w></lesson>
+				</island>
+				<island id='7'>
+					<lesson id="2"><w>senior</w><w>serial</w><w>serious</w></lesson>
+					<lesson id="2"><w>material</w><w>memorial</w><w>maniac</w></lesson>
+					<lesson id="3"><w>invention</w><w>infection</w><w>inspection</w></lesson>
+					<lesson id="3"><w>conclusion</w><w>conversion</w><w>confusion</w></lesson>
+					<lesson id="4"><w>quality</w><w>qualify</w><w>quantity</w></lesson>
+					<lesson id="6"><w>smoulder</w><w>shoulder</w><w>nourishment</w></lesson>
+					<lesson id="7"><w>through</w><w>thoughtful</w><w>thoroughly</w></lesson>
+					<lesson id="7"><w>daughter</w><w>laughter</w><w>naughty</w></lesson>
+					<lesson id="8"><w>theory</w><w>theatre</w><w>triumph</w></lesson>
+					<lesson id="8"><w>violet</w><w>violin</w><w>violent</w></lesson>
+				</island>
+				<island id='8'>
+					<lesson id="7"><w>virtual</w><w>virtue</w><w>virgin</w></lesson>
+					<lesson id="7"><w>cursor</w><w>curtsy</w><w>curtain</w></lesson>
+					<lesson id="8"><w>circulate</w><w>circumference</w><w>circumstances</w></lesson>
+					<lesson id="8"><w>certificate</w><w>ceremony</w><w>centipede</w></lesson>
+					<lesson id="8"><w>germinate</w><w>generous</w><w>generation</w></lesson>
+					<lesson id="8"><w>exchange</w><w>emergency</w><w>engaged</w></lesson>
+					<lesson id="9"><w>curiosity</w><w>captivity</w><w>capacity</w></lesson>
+					<lesson id="9"><w>unanimous</w><w>treacherous</w><w>ridiculous</w></lesson>
+					<lesson id="9"><w>manufacture</w><w>miniature</w><w>moisture</w></lesson>
+					<lesson id="9"><w>acrobatic</w><w>allergic</w><w>automatic</w></lesson>
+				</island>
+				<island id='9'>
+					<lesson id="3"><w>authentic</w><w>authority</w><w>autistic</w></lesson>
+					<lesson id="3"><w>audition</w><w>awkward</w><w>awesome</w></lesson>
+					<lesson id="4"><w>maniac</w><w>malaria</w><w>millennium</w></lesson>
+					<lesson id="4"><w>dubious</w><w>delirious</w><w>devious</w></lesson>
+					<lesson id="5"><w>expensive</w><w>excessive</w><w>exquisite</w></lesson>
+					<lesson id="5"><w>masculine</w><w>margarine</w><w>magazine</w></lesson>
+					<lesson id="6"><w>cholesterol</w><w>chlorine</w><w>chaotic</w></lesson>
+					<lesson id="6"><w>chauffeur</w><w>chandelier</w><w>chivalry</w></lesson>
+					<lesson id="7"><w>phosphorous</w><w>phenomenal</w><w>philosophy</w></lesson>
+					<lesson id="8"><w>mosque</w><w>mosquito</w><w>mystique</w></lesson>
+				</island>
+				<island id='10'>
+					<lesson id="1"><w>succumb</w><w>subtle</w><w>solemn</w></lesson>
+					<lesson id="2"><w>technology</w><w>terminology</w><w>theology</w></lesson>
+					<lesson id="2"><w>indiscriminate</w><w>inadequate</w><w>immaculate</w></lesson>
+					<lesson id="3"><w>substantial</w><w>superstitious</w><w>suspicious</w></lesson>
+					<lesson id="6"><w>pasteurise</w><w>therapeutic</w><w>euphoria</w></lesson>
+					<lesson id="7"><w>synopsis</w><w>synthetic</w><w>syndrome</w></lesson>
+					<lesson id="7"><w>hysterical</w><w>hypocrisy</w><w>hygiene</w></lesson>
+					<lesson id="8"><w>irresponsible</w><w>irrigation</w><w>irresistible</w></lesson>
+					<lesson id="8"><w>illiterate</w><w>illegible</w><w>illuminate</w></lesson>
+					<lesson id="9"><w>transaction</w><w>transparent</w><w>transfusion</w></lesson>
+				</island>
+			</reading>
+			<spelling>
+
+				<island id='1'>
+					<set>
+						<lesson id="2">pan</lesson>
+						<lesson id="2">rim</lesson>
+						<lesson id="2">fox</lesson>
+						<lesson id="2">vet</lesson>
+						<lesson id="2">jug</lesson>
+						<lesson id="5">mesh</lesson>
+						<lesson id="6">such</lesson>
+						<lesson id="7">with</lesson>
+						<lesson id="8">flip</lesson>
+						<lesson id="9">try</lesson>
+					</set>
+					<set>
+						<lesson id="2">sat</lesson>
+						<lesson id="2">hid</lesson>
+						<lesson id="2">log</lesson>
+						<lesson id="2">yes</lesson>
+						<lesson id="2">cut</lesson>
+						<lesson id="5">shed</lesson>
+						<lesson id="6">chip</lesson>
+						<lesson id="7">this</lesson>
+						<lesson id="8">clap</lesson>
+						<lesson id="9">fry</lesson>
+					</set>
+				</island>
+				<island id='2'>
+					<set>
+						<lesson id="1">call</lesson>
+						<lesson id="1">grass</lesson>
+						<lesson id="2">tank</lesson>
+						<lesson id="2">milk</lesson>
+						<lesson id="2">jump</lesson>
+						<lesson id="2">long</lesson>
+						<lesson id="3">stick</lesson>
+						<lesson id="4">sharp</lesson>
+						<lesson id="5">porch</lesson>
+						<lesson id="9">week</lesson>
+					</set>
+					<set>
+						<lesson id="1">bell</lesson>
+						<lesson id="1">sniff</lesson>
+						<lesson id="2">land</lesson>
+						<lesson id="2">cold</lesson>
+						<lesson id="2">damp</lesson>
+						<lesson id="2">sting</lesson>
+						<lesson id="2">track</lesson>
+						<lesson id="4">park</lesson>
+						<lesson id="5">sort</lesson>
+						<lesson id="9">tree</lesson>
+					</set>
+				</island>
+				<island id='3'>
+					<set>
+						<lesson id="1">quake</lesson>
+						<lesson id="1">white</lesson>
+						<lesson id="1">tune</lesson>
+						<lesson id="2">page</lesson>
+						<lesson id="4">paint</lesson>
+						<lesson id="5">bright</lesson>
+						<lesson id="6">blow</lesson>
+						<lesson id="7">good</lesson>
+						<lesson id="8">fetch</lesson>
+						<lesson id="9">order</lesson>
+					</set>
+					<set>
+						<lesson id="1">grape</lesson>
+						<lesson id="1">like</lesson>
+						<lesson id="1">rude</lesson>
+						<lesson id="2">space</lesson>
+						<lesson id="4">brain</lesson>
+						<lesson id="5">flight</lesson>
+						<lesson id="6">soap</lesson>
+						<lesson id="7">spoon</lesson>
+						<lesson id="8">match</lesson>
+						<lesson id="9">garden</lesson>
+					</set>
+				</island>
+				<island id='4'>
+					<set>
+						<lesson id="1">shrink</lesson>
+						<lesson id="2">rabbit</lesson>
+						<lesson id="3">plaster</lesson>
+						<lesson id="4">paper</lesson>
+						<lesson id="5">mistake</lesson>
+						<lesson id="6">planted</lesson>
+						<lesson id="7">screw</lesson>
+						<lesson id="7">true</lesson>
+						<lesson id="8">noise</lesson>
+						<lesson id="9">mouth</lesson>
+					</set>
+					<set>
+						<lesson id="1">thrash</lesson>
+						<lesson id="2">cobweb</lesson>
+						<lesson id="3">after</lesson>
+						<lesson id="4">baby</lesson>
+						<lesson id="5">tadpole</lesson>
+						<lesson id="6">wanted</lesson>
+						<lesson id="7">chew</lesson>
+						<lesson id="7">fruit</lesson>
+						<lesson id="8">join</lesson>
+						<lesson id="9">flower</lesson>
+					</set>
+				</island>
+				<island id='5'>
+					<set>
+						<lesson id="1">elephant</lesson>
+						<lesson id="2">dodge</lesson>
+						<lesson id="3">demand</lesson>
+						<lesson id="4">pocket</lesson>
+						<lesson id="5">grabbing</lesson>
+						<lesson id="5">sliding</lesson>
+						<lesson id="6">correct</lesson>
+						<lesson id="7">drizzle</lesson>
+						<lesson id="8">search</lesson>
+						<lesson id="8">repair</lesson>
+					</set>
+					<set>
+						<lesson id="1">graph</lesson>
+						<lesson id="2">edge</lesson>
+						<lesson id="3">reject</lesson>
+						<lesson id="4">safely</lesson>
+						<lesson id="5">grinning</lesson>
+						<lesson id="5">riding</lesson>
+						<lesson id="6">borrow</lesson>
+						<lesson id="7">kettle</lesson>
+						<lesson id="8">clear</lesson>
+						<lesson id="8">fairy</lesson>
+					</set>
+				</island>
+				<island id='6'>
+					<set>
+						<lesson id="1">world</lesson>
+						<lesson id="2">hopped</lesson>
+						<lesson id="3">writing</lesson>
+						<lesson id="4">know</lesson>
+						<lesson id="4">spare</lesson>
+						<lesson id="4">retire</lesson>
+						<lesson id="5">honey</lesson>
+						<lesson id="6">false</lesson>
+						<lesson id="8">message</lesson>
+						<lesson id="9">firework</lesson>
+					</set>
+					<set>
+						<lesson id="1">worst</lesson>
+						<lesson id="2">hoped</lesson>
+						<lesson id="3">thumb</lesson>
+						<lesson id="4">build</lesson>
+						<lesson id="4">scare</lesson>
+						<lesson id="4">vampire</lesson>
+						<lesson id="5">above</lesson>
+						<lesson id="6">course</lesson>
+						<lesson id="8">damage</lesson>
+						<lesson id="9">sometimes</lesson>
+					</set>
+				</island>
+				<island id='7'>
+					<set>
+						<lesson id="1">duties</lesson>
+						<lesson id="2">earliest</lesson>
+						<lesson id="3">description</lesson>
+						<lesson id="3">confession</lesson>
+						<lesson id="4">squashed</lesson>
+						<lesson id="5">volcanoes</lesson>
+						<lesson id="6">courage</lesson>
+						<lesson id="7">although</lesson>
+						<lesson id="8">ruined</lesson>
+						<lesson id="9">break</lesson>
+					</set>
+					<set>
+						<lesson id="1">copies</lesson>
+						<lesson id="2">medium</lesson>
+						<lesson id="3">condition</lesson>
+						<lesson id="3">discussion</lesson>
+						<lesson id="4">quarry</lesson>
+						<lesson id="5">tomatoes</lesson>
+						<lesson id="6">country</lesson>
+						<lesson id="7">enough</lesson>
+						<lesson id="8">museum</lesson>
+						<lesson id="9">obey</lesson>
+					</set>
+				</island>
+				<island id='8'>
+					<set>
+						<lesson id="1">style</lesson>
+						<lesson id="2">towed</lesson>
+						<lesson id="3">cruelty</lesson>
+						<lesson id="4">receipt</lesson>
+						<lesson id="5">treatment</lesson>
+						<lesson id="6">whether</lesson>
+						<lesson id="7">further</lesson>
+						<lesson id="8">concentrate</lesson>
+						<lesson id="8">urgent</lesson>
+						<lesson id="9">enormous</lesson>
+					</set>
+					<set>
+						<lesson id="1">buy</lesson>
+						<lesson id="2">groan</lesson>
+						<lesson id="3">suitable</lesson>
+						<lesson id="4">protein</lesson>
+						<lesson id="5">breathe</lesson>
+						<lesson id="6">passed</lesson>
+						<lesson id="7">disturb</lesson>
+						<lesson id="8">celebrity</lesson>
+						<lesson id="8">suggest</lesson>
+						<lesson id="9">generous</lesson>
+					</set>
+				</island>
+				<island id='9'>
+					<set>
+						<lesson id="1">several</lesson>
+						<lesson id="2">dribbling</lesson>
+						<lesson id="3">autograph</lesson>
+						<lesson id="4">material</lesson>
+						<lesson id="5">definite</lesson>
+						<lesson id="5">vulnerable</lesson>
+						<lesson id="6">scheme</lesson>
+						<lesson id="7">catastrophe</lesson>
+						<lesson id="8">unique</lesson>
+						<lesson id="9">gradually</lesson>
+					</set>
+					<set>
+						<lesson id="1">gradual</lesson>
+						<lesson id="2">labelling</lesson>
+						<lesson id="3">auction</lesson>
+						<lesson id="4">furious</lesson>
+						<lesson id="5">genuine</lesson>
+						<lesson id="5">compatible</lesson>
+						<lesson id="6">mechanical</lesson>
+						<lesson id="7">atmosphere</lesson>
+						<lesson id="8">technique</lesson>
+						<lesson id="9">basically</lesson>
+					</set>
+				</island>
+				<island id='10'>
+					<set>
+						<lesson id="1">disguise</lesson>
+						<lesson id="2">ecology</lesson>
+						<lesson id="3">physician</lesson>
+						<lesson id="4">individual</lesson>
+						<lesson id="5">refrigerator</lesson>
+						<lesson id="6">manoeuvre</lesson>
+						<lesson id="7">hydraulic</lesson>
+						<lesson id="8">immediately</lesson>
+						<lesson id="8">annihilate</lesson>
+						<lesson id="9">nonalcoholic</lesson>
+					</set>
+					<set>
+						<lesson id="1">silhouette</lesson>
+						<lesson id="2">desperate</lesson>
+						<lesson id="3">unconscious</lesson>
+						<lesson id="4">privilege</lesson>
+						<lesson id="5">particular</lesson>
+						<lesson id="6">Europe</lesson>
+						<lesson id="7">paralyse</lesson>
+						<lesson id="8">immaculate</lesson>
+						<lesson id="8">assignment</lesson>
+						<lesson id="9">antibacterial</lesson>
+					</set>
+				</island>
+
+			</spelling>
+		</wordlist>
+		
+	</custom>
+</customGame>

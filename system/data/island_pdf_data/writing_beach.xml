@@ -1,0 +1,444 @@
+<PDFData>
+
+	<lesson id="1">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/motivate_writing/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/motivate_writing/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_1_tn.pdf</fileName>
+				<thumbnailFileName>write_1_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="write about a picture">
+				<description><![CDATA[]]></description>
+				<fileName>write_1_1.pdf</fileName>
+				<thumbnailFileName>write_1_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="answer problem pages">
+				<description><![CDATA[]]></description>
+				<fileName>write_1_2.pdf</fileName>
+				<thumbnailFileName>write_1_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="writing_beach/motivate_writing/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/motivate_writing/card_games/">
+
+			<item name="write with accuracy">
+				<description><![CDATA[]]></description>
+				<fileName>write_1_game_1.pdf</fileName>
+				<thumbnailFileName>write_1_game_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="write about a picture">
+				<description><![CDATA[]]></description>
+				<fileName>write_1_game_2.pdf</fileName>
+				<thumbnailFileName>write_1_game_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+	
+	</lesson>
+
+	<lesson id="2">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/sentence_construction/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/sentence_construction/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_2_tn.pdf</fileName>
+				<thumbnailFileName>write_2_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="nouns adjectives verbs">
+				<description><![CDATA[]]></description>
+				<fileName>write_2_1.pdf</fileName>
+				<thumbnailFileName>write_2_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sentence or not">
+				<description><![CDATA[]]></description>
+				<fileName>write_2_2.pdf</fileName>
+				<thumbnailFileName>write_2_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="joining words">
+				<description><![CDATA[]]></description>
+				<fileName>write_2_3.pdf</fileName>
+				<thumbnailFileName>write_2_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="bullet point plans">
+				<description><![CDATA[]]></description>
+				<fileName>write_2_4.pdf</fileName>
+				<thumbnailFileName>write_2_4.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="writing_beach/sentence_construction/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/sentence_construction/card_games/">
+
+			<item name="bullet point lists">
+				<description><![CDATA[]]></description>
+				<fileName>write_2_game_1.pdf</fileName>
+				<thumbnailFileName>write_2_game_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+	
+	</lesson>
+
+	<lesson id="3">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/descriptive_writing/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/descriptive_writing/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_3_tn.pdf</fileName>
+				<thumbnailFileName>write_3_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="descriptive plan">
+				<description><![CDATA[]]></description>
+				<fileName>write_3_1.pdf</fileName>
+				<thumbnailFileName>write_3_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="write a menu">
+				<description><![CDATA[]]></description>
+				<fileName>write_3_2.pdf</fileName>
+				<thumbnailFileName>write_3_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="synonyms">
+				<description><![CDATA[]]></description>
+				<fileName>write_3_3.pdf</fileName>
+				<thumbnailFileName>write_3_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="writing_beach/descriptive_writing/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/descriptive_writing/card_games/">
+
+			<item name="vocabulary game">
+				<description><![CDATA[]]></description>
+				<fileName>write_3_game_1.pdf</fileName>
+				<thumbnailFileName>write_3_game_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+	
+	</lesson>
+
+	<lesson id="4">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/story_plans/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/story_plans/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_4_tn.pdf</fileName>
+				<thumbnailFileName>write_4_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="story plan">
+				<description><![CDATA[]]></description>
+				<fileName>write_4_1.pdf</fileName>
+				<thumbnailFileName>write_4_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="character portraits">
+				<description><![CDATA[]]></description>
+				<fileName>write_4_2.pdf</fileName>
+				<thumbnailFileName>write_4_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="starting sentences">
+				<description><![CDATA[]]></description>
+				<fileName>write_4_3.pdf</fileName>
+				<thumbnailFileName>write_4_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="writing_beach/story_plans/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/story_plans/card_games/">
+
+			<item name="character emotions">
+				<description><![CDATA[]]></description>
+				<fileName>write_4_game_1.pdf</fileName>
+				<thumbnailFileName>write_4_game_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+	
+	</lesson>
+
+	<lesson id="5">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/linking_paragraphs/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/linking_paragraphs/worksheets/">
+			
+			<item name="plan paragraphs">
+				<description><![CDATA[]]></description>
+				<fileName>write_5_1.pdf</fileName>
+				<thumbnailFileName>write_5_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="link ideas with colour">
+				<description><![CDATA[]]></description>
+				<fileName>write_5_2.pdf</fileName>
+				<thumbnailFileName>write_5_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="write instructions">
+				<description><![CDATA[]]></description>
+				<fileName>write_5_3.pdf</fileName>
+				<thumbnailFileName>write_5_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames />
+	
+	</lesson>
+
+	<lesson id="6">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/past_tense/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/past_tense/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_6_tn.pdf</fileName>
+				<thumbnailFileName>write_6_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="circle the verb 1">
+				<description><![CDATA[]]></description>
+				<fileName>write_6_1.pdf</fileName>
+				<thumbnailFileName>write_6_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="circle the verb 2">
+				<description><![CDATA[]]></description>
+				<fileName>write_6_2.pdf</fileName>
+				<thumbnailFileName>write_6_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="fill in the missing verb">
+				<description><![CDATA[]]></description>
+				<fileName>write_6_3.pdf</fileName>
+				<thumbnailFileName>write_6_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="fill in the missing verb">
+				<description><![CDATA[]]></description>
+				<fileName>write_6_4.pdf</fileName>
+				<thumbnailFileName>write_6_4.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="writing_beach/past_tense/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/past_tense/card_games/">
+
+			<item name="past tense choose or lose game">
+				<description><![CDATA[]]></description>
+				<fileName>write_6_chl.pdf</fileName>
+				<thumbnailFileName>write_6_chl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+	
+	</lesson>
+
+	<lesson id="7">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/thinking_skills/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/thinking_skills/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_7_tn.pdf</fileName>
+				<thumbnailFileName>write_7_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="visualisation strategies">
+				<description><![CDATA[]]></description>
+				<fileName>write_7_1.pdf</fileName>
+				<thumbnailFileName>write_7_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="visual sequencing">
+				<description><![CDATA[]]></description>
+				<fileName>write_7_2.pdf</fileName>
+				<thumbnailFileName>write_7_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="listening skills">
+				<description><![CDATA[]]></description>
+				<fileName>write_7_3.pdf</fileName>
+				<thumbnailFileName>write_7_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="problem solving">
+				<description><![CDATA[]]></description>
+				<fileName>write_7_4.pdf</fileName>
+				<thumbnailFileName>write_7_4.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames />
+	
+	</lesson>
+
+	<lesson id="8">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/punctuation/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/punctuation/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_8_tn.pdf</fileName>
+				<thumbnailFileName>write_8_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="penguin punctuation sentences">
+				<description><![CDATA[]]></description>
+				<fileName>write_8_1.pdf</fileName>
+				<thumbnailFileName>write_8_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="monkey punctuation sentences">
+				<description><![CDATA[]]></description>
+				<fileName>write_8_2.pdf</fileName>
+				<thumbnailFileName>write_8_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="hairy speech mark sentences">
+				<description><![CDATA[]]></description>
+				<fileName>write_8_3.pdf</fileName>
+				<thumbnailFileName>write_8_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="monster speech mark sentences">
+				<description><![CDATA[]]></description>
+				<fileName>write_8_4.pdf</fileName>
+				<thumbnailFileName>write_8_4.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames />
+	
+	</lesson>
+
+	<lesson id="9">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/reading_accuracy/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/reading_accuracy/worksheets/">
+			
+			<item name="teaching notes">
+				<description><![CDATA[]]></description>
+				<fileName>write_9_tn.pdf</fileName>
+				<thumbnailFileName>write_9_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="tracking exercise tricky words 1">
+				<description><![CDATA[]]></description>
+				<fileName>write_9_1.pdf</fileName>
+				<thumbnailFileName>write_9_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="tracking exercise tricky words 2">
+				<description><![CDATA[]]></description>
+				<fileName>write_9_2.pdf</fileName>
+				<thumbnailFileName>write_9_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="tracking exercise tricky words 3">
+				<description><![CDATA[]]></description>
+				<fileName>write_9_3.pdf</fileName>
+				<thumbnailFileName>write_9_3.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="tracking exercise tricky words 4">
+				<description><![CDATA[]]></description>
+				<fileName>write_9_4.pdf</fileName>
+				<thumbnailFileName>write_9_4.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</worksheets>
+
+		<cardGames />
+	
+	</lesson>
+
+	<lesson id="10">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="writing_beach/dictionary_skills/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/dictionary_skills/worksheets/">
+			
+			<item name="a strategy for using the dictionary">
+				<description><![CDATA[]]></description>
+				<fileName>write_10_1.pdf</fileName>
+				<thumbnailFileName>write_10_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="writing_beach/dictionary_skills/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/writing_beach/dictionary_skills/card_games/">
+
+			<item name="dictionary search game">
+				<description><![CDATA[]]></description>
+				<fileName>write_10_game_1.pdf</fileName>
+				<thumbnailFileName>write_10_game_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+	
+	</lesson>
+
+</PDFData>

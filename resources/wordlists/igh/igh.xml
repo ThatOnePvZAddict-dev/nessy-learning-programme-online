@@ -1,0 +1,17 @@
+<list name="igh" location="" sentence="">
+	<word soundFileName="high.mp3"><![CDATA[high]]></word>
+	<word soundFileName="sigh.mp3"><![CDATA[sigh]]></word>
+	<word soundFileName="thigh.mp3"><![CDATA[thigh]]></word>
+	<word soundFileName="night.mp3"><![CDATA[night]]></word>
+	<word soundFileName="tonight.mp3"><![CDATA[tonight]]></word>
+	<word soundFileName="light.mp3"><![CDATA[light]]></word>
+	<word soundFileName="flight.mp3"><![CDATA[flight]]></word>
+	<word soundFileName="slight.mp3"><![CDATA[slight]]></word>
+	<word soundFileName="right.mp3"><![CDATA[right]]></word>
+	<word soundFileName="bright.mp3"><![CDATA[bright]]></word>
+	<word soundFileName="fright.mp3"><![CDATA[fright]]></word>
+	<word soundFileName="might.mp3"><![CDATA[might]]></word>
+	<word soundFileName="sight.mp3"><![CDATA[sight]]></word>
+	<word soundFileName="tight.mp3"><![CDATA[tight]]></word>
+
+</list>

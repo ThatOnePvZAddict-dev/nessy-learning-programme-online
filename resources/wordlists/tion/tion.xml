@@ -1,0 +1,18 @@
+<list name="tion" location="" sentence="">
+	<word soundFileName="action.mp3"><![CDATA[action]]></word>
+	<word soundFileName="fraction.mp3"><![CDATA[fraction]]></word>
+	<word soundFileName="friction.mp3"><![CDATA[friction]]></word>
+	<word soundFileName="fiction.mp3"><![CDATA[fiction]]></word>
+	<word soundFileName="nation.mp3"><![CDATA[nation]]></word>
+	<word soundFileName="station.mp3"><![CDATA[station]]></word>
+	<word soundFileName="portion.mp3"><![CDATA[portion]]></word>
+	<word soundFileName="motion.mp3"><![CDATA[motion]]></word>
+	<word soundFileName="potion.mp3"><![CDATA[potion]]></word>
+	<word soundFileName="lotion.mp3"><![CDATA[lotion]]></word>
+	<word soundFileName="section.mp3"><![CDATA[section]]></word>
+	<word soundFileName="mention.mp3"><![CDATA[mention]]></word>
+	<word soundFileName="function.mp3"><![CDATA[function]]></word>
+	<word soundFileName="junction.mp3"><![CDATA[junction]]></word>
+	<word soundFileName="option.mp3"><![CDATA[option]]></word>
+
+</list>

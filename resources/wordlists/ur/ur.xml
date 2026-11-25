@@ -1,0 +1,16 @@
+<list name="ur" location="" sentence="">
+	<word soundFileName="fur.mp3"><![CDATA[fur]]></word>
+	<word soundFileName="surf.mp3"><![CDATA[surf]]></word>
+	<word soundFileName="hurt.mp3"><![CDATA[hurt]]></word>
+	<word soundFileName="burn.mp3"><![CDATA[burn]]></word>
+	<word soundFileName="turn.mp3"><![CDATA[turn]]></word>
+	<word soundFileName="nurse.mp3"><![CDATA[nurse]]></word>
+	<word soundFileName="purse.mp3"><![CDATA[purse]]></word>
+	<word soundFileName="burst.mp3"><![CDATA[burst]]></word>
+	<word soundFileName="burger.mp3"><![CDATA[burger]]></word>
+	<word soundFileName="church.mp3"><![CDATA[church]]></word>
+	<word soundFileName="purr.mp3"><![CDATA[purr]]></word>
+	<word soundFileName="curl.mp3"><![CDATA[curl]]></word>
+	<word soundFileName="curve.mp3"><![CDATA[curve]]></word>
+
+</list>

@@ -1,0 +1,19 @@
+<list name="ear" location="" sentence="">
+	<word soundFileName="bear.mp3"><![CDATA[bear]]></word>
+	<word soundFileName="pear.mp3"><![CDATA[pear]]></word>
+	<word soundFileName="tear.mp3"><![CDATA[tear]]></word>
+	<word soundFileName="swear.mp3"><![CDATA[swear]]></word>
+	<word soundFileName="wear.mp3"><![CDATA[wear]]></word>
+	<word soundFileName="fear.mp3"><![CDATA[fear]]></word>
+	<word soundFileName="near.mp3"><![CDATA[near]]></word>
+	<word soundFileName="clear.mp3"><![CDATA[clear]]></word>
+	<word soundFileName="dear.mp3"><![CDATA[dear]]></word>
+	<word soundFileName="ear.mp3"><![CDATA[ear]]></word>
+	<word soundFileName="gear.mp3"><![CDATA[gear]]></word>
+	<word soundFileName="smear.mp3"><![CDATA[smear]]></word>
+	<word soundFileName="spear.mp3"><![CDATA[spear]]></word>
+	<word soundFileName="rear.mp3"><![CDATA[rear]]></word>
+	<word soundFileName="hear.mp3"><![CDATA[hear]]></word>
+	<word soundFileName="year.mp3"><![CDATA[year]]></word>
+
+</list>

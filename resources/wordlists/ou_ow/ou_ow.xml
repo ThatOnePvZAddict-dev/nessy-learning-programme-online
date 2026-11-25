@@ -1,0 +1,22 @@
+<list name="ou ow" location="" sentence="">
+	<word soundFileName="loud.mp3"><![CDATA[loud]]></word>
+	<word soundFileName="cloud.mp3"><![CDATA[cloud]]></word>
+	<word soundFileName="ground.mp3"><![CDATA[ground]]></word>
+	<word soundFileName="round.mp3"><![CDATA[round]]></word>
+	<word soundFileName="sound.mp3"><![CDATA[sound]]></word>
+	<word soundFileName="house.mp3"><![CDATA[house]]></word>
+	<word soundFileName="mouth.mp3"><![CDATA[mouth]]></word>
+	<word soundFileName="south.mp3"><![CDATA[south]]></word>
+	<word soundFileName="shout.mp3"><![CDATA[shout]]></word>
+	<word soundFileName="count.mp3"><![CDATA[count]]></word>
+	<word soundFileName="down.mp3"><![CDATA[down]]></word>
+	<word soundFileName="brown.mp3"><![CDATA[brown]]></word>
+	<word soundFileName="town.mp3"><![CDATA[town]]></word>
+	<word soundFileName="crown.mp3"><![CDATA[crown]]></word>
+	<word soundFileName="growl.mp3"><![CDATA[growl]]></word>
+	<word soundFileName="howl.mp3"><![CDATA[howl]]></word>
+	<word soundFileName="flower.mp3"><![CDATA[flower]]></word>
+	<word soundFileName="power.mp3"><![CDATA[power]]></word>
+	<word soundFileName="tower.mp3"><![CDATA[tower]]></word>
+	<word soundFileName="shower.mp3"><![CDATA[shower]]></word>
+</list>

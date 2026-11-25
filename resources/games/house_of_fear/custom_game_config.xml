@@ -1,0 +1,194 @@
+<customGame>
+	
+<!--
+
+The data in the 'standard' node uses the same schema for all non-dynamic games, so that
+it can be parsed by the game API. It's task is to define all 'word' and 'sentence' word
+lists for automated declaration and sound loading.
+
+The lists include their sound file locations so that punctuations can be used if required.
+
+-->
+
+	<standard>
+		
+		<words>
+			<list name="ar"         location="" sentence="" />
+			<list name="soft g 1"   location="" sentence="" />
+			<list name="ough"       location="" sentence="" />
+			<list name="oo"         location="" sentence="" />
+			<list name="ui ue"      location="" sentence="" />
+			<list name="set 4a"     location="" sentence="" />
+			<list name="homophones" location="" sentence="" />
+			<list name="tial cial"  location="" sentence="" />
+		</words>
+		
+		<sentences>
+		
+			<list name="" location="">
+			</list>
+		
+		</sentences>
+		
+	</standard>
+	
+<!--
+
+The data in the 'cutom' node is sent directly through to the game for it to handle. It is
+advised to wrap data within nodes with the same name attributes as the word lists that
+their data supports.
+
+-->
+	
+	<custom>
+
+		<wordlist name='ar'>
+			<question correct='2' a='dark'  b='bark'  c='shark'>A dog can ______</question>
+			<question correct='3' a='farm'  b='charm' c='arm'  >The glass cut my ______</question>
+			<question correct='3' a='dark'  b='spark' c='park' >I will ______ the car.</question>
+			<question correct='1' a='smart' b='cart'  c='dart' >That girl is so ______ she is top of the class.</question>
+			<question correct='3' a='scarf' b='harm'  c='scar' >I got a ______ from the car crash.</question>
+			<question correct='2' a='arm'   b='jar'   c='bar'  >The cork is stuck in the ______</question>
+			<question correct='1' a='barn'  b='shark' c='smart'>The farm has a ______</question>
+			<question correct='2' a='bar'   b='far'   c='tar'  >I have ______ to go.</question>
+			<question correct='3' a='dark'  b='farm'  c='star' >She can see a ______ in the sky.</question>
+			<question correct='1' a='mark'  b='smart' c='start'>Tom got the top ______ in the test.</question>
+			<question correct='1' a='scarf' b='hard'  c='harm' >I have lost my ______</question>
+			<question correct='2' a='spark' b='shark' c='sharp'>The ______ will hunt a fish.</question>
+			<question correct='2' a='star'  b='hard'  c='park' >Is this too ______ for you?</question>
+			<question correct='3' a='dark'  b='start' c='dart' >The ______ got stuck in the wall.</question>
+			<question correct='1' a='cart'  b='chart' c='farm' >The ______ will skid in the mud.</question>
+		</wordlist>
+
+		<wordlist name='soft g 1'>
+			<question correct='1' a='cage'   b='hinge'  c='stage' >I keep my pet bird in a ______</question>
+			<question correct='1' a='space'  b='trace'  c='lace'  >The moon and stars are in ______</question>
+			<question correct='3' a='mice'   b='spice'  c='slice' >I would like a ______ of that cake.</question>
+			<question correct='3' a='nice'   b='price'  c='dice'  >Roll the ______ for your go.</question>
+			<question correct='2' a='race'   b='face'   c='twice' >She has a big spot on her ______</question>
+			<question correct='1' a='brace'  b='space'  c='lace'  >He has a ______ on his teeth.</question>
+			<question correct='2' a='twice'  b='price'  c='spice' >We had to pay a high ______</question>
+			<question correct='1' a='place'  b='mince'  c='chance'>They live in a nice ______</question>
+			<question correct='3' a='rage'   b='stage'  c='page'  >You have to read this ______</question>
+			<question correct='2' a='fence'  b='race'   c='force' >I am going to win this ______</question>
+			<question correct='1' a='twice'  b='chance' c='mince' >I had to ask him ______</question>
+			<question correct='3' a='dance'  b='since'  c='fence' >That dog cannot jump the ______</question>
+			<question correct='1' a='dance'  b='spice'  c='force' >She may ask you to ______</question>
+			<question correct='3' a='large'  b='rage'   c='stage' >I had to act in a play on the ______</question>
+			<question correct='2' a='huge'   b='fringe' c='hinge' >I need to cut my ______</question>
+			<question correct='1' a='charge' b='large'  c='huge'  >If the bull is in a rage it may ______</question>
+		</wordlist>
+
+		<wordlist name='oo'>
+			<question correct='1' a='bread'  b='head'   c='dead'  >We will make toast from a loaf of ______</question>
+			<question correct='2' a='brain'  b='train'  c='pain'  >We might have to wait for the ______</question>
+			<question correct='1' a='rain'   b='drain'  c='stain' >The gloomy clouds will give showers of heavy ______</question>
+			<question correct='3' a='tray'   b='clay'   c='bay'   >They will sail the boat into the ______</question>
+			<question correct='2' a='hook'   b='cook'   c='shook' >I might ______ meat for the meal tonight.</question>
+			<question correct='3' a='shower' b='tower'  c='flower'>A daisy is a yellow and white ______</question>
+			<question correct='2' a='steel'  b='wheel'  c='heel'  >The jeep lost a ______ and slid off the road.</question>
+			<question correct='2' a='poach'  b='coach'  c='toast' >The ______ will teach us how to play the game.</question>
+			<question correct='1' a='leaf'   b='loaf'   c='chief' >The snail will eat a green ______</question>
+			<question correct='1' a='spoon'  b='hoot'   c='boom'  >Eat from the bowl with a ______</question>
+			<question correct='3' a='bright' b='sight'  c='light' >At night Joe leaves on the ______</question>
+			<question correct='1' a='room'   b='pie'    c='pillow'>I am keen to paint my ______</question>
+			<question correct='2' a='neat'   b='heat'   c='seat'  >I may faint in this ______</question>
+			<question correct='3' a='toad'   b='tool'   c='toe'   >He stood on my foot and broke my ______</question>
+			<question correct='1' a='field'  b='shield' c='chief' >He took the goats into the ______</question>
+		</wordlist>
+
+		<wordlist name='ui ue'>
+			<question correct='1' a='statue' b='argue'  c='rescue'>The artist will carve a ______</question>
+			<question correct='3' a='true'   b='cruel'  c='argue' >They always ______ over who goes first.</question>
+			<question correct='2' a='avenue' b='tissue' c='rescue'>You need a ______ to wipe your nose.</question>
+			<question correct='2' a='group'  b='youth'  c='coupon'>After school my sister goes to a ______ club</question>
+			<question correct='2' a='group'  b='soup'   c='youth' >We started our meal with a bowl of ______</question>
+			<question correct='1' a='coupon' b='soup'   c='group' >This ______ will save us lots of money.</question>
+			<question correct='1' a='bruise' b='cruise' c='juice' >I fell over and got a big ______ on my elbow</question>
+			<question correct='3' a='bruise' b='suit'   c='juice' >She drank all my fruit ______</question>
+			<question correct='2' a='fruit'  b='suit'   c='bruise'>He has ripped his new ______</question>
+			<question correct='1' a='threw'  b='screw'  c='nephew'>I ______ out your smelly, old boots.</question>
+			<question correct='2' a='brew'   b='argue'  c='flew'  >My sisters always ______</question>
+			<question correct='3' a='knew'   b='stew'   c='grew'  >My brother ______ his hair long when he was a student.</question>
+			<question correct='3' a='choice' b='moist'  c='voice' >She has a good singing ______</question>
+			<question correct='1' a='enjoy'  b='employ' c='convoy'>I did not ______ the spelling test.</question>
+			<question correct='3' a='coin'   b='joint'  c='point' >Can you ______ the way to the toilet?</question>
+		</wordlist>
+
+		<wordlist name='set 4a'>
+			<question correct='1' a='there' b='their'>I want to go ______ again next year.</question>
+			<question correct='2' a='there' b='their'>______ new car is pink.</question>
+			<question correct='1' a='there' b='their'>I will get ______ in about two hours time.</question>
+			<question correct='2' a='there' b='their'>I have sent you ______ new address.</question>
+			<question correct='2' a='there' b='their'>They have left ______ old house.</question>
+			<question correct='2' a='there' b='their'>I sat on ______ cat.</question>
+			<question correct='2' a='there' b='their'>Your dog ate all ______ cheese sandwiches.</question>
+			<question correct='1' a='there' b='their'>We went ______ last year.</question>
+			<question correct='1' a='there' b='their'>I ran all the way ______</question>
+			<question correct='2' a='there' b='their'>She hid under ______ bed.</question>
+			<question correct='1' a='there' b='their'>______ is nothing I can do to help you.</question>
+			<question correct='2' a='there' b='their'>______ ship sunk after hitting a rock.</question>
+			<question correct='1' a='there' b='their'>______ are no chocolates left in the box.</question>
+			<question correct='1' a='there' b='their'>I want to sit over ______</question>
+			<question correct='2' a='there' b='their'>They spend all ______ time playing games.</question>
+			<question correct='1' a='there' b='their'>______ is a bad smell coming from your shoes.</question>
+		</wordlist>
+		
+		<wordlist name='ough'>
+			<question correct='2' a='drought'  b='plough'   c='bough'     >The farmer will ______ this field.</question>
+			<question correct='3' a='nought'   b='brought'  c='thought'   >I ______ of a good idea.</question>
+			<question correct='3' a='thought'  b='through'  c='thoroughly'>Have you cleaned the car really ______?</question>
+			<question correct='1' a='rough'    b='enough'   c='tough'     >Sandpaper feels ______</question>
+			<question correct='2' a='thought'  b='nought'   c='brought'   >We all got ______ out of ten in our maths test.</question>
+			<question correct='3' a='fought'   b='ought'    c='bought'    >Have you ______ me a big birthday present?</question>
+			<question correct='1' a='cough'    b='dough'    c='trough'    >The sick girl has a bad ______</question>
+			<question correct='3' a='cough'    b='plough'   c='trough'    >The thirsty horse drank from the ______</question>
+			<question correct='2' a='although' b='through'  c='thorough'  >She got ______ to the next level.</question>
+			<question correct='2' a='plough'   b='fought'   c='rough'     >The cats ______ all night.</question>
+			<question correct='1' a='brought'  b='thought'  c='although'  >Have you ______ your homework with you today?</question>
+			<question correct='3' a='rough'    b='enough'   c='tough'     >This food is too ______ to chew.</question>
+			<question correct='1' a='laugh'    b='taught'   c='caught'    >Always ______ when the teacher tells a joke.</question>
+			<question correct='3' a='caught'   b='daughter' c='naughty'   >My little brother is very ______</question>
+			<question correct='1' a='caught'   b='taught'   c='slaughter' >I have ______ something big in my net.</question>
+			<question correct='2' a='naughty'  b='taught'   c='laugh'     >We are ______ by a great teacher.</question>
+		</wordlist>
+
+		<wordlist name='homophones'>
+			<question correct='2' a='shore'  b='sure'   >Are you ______ this is the right answer?</question>
+			<question correct='1' a='fur'    b='fir'    >This cat has soft ______</question>
+			<question correct='1' a='groan'  b='grown'  >The class will all ______ when they have a test.</question>
+			<question correct='2' a='past'   b='passed' >I ______ the ball and we scored.</question>
+			<question correct='1' a='which'  b='witch'  >______ way is the exit?</question>
+			<question correct='2' a='dear'   b='deer'   >We saw a wild ______ in the woods.</question>
+			<question correct='2' a='aloud'  b='allowed'>I am not ______ out after dark.</question>
+			<question correct='2' a='course' b='coarse' >Another word for rough.</question>
+			<question correct='1' a='herd'   b='heard'  >The farmer has a ______ of cows.</question>
+			<question correct='1' a='bridle' b='bridal' >A ______ must be fit properly to the head of a horse.</question>
+			<question correct='2' a='peek'   b='peak'   >We reached the ______ of the mountain.</question>
+			<question correct='2' a='mind'   b='mined'  >We ______ an enormous nugget of gold.</question>
+			<question correct='1' a='stake'  b='steak'  >Vampires are killed by a wooden ______ in the heart.</question>
+			<question correct='1' a='slay'   b='sleigh' >The hero will ______ the dragon.</question>
+			<question correct='1' a='heel'   b='heal'   >I have a blister on my ______</question>
+			<question correct='2' a='more'   b='moor'   >To tie up a boat.</question>
+		</wordlist>
+
+		<wordlist name='tial cial'>
+			<question correct='2' a='percussion'     b='concussion'    c='discussion'   >A blow to the head causing dizziness.</question>
+			<question correct='1' a='crucial'        b='racial'        c='financial'    >Vital, very important.</question>
+			<question correct='2' a='commercial'     b='artificial'    c='judicial'     >False or fake.</question>
+			<question correct='2' a='residential'    b='potential'     c='essential'    >The possibility of doing or becoming something.</question>
+			<question correct='3' a='ferocious'      b='conscious'     c='malicious'    >Deliberately nasty and cruel.</question>
+			<question correct='1' a='fictitious'     b='delicious'     c='ambitious'    >Imaginary, made up.</question>
+			<question correct='3' a='administration' b='condensation'  c='constellation'>A group of stars.</question>
+			<question correct='1' a='deficient'      b='ancient'       c='sufficient'   >Missing or lacking something important.</question>
+			<question correct='2' a='initial'        b='impartial'     c='martial'      >Not on one side or the other, a fair decision.</question>
+			<question correct='3' a='precocious'     b='luscious'      c='spacious'     >A house with lots of room.</question>
+			<question correct='1' a='credentials'    b='sequential'    c='substantial'  >Official documents proving identity.</question>
+			<question correct='2' a='negotiation'    b='controversial' c='appreciate'   >Causing arguments and different opinions.</question>
+			<question correct='1' a='patience'       b='conscience'    c='complexion'   >Being prepared to wait without complaint.</question>
+			<question correct='3' a='efficient'      b='quotient'      c='patient'      >A person under medical care or treatment.</question>
+			<question correct='1' a='residential'    b='potential'     c='judicial'     >An area of houses, a place where people live.</question>
+		</wordlist>
+		
+	</custom>
+</customGame>

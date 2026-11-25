@@ -1,0 +1,13 @@
+<list name="oor oar" location="" sentence="">
+	<word soundFileName="boar.mp3"><![CDATA[boar]]></word>
+	<word soundFileName="board.mp3"><![CDATA[board]]></word>
+	<word soundFileName="door.mp3"><![CDATA[door]]></word>
+	<word soundFileName="floor.mp3"><![CDATA[floor]]></word>
+	<word soundFileName="hoard.mp3"><![CDATA[hoard]]></word>
+	<word soundFileName="moor.mp3"><![CDATA[moor]]></word>
+	<word soundFileName="oar.mp3"><![CDATA[oar]]></word>
+	<word soundFileName="poor.mp3"><![CDATA[poor]]></word>
+	<word soundFileName="roar.mp3"><![CDATA[roar]]></word>
+	<word soundFileName="soar.mp3"><![CDATA[soar]]></word>
+
+</list>

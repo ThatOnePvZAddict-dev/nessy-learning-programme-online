@@ -1,0 +1,20 @@
+<list name="oi" location="" sentence="">
+	<word soundFileName="oil.mp3"><![CDATA[oil]]></word>
+	<word soundFileName="boil.mp3"><![CDATA[boil]]></word>
+	<word soundFileName="coil.mp3"><![CDATA[coil]]></word>
+	<word soundFileName="foil.mp3"><![CDATA[foil]]></word>
+	<word soundFileName="soil.mp3"><![CDATA[soil]]></word>
+	<word soundFileName="spoil.mp3"><![CDATA[spoil]]></word>
+	<word soundFileName="voice.mp3"><![CDATA[voice]]></word>
+	<word soundFileName="choice.mp3"><![CDATA[choice]]></word>
+	<word soundFileName="coin.mp3"><![CDATA[coin]]></word>
+	<word soundFileName="join.mp3"><![CDATA[join]]></word>
+	<word soundFileName="joint.mp3"><![CDATA[joint]]></word>
+	<word soundFileName="point.mp3"><![CDATA[point]]></word>
+	<word soundFileName="moist.mp3"><![CDATA[moist]]></word>
+	<word soundFileName="noise.mp3"><![CDATA[noise]]></word>
+	<word soundFileName="toilet.mp3"><![CDATA[toilet]]></word>
+	<word soundFileName="avoid.mp3"><![CDATA[avoid]]></word>
+	<word soundFileName="poison.mp3"><![CDATA[poison]]></word>
+
+</list>

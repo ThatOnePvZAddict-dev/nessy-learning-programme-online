@@ -1,0 +1,597 @@
+<PDFData>
+
+	<lesson id="1">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="i-e_igh_y_ie/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/i-e_igh_y_ie/worksheets/">
+		
+			<item name="sounds that say 'i'">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>i-e_igh_y_ie_tn.pdf</fileName>
+				<thumbnailFileName>i-e_igh_y_ie_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="sounds that say 'i'">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>i-e_igh_y_ie_mw.pdf</fileName>
+				<thumbnailFileName>i-e_igh_y_ie_mw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'i'">
+				<description><![CDATA[match word to clue]]></description>
+				<fileName>i-e_igh_y_ie_cirw.pdf</fileName>
+				<thumbnailFileName>i-e_igh_y_ie_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="i-e_igh_y_ie/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/i-e_igh_y_ie/card_games/">
+		
+			<item name="sounds that say 'i'">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>i-e_igh_y_ie_cg_1_st.pdf</fileName>
+				<thumbnailFileName>i-e_igh_y_ie_cg_1_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'i'">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>i-e_igh_y_ie_cg_1_cut.pdf</fileName>
+				<thumbnailFileName>i-e_igh_y_ie_cg_1_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+		</cardGames>
+		
+	</lesson>
+
+	<lesson id="2">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="o-e_oa_ow_oe/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/o-e_oa_ow_oe/worksheets/">
+		
+			<item name="sounds that say 'o'">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>o-e_oa_ow_oe_tn.pdf</fileName>
+				<thumbnailFileName>o-e_oa_ow_oe_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="sounds that say 'o'">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>o-e_oa_ow_oe_mw.pdf</fileName>
+				<thumbnailFileName>o-e_oa_ow_oe_mw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="o-e_oa_ow_oe/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/o-e_oa_ow_oe/card_games/">
+		
+			<item name="sounds that say 'o'">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>o-e_oa_ow_oe_cg_1_st.pdf</fileName>
+				<thumbnailFileName>o-e_oa_ow_oe_cg_1_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'o'">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>o-e_oa_ow_oe_cg_1_cut.pdf</fileName>
+				<thumbnailFileName>o-e_oa_ow_oe_cg_1_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="3">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="u-e_oo_ew_ui_ue/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/u-e_oo_ew_ui_ue/worksheets/">
+		
+			<item name="sounds that say 'oo'">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>u-e_oo_ew_ui_ue_tn.pdf</fileName>
+				<thumbnailFileName>u-e_oo_ew_ui_ue_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="sounds that say 'oo'">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>u-e_oo_ew_ui_ue_mw.pdf</fileName>
+				<thumbnailFileName>u-e_oo_ew_ui_ue_mw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+		
+		<cardGames resourceType="cardGames" mediaType="pdf" location="u-e_oo_ew_ui_ue/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/u-e_oo_ew_ui_ue/card_games/">
+		
+			<item name="sounds that say 'oo'">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>u-e_oo_ew_ue_cg_1_st.pdf</fileName>
+				<thumbnailFileName>u-e_oo_ew_ue_cg_1_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'oo'">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>u-e_oo_ew_ue_cg_1_cut.pdf</fileName>
+				<thumbnailFileName>u-e_oo_ew_ue_cg_1_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="4">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="ie_ei/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/ie_ei/worksheets/">
+		
+			<item name="ie ei">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>ie_ei_tn.pdf</fileName>
+				<thumbnailFileName>ie_ei_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="ie ei">
+				<description><![CDATA[complete the word]]></description>
+				<fileName>ie_ei_cplw.pdf</fileName>
+				<thumbnailFileName>ie_ei_cplw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ie ei">
+				<description><![CDATA[crossword]]></description>
+				<fileName>ie_ei_cw.pdf</fileName>
+				<thumbnailFileName>ie_ei_cw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ie ei">
+				<description><![CDATA[read sentence spell word]]></description>
+				<fileName>ie_ei_mwp.pdf</fileName>
+				<thumbnailFileName>ie_ei_mwp.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ie ei">
+				<description><![CDATA[exceptions to the rule]]></description>
+				<fileName>ie_ei_ex.pdf</fileName>
+				<thumbnailFileName>ie_ei_ex.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ie ei">
+				<description><![CDATA[word list]]></description>
+				<fileName>ie_ei_wl.pdf</fileName>
+				<thumbnailFileName>ie_ei_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="ie_ei/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/ie_ei/card_games/">
+		
+			<item name="ei">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>ie_ei_cg_1_st.pdf</fileName>
+				<thumbnailFileName>ie_ei_cg_1_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ei">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>ie_ei_cg_1_cut.pdf</fileName>
+				<thumbnailFileName>ie_ei_cg_1_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ie ei">
+				<description><![CDATA[fix-it]]></description>
+				<fileName>ie_ei_fi.pdf</fileName>
+				<thumbnailFileName>ie_ei_fi.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</cardGames>
+		
+	</lesson>
+
+	<lesson id="5">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="ee_ea_ie_ei_ey/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/ee_ea_ie_ei_ey/worksheets/">
+		
+			<item name="sounds that say 'e'">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>ee_ea_ie_ei_ey_tn.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="sounds that say 'e'">
+				<description><![CDATA[flash cards]]></description>
+				<fileName>ee_ea_ie_ei_ey_fc.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_fc.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'e'">
+				<description><![CDATA[match word to clue]]></description>
+				<fileName>ee_ea_ie_ei_ey_cirw.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'e'">
+				<description><![CDATA[spell read sentence spell missing word]]></description>
+				<fileName>ee_ea_ie_ei_ey_mw.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_mw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="ee_ea_ie_ei_ey/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/ee_ea_ie_ei_ey/card_games/">
+		
+			<item name="sounds that say 'e'">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>ee_ea_ie_ei_ey_cg_st.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_cg_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'e'">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>ee_ea_ie_ei_ey_cg_cut.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_cg_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="sounds that say 'e'">
+				<description><![CDATA[fix-it game]]></description>
+				<fileName>ee_ea_ie_ei_ey_fi.pdf</fileName>
+				<thumbnailFileName>ee_ea_ie_ei_ey_fi.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>		
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="6">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="homophones/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/homophones/worksheets/">
+		
+			<item name="homophones">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>homophones_tn.pdf</fileName>
+				<thumbnailFileName>homophones_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="homophones">
+				<description><![CDATA[match word to picture]]></description>
+				<fileName>homophones_cirw.pdf</fileName>
+				<thumbnailFileName>homophones_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="their there">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>homophones_mw_1.pdf</fileName>
+				<thumbnailFileName>homophones_mw_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="homophones">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>homophones_mw_2.pdf</fileName>
+				<thumbnailFileName>homophones_mw_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="homophones">
+				<description><![CDATA[word list]]></description>
+				<fileName>homophones_wl.pdf</fileName>
+				<thumbnailFileName>homophones_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="homophones/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/homophones/card_games/">
+		
+			<item name="homophones">
+				<description><![CDATA[bingo]]></description>
+				<fileName>homophones_bing.pdf</fileName>
+				<thumbnailFileName>homophones_bing.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="7">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="ir_ur_2/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/ir_ur_2/worksheets/">
+		
+			<item name="ir ur 2">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>ir_ur_2_tn.pdf</fileName>
+				<thumbnailFileName>ir_ur_2_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="ir ur 2">
+				<description><![CDATA[complete the word]]></description>
+				<fileName>ir_ur_2_cplw_1.pdf</fileName>
+				<thumbnailFileName>ir_ur_2_cplw_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ir ur 2">
+				<description><![CDATA[spell under picture]]></description>
+				<fileName>ir_ur_2_sup.pdf</fileName>
+				<thumbnailFileName>ir_ur_2_sup.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ear our">
+				<description><![CDATA[complete the word]]></description>
+				<fileName>ir_ur_2_cplw_2.pdf</fileName>
+				<thumbnailFileName>ir_ur_2_cplw_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ir ur 2">
+				<description><![CDATA[word list]]></description>
+				<fileName>ir_ur_2_wl.pdf</fileName>
+				<thumbnailFileName>ir_ur_2_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="ir_ur_2/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/ir_ur_2/card_games/">
+		
+			<item name="ir ur 2">
+				<description><![CDATA[fix-it]]></description>
+				<fileName>ir_ur_2_fi.pdf</fileName>
+				<thumbnailFileName>ir_ur_2_fi.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="8">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="soft_c_g_3/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/soft_c_g_3/worksheets/">
+		
+			<item name="soft c g 3">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>soft_c_g_3_tn.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="soft c 3">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>soft_c_g_3_mw_1.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_mw_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="soft g 3">
+				<description><![CDATA[read sentence spell missing word]]></description>
+				<fileName>soft_c_g_3_mw_2.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_mw_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="soft c g 3">
+				<description><![CDATA[sentences 1]]></description>
+				<fileName>soft_c_g_3_sent_1.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_sent_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="soft c g 3">
+				<description><![CDATA[word list]]></description>
+				<fileName>soft_c_g_3_wl.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+			
+	    </worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="soft_c_g_3/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/soft_c_g_3/card_games/">
+		
+			<item name="soft c g 3">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>soft_c_g_3_cg_st.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_cg_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="soft c g 3">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>soft_c_g_3_cg_cut.pdf</fileName>
+				<thumbnailFileName>soft_c_g_3_cg_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="9">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="word_endings_4/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/word_endings_4/worksheets/">
+		
+			<item name="word endings 4">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>word_endings_4_tn.pdf</fileName>
+				<thumbnailFileName>word_endings_4_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="word endings 4">
+				<description><![CDATA[flash cards]]></description>
+				<fileName>word_endings_4_fc.pdf</fileName>
+				<thumbnailFileName>word_endings_4_fc.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 4">
+				<description><![CDATA[match word to picture]]></description>
+				<fileName>word_endings_4_cirw.pdf</fileName>
+				<thumbnailFileName>word_endings_4_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 4">
+				<description><![CDATA[join body-tail]]></description>
+				<fileName>word_endings_4_jhbt.pdf</fileName>
+				<thumbnailFileName>word_endings_4_jhbt.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 4">
+				<description><![CDATA[word list]]></description>
+				<fileName>word_endings_4_wl.pdf</fileName>
+				<thumbnailFileName>word_endings_4_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="word_endings_4/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/word_endings_4/card_games/">
+		
+			<item name="ture">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>word_endings_4_cg_1_st.pdf</fileName>
+				<thumbnailFileName>word_endings_4_cg_1_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ture">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>word_endings_4_cg_1_cut.pdf</fileName>
+				<thumbnailFileName>word_endings_4_cg_1_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ous">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>word_endings_4_cg_2_st.pdf</fileName>
+				<thumbnailFileName>word_endings_4_cg_2_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ous">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>word_endings_4_cg_2_cut.pdf</fileName>
+				<thumbnailFileName>word_endings_4_cg_2_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 4">
+				<description><![CDATA[follow on stickers]]></description>
+				<fileName>word_endings_4_fo_st.pdf</fileName>
+				<thumbnailFileName>word_endings_4_fo_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 4">
+				<description><![CDATA[follow on cut out]]></description>
+				<fileName>word_endings_4_fo_cut.pdf</fileName>
+				<thumbnailFileName>word_endings_4_fo_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="10">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="xxxxx/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/xxxxx/worksheets/">
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="xxxxx/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/xxxxx/card_games/">
+		</cardGames>
+		
+	</lesson>
+	
+</PDFData>

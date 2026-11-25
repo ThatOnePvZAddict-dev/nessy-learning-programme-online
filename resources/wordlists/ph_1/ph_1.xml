@@ -1,0 +1,17 @@
+<list name="ph 1" location="" sentence="">
+	<word soundFileName="phone.mp3"><![CDATA[phone]]></word>
+	<word soundFileName="photo.mp3"><![CDATA[photo]]></word>
+	<word soundFileName="phonic.mp3"><![CDATA[phonic]]></word>
+	<word soundFileName="phrase.mp3"><![CDATA[phrase]]></word>
+	<word soundFileName="phobia.mp3"><![CDATA[phobia]]></word>
+	<word soundFileName="phantom.mp3"><![CDATA[phantom]]></word>
+	<word soundFileName="dolphin.mp3"><![CDATA[dolphin]]></word>
+	<word soundFileName="elephant.mp3"><![CDATA[elephant]]></word>
+	<word soundFileName="graphic.mp3"><![CDATA[graphic]]></word>
+	<word soundFileName="orphan.mp3"><![CDATA[orphan]]></word>
+	<word soundFileName="alphabet.mp3"><![CDATA[alphabet]]></word>
+	<word soundFileName="paragraph.mp3"><![CDATA[paragraph]]></word>
+	<word soundFileName="nephew.mp3"><![CDATA[nephew]]></word>
+	<word soundFileName="pamphlet.mp3"><![CDATA[pamphlet]]></word>
+
+</list>

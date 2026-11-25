@@ -1,0 +1,13 @@
+<list name="eu" location="" sentence="">
+	<word soundFileName="Europe.mp3"><![CDATA[Europe]]></word>
+	<word soundFileName="amateur.mp3"><![CDATA[amateur]]></word>
+	<word soundFileName="neutral.mp3"><![CDATA[neutral]]></word>
+	<word soundFileName="neurotic.mp3"><![CDATA[neurotic]]></word>
+	<word soundFileName="manoeuvre.mp3"><![CDATA[manoeuvre]]></word>
+	<word soundFileName="feud.mp3"><![CDATA[feud]]></word>
+	<word soundFileName="entrepreneur.mp3"><![CDATA[entrepreneur]]></word>
+	<word soundFileName="euphoria.mp3"><![CDATA[euphoria]]></word>
+	<word soundFileName="pasteurise.mp3"><![CDATA[pasteurise]]></word>
+	<word soundFileName="therapeutic.mp3"><![CDATA[therapeutic]]></word>
+
+</list>

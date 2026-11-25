@@ -1,0 +1,12 @@
+<list name="apostrophes" location="" sentence="">
+	<word soundFileName="don_t.mp3"><![CDATA[don't]]></word>
+	<word soundFileName="can_t.mp3"><![CDATA[can't]]></word>
+	<word soundFileName="we_re.mp3"><![CDATA[we're]]></word>
+	<word soundFileName="didn_t.mp3"><![CDATA[didn't]]></word>
+	<word soundFileName="I_ll.mp3"><![CDATA[I'll]]></word>
+	<word soundFileName="I_ve.mp3"><![CDATA[I've]]></word>
+	<word soundFileName="I_m.mp3"><![CDATA[I'm]]></word>
+	<word soundFileName="let_s.mp3"><![CDATA[let's]]></word>
+	<word soundFileName="there_s.mp3"><![CDATA[there's]]></word>
+	<word soundFileName="he_s.mp3"><![CDATA[he's]]></word>
+</list>

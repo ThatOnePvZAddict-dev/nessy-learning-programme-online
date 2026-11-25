@@ -1,0 +1,28 @@
+<list name="letter sounds" location="" sentence="">
+	<word soundFileName="a.mp3"><![CDATA[a]]></word>
+	<word soundFileName="b.mp3"><![CDATA[b]]></word>
+	<word soundFileName="c.mp3"><![CDATA[c]]></word>
+	<word soundFileName="d.mp3"><![CDATA[d]]></word>
+	<word soundFileName="e.mp3"><![CDATA[e]]></word>
+	<word soundFileName="f.mp3"><![CDATA[f]]></word>
+	<word soundFileName="g.mp3"><![CDATA[g]]></word>
+	<word soundFileName="h.mp3"><![CDATA[h]]></word>
+	<word soundFileName="i.mp3"><![CDATA[i]]></word>
+	<word soundFileName="j.mp3"><![CDATA[j]]></word>
+	<word soundFileName="k.mp3"><![CDATA[k]]></word>
+	<word soundFileName="l.mp3"><![CDATA[l]]></word>
+	<word soundFileName="m.mp3"><![CDATA[m]]></word>
+	<word soundFileName="n.mp3"><![CDATA[n]]></word>
+	<word soundFileName="o.mp3"><![CDATA[o]]></word>
+	<word soundFileName="p.mp3"><![CDATA[p]]></word>
+	<word soundFileName="q.mp3"><![CDATA[qu]]></word>
+	<word soundFileName="r.mp3"><![CDATA[r]]></word>
+	<word soundFileName="s.mp3"><![CDATA[s]]></word>
+	<word soundFileName="t.mp3"><![CDATA[t]]></word>
+	<word soundFileName="u.mp3"><![CDATA[u]]></word>
+	<word soundFileName="v.mp3"><![CDATA[v]]></word>
+	<word soundFileName="w.mp3"><![CDATA[w]]></word>
+	<word soundFileName="x.mp3"><![CDATA[x]]></word>
+	<word soundFileName="y.mp3"><![CDATA[y]]></word>
+	<word soundFileName="z.mp3"><![CDATA[z]]></word>
+</list>

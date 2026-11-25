@@ -1,0 +1,12 @@
+<list name="days" location="" sentence="">
+	<word soundFileName="Monday.mp3"><![CDATA[Monday]]></word>
+	<word soundFileName="Tuesday.mp3"><![CDATA[Tuesday]]></word>
+	<word soundFileName="Wednesday.mp3"><![CDATA[Wednesday]]></word>
+	<word soundFileName="Thursday.mp3"><![CDATA[Thursday]]></word>
+	<word soundFileName="Friday.mp3"><![CDATA[Friday]]></word>
+	<word soundFileName="Saturday.mp3"><![CDATA[Saturday]]></word>
+	<word soundFileName="Sunday.mp3"><![CDATA[Sunday]]></word>
+	<word soundFileName="tomorrow.mp3"><![CDATA[tomorrow]]></word>
+	<word soundFileName="yesterday.mp3"><![CDATA[yesterday]]></word>
+	<word soundFileName="week.mp3"><![CDATA[week]]></word>
+</list>

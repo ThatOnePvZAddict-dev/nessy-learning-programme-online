@@ -1,0 +1,19 @@
+<list name="split vowels" location="" sentence="">
+	<word soundFileName="lion.mp3"><![CDATA[lion]]></word>
+	<word soundFileName="riot.mp3"><![CDATA[riot]]></word>
+	<word soundFileName="violin.mp3"><![CDATA[violin]]></word>
+	<word soundFileName="violet.mp3"><![CDATA[violet]]></word>
+	<word soundFileName="violent.mp3"><![CDATA[violent]]></word>
+	<word soundFileName="poem.mp3"><![CDATA[poem]]></word>
+	<word soundFileName="poet.mp3"><![CDATA[poet]]></word>
+	<word soundFileName="react.mp3"><![CDATA[react]]></word>
+	<word soundFileName="idea.mp3"><![CDATA[idea]]></word>
+	<word soundFileName="fuel.mp3"><![CDATA[fuel]]></word>
+	<word soundFileName="museum.mp3"><![CDATA[museum]]></word>
+	<word soundFileName="ruin.mp3"><![CDATA[ruin]]></word>
+	<word soundFileName="diet.mp3"><![CDATA[diet]]></word>
+	<word soundFileName="dial.mp3"><![CDATA[dial]]></word>
+	<word soundFileName="diagram.mp3"><![CDATA[diagram]]></word>
+	<word soundFileName="triumph.mp3"><![CDATA[triumph]]></word>
+
+</list>

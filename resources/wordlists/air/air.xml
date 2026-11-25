@@ -1,0 +1,13 @@
+<list name="air" location="" sentence="">
+	<word soundFileName="air.mp3"><![CDATA[air]]></word>
+	<word soundFileName="chair.mp3"><![CDATA[chair]]></word>
+	<word soundFileName="hair.mp3"><![CDATA[hair]]></word>
+	<word soundFileName="pair.mp3"><![CDATA[pair]]></word>
+	<word soundFileName="fair.mp3"><![CDATA[fair]]></word>
+	<word soundFileName="fairy.mp3"><![CDATA[fairy]]></word>
+	<word soundFileName="dairy.mp3"><![CDATA[dairy]]></word>
+	<word soundFileName="stair.mp3"><![CDATA[stair]]></word>
+	<word soundFileName="repair.mp3"><![CDATA[repair]]></word>
+	<word soundFileName="affair.mp3"><![CDATA[affair]]></word>
+
+</list>

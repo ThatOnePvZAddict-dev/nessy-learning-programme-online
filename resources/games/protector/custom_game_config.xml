@@ -1,0 +1,356 @@
+<customGame>
+	
+<!--
+
+The data in the 'standard' node uses the same schema for all non-dynamic games, so that
+it can be parsed by the game API. It's task is to define all 'word' and 'sentence' word
+lists for automated declaration and sound loading.
+
+The lists include their sound file locations so that punctuations can be used if required.
+
+-->
+
+	<standard>
+		
+		<words>
+
+			<list name="ck k" location="resources/games/protector/sounds/ck/" sentence="">
+				<word soundFileName="back.mp3"><![CDATA[back]]></word>
+				<word soundFileName="crack.mp3"><![CDATA[crack]]></word>
+				<word soundFileName="duck.mp3"><![CDATA[duck]]></word>
+				<word soundFileName="kick.mp3"><![CDATA[kick]]></word>
+				<word soundFileName="lick.mp3"><![CDATA[lick]]></word>
+				<word soundFileName="neck.mp3"><![CDATA[neck]]></word>
+				<word soundFileName="pack.mp3"><![CDATA[pack]]></word>
+				<word soundFileName="rock.mp3"><![CDATA[rock]]></word>
+				<word soundFileName="sock.mp3"><![CDATA[sock]]></word>
+				<word soundFileName="suck.mp3"><![CDATA[suck]]></word>
+				<word soundFileName="bank.mp3"><![CDATA[bank]]></word>
+				<word soundFileName="tank.mp3"><![CDATA[tank]]></word>
+				<word soundFileName="thank.mp3"><![CDATA[thank]]></word>
+				<word soundFileName="drink.mp3"><![CDATA[drink]]></word>
+				<word soundFileName="pink.mp3"><![CDATA[pink]]></word>
+				<word soundFileName="think.mp3"><![CDATA[think]]></word>
+				<word soundFileName="bunk.mp3"><![CDATA[bunk]]></word>
+				<word soundFileName="plank.mp3"><![CDATA[plank]]></word>
+				<word soundFileName="stink.mp3"><![CDATA[stink]]></word>
+				<word soundFileName="junk.mp3"><![CDATA[junk]]></word>
+			</list>
+			
+			<list name="ai ay" location="resources/games/protector/sounds/ai/" sentence="">
+				<word soundFileName="brain.mp3"><![CDATA[brain]]></word>
+				<word soundFileName="rain.mp3"><![CDATA[rain]]></word>
+				<word soundFileName="train.mp3"><![CDATA[train]]></word>
+				<word soundFileName="tail.mp3"><![CDATA[tail]]></word>
+				<word soundFileName="nail.mp3"><![CDATA[nail]]></word>
+				<word soundFileName="paid.mp3"><![CDATA[paid]]></word>
+				<word soundFileName="paint.mp3"><![CDATA[paint]]></word>
+				<word soundFileName="faint.mp3"><![CDATA[faint]]></word>
+				<word soundFileName="claim.mp3"><![CDATA[claim]]></word>
+				<word soundFileName="wait.mp3"><![CDATA[wait]]></word>
+				<word soundFileName="clay.mp3"><![CDATA[clay]]></word>
+				<word soundFileName="tray.mp3"><![CDATA[tray]]></word>
+				<word soundFileName="stay.mp3"><![CDATA[stay]]></word>
+				<word soundFileName="play.mp3"><![CDATA[play]]></word>
+				<word soundFileName="pray.mp3"><![CDATA[pray]]></word>
+				<word soundFileName="away.mp3"><![CDATA[away]]></word>
+				<word soundFileName="say.mp3"><![CDATA[say]]></word>
+				<word soundFileName="may.mp3"><![CDATA[may]]></word>
+				<word soundFileName="pay.mp3"><![CDATA[pay]]></word>
+				<word soundFileName="day.mp3"><![CDATA[day]]></word>
+			</list>
+
+			<list name="oa ow" location="resources/games/protector/sounds/oa/" sentence="">
+				<word soundFileName="boat.mp3"><![CDATA[boat]]></word>
+				<word soundFileName="coat.mp3"><![CDATA[coat]]></word>
+				<word soundFileName="float.mp3"><![CDATA[float]]></word>
+				<word soundFileName="load.mp3"><![CDATA[load]]></word>
+				<word soundFileName="road.mp3"><![CDATA[road]]></word>
+				<word soundFileName="loaf.mp3"><![CDATA[loaf]]></word>
+				<word soundFileName="toast.mp3"><![CDATA[toast]]></word>
+				<word soundFileName="coach.mp3"><![CDATA[coach]]></word>
+				<word soundFileName="soap.mp3"><![CDATA[soap]]></word>
+				<word soundFileName="goal.mp3"><![CDATA[goal]]></word>
+				<word soundFileName="blow.mp3"><![CDATA[blow]]></word>
+				<word soundFileName="glow.mp3"><![CDATA[glow]]></word>
+				<word soundFileName="grow.mp3"><![CDATA[grow]]></word>
+				<word soundFileName="slow.mp3"><![CDATA[slow]]></word>
+				<word soundFileName="show.mp3"><![CDATA[show]]></word>
+				<word soundFileName="snow.mp3"><![CDATA[snow]]></word>
+				<word soundFileName="pillow.mp3"><![CDATA[pillow]]></word>
+				<word soundFileName="hollow.mp3"><![CDATA[hollow]]></word>
+				<word soundFileName="window.mp3"><![CDATA[window]]></word>
+				<word soundFileName="throw.mp3"><![CDATA[throw]]></word>
+			</list>
+			
+			<list name="tch ch" location="resources/games/protector/sounds/tch/" sentence="">
+				<word soundFileName="catch.mp3"><![CDATA[catch]]></word>
+				<word soundFileName="hatch.mp3"><![CDATA[hatch]]></word>
+				<word soundFileName="match.mp3"><![CDATA[match]]></word>
+				<word soundFileName="patch.mp3"><![CDATA[patch]]></word>
+				<word soundFileName="snatch.mp3"><![CDATA[snatch]]></word>
+				<word soundFileName="pitch.mp3"><![CDATA[pitch]]></word>
+				<word soundFileName="switch.mp3"><![CDATA[switch]]></word>
+				<word soundFileName="fetch.mp3"><![CDATA[fetch]]></word>
+				<word soundFileName="stitch.mp3"><![CDATA[stitch]]></word>
+				<word soundFileName="ditch.mp3"><![CDATA[ditch]]></word>
+				<word soundFileName="lunch.mp3"><![CDATA[lunch]]></word>
+				<word soundFileName="munch.mp3"><![CDATA[munch]]></word>
+				<word soundFileName="pinch.mp3"><![CDATA[pinch]]></word>
+				<word soundFileName="punch.mp3"><![CDATA[punch]]></word>
+				<word soundFileName="ranch.mp3"><![CDATA[ranch]]></word>
+				<word soundFileName="bench.mp3"><![CDATA[bench]]></word>
+				<word soundFileName="bunch.mp3"><![CDATA[bunch]]></word>
+				<word soundFileName="hunch.mp3"><![CDATA[hunch]]></word>
+				<word soundFileName="inch.mp3"><![CDATA[inch]]></word>
+				<word soundFileName="winch.mp3"><![CDATA[winch]]></word>
+			</list>
+
+			<list name="oi oy" location="resources/games/protector/sounds/oi/" sentence="">
+				<word soundFileName="boil.mp3"><![CDATA[boil]]></word>
+				<word soundFileName="foil.mp3"><![CDATA[foil]]></word>
+				<word soundFileName="soil.mp3"><![CDATA[soil]]></word>
+				<word soundFileName="voice.mp3"><![CDATA[voice]]></word>
+				<word soundFileName="choice.mp3"><![CDATA[choice]]></word>
+				<word soundFileName="coin.mp3"><![CDATA[coin]]></word>
+				<word soundFileName="join.mp3"><![CDATA[join]]></word>
+				<word soundFileName="point.mp3"><![CDATA[point]]></word>
+				<word soundFileName="noise.mp3"><![CDATA[noise]]></word>
+				<word soundFileName="poison.mp3"><![CDATA[poison]]></word>
+				<word soundFileName="enjoy.mp3"><![CDATA[enjoy]]></word>
+				<word soundFileName="annoy.mp3"><![CDATA[annoy]]></word>
+				<word soundFileName="employ.mp3"><![CDATA[employ]]></word>
+				<word soundFileName="decoy.mp3"><![CDATA[decoy]]></word>
+				<word soundFileName="convoy.mp3"><![CDATA[convoy]]></word>
+				<word soundFileName="joy.mp3"><![CDATA[joy]]></word>
+				<word soundFileName="toy.mp3"><![CDATA[toy]]></word>
+				<word soundFileName="boy.mp3"><![CDATA[boy]]></word>
+				<word soundFileName="destroy.mp3"><![CDATA[destroy]]></word>
+			</list>
+
+			<list name="ou ow" location="resources/games/protector/sounds/ou_(ow)/" sentence="">
+				<word soundFileName="loud.mp3"><![CDATA[loud]]></word>
+				<word soundFileName="cloud.mp3"><![CDATA[cloud]]></word>
+				<word soundFileName="ground.mp3"><![CDATA[ground]]></word>
+				<word soundFileName="round.mp3"><![CDATA[round]]></word>
+				<word soundFileName="sound.mp3"><![CDATA[sound]]></word>
+				<word soundFileName="house.mp3"><![CDATA[house]]></word>
+				<word soundFileName="mouth.mp3"><![CDATA[mouth]]></word>
+				<word soundFileName="south.mp3"><![CDATA[south]]></word>
+				<word soundFileName="shout.mp3"><![CDATA[shout]]></word>
+				<word soundFileName="count.mp3"><![CDATA[count]]></word>
+				<word soundFileName="down.mp3"><![CDATA[down]]></word>
+				<word soundFileName="brown.mp3"><![CDATA[brown]]></word>
+				<word soundFileName="town.mp3"><![CDATA[town]]></word>
+				<word soundFileName="crown.mp3"><![CDATA[crown]]></word>
+				<word soundFileName="growl.mp3"><![CDATA[growl]]></word>
+				<word soundFileName="howl.mp3"><![CDATA[howl]]></word>
+				<word soundFileName="flower.mp3"><![CDATA[flower]]></word>
+				<word soundFileName="power.mp3"><![CDATA[power]]></word>
+				<word soundFileName="tower.mp3"><![CDATA[tower]]></word>
+				<word soundFileName="shower.mp3"><![CDATA[shower]]></word>
+			</list>
+
+			<list name="dge ge" location="resources/games/protector/sounds/dge/" sentence="">
+				<word soundFileName="badge.mp3"><![CDATA[badge]]></word>
+				<word soundFileName="bridge.mp3"><![CDATA[bridge]]></word>
+				<word soundFileName="fridge.mp3"><![CDATA[fridge]]></word>
+				<word soundFileName="dodge.mp3"><![CDATA[dodge]]></word>
+				<word soundFileName="hedge.mp3"><![CDATA[hedge]]></word>
+				<word soundFileName="sledge.mp3"><![CDATA[sledge]]></word>
+				<word soundFileName="judge.mp3"><![CDATA[judge]]></word>
+				<word soundFileName="smudge.mp3"><![CDATA[smudge]]></word>
+				<word soundFileName="grudge.mp3"><![CDATA[grudge]]></word>
+				<word soundFileName="edge.mp3"><![CDATA[edge]]></word>
+				<word soundFileName="wedge.mp3"><![CDATA[wedge]]></word>
+				<word soundFileName="fudge.mp3"><![CDATA[fudge]]></word>
+				<word soundFileName="ledge.mp3"><![CDATA[ledge]]></word>
+				<word soundFileName="nudge.mp3"><![CDATA[nudge]]></word>
+				<word soundFileName="ledge.mp3"><![CDATA[ledge]]></word>
+				<word soundFileName="fringe.mp3"><![CDATA[fringe]]></word>
+				<word soundFileName="charge.mp3"><![CDATA[charge]]></word>
+				<word soundFileName="large.mp3"><![CDATA[large]]></word>
+				<word soundFileName="barge.mp3"><![CDATA[barge]]></word>
+				<word soundFileName="hinge.mp3"><![CDATA[hinge]]></word>
+			</list>
+
+		</words>
+		
+		<sentences>
+		
+		</sentences>
+		
+	</standard>
+	
+<!--
+
+The data in the 'cutom' node is sent directly through to the game for it to handle. It is
+advised to wrap data within nodes with the same name attributes as the word lists that
+their data supports.
+
+-->
+	
+		<custom>
+			
+			<wordlist name="ck k" weapon="sausage" background="volcano"> 
+				<puzzle><word><![CDATA[back]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[ba]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[crack]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[cra]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[duck]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[du]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[kick]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[ki]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[lick]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[li]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[neck]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[ne]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pack]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[pa]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[rock]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><layout type="FIXED"><![CDATA[ro]]></layout><layout type="EMPTY"></layout></layout></puzzle>
+				<puzzle><word><![CDATA[sock]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[so]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[suck]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[su]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[bank]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[ban]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[tank]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[tan]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[thank]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[than]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[drink]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[drin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pink]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[pin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[think]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[thin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[bunk]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[bun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[plank]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[plan]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[stink]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[stin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[junk]]></word><choices><choice><![CDATA[k]]></choice><choice><![CDATA[ck]]></choice></choices><layout><piece type="FIXED"><![CDATA[jun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+			</wordlist>
+
+			<wordlist name="ai ay" weapon="fish" background="forest">				
+				<puzzle><word><![CDATA[brain]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[br]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[rain]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[r]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[train]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[tr]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[tail]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[t]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[nail]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[n]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[paid]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[p]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[d]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[paint]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[p]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nt]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[faint]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[f]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nt]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[claim]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[cl]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[m]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[wait]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[w]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[t]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[clay]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[cl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[tray]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[tr]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[stay]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[st]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[play]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[pl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pray]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[pr]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[away]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[aw]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[say]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[s]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[may]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[m]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pay]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[p]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[day]]></word><choices><choice><![CDATA[ai]]></choice><choice><![CDATA[ay]]></choice></choices><layout><piece type="FIXED"><![CDATA[d]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+			</wordlist>
+
+			<wordlist name="oa ow" weapon="duster" background="desert">
+				<puzzle><word><![CDATA[boat]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[b]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[t]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[coat]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[c]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[t]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[float]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[fl]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[t]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[load]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[l]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[d]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[road]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[r]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[d]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[loaf]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[l]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[f]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[toast]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[t]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[st]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[coach]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[c]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[ch]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[soap]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[s]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[p]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[goal]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[g]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[blow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[bl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[glow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[gl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[grow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[gr]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[slow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[sl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[show]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[sh]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[snow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[sn]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pillow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[pill]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[hollow]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[holl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[window]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[wind]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[throw]]></word><choices><choice><![CDATA[oa]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[thr]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+			</wordlist>
+
+			<wordlist name="tch ch" weapon="racket" background="mountain">
+				<puzzle><word><![CDATA[catch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[ca]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[hatch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[ha]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[match]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[ma]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[patch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[pa]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[snatch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[sna]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pitch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[pi]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[switch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[swi]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[fetch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[fe]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[stitch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[sti]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[ditch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[di]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[lunch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[lun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[munch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[mun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[pinch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[pin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[punch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[pun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[ranch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[ran]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[bench]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[ben]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[bunch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[bun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[hunch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[hun]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[inch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[in]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[winch]]></word><choices><choice><![CDATA[tch]]></choice><choice><![CDATA[ch]]></choice></choices><layout><piece type="FIXED"><![CDATA[win]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+			</wordlist>
+
+			<wordlist name="oi oy" weapon="chicken" background="castle">
+				<puzzle><word><![CDATA[boil]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[b]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[foil]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[f]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[soil]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[s]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[voice]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[v]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[ce]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[choice]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[ch]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[ce]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[coin]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[c]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[join]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[j]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[point]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[p]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nt]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[noise]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[n]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[se]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[poison]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[p]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[son]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[enjoy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[enj]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[annoy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[ann]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[employ]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[empl]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[decoy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[dec]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[convoy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[conv]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[joy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[j]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[boy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[b]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[destroy]]></word><choices><choice><![CDATA[oi]]></choice><choice><![CDATA[oy]]></choice></choices><layout><piece type="FIXED"><![CDATA[destr]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+			</wordlist>
+
+			<wordlist name="ou ow" weapon="banana" background="lake">	
+				<puzzle><word><![CDATA[loud]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[l]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[d]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[cloud]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[cl]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[d]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[ground]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[gr]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nd]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[round]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[r]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nd]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[sound]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[s]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nd]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[house]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[h]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[se]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[mouth]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[m]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[th]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[south]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[s]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[th]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[shout]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[sh]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[t]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[count]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[c]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[nt]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[down]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[d]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[brown]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[br]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[town]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[t]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[crown]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[cr]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[n]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[growl]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[gr]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[howl]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[h]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[l]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[flower]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[fl]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[er]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[power]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[p]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[er]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[tower]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[t]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[er]]></piece></layout></puzzle>
+				<puzzle><word><![CDATA[shower]]></word><choices><choice><![CDATA[ou]]></choice><choice><![CDATA[ow]]></choice></choices><layout><piece type="FIXED"><![CDATA[sh]]></piece><piece type="EMPTY"></piece><piece type="FIXED"><![CDATA[er]]></piece></layout></puzzle>
+			</wordlist>
+
+			<wordlist name="dge ge" weapon="cheese" background="cave">				
+				<puzzle><word><![CDATA[badge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[ba]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[bridge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[bri]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[fridge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[fri]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[dodge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[do]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[hedge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[he]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[sledge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[sle]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[judge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[ju]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[smudge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[smu]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[grudge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[gru]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[edge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[e]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[wedge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[we]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[fudge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[fu]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[ledge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[le]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[nudge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[nu]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[fringe]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[frin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[charge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[char]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[large]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[lar]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[barge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[bar]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+				<puzzle><word><![CDATA[hinge]]></word><choices><choice><![CDATA[dge]]></choice><choice><![CDATA[ge]]></choice></choices><layout><piece type="FIXED"><![CDATA[hin]]></piece><piece type="EMPTY"></piece></layout></puzzle>
+			</wordlist>
+
+	
+	</custom>
+
+</customGame>

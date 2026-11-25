@@ -1,0 +1,33 @@
+<list name="drop e -ing" location="" sentence="">
+	<word soundFileName="fading.mp3"><![CDATA[fading]]></word>
+	<word soundFileName="trading.mp3"><![CDATA[trading]]></word>
+	<word soundFileName="baking.mp3"><![CDATA[baking]]></word>
+	<word soundFileName="taking.mp3"><![CDATA[taking]]></word>
+	<word soundFileName="faking.mp3"><![CDATA[faking]]></word>
+	<word soundFileName="making.mp3"><![CDATA[making]]></word>
+	<word soundFileName="shaking.mp3"><![CDATA[shaking]]></word>
+	<word soundFileName="blaming.mp3"><![CDATA[blaming]]></word>
+	<word soundFileName="flaming.mp3"><![CDATA[flaming]]></word>
+	<word soundFileName="chasing.mp3"><![CDATA[chasing]]></word>
+	<word soundFileName="dating.mp3"><![CDATA[dating]]></word>
+	<word soundFileName="skating.mp3"><![CDATA[skating]]></word>
+	<word soundFileName="tasting.mp3"><![CDATA[tasting]]></word>
+	<word soundFileName="saving.mp3"><![CDATA[saving]]></word>
+	<word soundFileName="shaving.mp3"><![CDATA[shaving]]></word>
+	<word soundFileName="gliding.mp3"><![CDATA[gliding]]></word>
+	<word soundFileName="hiding.mp3"><![CDATA[hiding]]></word>
+	<word soundFileName="sliding.mp3"><![CDATA[sliding]]></word>
+	<word soundFileName="biking.mp3"><![CDATA[biking]]></word>
+	<word soundFileName="hiking.mp3"><![CDATA[hiking]]></word>
+	<word soundFileName="smiling.mp3"><![CDATA[smiling]]></word>
+	<word soundFileName="timing.mp3"><![CDATA[timing]]></word>
+	<word soundFileName="wiping.mp3"><![CDATA[wiping]]></word>
+	<word soundFileName="shining.mp3"><![CDATA[shining]]></word>
+	<word soundFileName="driving.mp3"><![CDATA[driving]]></word>
+	<word soundFileName="joking.mp3"><![CDATA[joking]]></word>
+	<word soundFileName="smoking.mp3"><![CDATA[smoking]]></word>
+	<word soundFileName="hoping.mp3"><![CDATA[hoping]]></word>
+	<word soundFileName="using.mp3"><![CDATA[using]]></word>
+	<word soundFileName="tuning.mp3"><![CDATA[tuning]]></word>
+
+</list>

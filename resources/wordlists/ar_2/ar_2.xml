@@ -1,0 +1,16 @@
+<list name="ar 2" location="" sentence="">
+	<word soundFileName="target.mp3"><![CDATA[target]]></word>
+	<word soundFileName="artist.mp3"><![CDATA[artist]]></word>
+	<word soundFileName="carpet.mp3"><![CDATA[carpet]]></word>
+	<word soundFileName="carton.mp3"><![CDATA[carton]]></word>
+	<word soundFileName="darling.mp3"><![CDATA[darling]]></word>
+	<word soundFileName="garden.mp3"><![CDATA[garden]]></word>
+	<word soundFileName="market.mp3"><![CDATA[market]]></word>
+	<word soundFileName="scarlet.mp3"><![CDATA[scarlet]]></word>
+	<word soundFileName="garlic.mp3"><![CDATA[garlic]]></word>
+	<word soundFileName="pardon.mp3"><![CDATA[pardon]]></word>
+	<word soundFileName="harvest.mp3"><![CDATA[harvest]]></word>
+	<word soundFileName="alarm.mp3"><![CDATA[alarm]]></word>
+	<word soundFileName="varnish.mp3"><![CDATA[varnish]]></word>
+
+</list>

@@ -1,0 +1,21 @@
+<list name="ke" location="" sentence="">
+	<word soundFileName="bike.mp3"><![CDATA[bike]]></word>
+	<word soundFileName="joke.mp3"><![CDATA[joke]]></word>
+	<word soundFileName="poke.mp3"><![CDATA[poke]]></word>
+	<word soundFileName="shake.mp3"><![CDATA[shake]]></word>
+	<word soundFileName="spike.mp3"><![CDATA[spike]]></word>
+	<word soundFileName="bake.mp3"><![CDATA[bake]]></word>
+	<word soundFileName="cake.mp3"><![CDATA[cake]]></word>
+	<word soundFileName="fake.mp3"><![CDATA[fake]]></word>
+	<word soundFileName="rake.mp3"><![CDATA[rake]]></word>
+	<word soundFileName="take.mp3"><![CDATA[take]]></word>
+	<word soundFileName="wake.mp3"><![CDATA[wake]]></word>
+	<word soundFileName="like.mp3"><![CDATA[like]]></word>
+	<word soundFileName="hike.mp3"><![CDATA[hike]]></word>
+	<word soundFileName="broke.mp3"><![CDATA[broke]]></word>
+	<word soundFileName="choke.mp3"><![CDATA[choke]]></word>
+	<word soundFileName="smoke.mp3"><![CDATA[smoke]]></word>
+	<word soundFileName="spoke.mp3"><![CDATA[spoke]]></word>
+	<word soundFileName="lake.mp3"><![CDATA[lake]]></word>
+
+</list>

@@ -1,0 +1,252 @@
+<categories>
+
+	<wordlists type="standard" location="resources/wordlists/">
+
+		<wordlist name="letter sounds" lesson="1" type="standard" reading="true" spelling="false" packageName="letter_sound" sentenceList="" sentencePackageName="" />
+		<wordlist name="cvc a" lesson="2" type="standard" reading="true" spelling="true" packageName="cvc_a" sentenceList="cvc a sentences" sentencePackageName="cvc_a_sentences" />
+		<wordlist name="cvc i" lesson="2" type="standard" reading="true" spelling="true" packageName="cvc_i" sentenceList="cvc i sentences" sentencePackageName="cvc_i_sentences" />
+		<wordlist name="cvc o" lesson="2" type="standard" reading="true" spelling="true" packageName="cvc_o" sentenceList="cvc o sentences" sentencePackageName="cvc_o_sentences" />
+		<wordlist name="cvc e" lesson="2" type="standard" reading="true" spelling="true" packageName="cvc_e" sentenceList="cvc e sentences" sentencePackageName="cvc_e_sentences" />
+		<wordlist name="cvc u" lesson="2" type="standard" reading="true" spelling="true" packageName="cvc_u" sentenceList="cvc u sentences" sentencePackageName="cvc_u_sentences" />
+		<wordlist name="cvc mixed" lesson="2" type="standard" reading="true" spelling="true" packageName="cvc_mixed" sentenceList="cvc mixed sentences" sentencePackageName="cvc_mixed_sentences" />
+		<!-- up to here with wordlist and sound input, but haven't done letter sounds -->
+		<wordlist name="b d" lesson="3" type="standard" reading="true" spelling="true" packageName="b_d" sentenceList="b d sentences" sentencePackageName="b_d_sentences" />
+		<wordlist name="closed syllables" lesson="4" type="standard" reading="true" spelling="true" packageName="closed_syllables" sentenceList="" sentencePackageName="" />
+		<wordlist name="open syllables" lesson="4" type="standard" reading="true" spelling="true" packageName="open_syllables" sentenceList="" sentencePackageName="" />
+		<wordlist name="sh" lesson="5" type="standard" reading="true" spelling="true" packageName="sh" sentenceList="sh sentences" sentencePackageName="sh_sentences" />
+		<wordlist name="ch" lesson="6" type="standard" reading="true" spelling="true" packageName="ch" sentenceList="ch sentences" sentencePackageName="ch_sentences" />
+		<wordlist name="th" lesson="7" type="standard" reading="true" spelling="true" packageName="th" sentenceList="" sentencePackageName="" />
+		<wordlist name="bl cl fl gl pl sl" lesson="8" type="standard" reading="true" spelling="true" packageName="bl_cl_fl_gl_pl_sl" sentenceList="" sentencePackageName="" />
+		<wordlist name="br cr dr fr tr pr" lesson="8" type="standard" reading="true" spelling="true" packageName="br_cr_dr_fr_tr_pr" sentenceList="" sentencePackageName="" />
+		<wordlist name="sk sm sn sp st sw" lesson="8" type="standard" reading="true" spelling="true" packageName="sk_sm_sn_sp_st_sw" sentenceList="ccvc sentences" sentencePackageName="ccvc_sentences" />
+		<wordlist name="y as i" lesson="9" type="standard" reading="true" spelling="true" packageName="y_as_i" sentenceList="y as i sentences" sentencePackageName="y_as_i_sentences" />
+		<wordlist name="challenge nessy island 1" lesson="10" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="ff" lesson="11" type="standard" reading="true" spelling="true" packageName="ff" sentenceList="" sentencePackageName="" />
+		<wordlist name="ll" lesson="11" type="standard" reading="true" spelling="true" packageName="ll" sentenceList="" sentencePackageName="" />
+		<wordlist name="ss zz" lesson="11" type="standard" reading="true" spelling="true" packageName="ss_zz" sentenceList="flossy sentences" sentencePackageName="flossy_sentences" />
+		<wordlist name="nd" lesson="12" type="standard" reading="true" spelling="true" packageName="-nd" sentenceList="" sentencePackageName="" />
+		<wordlist name="ng" lesson="12" type="standard" reading="true" spelling="true" packageName="-ng" sentenceList="" sentencePackageName="" />
+		<wordlist name="nt" lesson="12" type="standard" reading="true" spelling="true" packageName="-nt" sentenceList="" sentencePackageName="" />
+		<wordlist name="nk" lesson="12" type="standard" reading="true" spelling="true" packageName="-nk" sentenceList="" sentencePackageName="" />
+		<wordlist name="mp" lesson="12" type="standard" reading="true" spelling="true" packageName="-mp" sentenceList="" sentencePackageName="" />
+		<wordlist name="lp lk lt lf ld" lesson="12" type="standard" reading="true" spelling="true" packageName="lp_lk_lt_lf_ld" sentenceList="" sentencePackageName="" />
+		<wordlist name="pt ft ct sk sp st xt" lesson="12" type="standard" reading="true" spelling="true" packageName="pt_ft_ct_sk_sp_st_xt" sentenceList="cvcc sentences" sentencePackageName="cvcc_sentences" />
+		<wordlist name="ck" lesson="13" type="standard" reading="true" spelling="true" packageName="ck" sentenceList="ck sentences" sentencePackageName="ck_sentences" />
+		<wordlist name="ck k" lesson="13" type="standard" reading="false" spelling="true" packageName="ck_k" sentenceList="" sentencePackageName="" />
+		<wordlist name="ar" lesson="14" type="standard" reading="true" spelling="true" packageName="ar" sentenceList="ar sentences" sentencePackageName="ar_sentences" />
+		<wordlist name="or" lesson="15" type="standard" reading="true" spelling="true" packageName="or" sentenceList="or sentences" sentencePackageName="or_sentences" />
+		<wordlist name="er" lesson="16" type="standard" reading="true" spelling="true" packageName="er" sentenceList="" sentencePackageName="" />
+		<wordlist name="ir" lesson="16" type="standard" reading="true" spelling="true" packageName="ir" sentenceList="" sentencePackageName="" />
+		<wordlist name="ur" lesson="16" type="standard" reading="true" spelling="true" packageName="ur" sentenceList="" sentencePackageName="" />
+		<wordlist name="cvc-cvc" lesson="17" type="standard" reading="true" spelling="false" packageName="cvc-cvc" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="-s -es" lesson="18" type="wordEndings" reading="true" spelling="true" packageName="-s_-es" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ing" lesson="18" type="wordEndings" reading="true" spelling="true" packageName="-ing" sentenceList="" sentencePackageName="" />
+		<wordlist name="-er" lesson="18" type="wordEndings" reading="true" spelling="true" packageName="-er" sentenceList="" sentencePackageName="" />
+		<wordlist name="-y as e" lesson="18" type="wordEndings" reading="true" spelling="true" packageName="-y_as_e" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="ee" lesson="19" type="standard" reading="true" spelling="true" packageName="ee" sentenceList="ee sentences" sentencePackageName="ee_sentences" />
+		<wordlist name="ea" lesson="19" type="standard" reading="true" spelling="false" packageName="ea" sentenceList="" sentencePackageName="" />
+		<wordlist name="challenge nessy island 2" lesson="20" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="a-e" lesson="21" type="standard" reading="true" spelling="true" packageName="a-e" sentenceList="a-e sentences" sentencePackageName="a-e_sentences" />
+		<wordlist name="i-e" lesson="21" type="standard" reading="true" spelling="true" packageName="i-e" sentenceList="i-e sentences" sentencePackageName="i-e_sentences" />
+		<wordlist name="o-e" lesson="21" type="standard" reading="true" spelling="true" packageName="o-e" sentenceList="o-e sentences" sentencePackageName="o-e_sentences" />
+		<wordlist name="u-e" lesson="21" type="standard" reading="true" spelling="true" packageName="u-e" sentenceList="u-e sentences" sentencePackageName="u-e_sentences" />
+		<wordlist name="mixed magic e" lesson="21" type="standard" reading="true" spelling="true" packageName="mixed_magic_e" sentenceList="magic e sentences" sentencePackageName="magic_e_sentences" />
+		<wordlist name="ke" lesson="21" type="standard" reading="false" spelling="true" packageName="ke" sentenceList="ke sentences" sentencePackageName="ke_sentences" />
+		<wordlist name="soft c 1" lesson="22" type="standard" reading="true" spelling="true" packageName="soft_c_1" sentenceList="soft c sentences" sentencePackageName="soft_c_sentences" />
+		<wordlist name="soft g 1" lesson="22" type="standard" reading="true" spelling="true" packageName="soft_g_1" sentenceList="" sentencePackageName="" />
+		<wordlist name="wh" lesson="23" type="standard" reading="true" spelling="true" packageName="wh" sentenceList="" sentencePackageName="" />
+		<wordlist name="qu" lesson="23" type="standard" reading="true" spelling="true" packageName="qu" sentenceList="" sentencePackageName="" />
+		<wordlist name="ai" lesson="24" type="standard" reading="true" spelling="true" packageName="ai" sentenceList="ai sentences" sentencePackageName="ai_sentences" />
+		<wordlist name="ay" lesson="24" type="standard" reading="true" spelling="true" packageName="ay" sentenceList="ay sentences" sentencePackageName="ay_sentences" />
+		<wordlist name="ai ay" lesson="24" type="standard" reading="false" spelling="true" packageName="ai_ay" sentenceList="" sentencePackageName="" />
+		<wordlist name="igh" lesson="25" type="standard" reading="true" spelling="true" packageName="igh" sentenceList="igh sentences" sentencePackageName="igh_sentences" />
+		<wordlist name="ie" lesson="25" type="standard" reading="true" spelling="true" packageName="ie" sentenceList="" sentencePackageName="" />
+		<wordlist name="oa" lesson="26" type="standard" reading="true" spelling="true" packageName="oa" sentenceList="oa sentences" sentencePackageName="oa_sentences" />
+		<wordlist name="ow (o)" lesson="26" type="standard" reading="true" spelling="true" packageName="ow_(o)" sentenceList="ow_(o)_sentences" sentencePackageName="ow_(o)_sentences" />
+		<wordlist name="oa ow" lesson="26" type="standard" reading="false" spelling="true" packageName="oa_ow" sentenceList="ow_(o)_sentences" sentencePackageName="ow_(o)_sentences" />
+		<wordlist name="oo" lesson="27" type="standard" reading="true" spelling="true" packageName="oo" sentenceList="oo sentences" sentencePackageName="oo_sentences" />
+		<wordlist name="tch" lesson="28" type="standard" reading="true" spelling="true" packageName="tch" sentenceList="tch sentences" sentencePackageName="tch_sentences" />
+		<wordlist name="tch ch" lesson="28" type="standard" reading="false" spelling="true" packageName="tch_ch" sentenceList="tch sentences" sentencePackageName="tch_sentences" />
+		<wordlist name="ar 2" lesson="29" type="standard" reading="true" spelling="true" packageName="ar_2" sentenceList="" sentencePackageName="" />
+		<wordlist name="or 2" lesson="29" type="standard" reading="true" spelling="true" packageName="or_2" sentenceList="ar or sentences" sentencePackageName="ar_or_sentences" />
+		<wordlist name="challenge nessy island 3" lesson="30" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="triple consonants" lesson="31" type="standard" reading="true" spelling="true" packageName="triple_consonants" sentenceList="triple sentences" sentencePackageName="triple_sentences" />
+		<wordlist name="two syllable words" lesson="32" type="standard" reading="true" spelling="false" packageName="two_syllable_words" sentenceList="" sentencePackageName="" />
+		<wordlist name="cvc-cvc sp" lesson="32" type="standard" reading="false" spelling="true" packageName="cvc-cvc_sp" sentenceList="cvc-cvc sentences" sentencePackageName="cvc-cvc_sentences" />
+		<wordlist name="a before s f th" lesson="33" type="standard" reading="false" spelling="true" packageName="a_before_s_f_th" sentenceList="" sentencePackageName="" />
+		<wordlist name="open 2" lesson="34" type="standard" reading="true" spelling="true" packageName="open_2" sentenceList="open 2 sentences" sentencePackageName="open_2_sentences" />
+		<wordlist name="magic e 2" lesson="35" type="standard" reading="true" spelling="true" packageName="magic_e_2" sentenceList="magic e 2 sentences" sentencePackageName="magic_e_2_sentences" />
+		
+		<wordlist name="-ed (id)" lesson="36" type="wordEndings" reading="true" spelling="true" packageName="-ed_(id)" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ed (t)" lesson="36" type="wordEndings" reading="true" spelling="false" packageName="-ed_(t)" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ed (d)" lesson="36" type="wordEndings" reading="true" spelling="false" packageName="-ed_(d)" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="ew" lesson="37" type="standard" reading="true" spelling="true" packageName="ew" sentenceList="ew sentences" sentencePackageName="ew_sentences" />
+		<wordlist name="ui ue" lesson="37" type="standard" reading="true" spelling="true" packageName="ui_ue" sentenceList="ui ue sentences" sentencePackageName="ui_ue_sentences" />
+		<wordlist name="oi" lesson="38" type="standard" reading="true" spelling="true" packageName="oi" sentenceList="oi sentences" sentencePackageName="oi_sentences" />
+		<wordlist name="oy" lesson="38" type="standard" reading="true" spelling="true" packageName="oy" sentenceList="oy sentences" sentencePackageName="oy_sentences" />
+		<wordlist name="oi oy" lesson="38" type="standard" reading="false" spelling="true" packageName="oi_oy" sentenceList="" sentencePackageName="" />
+		<wordlist name="ou (ow)" lesson="39" type="standard" reading="true" spelling="true" packageName="ou_(ow)" sentenceList="ou (ow) sentences" sentencePackageName="ou_(ow)_sentences" />
+		<wordlist name="ow" lesson="39" type="standard" reading="true" spelling="true" packageName="ow" sentenceList="" sentencePackageName="" />
+		<wordlist name="ou ow" lesson="39" type="standard" reading="false" spelling="true" packageName="ou_ow" sentenceList="" sentencePackageName="" />
+		<wordlist name="challenge nessy island 4" lesson="40" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="ph 1" lesson="41" type="standard" reading="true" spelling="true" packageName="ph_1" sentenceList="" sentencePackageName="" />
+		<wordlist name="dge" lesson="42" type="standard" reading="true" spelling="true" packageName="dge" sentenceList="dge sentences" sentencePackageName="dge_sentences" />
+		<wordlist name="dge ge" lesson="42" type="standard" reading="false" spelling="true" packageName="dge_ge" sentenceList="dge sentences" sentencePackageName="dge_sentences" />
+		
+		<wordlist name="in- un-" lesson="43" type="heads" reading="true" spelling="true" packageName="in-_un-" sentenceList="" sentencePackageName="" />
+		<wordlist name="dis-" lesson="43" type="heads" reading="true" spelling="true" packageName="dis-" sentenceList="" sentencePackageName="" />
+		<wordlist name="de-" lesson="43" type="heads" reading="true" spelling="true" packageName="de-" sentenceList="" sentencePackageName="" />
+		<wordlist name="re-" lesson="43" type="heads" reading="true" spelling="true" packageName="re-" sentenceList="" sentencePackageName="" />
+		<wordlist name="pre- per-" lesson="43" type="heads" reading="true" spelling="true" packageName="pre-_per-" sentenceList="" sentencePackageName="" />
+		<wordlist name="ad- ab-" lesson="43" type="heads" reading="true" spelling="true" packageName="ad-_ab-" sentenceList="" sentencePackageName="" />
+		<wordlist name="sub- sus-" lesson="43" type="heads" reading="true" spelling="true" packageName="sub-_sus-" sentenceList="" sentencePackageName="" />
+		<wordlist name="con- com-" lesson="43" type="heads" reading="true" spelling="true" packageName="con-_com-" sentenceList="" sentencePackageName="" />
+		<wordlist name="ex- ob-" lesson="43" type="heads" reading="true" spelling="true" packageName="ex-_ob-" sentenceList="" sentencePackageName="" />
+		<wordlist name="mis-" lesson="43" type="heads" reading="true" spelling="true" packageName="mis-" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="-en" lesson="44" type="wordEndings" reading="true" spelling="true" packageName="-en" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ful" lesson="44" type="wordEndings" reading="true" spelling="true" packageName="-ful" sentenceList="" sentencePackageName="" />
+		<wordlist name="-et" lesson="44" type="wordEndings" reading="true" spelling="true" packageName="-et" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ly -ty" lesson="44" type="wordEndings" reading="true" spelling="true" packageName="-ly_-ty" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ish" lesson="44" type="wordEndings" reading="true" spelling="true" packageName="-ish" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="double -y" lesson="45" type="standard" reading="true" spelling="true" packageName="double_-y" sentenceList="double -y sentences" sentencePackageName="double-y_sentences" />
+		<wordlist name="double -ing" lesson="45" type="standard" reading="true" spelling="true" packageName="double+_-ing" sentenceList="double+ -ing sentences" sentencePackageName="double+_-ing_sentences" />
+		<wordlist name="drop e -ing" lesson="45" type="standard" reading="true" spelling="true" packageName="drop_e_-ing" sentenceList="drop e sentences" sentencePackageName="drop_e_sentences" />
+		<wordlist name="vowel rr" lesson="46" type="standard" reading="true" spelling="true" packageName="vowel_rr" sentenceList="vowel rr sentences" sentencePackageName="vowel_rr_sentences" />
+		<wordlist name="le" lesson="47" type="standard" reading="true" spelling="true" packageName="le" sentenceList="le sentences" sentencePackageName="le_sentences" />
+		<wordlist name="stle" lesson="47" type="standard" reading="true" spelling="true" packageName="stle" sentenceList="" sentencePackageName="" />
+		<wordlist name="air" lesson="48" type="standard" reading="true" spelling="true" packageName="air" sentenceList="" sentencePackageName="" />
+		<wordlist name="ear" lesson="48" type="standard" reading="true" spelling="true" packageName="ear" sentenceList="" sentencePackageName="" />
+		<wordlist name="au aw" lesson="49" type="standard" reading="true" spelling="false" packageName="au_aw" sentenceList="" sentencePackageName="" />
+		<wordlist name="oor oar" lesson="49" type="standard" reading="true" spelling="true" packageName="oor_oar" sentenceList="oor oar sentences" sentencePackageName="oor_oar_sentences" />
+		<wordlist name="challenge nessy island 5" lesson="50" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="wa wor war" lesson="51" type="standard" reading="true" spelling="true" packageName="wa_wor_war" sentenceList="wa wor war sentences" sentencePackageName="wa_wor_war_sentences" />
+		<wordlist name="double+ ed" lesson="52" type="standard" reading="false" spelling="true" packageName="double+_ed" sentenceList="" sentencePackageName="" />
+		<wordlist name="drop e+ ed" lesson="52" type="standard" reading="false" spelling="true" packageName="drop_e+_ed" sentenceList="" sentencePackageName="" />
+		<wordlist name="silent k b w u" lesson="53" type="standard" reading="true" spelling="true" packageName="silent_k_b_w_u" sentenceList="silent sentences" sentencePackageName="silent_sentences" />
+		<wordlist name="are" lesson="54" type="standard" reading="true" spelling="true" packageName="are" sentenceList="" sentencePackageName="" />
+		<wordlist name="ire" lesson="54" type="standard" reading="true" spelling="true" packageName="ire" sentenceList="" sentencePackageName="" />
+		<wordlist name="ure" lesson="54" type="standard" reading="true" spelling="true" packageName="ure" sentenceList="vre sentences" sentencePackageName="vre_sentences" />
+		<wordlist name="o as u" lesson="55" type="standard" reading="false" spelling="true" packageName="o_as_u" sentenceList="o as u sentences" sentencePackageName="o_as_u_sentences" />
+		<wordlist name="ce se" lesson="56" type="standard" reading="false" spelling="true" packageName="ce_se" sentenceList="" sentencePackageName="" />
+		<wordlist name="soft c 2" lesson="57" type="standard" reading="true" spelling="true" packageName="soft_c_2" sentenceList="soft c 2 sentences" sentencePackageName="soft_c_2_sentences" />
+		<wordlist name="soft g 2" lesson="57" type="standard" reading="true" spelling="true" packageName="soft_g_2" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="-ment" lesson="58" type="wordEndings" reading="true" spelling="true" packageName="-ment" sentenceList="" sentencePackageName="" />
+		<wordlist name="-less -ness" lesson="58" type="wordEndings" reading="true" spelling="true" packageName="-less_-ness" sentenceList="" sentencePackageName="" />
+		<wordlist name="-est" lesson="58" type="wordEndings" reading="true" spelling="true" packageName="-est" sentenceList="" sentencePackageName="" />
+		<wordlist name="-age" lesson="58" type="wordEndings" reading="true" spelling="true" packageName="-age" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="compound words" lesson="59" type="standard" reading="true" spelling="true" packageName="compound_words" sentenceList="" sentencePackageName="" />
+		<wordlist name="challenge nessy island 6" lesson="60" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="y to i" lesson="61" type="standard" reading="false" spelling="true" packageName="y_to_i" sentenceList="" sentencePackageName="" />
+		<wordlist name="links 1" lesson="62" type="standard" reading="true" spelling="true" packageName="links_1" sentenceList="" sentencePackageName="" />
+		<wordlist name="tion" lesson="63" type="standard" reading="true" spelling="true" packageName="tion" sentenceList="" sentencePackageName="" />
+		<wordlist name="sion" lesson="63" type="standard" reading="true" spelling="true" packageName="sion" sentenceList="ssion sion sentences" sentencePackageName="ssion_sion_sentences" />
+		<wordlist name="qua squa" lesson="64" type="standard" reading="true" spelling="true" packageName="qua_squa" sentenceList="" sentencePackageName="" />
+		<wordlist name="plurals f-v" lesson="65" type="standard" reading="false" spelling="true" packageName="plurals_f-v" sentenceList="" sentencePackageName="" />
+		<wordlist name="plurals oes os" lesson="65" type="standard" reading="false" spelling="true" packageName="plurals_oes_os" sentenceList="" sentencePackageName="" />
+		<wordlist name="ou as u" lesson="66" type="standard" reading="true" spelling="true" packageName="ou_as_u" sentenceList="" sentencePackageName="" />
+		<wordlist name="ough" lesson="67" type="standard" reading="true" spelling="true" packageName="ough" sentenceList="ough sentences" sentencePackageName="ough_sentences" />
+		<wordlist name="augh" lesson="67" type="standard" reading="true" spelling="true" packageName="augh" sentenceList="" sentencePackageName="" />
+		<wordlist name="split vowels" lesson="68" type="standard" reading="true" spelling="true" packageName="split_vowels" sentenceList="" sentencePackageName="" />
+		<wordlist name="a-e ai ei ea" lesson="69" type="standard" reading="false" spelling="true" packageName="a-e_ai_ei_ea" sentenceList="" sentencePackageName="" />
+		<wordlist name="challenge nessy island 7" lesson="70" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="i-e igh y ie" lesson="71" type="standard" reading="false" spelling="true" packageName="i-e_igh_y_ie" sentenceList="" sentencePackageName="" />
+		<wordlist name="o-e oa ow oe" lesson="72" type="standard" reading="false" spelling="true" packageName="o-e_oa_ow_oe" sentenceList="" sentencePackageName="" />
+		<wordlist name="u-e oo ew ui ue" lesson="73" type="standard" reading="false" spelling="true" packageName="u-e_oo_ew_ui_ue" sentenceList="" sentencePackageName="" />
+		<wordlist name="ie ei" lesson="74" type="standard" reading="true" spelling="true" packageName="ie_ei" sentenceList="" sentencePackageName="" />
+		<wordlist name="ee ea ie ei ey" lesson="75" type="standard" reading="false" spelling="true" packageName="ee_ea_ie_ei_ey" sentenceList="" sentencePackageName="" />
+		<wordlist name="homophones" lesson="76" type="standard" reading="true" spelling="true" packageName="homophones" sentenceList="" sentencePackageName="" />
+		<wordlist name="ir ur 2" lesson="77" type="standard" reading="true" spelling="true" packageName="ir_ur_2" sentenceList="" sentencePackageName="" />
+		<wordlist name="soft c 3" lesson="78" type="standard" reading="true" spelling="true" packageName="soft_c_3" sentenceList="" sentencePackageName="" />
+		<wordlist name="soft g 3" lesson="78" type="standard" reading="true" spelling="true" packageName="soft_g_3" sentenceList="soft g 2 sentences" sentencePackageName="soft_g_2_sentences" />
+		
+		<wordlist name="-ily" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-ily" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ity" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-ity" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ic" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-ic" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ical" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-ical" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ture -sure" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-ture_-sure" sentenceList="" sentencePackageName="" />
+		<wordlist name="-oon" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-oon" sentenceList="" sentencePackageName="" />
+		<wordlist name="-eer" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-eer" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ous" lesson="79" type="wordEndings" reading="true" spelling="true" packageName="-ous" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="challenge nessy island 8" lesson="80" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="-al -el" lesson="81" type="wordEndings" reading="true" spelling="true" packageName="-al_-el" sentenceList="" sentencePackageName="" />		
+		
+		<wordlist name="advanced suffixing" lesson="82" type="standard" reading="false" spelling="true" packageName="advanced_suffixing" sentenceList="" sentencePackageName="" />
+		<wordlist name="au 2" lesson="83" type="standard" reading="true" spelling="true" packageName="au_2" sentenceList="" sentencePackageName="" />
+		<wordlist name="links 2" lesson="84" type="standard" reading="true" spelling="true" packageName="links_2" sentenceList="links sentences" sentencePackageName="links_sentences" />
+		
+		<wordlist name="-able -ible" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-able_-ible" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ant -ent" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-ant_-ent" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ive" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-ive" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ine" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-ine" sentenceList="" sentencePackageName="" />
+		<wordlist name="-our" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-our" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ice -ite" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-ice_-ite" sentenceList="" sentencePackageName="" />
+		<wordlist name="-cy" lesson="85" type="wordEndings" reading="true" spelling="true" packageName="-cy" sentenceList="" sentencePackageName="" />		
+		
+		<wordlist name="ch as k" lesson="86" type="standard" reading="true" spelling="true" packageName="ch_as_k" sentenceList="ch as k sentences" sentencePackageName="ch_as_k_sentences" />
+		<wordlist name="ch as sh" lesson="86" type="standard" reading="true" spelling="true" packageName="ch_as_sh" sentenceList="" sentencePackageName="" />
+		<wordlist name="ph 2" lesson="87" type="standard" reading="true" spelling="true" packageName="ph_2" sentenceList="" sentencePackageName="" />
+		<wordlist name="-que" lesson="88" type="standard" reading="true" spelling="true" packageName="-que" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ly 2" lesson="89" type="standard" reading="false" spelling="true" packageName="-ly_2" sentenceList="" sentencePackageName="" />
+		<wordlist name="challenge nessy island 9" lesson="90" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		<wordlist name="silent letters 2" lesson="91" type="standard" reading="true" spelling="true" packageName="silent_letters_2" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="-ary -ory" lesson="92" type="wordEndings" reading="true" spelling="true" packageName="-ary_-ory" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ate" lesson="92" type="wordEndings" reading="true" spelling="true" packageName="-ate" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ance -ence" lesson="92" type="wordEndings" reading="true" spelling="true" packageName="-ance_-ence" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ism" lesson="92" type="wordEndings" reading="true" spelling="true" packageName="-ism" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ology" lesson="92" type="wordEndings" reading="true" spelling="true" packageName="-ology" sentenceList="" sentencePackageName="" />		
+		
+		<wordlist name="tial cial" lesson="93" type="standard" reading="true" spelling="true" packageName="tial_cial" sentenceList="" sentencePackageName="" />
+		<wordlist name="tious cious" lesson="93" type="standard" reading="true" spelling="true" packageName="tious_cious" sentenceList="ti ci sentences" sentencePackageName="ti_ci_sentences" />
+		<wordlist name="cian" lesson="93" type="standard" reading="true" spelling="true" packageName="cian" sentenceList="cian sentences" sentencePackageName="cian_sentences" />
+		<wordlist name="j choices" lesson="94" type="standard" reading="false" spelling="true" packageName="j_choices" sentenceList="" sentencePackageName="" />
+		<wordlist name="-ar -or" lesson="95" type="standard" reading="false" spelling="true" packageName="-ar_-or" sentenceList="" sentencePackageName="" />
+		<wordlist name="eu" lesson="96" type="standard" reading="true" spelling="true" packageName="eu" sentenceList="" sentencePackageName="" />
+		<wordlist name="y as a vowel" lesson="97" type="standard" reading="true" spelling="true" packageName="y_as_a_vowel" sentenceList="" sentencePackageName="" />
+		<wordlist name="assimilated prefixes" lesson="98" type="standard" reading="true" spelling="true" packageName="assimilated_prefixes" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="advanced prefixes" lesson="99" type="heads" reading="true" spelling="true" packageName="advanced_prefixes" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="challenge nessy island 10" lesson="100" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		
+		<wordlist name="challenge nessy all islands" lesson="101" type="standard" reading="true" spelling="true" packageName="" sentenceList="" sentencePackageName="" />
+		
+	</wordlists>
+
+	<wordlists type="trickyWords" location="resources/wordlists/tricky_words/">
+		<wordlist name="set 1a" lesson="1" type="trickyWords" reading="true" spelling="true" packageName="set_1a" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 1b" lesson="1" type="trickyWords" reading="true" spelling="true" packageName="set_1b" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 1c" lesson="1" type="trickyWords" reading="true" spelling="true" packageName="set_1c" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 2a" lesson="2" type="trickyWords" reading="true" spelling="true" packageName="set_2a" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 2b" lesson="2" type="trickyWords" reading="true" spelling="true" packageName="set_2b" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 2c" lesson="2" type="trickyWords" reading="true" spelling="true" packageName="set_2c" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 3a" lesson="3" type="trickyWords" reading="true" spelling="true" packageName="set_3a" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 3b" lesson="3" type="trickyWords" reading="true" spelling="true" packageName="set_3b" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 3c" lesson="3" type="trickyWords" reading="true" spelling="true" packageName="set_3c" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 4a" lesson="4" type="trickyWords" reading="true" spelling="true" packageName="set_4a" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 4b" lesson="4" type="trickyWords" reading="true" spelling="true" packageName="set_4b" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 4c" lesson="4" type="trickyWords" reading="true" spelling="true" packageName="set_4c" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 5" lesson="5" type="trickyWords" reading="true" spelling="true" packageName="set_5" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 6a" lesson="6" type="trickyWords" reading="true" spelling="true" packageName="set_6a" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 6b" lesson="6" type="trickyWords" reading="true" spelling="true" packageName="set_6b" sentenceList="" sentencePackageName="" />
+		<wordlist name="apostrophes" lesson="6" type="trickyWords" reading="true" spelling="true" packageName="apostrophes" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 7" lesson="7" type="trickyWords" reading="true" spelling="true" packageName="set_7" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 8" lesson="8" type="trickyWords" reading="true" spelling="true" packageName="set_8" sentenceList="" sentencePackageName="" />
+		<wordlist name="set 9" lesson="9" type="trickyWords" reading="true" spelling="true" packageName="set_9" sentenceList="" sentencePackageName="" />
+		<wordlist name="numbers 1-10" lesson="10" type="trickyWords" reading="true" spelling="true" packageName="numbers_1_to_10" sentenceList="" sentencePackageName="" />
+		<wordlist name="numbers 11-20" lesson="10" type="trickyWords" reading="true" spelling="true" packageName="numbers_11_to_20" sentenceList="" sentencePackageName="" />
+		<wordlist name="days" lesson="10" type="trickyWords" reading="true" spelling="true" packageName="days" sentenceList="" sentencePackageName="" />
+		<wordlist name="months" lesson="10" type="trickyWords" reading="true" spelling="true" packageName="months" sentenceList="" sentencePackageName="" />
+		<wordlist name="colours" lesson="10" type="trickyWords" reading="true" spelling="true" packageName="colours" sentenceList="" sentencePackageName="" />
+	</wordlists>
+	
+</categories>

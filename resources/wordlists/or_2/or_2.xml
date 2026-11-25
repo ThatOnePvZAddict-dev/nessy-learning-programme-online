@@ -1,0 +1,15 @@
+<list name="or 2" location="" sentence="">
+	<word soundFileName="corner.mp3"><![CDATA[corner]]></word>
+	<word soundFileName="orbit.mp3"><![CDATA[orbit]]></word>
+	<word soundFileName="forget.mp3"><![CDATA[forget]]></word>
+	<word soundFileName="cornet.mp3"><![CDATA[cornet]]></word>
+	<word soundFileName="record.mp3"><![CDATA[record]]></word>
+	<word soundFileName="organ.mp3"><![CDATA[organ]]></word>
+	<word soundFileName="normal.mp3"><![CDATA[normal]]></word>
+	<word soundFileName="support.mp3"><![CDATA[support]]></word>
+	<word soundFileName="order.mp3"><![CDATA[order]]></word>
+	<word soundFileName="formal.mp3"><![CDATA[formal]]></word>
+	<word soundFileName="stormy.mp3"><![CDATA[stormy]]></word>
+	<word soundFileName="border.mp3"><![CDATA[border]]></word>
+
+</list>

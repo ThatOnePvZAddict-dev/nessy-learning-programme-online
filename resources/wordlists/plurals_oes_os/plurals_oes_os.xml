@@ -1,0 +1,15 @@
+<list name="plurals oes os" location="" sentence="">
+	<word soundFileName="potatoes.mp3"><![CDATA[potatoes]]></word>
+	<word soundFileName="heroes.mp3"><![CDATA[heroes]]></word>
+	<word soundFileName="tomatoes.mp3"><![CDATA[tomatoes]]></word>
+	<word soundFileName="torpedoes.mp3"><![CDATA[torpedoes]]></word>
+	<word soundFileName="echoes.mp3"><![CDATA[echoes]]></word>
+	<word soundFileName="volcanoes.mp3"><![CDATA[volcanoes]]></word>
+	<word soundFileName="dominoes.mp3"><![CDATA[dominoes]]></word>
+	<word soundFileName="pianos.mp3"><![CDATA[pianos]]></word>
+	<word soundFileName="banjos.mp3"><![CDATA[banjos]]></word>
+	<word soundFileName="solos.mp3"><![CDATA[solos]]></word>
+	<word soundFileName="studios.mp3"><![CDATA[studios]]></word>
+	<word soundFileName="kangaroos.mp3"><![CDATA[kangaroos]]></word>
+
+</list>

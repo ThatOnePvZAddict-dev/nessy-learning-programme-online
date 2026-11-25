@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b8fe8">
+<title>Nessy Learning</title>
+<link rel="preload" href="fonts/fredoka-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Fredoka;font-weight:500;font-style:normal;font-display:swap;src:url(fonts/fredoka-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Fredoka;font-weight:600;font-style:normal;font-display:swap;src:url(fonts/fredoka-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Fredoka;font-weight:700;font-style:normal;font-display:swap;src:url(fonts/fredoka-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:Nunito;font-weight:400;font-style:normal;font-display:swap;src:url(fonts/nunito-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Nunito;font-weight:600;font-style:normal;font-display:swap;src:url(fonts/nunito-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Nunito;font-weight:700;font-style:normal;font-display:swap;src:url(fonts/nunito-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:Nunito;font-weight:800;font-style:normal;font-display:swap;src:url(fonts/nunito-latin-800-normal.woff2) format("woff2")}
+:root{
+  --ink:#0b3a6b; --mute:#3f6c9c; --hot:#ffc83d; --hot-deep:#d99a00; --on-hot:#0b3a6b;
+  --sky:#0b8fe8; --blue:#26a6ff; --blue-deep:#0488e0; --mist:#b3e1ff;
+  --panel:rgba(255,255,255,.80); --panel-2:rgba(255,255,255,.96);
+  --line:rgba(255,255,255,.75); --track:rgba(11,58,107,.18);
+  --shadow:rgba(4,60,120,.45); --focus:#0b3a6b; --boost:#d9480f;
+  --chrome:12.5rem; --maxw:1400px;
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0}
+[hidden]{display:none!important}
+html,body{min-height:100%}
+body{
+  position:relative;
+  min-height:100vh; min-height:100dvh;
+  background:#0b8fe8 url(background.png) center bottom/cover no-repeat;
+  color:var(--ink);
+  font-family:'Nunito',system-ui,sans-serif;
+  padding:max(1rem,env(safe-area-inset-top)) max(1rem,env(safe-area-inset-right)) max(1rem,env(safe-area-inset-bottom)) max(1rem,env(safe-area-inset-left));
+  overflow-x:hidden;
+}
+
+.app>header,#stage,#dock,.app>footer,.app>details{animation:up .7s cubic-bezier(.2,.8,.2,1) both}
+.app>header{animation-delay:.05s}
+#stage{animation-delay:.16s}
+#dock{animation-delay:.3s}
+.app>footer{animation-delay:.42s}
+.app>details{animation-delay:.5s}
+.app{position:relative; z-index:1; display:flex; flex-direction:column; align-items:center; gap:1.1rem; min-height:calc(100dvh - 2rem)}
+button{font:inherit; color:inherit; cursor:pointer}
+:focus-visible{outline:3px solid var(--focus); outline-offset:3px; border-radius:.6rem}
+
+/* ---------- header ---------- */
+header{width:min(100%,var(--maxw)); display:flex; align-items:center; justify-content:space-between; gap:1rem;}
+.brand{display:flex; align-items:center; gap:.8rem; min-width:0}
+.mark{flex:none; width:2.8rem; height:2.8rem; border-radius:1rem; background:#fff; color:var(--blue-deep); display:grid; place-items:center; box-shadow:0 .25rem 0 rgba(4,60,120,.4); transform:rotate(-6deg)}
+.mark svg{width:1.8rem; height:1.8rem}
+h1{font-family:Fredoka,'Trebuchet MS',system-ui,sans-serif; font-weight:700; font-size:clamp(1.55rem,3.4vw,2.35rem); letter-spacing:-.01em; line-height:1; white-space:nowrap; color:#fff; text-shadow:0 .12rem 0 rgba(4,60,120,.4)}
+h1 em{font-style:normal; font-weight:700; color:var(--hot)}
+.tag{display:block; font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; color:#fff; margin-top:.4rem; font-weight:800; text-shadow:0 1px 2px rgba(4,60,120,.55)}
+.head-r{display:flex; align-items:center; gap:.6rem}
+.pill{display:inline-flex; align-items:center; gap:.5rem; padding:.45rem .9rem; border-radius:999px; background:rgba(255,255,255,.25); border:1.5px solid rgba(255,255,255,.55); font-size:.85rem; font-weight:700; color:#fff; max-width:46vw; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.pill i{flex:none; width:.55rem; height:.55rem; border-radius:50%; background:var(--hot); animation:pulse 1.2s ease-in-out infinite}
+.pill.ok i{background:#3ddc97; animation:none}
+.pill.bad i{background:#ff6b7a; animation:none}
+.icon-btn{flex:none; width:2.75rem; height:2.75rem; border-radius:50%; border:1.5px solid rgba(255,255,255,.6); background:rgba(255,255,255,.2); color:#fff; display:grid; place-items:center; transition:transform .2s, background .2s;}
+.icon-btn:hover{background:rgba(255,255,255,.36); transform:translateY(-2px)}
+.icon-btn:active{transform:translateY(0) scale(.96)}
+.icon-btn svg{width:1.3rem; height:1.3rem}
+header :focus-visible{outline-color:#fff}
+
+/* ---------- stage + dock ---------- */
+#frame{
+  width:min(100%,var(--maxw),calc((100vh - var(--chrome)) * 4 / 3));
+  width:min(100%,var(--maxw),calc((100dvh - var(--chrome)) * 4 / 3));
+  display:flex; flex-direction:column; gap:1.1rem;
+}
+#stage{
+  position:relative; width:100%; aspect-ratio:4/3; overflow:hidden; background:#000;
+  border-radius:1.7rem; border:5px solid #fff;
+  box-shadow:0 .6rem 0 var(--blue-deep);
+}
+#stage ruffle-player{position:absolute; inset:0; width:100%; height:100%; display:block}
+.boot{position:absolute; inset:0; z-index:2; display:grid; place-content:center; justify-items:center; gap:1rem; color:#fff; font-family:Fredoka,'Trebuchet MS',system-ui,sans-serif; font-weight:500; font-size:1.3rem; text-align:center; padding:1rem; transition:opacity .5s;
+  background:linear-gradient(#0b8fe8,#6fc4ff 70%,#b3e1ff)}
+.boot .ring{width:3.4rem; height:3.4rem; border-radius:50%; border:5px solid rgba(255,255,255,.35); border-top-color:#fff; animation:spin .9s linear infinite}
+body.ready .boot{opacity:0; pointer-events:none}
+body.failed .boot .ring{display:none}
+#retry{height:2.9rem; padding:0 1.4rem; border-radius:999px; border:0; background:var(--hot); color:var(--on-hot); font-family:Fredoka,'Trebuchet MS',system-ui,sans-serif; font-weight:600; font-size:1rem; box-shadow:0 .25rem 0 var(--hot-deep); transition:transform .15s, box-shadow .15s}
+#retry:hover{transform:translateY(-2px); box-shadow:0 .38rem 0 var(--hot-deep)}
+#retry:active{transform:translateY(.25rem); box-shadow:0 0 0 var(--hot-deep)}
+.boot noscript p{max-width:22rem}
+.closed #stage{filter:grayscale(1) brightness(.4)}
+
+#dock{
+  display:flex; align-items:center; gap:.75rem; padding:.55rem .65rem .55rem 1rem;
+  border-radius:999px; background:var(--panel); border:2px solid var(--line); color:var(--ink);
+  }
+.vol{flex:1; min-width:0; display:flex; align-items:center; gap:.75rem}
+#mute{flex:none; width:2.5rem; height:2.5rem; border-radius:50%; border:0; background:transparent; display:grid; place-items:center}
+#mute:hover{background:var(--track)}
+#mute svg{width:1.4rem; height:1.4rem}
+.slider.no-boost::after{display:none}
+.slider{position:relative; flex:1; min-width:4rem; height:2.5rem; display:flex; align-items:center}
+.slider::after{content:""; position:absolute; top:50%; left:calc(.625rem + (100% - 1.25rem) / 3 - 1px); width:2px; height:1.1rem; margin-top:-.55rem; background:var(--ink); opacity:.4; border-radius:2px; pointer-events:none}
+#vol{
+  --pr:.3333; --fill:var(--blue-deep);
+  -webkit-appearance:none; appearance:none; width:100%; height:.65rem; border-radius:999px; background:linear-gradient(90deg,var(--fill) calc(.625rem + (100% - 1.25rem) * var(--pr)),transparent 0),var(--track); outline-offset:6px; cursor:pointer;
+}
+#vol.boost{--fill:var(--boost)}
+#vol::-webkit-slider-thumb{-webkit-appearance:none; box-sizing:border-box; width:1.25rem; height:1.25rem; border-radius:50%; background:#fff; border:3px solid var(--blue-deep); box-shadow:0 2px 6px var(--shadow); transition:transform .15s}
+#vol::-moz-range-thumb{box-sizing:border-box; width:1.25rem; height:1.25rem; border-radius:50%; background:#fff; border:3px solid var(--blue-deep); box-shadow:0 2px 6px var(--shadow)}
+#vol:active::-webkit-slider-thumb{transform:scale(1.2)}
+#vol.boost::-webkit-slider-thumb{border-color:var(--boost)}
+#vol.boost::-moz-range-thumb{border-color:var(--boost)}
+#vol::-moz-range-track{background:transparent}
+.lvl{flex:none; min-width:3.6rem; text-align:right; font-weight:800; font-variant-numeric:tabular-nums; font-size:.95rem}
+.lvl small{display:block; font-size:.62rem; letter-spacing:.14em; font-weight:800; color:var(--boost); height:0; opacity:0; transform:translateY(2px); transition:opacity .2s}
+body.boosting .lvl small{opacity:1; height:auto}
+#fs{
+  flex:none; display:inline-flex; align-items:center; gap:.55rem; height:2.9rem; padding:0 1.2rem 0 1rem; border-radius:999px; border:0;
+  background:var(--hot); color:var(--on-hot); font-family:Fredoka,'Trebuchet MS',system-ui,sans-serif; font-weight:600; font-size:1rem; letter-spacing:.01em;
+  box-shadow:0 .25rem 0 var(--hot-deep); transition:transform .15s, box-shadow .15s;
+}
+#fs:hover{transform:translateY(-2px); box-shadow:0 .38rem 0 var(--hot-deep)}
+#fs:active{transform:translateY(.25rem); box-shadow:0 0 0 var(--hot-deep)}
+#fs svg{width:1.25rem; height:1.25rem}
+#fs .on{display:none}
+#frame.is-fs #fs .on{display:inline}
+#frame.is-fs #fs .off{display:none}
+
+/* ---------- fullscreen (native or fallback) ---------- */
+#frame.is-fs{
+  position:fixed; inset:0; z-index:100; width:100vw; height:100vh; height:100dvh; background:#000;
+  display:grid; place-items:center; gap:0; padding:0;
+}
+#frame.is-fs #stage{width:min(100vw,calc(100vh * 4 / 3)); width:min(100vw,calc(100dvh * 4 / 3)); border:0; border-radius:0; box-shadow:none; animation:none; opacity:1}
+#frame.is-fs #dock{display:none}
+#frame.is-fs.idle{cursor:none}
+/* Only in the iPhone-style fallback (no Esc key, no native swipe-out): a small exit chip that fades with inactivity */
+#fsx{display:none; position:absolute; top:max(.75rem,env(safe-area-inset-top)); right:max(.75rem,env(safe-area-inset-right)); z-index:3; width:2.6rem; height:2.6rem; border-radius:50%; border:1px solid rgba(255,255,255,.35); background:rgba(4,40,90,.6); color:#fff; place-items:center; transition:opacity .35s}
+#fsx svg{width:1.2rem; height:1.2rem}
+#frame.is-fs.fake #fsx{display:grid}
+#frame.is-fs.fake.idle #fsx{opacity:0; pointer-events:none}
+body.has-fs{overflow:hidden}
+
+
+/* ---------- characters (static position, no effects) ---------- */
+.char{display:none; position:absolute; bottom:max(7.5rem,env(safe-area-inset-bottom)); height:clamp(11rem,44vh,23rem); width:auto; max-width:calc((100vw - var(--stage-w)) / 2 - 3.25rem); object-fit:contain; z-index:2; pointer-events:none;
+  --stage-w:min(100vw - 2rem,var(--maxw),calc((100dvh - var(--chrome)) * 4 / 3))}
+.c-left{right:calc(50% + var(--stage-w) / 2 + 2.5rem); object-position:right bottom}
+.c-right{left:calc(50% + var(--stage-w) / 2 + 2.5rem); object-position:left bottom}
+@media (min-width:1000px) and (min-aspect-ratio:3/2){.char{display:block}}
+body.has-fs .char{display:none}
+.extra{display:none; position:absolute; bottom:max(14rem,env(safe-area-inset-bottom)); height:clamp(6rem,21vh,12.5rem); width:auto; z-index:1; pointer-events:none}
+.e-left{left:max(1rem,env(safe-area-inset-left))}
+.e-right{right:max(1rem,env(safe-area-inset-right)); height:clamp(10.5rem,36.75vh,21.875rem)}
+@media (min-width:1300px) and (min-aspect-ratio:3/2){.extra{display:block}}
+body.has-fs .extra{display:none}
+
+/* ---------- footer ---------- */
+footer{
+  width:min(100%,var(--maxw)); margin-top:auto; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.5rem 1.2rem;
+  padding:.6rem 1.2rem; border-radius:999px; background:var(--panel); border:2px solid var(--line); color:var(--mute);
+  font-size:.85rem; font-weight:600;
+}
+footer .link{background:none; border:0; padding:0; color:inherit; font-weight:700; text-decoration:underline; text-underline-offset:.2em}
+footer .link:hover{color:var(--ink)}
+details{width:min(100%,var(--maxw));}
+summary{cursor:pointer; color:var(--mute); font-size:.82rem; font-weight:700; width:max-content; padding:.3rem .9rem; border-radius:999px; background:var(--panel); border:2px solid var(--line)}
+summary:hover{color:var(--ink)}
+#log{margin-top:.6rem; max-height:14rem; overflow:auto; color:var(--ink); font:.72rem/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; background:var(--panel-2); border:2px solid var(--line); padding:.7rem .8rem; border-radius:1rem; white-space:pre-wrap; word-break:break-all}
+details .link{margin-top:.5rem; background:var(--panel); border:2px solid var(--line); border-radius:999px; padding:.25rem .8rem; color:var(--mute); font-weight:700; font-size:.8rem}
+
+@keyframes up{from{opacity:0; transform:translateY(16px)}to{opacity:1; transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{50%{opacity:.35; transform:scale(.8)}}
+
+/* ---------- responsive ---------- */
+@media (max-width:640px){
+  :root{--chrome:11.5rem}
+  .tag{display:none}
+  .mark{width:2.4rem; height:2.4rem}
+  .pill{position:absolute; width:1px; height:1px; padding:0; border:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap}
+  #stage{border-width:4px; border-radius:1.1rem; box-shadow:0 .4rem 0 var(--blue-deep), 0 1.4rem 2rem -1rem var(--shadow)}
+  #dock{padding-left:.6rem; gap:.4rem}
+  #fs span{display:none}
+  #fs{padding:0; width:2.9rem; justify-content:center}
+  .lvl{min-width:3rem}
+  footer{border-radius:1.2rem}
+}
+@media (max-height:540px) and (orientation:landscape){
+  :root{--chrome:8rem}
+  .app{gap:.6rem}
+  .tag{display:none}
+  #frame{gap:.5rem}
+}
+@media (min-width:1800px){:root{--maxw:1700px}}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important; transition:none!important}
+  header,#stage,#dock,footer,details{opacity:1!important}
+}
+</style>
+
+<!-- Audio boost: must run BEFORE ruffle.js. Routes every AudioContext's output through a gain stage (0-300%) and a limiter. -->
+<script>
+(() => {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  const BASE = window.BaseAudioContext || AC;
+  const st = { level: 1, ctxs: new Set() };
+  const api = window.nlpAudio = {
+    supported: false,
+    get level() { return st.level; },
+    set(v) { st.level = Math.max(0, Math.min(3, +v || 0)); st.ctxs.forEach(apply); },
+    resume() { st.ctxs.forEach(c => { if (c.state === 'suspended') c.resume().catch(() => {}); }); }
+  };
+  function apply(c) {
+    const b = c.__nlpBoost; if (!b) return;
+    const boosted = st.level > 1.001, t = c.currentTime;
+    b.gain.gain.setTargetAtTime(st.level, t, 0.02);
+    const k = b.comp;
+    // Boosted: soft limiter so louder audio squashes peaks instead of clipping. At <=100% the stage does nothing.
+    k.threshold.value = boosted ? -10 : 0;
+    k.knee.value      = boosted ? 12 : 0;
+    k.ratio.value     = boosted ? 12 : 1;
+    k.attack.value    = 0.003;
+    k.release.value   = 0.18;
+  }
+  try {
+    if (!AC || !BASE) return;
+    const d = Object.getOwnPropertyDescriptor(BASE.prototype, 'destination');
+    if (!d || !d.get) return;
+    Object.defineProperty(BASE.prototype, 'destination', {
+      configurable: true, enumerable: d.enumerable,
+      get() {
+        if (!(this instanceof AC)) return d.get.call(this);
+        let b = this.__nlpBoost;
+        if (!b) {
+          try {
+            const real = d.get.call(this), gain = this.createGain(), comp = this.createDynamicsCompressor();
+            gain.connect(comp); comp.connect(real);
+            b = this.__nlpBoost = { gain, comp };
+            st.ctxs.add(this); apply(this);
+          } catch (e) { return d.get.call(this); }
+        }
+        return b.gain;
+      }
+    });
+    api.supported = true;
+    ['pointerdown', 'keydown', 'touchend'].forEach(e => document.addEventListener(e, () => api.resume(), { capture: true, passive: true }));
+  } catch (e) { console.warn('audio boost unavailable', e); }
+})();
+</script>
+</head>
+<body>
+<img class="char c-left" src="left.gif" alt="" aria-hidden="true">
+<img class="char c-right" src="right.gif" alt="" aria-hidden="true">
+<img class="extra e-left" src="angry.gif" alt="" aria-hidden="true" onerror="this.remove()">
+<img class="extra e-right" src="skeleton.gif" alt="" aria-hidden="true" onerror="this.remove()">
+<div class="app">
+  <header>
+    <div class="brand">
+      <div class="mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22c3-9 6-9 8 0s5 9 8 0 5-9 8-3"/><circle cx="26" cy="9" r="1.6" fill="currentColor" stroke="none"/></svg>
+      </div>
+      <div>
+        <h1>Nessy <em>Learning</em></h1>
+        <span class="tag">Reading &amp; spelling, in your browser</span>
+      </div>
+    </div>
+    <div class="head-r">
+      <span class="pill" id="pill" role="status" aria-live="polite"><i></i><span id="st">Warming up…</span></span>
+    </div>
+  </header>
+
+  <main id="frame">
+    <div id="stage" role="region" aria-label="Nessy Learning Programme">
+      <div class="boot" id="boot"><div class="ring"></div><div id="boottxt">Warming up…</div><button id="retry" type="button" hidden>Try again</button><noscript><p>Please turn on JavaScript to use Nessy Learning.</p></noscript></div>
+    </div>
+
+    <div id="dock" role="group" aria-label="Sound and display controls">
+      <div class="vol">
+        <button id="mute" type="button" aria-label="Mute" aria-pressed="false" title="Mute">
+          <svg class="sp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path class="w1" d="M15.5 9a4 4 0 0 1 0 6"/><path class="w2" d="M18.5 6.5a8 8 0 0 1 0 11"/></svg>
+          <svg class="mt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" hidden><path d="M11 5 6 9H3v6h3l5 4z"/><path d="m16 9 5 6M21 9l-5 6"/></svg>
+        </button>
+        <div class="slider"><input id="vol" type="range" min="0" max="300" step="5" value="100" aria-label="Volume (100% is normal, above is boosted)"></div>
+        <div class="lvl"><span id="lvl">100%</span><small>BOOST</small></div>
+      </div>
+      <button id="fs" type="button" aria-pressed="false" aria-label="Toggle fullscreen" title="Fullscreen">
+        <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>
+        <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h5V3M21 8h-5V3M3 16h5v5M21 16h-5v5"/></svg>
+        <span class="off">Fullscreen</span><span class="on">Exit</span>
+      </button>
+    </div>
+  </main>
+
+  <footer>
+    <span id="savenote">Progress is saved in this browser.</span>
+    <button class="link" id="reset" type="button">Reset progress</button>
+  </footer>
+  <details id="dbg" hidden>
+    <summary>Debug log</summary>
+    <pre id="log"></pre>
+    <button class="link" type="button" onclick="navigator.clipboard.writeText(nlpLog())">Copy log</button>
+  </details>
+</div>
+
+<script src="sqljs/sql-wasm.js"></script>
+<script src="host.js"></script>
+<script>window.RufflePlayer={config:{publicPath:'ruffle/',autoplay:'on',unmuteOverlay:'hidden',letterbox:'on',logLevel:'info',contextMenu:'off',warnOnUnsupportedContent:false}};</script>
+<script src="ruffle/ruffle.js"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch {} }
+  };
+  const focusPlayer = () => { const p = document.querySelector('ruffle-player'); if (p && p.focus) p.focus(); };
+
+  /* ---------- volume / boost ---------- */
+  const vol = $('vol'), lvl = $('lvl'), mute = $('mute');
+  let muted = false, last = 100;
+  const saved = parseInt(store.get('nlp-vol'), 10);
+  if (saved >= 0 && saved <= 300) { const v = Math.min(saved, 100); vol.value = v; last = v || 100; }   // never restore boost: always start at 100% or lower
+  if (!nlpAudio.supported) { vol.max = 100; vol.parentElement.classList.add('no-boost'); }   // no boost without the Web Audio hook
+  function applyVolume() {
+    const v = muted ? 0 : +vol.value, f = v / 100;
+    nlpAudio.set(f);
+    const pl = document.querySelector('ruffle-player');
+    if (!nlpAudio.supported && pl && 'volume' in pl) { try { pl.volume = Math.min(1, f); } catch {} }
+    vol.style.setProperty('--pr', (+vol.value / +vol.max).toFixed(4));
+    vol.classList.toggle('boost', +vol.value > 100 && !muted);
+    document.body.classList.toggle('boosting', +vol.value > 100 && !muted);
+    lvl.textContent = (muted ? 0 : +vol.value) + '%';
+    mute.setAttribute('aria-pressed', muted);
+    mute.setAttribute('aria-label', muted ? 'Unmute' : 'Mute');
+    mute.querySelector('.sp').hidden = muted || +vol.value === 0;
+    mute.querySelector('.mt').hidden = !(muted || +vol.value === 0);
+    mute.querySelector('.w2').style.opacity = +vol.value > 100 ? 1 : .3;
+  }
+  vol.addEventListener('input', () => { muted = false; if (+vol.value) last = +vol.value; store.set('nlp-vol', vol.value); applyVolume(); });
+  vol.addEventListener('pointerup', focusPlayer);
+  mute.onclick = () => {
+    if (!muted && +vol.value === 0) { vol.value = last; muted = false; } else muted = !muted;
+    applyVolume(); focusPlayer();
+  };
+  applyVolume();
+
+  /* ---------- fullscreen ---------- */
+  const frame = $('frame'), fsBtn = $('fs');
+  const fsEl = () => document.fullscreenElement || document.webkitFullscreenElement;
+  const reqFS = frame.requestFullscreen || frame.webkitRequestFullscreen;
+  const exitFS = document.exitFullscreen || document.webkitExitFullscreen;
+  let fake = false, idleT = 0;
+  function wake() {
+    frame.classList.remove('idle'); clearTimeout(idleT);
+    if (frame.classList.contains('is-fs')) idleT = setTimeout(() => frame.classList.add('idle'), 2600);
+  }
+  function setFS(on) {
+    frame.classList.toggle('is-fs', on);
+    document.body.classList.toggle('has-fs', on);
+    fsBtn.setAttribute('aria-pressed', on);
+    wake();
+  }
+  async function enterFS() {
+    if (reqFS) {
+      try {
+        await reqFS.call(frame);
+        try { await screen.orientation.lock('landscape'); } catch {}
+        return;                                        // fullscreenchange does the rest
+      } catch {}
+    }
+    fake = true; setFS(true);                          // iPhone Safari etc.: fill the viewport instead
+  }
+  async function leaveFS() {
+    fake = false;
+    if (fsEl()) { try { await exitFS.call(document); } catch {} }
+    setFS(false);
+    try { screen.orientation.unlock(); } catch {}
+  }
+  fsBtn.onclick = async () => { await (frame.classList.contains('is-fs') ? leaveFS() : enterFS()); focusPlayer(); };
+  ['fullscreenchange', 'webkitfullscreenchange'].forEach(ev => document.addEventListener(ev, () => {
+    if (fsEl()) setFS(true);
+    else if (!fake) { setFS(false); try { screen.orientation.unlock(); } catch {} }
+  }));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && fake) leaveFS(); });
+  ['mousemove', 'pointerdown', 'touchstart', 'keydown'].forEach(ev => frame.addEventListener(ev, wake, { passive: true }));
+
+  /* ---------- debug (only with ?debug) + two-step reset ---------- */
+  if (/[?&]debug\b/.test(location.search)) $('dbg').hidden = false;
+  const reset = $('reset'); let armT = 0;
+  reset.onclick = () => {
+    if (!reset.dataset.armed) {
+      reset.dataset.armed = '1'; reset.textContent = 'Tap again to erase everything';
+      armT = setTimeout(() => { delete reset.dataset.armed; reset.textContent = 'Reset progress'; }, 4000);
+      return;
+    }
+    clearTimeout(armT); delete reset.dataset.armed; reset.textContent = 'Reset progress';
+    if (confirm('Erase all saved progress in this browser? This cannot be undone.')) nlpReset();
+  };
+
+  const saveWarn = () => { $('savenote').textContent = "Progress can't be saved in this browser right now (private browsing?)."; };
+  window.addEventListener('nlpsaveerror', saveWarn); if (window.nlpSaveFailed) saveWarn();
+
+  /* ---------- boot ---------- */
+  const st = $('st'), pill = $('pill'), boottxt = $('boottxt');
+  const status = (t, s) => { st.textContent = t; boottxt.textContent = t; pill.className = 'pill' + (s ? ' ' + s : ''); };
+  (async () => {
+    try {
+      await nlpBoot(t => status(t));
+      const p = RufflePlayer.newest().createPlayer();
+      $('stage').append(p);
+      const ready = () => { if (document.body.classList.contains('ready')) return; status('Running', 'ok'); document.body.classList.add('ready'); applyVolume(); };
+      p.addEventListener('loadedmetadata', ready);
+      await p.ruffle().load({ url: 'nlp-web.swf', allowScriptAccess: true, base: '.' });
+      ready();                                         // in case the event fired early or not at all
+    } catch (e) {
+      document.body.classList.add('failed');
+      $('retry').hidden = false; $('retry').onclick = () => location.reload();
+      status('Could not start: ' + e.message, 'bad');
+      console.error(e);
+    }
+  })();
+})();
+</script>
+</body></html>

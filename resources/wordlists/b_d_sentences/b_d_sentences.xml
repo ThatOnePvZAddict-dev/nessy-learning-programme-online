@@ -1,0 +1,13 @@
+<list name="b d sentences" location="" sentences="">
+	<word soundFileName="the_dog_is_bad.mp3"><![CDATA[The dog is bad.]]></word>
+	<word soundFileName="dad_is_sad.mp3"><![CDATA[Dad is sad.]]></word>
+	<word soundFileName="the_bed_is_big.mp3"><![CDATA[The bed is big.]]></word>
+	<word soundFileName="the_bus_is_red.mp3"><![CDATA[The bus is red.]]></word>
+	<word soundFileName="dad_is_mad.mp3"><![CDATA[Dad is mad.]]></word>
+	<word soundFileName="a_dog_can_dig.mp3"><![CDATA[A dog can dig.]]></word>
+	<word soundFileName="bob_has_a_job.mp3"><![CDATA[Bob has a job.]]></word>
+	<word soundFileName="the_box_is_red.mp3"><![CDATA[The box is red.]]></word>
+	<word soundFileName="he_dug_in_the_mud.mp3"><![CDATA[He dug in the mud.]]></word>
+	<word soundFileName="we_fed_the_dog.mp3"><![CDATA[We fed the dog.]]></word>
+	<word soundFileName="dad_hid_in_the_pub.mp3"><![CDATA[Dad hid in the pub.]]></word>
+</list>

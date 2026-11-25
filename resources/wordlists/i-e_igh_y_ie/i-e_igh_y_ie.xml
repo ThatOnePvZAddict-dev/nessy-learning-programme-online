@@ -1,0 +1,26 @@
+<list name="i-e igh y ie" location="" sentence="">
+	<word soundFileName="right.mp3"><![CDATA[right]]></word>
+	<word soundFileName="write.mp3"><![CDATA[write]]></word>
+	<word soundFileName="night.mp3"><![CDATA[night]]></word>
+	<word soundFileName="knight.mp3"><![CDATA[knight]]></word>
+	<word soundFileName="quiet.mp3"><![CDATA[quiet]]></word>
+	<word soundFileName="quite.mp3"><![CDATA[quite]]></word>
+	<word soundFileName="buy.mp3"><![CDATA[buy]]></word>
+	<word soundFileName="bye.mp3"><![CDATA[bye]]></word>
+	<!--<word soundFileName="deny.mp3"><![CDATA[deny]]></word>-->
+	<word soundFileName="reply.mp3"><![CDATA[reply]]></word>
+	<word soundFileName="apply.mp3"><![CDATA[apply]]></word>
+	<word soundFileName="supply.mp3"><![CDATA[supply]]></word>
+	<word soundFileName="island.mp3"><![CDATA[island]]></word>
+	<word soundFileName="mite.mp3"><![CDATA[mite]]></word>
+	<word soundFileName="might.mp3"><![CDATA[might]]></word>
+	<word soundFileName="style.mp3"><![CDATA[style]]></word>
+	<word soundFileName="stile.mp3"><![CDATA[stile]]></word>
+	<word soundFileName="lying.mp3"><![CDATA[lying]]></word>
+	<word soundFileName="dying.mp3"><![CDATA[dying]]></word>
+	<word soundFileName="tying.mp3"><![CDATA[tying]]></word>
+	<word soundFileName="mind.mp3"><![CDATA[mind]]></word>
+	<word soundFileName="mined.mp3"><![CDATA[mined]]></word>
+	<word soundFileName="identify.mp3"><![CDATA[identify]]></word>
+
+</list>

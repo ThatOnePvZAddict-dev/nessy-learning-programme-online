@@ -1,0 +1,754 @@
+<!--
+:NOTE: Do not turn debugging off as it displays user names which are already in use.
+-->
+
+<config>
+	
+	<autoPlayMedia>true</autoPlayMedia>
+	<buyCardGamesLink><![CDATA[http://www.google.co.uk]]>></buyCardGamesLink>
+	<debug>true</debug> <!-- Master value. Is then individually controlled for each feature in features xml -->
+	<debugCore>true</debugCore> <!-- Controls the debugging of the core elements; those not loaded -->
+	<!--<disableScreenAlpha>90</disableScreenAlpha>--> <!-- Alpha value of the disable screen when in operation -->
+	<initialRevealFadeTime>.5</initialRevealFadeTime> <!-- Time, in seconds, for the initial program to fade in -->
+	<disableScreenFadeTime>0.5</disableScreenFadeTime> <!-- Time, in seconds, for the disable screen to fade in and out - if fading -->
+	<fullscreenDefault>true</fullscreenDefault>
+	<imageFlowThumbsOnDisplay>5</imageFlowThumbsOnDisplay>
+	<keepAspectRatio>true</keepAspectRatio> <!-- Whether to maintain the ratio of height and width when moving to fullscreen -->
+	<maxNuggets>99999</maxNuggets>
+	<recordingStudioOnDefault>true</recordingStudioOnDefault> <!-- Overridden by system's default db once configured -->
+	<backupDefault>true</backupDefault> <!-- Overridden by system's default db once configured -->
+	<usefulStuffOpenDefault>true</usefulStuffOpenDefault>	
+	<profileDatabaseLocation><![CDATA[records\]]></profileDatabaseLocation> <!-- Directory for holding all profile database files from the application root -->
+	<profileDatabaseBackupLocation><![CDATA[records\backup\]]></profileDatabaseBackupLocation> <!-- Directory for holding all profile database backup files from the application root -->
+	<templateConfigDatabasePath><![CDATA[_config.nlp]]></templateConfigDatabasePath> <!-- Path of the config database file from the save area root -->
+	<configDatabasePath><![CDATA[config.nlp]]></configDatabasePath> <!-- Path of the config database file from the save area root -->
+	<templateRecordingStudioDatabasePath><![CDATA[_recording_studio.nlp]]></templateRecordingStudioDatabasePath> <!-- Path of the template recording studio database file from the save area root -->
+	<templateProfileDatabasePath><![CDATA[records\_profile.nlp]]></templateProfileDatabasePath> <!-- Path of the template profile database file from the save area -->
+	<templateUsersDatabasePath><![CDATA[records\_users.nlp]]></templateUsersDatabasePath> <!-- Path of the template users database file from the save area -->
+	<usersDatabasePath><![CDATA[records\users.nlp]]></usersDatabasePath> <!-- Path of the users database file from the save area -->
+	<PDFLocation><![CDATA[resources\pdfs\deluxe\]]></PDFLocation> <!-- Location of the worksheet and card game PDFs from the application root -->
+	
+	<!-- All keys are to be acompanied by the control key and are according to the configuration within the com.ccontrol.utils.Keys class. -->
+	<shortcutKeys>
+		<shortcut location="home" key="H" />
+		<shortcut location="exit" key="Q" />
+		<shortcut location="toggleFullscreen" key="F" />
+		<shortcut location="logout" key="L" />
+		<shortcut location="previousScreen" key="Minus" />
+		<shortcut location="nextScreen" key="Equals" />
+	</shortcutKeys>
+			
+	<!--
+	Paths of all system config XML files from the application root
+	The names match those used in the Config class.
+	-->
+	<systemXMLConfigPaths>
+		<xmlPath name="islands" path="system/data/islands.xml" />
+		<xmlPath name="trickyMountain" path="system/data/tricky_mountain.xml" />
+		<xmlPath name="writingBeach" path="system/data/writing_beach.xml" />
+		<xmlPath name="gameReport" path="system/data/game_report.xml" />
+		<xmlPath name="wordLists" path="system/data/wordlists.xml" />
+		<xmlPath name="userWordLists" path="system/data/user_wordlists.xml" />
+		<xmlPath name="swearList" path="system/data/swear_list.xml" />
+		<xmlPath name="resources" path="system/data/resources.xml" />
+		<xmlPath name="phonicSounds" path="system/data/phonic_sounds.xml" />
+		<xmlPath name="trickyWords" path="system/data/tricky_words.xml" />
+		<xmlPath name="islandPDFs1" path="system/data/island_pdf_data/island1.xml" />
+		<xmlPath name="islandPDFs2" path="system/data/island_pdf_data/island2.xml" />
+		<xmlPath name="islandPDFs3" path="system/data/island_pdf_data/island3.xml" />
+		<xmlPath name="islandPDFs4" path="system/data/island_pdf_data/island4.xml" />
+		<xmlPath name="islandPDFs5" path="system/data/island_pdf_data/island5.xml" />
+		<xmlPath name="islandPDFs6" path="system/data/island_pdf_data/island6.xml" />
+		<xmlPath name="islandPDFs7" path="system/data/island_pdf_data/island7.xml" />
+		<xmlPath name="islandPDFs8" path="system/data/island_pdf_data/island8.xml" />
+		<xmlPath name="islandPDFs9" path="system/data/island_pdf_data/island9.xml" />
+		<xmlPath name="islandPDFs10" path="system/data/island_pdf_data/island10.xml" />
+		<xmlPath name="writingBeachPDFs" path="system/data/island_pdf_data/writing_beach.xml" />
+		<xmlPath name="trickyMountainPDFs" path="system/data/island_pdf_data/tricky_mountain.xml" />
+	</systemXMLConfigPaths>
+	
+	<!-- Paths of all single resource files from the application root -->
+	<resourcePaths>
+		<resource name="dyslexiaComicPDF" path="" />
+		<resource name="dyslexiaComicVideo" path="" />
+		<resource name="introFilm" path="" />
+		<resource name="userGuide" path="" />
+		<resource name="mediaDisplayer" path="system/features/media_displayer/media_displayer.swf" />
+	</resourcePaths>
+	
+	<!-- Quick Link menu items -->
+	<!--
+	Add a 'studentAccess' attribute to any base nodes to disallow that area to students.
+	-->
+	<quicklinks>
+
+		<level1 name="Getting Started" studentAccess="false">
+			<level2 name="Printable Assessments">
+				<level3 name="Reading Check A" action="pdf" ref="reading check A" />
+				<level3 name="Reading Check B" action="pdf" ref="reading check B" />
+				<level3 name="Spelling Check A" action="pdf" ref="spelling check A" />
+				<level3 name="Spelling Check B" action="pdf" ref="spelling check B" />
+				<level3 name="Sentence Check A" action="pdf" ref="sentence check A" />
+				<level3 name="Sentence Check B" action="pdf" ref="sentence check B" />
+			</level2>	
+			<level2 name="Help at Home" action="pdf" ref="help at home" />
+			<level2 name="Learning Record" action="pdf" ref="learning record" />
+			<level2 name="Tricky Word Record" action="pdf" ref="tricky word record" />
+		</level1>
+
+		<level1 name="Find a Lesson">
+			<level2 name="a">
+				<level3 name="a before s/f/th" action="island" ref="4,3" />
+				<level3 name="advanced plurals" action="island" ref="7,5" />
+				<level3 name="advanced prefixes" action="island" ref="10,9" />
+				<level3 name="advanced suffixing" action="island" ref="9,2" />
+				<level3 name="a-e ai ei ea" action="island" ref="7,9" />
+				<level3 name="a-e" action="island" ref="3,1" />
+				<level3 name="-age" action="island" ref="6,8" />
+				<level3 name="ai ay" action="island" ref="3,4" />
+				<level3 name="air" action="island" ref="5,8" />
+				<level3 name="-al -el" action="island" ref="9,1" />
+				<level3 name="alk" action="island" ref="2,5" />
+				<level3 name="-ant -able" action="island" ref="9,5" />
+				<level3 name="ar or ir ur 2" action="island" ref="3,9" />
+				<level3 name="-ar -or" action="island" ref="10,5" />
+				<level3 name="ar" action="island" ref="2,4" />
+				<level3 name="are ire ure" action="island" ref="6,4" />
+				<level3 name="assimilated prefixes" action="island" ref="10,8" />
+				<level3 name="-ate -ary -ance" action="island" ref="10,2" />
+				<level3 name="au 2" action="island" ref="9,3" />
+				<level3 name="au aw oor oar" action="island" ref="5,9" />
+			</level2>
+			<level2 name="b  c  d">
+				<level3 name="b d" action="island" ref="1,3" />
+				<level3 name="c k ck" action="island" ref="2,3" />
+				<level3 name="ccvc-cvcc" action="island" ref="4,2" />
+				<level3 name="ce se" action="island" ref="6,6" />
+				<level3 name="ch as k/sh" action="island" ref="9,6" />
+				<level3 name="ch" action="island" ref="1,6" />
+				<level3 name="compound words" action="island" ref="6,9" />
+				<level3 name="connective ti ci" action="island" ref="10,3" />
+				<level3 name="cvc" action="island" ref="1,2" />
+				<level3 name="cvc-cvc" action="island" ref="2,7" />
+				<level3 name="-cy" action="island" ref="9,5" />
+				<level3 name="dge" action="island" ref="5,2" />
+				<level3 name="doubling" action="island" ref="6,2" />
+			</level2>
+			<level2 name="e  f  g  h  i">
+				<level3 name="ear air" action="island" ref="5,8" />
+				<level3 name="-ed t/d" action="island" ref="6,2" />
+				<level3 name="-ed" action="island" ref="4,6" />
+				<level3 name="ee ea" action="island" ref="2,9" />
+				<level3 name="-eer ic ical ive ine ice ite ily ity" action="island" ref="8,9" />
+				<level3 name="end consonants (cvcc)" action="island" ref="2,2" />
+				<level3 name="er ir ur" action="island" ref="2,6" />
+				<level3 name="-er -ing" action="island" ref="2,8" />
+				<level3 name="-et -ed" action="island" ref="5,4" />
+				<level3 name="ff ll ss" action="island" ref="2,1" />
+				<level3 name="homophones" action="island" ref="8,6" />
+				<level3 name="ie ei" action="island" ref="8,4" />
+				<level3 name="i-e" action="island" ref="3,1" />
+				<level3 name="igh ie" action="island" ref="3,5" />
+				<level3 name="initial consonants (ccvc)" action="island" ref="1,8" />
+				<level3 name="ir ur 2" action="island" ref="8,7" />
+				<level3 name="ir" action="island" ref="2,6" />
+				<level3 name="-ism" action="island" ref="9,5" />
+			</level2>
+			<level2 name="j  k  l  m  n">
+				<level3 name="j choices" action="island" ref="10,4" />
+				<level3 name="l rule" action="island" ref="6,9" />
+				<level3 name="le" action="island" ref="5,7" />
+				<level3 name="-less -ness" action="island" ref="6,8" />
+				<level3 name="letter sounds" action="island" ref="1,1" />
+				<level3 name="links 2" action="island" ref="9,4" />
+				<level3 name="links" action="island" ref="7,2" />
+				<level3 name="ll" action="island" ref="2,1" />
+				<level3 name="-ly" action="island" ref="9,9" />
+				<level3 name="magic e 2" action="island" ref="4,5" />
+				<level3 name="magic e" action="island" ref="3,1" />
+				<level3 name="-ment" action="island" ref="6,8" />
+			</level2>
+			<level2 name="o  p">
+				<level3 name="o as u" action="island" ref="6,5" />
+				<level3 name="oa ow oe" action="island" ref="3,6" />
+				<level3 name="o-e oa ow oe" action="island" ref="8,2" />
+				<level3 name="o-e" action="island" ref="3,1" />
+				<level3 name="oi oy" action="island" ref="4,8" />
+				<level3 name="-ology" action="island" ref="10,2" />
+				<level3 name="oo" action="island" ref="3,7" />
+				<level3 name="open syllables 2" action="island" ref="4,4" />
+				<level3 name="or" action="island" ref="2,5" />
+				<level3 name="ou as u" action="island" ref="7,6" />
+				<level3 name="ou ow" action="island" ref="4,9" />
+				<level3 name="ough augh" action="island" ref="7,7" />
+				<level3 name="-our" action="island" ref="9,5" />
+				<level3 name="-ous -oon" action="island" ref="8,9" />
+				<level3 name="ph" action="island" ref="5,1" />
+				<level3 name="prefixes (heads)" action="island" ref="5,3" />
+			</level2>
+			<level2 name="q  r  s">
+				<level3 name="qu" action="island" ref="3,3" />
+				<level3 name="qua squa" action="island" ref="7,4" />
+				<level3 name="que " action="island" ref="9,8" />
+				<level3 name="rabbit and tiger" action="island" ref="5,5" />
+				<level3 name="-s -es" action="island" ref="2,8" />
+				<level3 name="sh" action="island" ref="1,5" />
+				<level3 name="silent letters 2" action="island" ref="10,1" />
+				<level3 name="silent letters" action="island" ref="6,3" />
+				<level3 name="-sion" action="island" ref="7,3" />
+				<level3 name="soft c g 2" action="island" ref="6,7" />
+				<level3 name="soft c g 3" action="island" ref="8,8" />
+				<level3 name="soft c g" action="island" ref="3,2" />
+				<level3 name="split vowels" action="island" ref="7,8" />
+				<level3 name="suffixing - double, drop e" action="island" ref="6,2" />
+				<level3 name="syllables: closed, open" action="island" ref="1,4" />
+			</level2>
+			<level2 name="t  u  v">
+				<level3 name="tch" action="island" ref="3,8" />
+				<level3 name="th" action="island" ref="1,7" />
+				<level3 name="tion sion" action="island" ref="7,3" />
+				<level3 name="triple consonants (cccvc)" action="island" ref="4,1" />
+				<level3 name="-ture -sure" action="island" ref="8,9" />
+				<level3 name="two syllable words" action="island" ref="4,2" />
+				<level3 name="u-e oo ew ui ue" action="island" ref="8,3" />
+				<level3 name="u-e" action="island" ref="3,1" />
+				<level3 name="ui ue ew" action="island" ref="4,7" />
+				<level3 name="ur" action="island" ref="2,6" />
+				<level3 name="ure" action="island" ref="6,4" />
+				<level3 name="vrr" action="island" ref="5,6" />
+			</level2>
+			<level2 name="w  x  y  z">
+				<level3 name="wa wor war" action="island" ref="6,1" />
+				<level3 name="wh qu" action="island" ref="3,3" />
+				<level3 name="word endings 1" action="island" ref="2,8" />
+				<level3 name="word endings 2" action="island" ref="5,4" />
+				<level3 name="word endings 3" action="island" ref="6,8" />
+				<level3 name="word endings 4" action="island" ref="8,9" />
+				<level3 name="word endings 5" action="island" ref="9,5" />
+				<level3 name="word endings 6" action="island" ref="10,2" />
+				<level3 name="y as a vowel" action="island" ref="10,7" />
+				<level3 name="-y as e" action="island" ref="2,8" />
+				<level3 name="y as i" action="island" ref="1,9" />
+				<level3 name="y changes to i" action="island" ref="7,1" />
+			</level2>
+		</level1>
+
+		<level1 name="Card Game Rules" action="pdf" ref="card game rules" />
+
+		<level1 name="About Nessy" action="screen" ref="about" />
+
+	</quicklinks>
+	
+	<!-- Basic loaded system features data -->
+	<!-- For games, 'dynamic' means 'can use any wordlist' -->
+	
+	<features>
+		<feature name="masterMenu" path="system/features/master_menu/master_menu.swf" available="true" connectionId="3R1BSJQD" game="false" debug="true" />
+		<feature name="profileControl" path="system/features/profile_control/profile_control.swf" available="true" connectionId="VTKCR3FL" game="false" debug="true" />
+		<feature name="home" path="system/features/home/home_islands.swf" available="true" connectionId="DPW14ZNS" game="false" debug="true" />
+		<feature name="homeNessyChallenge" path="system/features/home/home_nessy_challenge.swf" available="true" connectionId="DU9D8NAT" game="false" debug="true" />
+		<feature name="islands" path="system/features/islands/islands.swf" available="true" connectionId="Z8XNIETR" game="false" debug="true" />
+		<feature name="nuggetCave" path="system/features/nugget_cave/nugget_cave.swf" available="true" connectionId="9SELJBKR" game="false" debug="true" />
+		<feature name="gameReport" path="system/features/game_report/game_report.swf" available="true" connectionId="4YPWXVXS" game="false" debug="true" />
+		<feature name="trickyMountain" path="system/features/tricky_mountain/tricky_mountain.swf" available="true" connectionId="UQ3I5687" game="false" debug="true" />
+		<feature name="writingBeach" path="system/features/writing_beach/writing_beach.swf" available="true" connectionId="AUUU27JR" game="false" debug="true" />
+		<feature name="recordsStudent" path="system/features/records/records_student.swf" available="true" connectionId="JMHGHCJ6" game="false" debug="true" />
+		<feature name="recordsTeacher" path="system/features/records/records_teacher.swf" available="true" connectionId="ET4DATVT" game="false" debug="true" />
+		<feature name="settings" path="system/features/settings/settings.swf" available="true" connectionId="3UXUBHX7" game="false" debug="true" />
+		<feature name="about" path="system/features/about/about.swf" available="true" connectionId="HVQNK2KM" game="false" debug="true" />
+		<feature name="mediaScreen" path="system/features/media_screen/media_screen.swf" available="true" connectionId="SQ6KQIFH" game="false" debug="true" />
+		<feature name="recordingStudio" path="system/features/recording_studio/recording_studio.swf" available="true" connectionId="SYEYMUCP" game="false" debug="true" />
+		<feature name="help" path="system/features/help/help.swf" available="true" connectionId="8S9RZH97" game="false" debug="true" />
+		<feature name="gamesRSI" path="system/features/games_rsi/games_rsi.swf" available="true" connectionId="8RVGYMIC" game="false" debug="true" />
+		<feature name="animationListRSI" path="system/features/animation_list/animation_list_rsi.swf" available="true" connectionId="BSTVBB6G" game="false" debug="true" />
+		<feature name="imageFlowRSI" path="system/features/image_flow_rsi/image_flow_rsi.swf" available="true" connectionId="7L36681G" game="false" debug="true" />
+		<feature name="nessyFair" path="system/features/nessy_fair/nessy_fair.swf" available="true" connectionId="74ZIJZ76" game="false" debug="true" />
+		<feature name="template" path="system/features/template/template.swf" available="true" connectionId="R37QBHNX" game="false" debug="true" />
+
+		<!--
+		Wet Kipper and HOMB must have sentenceSupport set to false as, even though they use sentences, it is
+		optional within the game. The games will decide whether to offer sentences, depending upon whether
+		senetences were passed into them.
+		-->
+
+		<feature name="jigSore" path="resources/games/jig_sore/jig_sore.swf" available="true" connectionId="WMXVIBPA" game="true" debug="true">
+			<dynamic>false</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/jig_sore/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>cvc a</wordlist>
+					<wordlist>cvc i</wordlist>
+					<wordlist>cvc o</wordlist>
+					<wordlist>cvc e</wordlist>
+					<wordlist>cvc u</wordlist>
+					<wordlist>cvc mixed</wordlist>
+					<wordlist>b d</wordlist>
+					<wordlist>sh</wordlist>
+					<wordlist>ch</wordlist>
+					<wordlist>th</wordlist>
+					<wordlist>bl cl fl gl pl sl</wordlist>
+					<wordlist>br cr dr fr tr pr</wordlist>
+					<wordlist>sk sm sn sp st sw</wordlist>
+					<wordlist>ff</wordlist>
+					<wordlist>ll</wordlist>
+					<wordlist>ss zz</wordlist>
+					<wordlist>nd</wordlist>
+					<wordlist>ng</wordlist>
+					<wordlist>nt</wordlist>
+					<wordlist>nk</wordlist>
+					<wordlist>mp</wordlist>
+					<wordlist>lp lk lt lf ld</wordlist>
+					<wordlist>pt ft ct sk sp st xt</wordlist>
+					<wordlist>ck</wordlist>
+					<wordlist>ar</wordlist>
+					<wordlist>or</wordlist>
+					<wordlist>ur</wordlist>
+					<wordlist>ir</wordlist>
+					<wordlist>ee</wordlist>
+					<wordlist>ea</wordlist>
+					<wordlist>triple consonants</wordlist>
+					<wordlist>ai</wordlist>
+					<wordlist>igh</wordlist>
+					<wordlist>oa</wordlist>
+					<wordlist>ow (o)</wordlist>
+					<wordlist>oo</wordlist>
+					<wordlist>ew</wordlist>
+					<wordlist>ui ue</wordlist>
+					<wordlist>oi</wordlist>
+					<wordlist>ou (ow)</wordlist>
+					<wordlist>ow</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/jig_sore.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="chimpFu" path="resources/games/chimp_fu/chimp_fu.swf" available="true" connectionId="9NECLFF6" game="true" debug="true">
+			<dynamic>false</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/chimp_fu/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>cvc-cvc</wordlist>
+					<wordlist>magic e 2</wordlist>
+					<wordlist>advanced prefixes</wordlist>
+					<wordlist>open 2</wordlist>
+					<wordlist>two syllable words</wordlist>
+					<wordlist>tion</wordlist>
+					<wordlist>or 2</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/chimp_fu.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule>
+				<rule wordlistLinkage="cvc-cvc">syllable division (part 1)</rule>
+				<rule wordlistLinkage="two syllable words">syllable division (part 1)</rule>
+				<rule wordlistLinkage="open 2">syllable division (part 2)</rule>
+			</associatedRule>
+		</feature>
+		
+		<feature name="brainDrain" path="resources/games/brain_drain/brain_drain.swf" available="true" connectionId="SC16IR93" game="true" debug="true">
+			<dynamic>false</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/brain_drain/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>cvc mixed</wordlist>
+					<wordlist>sk sm sn sp st sw</wordlist>
+					<wordlist>pt ft ct sk sp st xt</wordlist>
+					<wordlist>or</wordlist>
+					<wordlist>mixed magic e</wordlist>
+					<wordlist>two syllable words</wordlist>
+					<wordlist>magic e 2</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/brain_drain.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>false</useSounds>
+			<autoLoadSounds>false</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="houseOfFear" path="resources/games/house_of_fear/house_of_fear.swf" available="true" connectionId="ZZXNRFNB" game="true" debug="true">
+			<dynamic>false</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/house_of_fear/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>ar</wordlist>
+					<wordlist>soft g 1</wordlist>
+					<wordlist>ough</wordlist>
+					<wordlist>oo</wordlist>
+					<wordlist>ui ue</wordlist>
+					<wordlist>set 4a</wordlist>
+					<wordlist>homophones</wordlist>
+					<wordlist>tial cial</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/house_of_fear.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>false</useSounds>
+			<autoLoadSounds>false</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="hotFeet" path="resources/games/hot_feet/hot_feet.swf" available="true" connectionId="ME7XHJV6" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/hot_feet_reading.png">true</reading>
+			<spelling splash="resources/thumbnails/games_rsi/hot_feet_spelling.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="iceIceHairy" path="resources/games/hairy_thing/hairy_thing.swf" available="true" connectionId="D845GDUW" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<sentenceRequired>true</sentenceRequired>
+			<reading splash="resources/thumbnails/games_rsi/ice_ice_hairy.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="protector" path="resources/games/protector/protector.swf" available="true" connectionId="U26W778E" game="true" debug="true">
+			<dynamic>false</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/protector/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>ck k</wordlist>
+					<wordlist>ai ay</wordlist>
+					<wordlist>oa ow</wordlist>
+					<wordlist>tch ch</wordlist>
+					<wordlist>oi oy</wordlist>
+					<wordlist>ou ow</wordlist>
+					<wordlist>dge ge</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/norman_le_pants.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="gorillaTickler" path="resources/games/gorilla_tickler/gorilla_tickler.swf" available="true" connectionId="JP7IM4NZ" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/gorilla_tickler.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="horsingAround" path="resources/games/horsing_around/horsing_around.swf" available="true" connectionId="94S1P8JB" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/horsing_around.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="snapOnePlayer" path="resources/games/snap/snap.swf" available="true" connectionId="CPLQN4GV" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/snap/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>ow</wordlist>
+					<wordlist>soft g 2</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/snap_1up.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="snapTwoPlayer" path="resources/games/snap/snap.swf" available="true" connectionId="DJ2ZZM4I" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>true</custom>
+			<twoPlayer>true</twoPlayer>
+			<customConfig>
+				<customConfigXML path="resources/games/snap/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>ow</wordlist>
+					<wordlist>soft g 2</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/snap_2up.png">true</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="fishFoodOnePlayer" path="resources/games/fish_food/fish_food.swf" available="true" connectionId="W2KLA2BF" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/fish_food_1up.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="fishFoodTwoPlayer" path="resources/games/fish_food/fish_food.swf" available="true" connectionId="4HER9PD1" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<twoPlayer>true</twoPlayer>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/fish_food_2up.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="wetKipperVsRocky" path="resources/games/wet_kipper/wet_kipper.swf" available="true" connectionId="AB6UG5NJ" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<sentenceRequired>true</sentenceRequired>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/wet_kipper_1up_vs_rocky.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="wetKipperVsGobbler" path="resources/games/wet_kipper/wet_kipper.swf" available="true" connectionId="PR92RFS8" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<sentenceRequired>true</sentenceRequired>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/wet_kipper_1up_vs_gobbler.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="wetKipperTwoPlayer" path="resources/games/wet_kipper/wet_kipper.swf" available="true" connectionId="MEQPGG3X" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<twoPlayer>true</twoPlayer>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/wet_kipper_2up.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="glynnGoesFishing" path="resources/games/glynn_goes_fishing/glynn_goes_fishing.swf" available="true" connectionId="NMDPX5VQ" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/glynn_goes_fishing.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="handsOffMyBananasLevel1" path="resources/games/hands_off_my_bananas/hands_off_my_bananas.swf" available="true" connectionId="YNXD8F6J" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/hands_off_my_bananas_gorillas.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+
+		<feature name="handsOffMyBananasLevel2" path="resources/games/hands_off_my_bananas/hands_off_my_bananas.swf" available="true" connectionId="Q5EC8C03" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<sentenceRequired>true</sentenceRequired>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/hands_off_my_bananas_burt.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="goalrilla" path="resources/games/goalrilla/goalrilla.swf" available="true" connectionId="3LMHN5QY" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="" />
+				<wordlists></wordlists>
+			</customConfig>
+			<sentenceSupport>true</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="resources/thumbnails/games_rsi/goalrilla.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<feature name="nessyChallenge" path="resources/games/nessy_challenge/nessy_challenge.swf" available="true" connectionId="CGJ7XKT1" game="true" debug="true">
+			<dynamic>false</dynamic>
+			<custom>true</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/nessy_challenge/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>challenge nessy island 1</wordlist>
+					<wordlist>challenge nessy island 2</wordlist>
+					<wordlist>challenge nessy island 3</wordlist>
+					<wordlist>challenge nessy island 4</wordlist>
+					<wordlist>challenge nessy island 5</wordlist>
+					<wordlist>challenge nessy island 6</wordlist>
+					<wordlist>challenge nessy island 7</wordlist>
+					<wordlist>challenge nessy island 8</wordlist>
+					<wordlist>challenge nessy island 9</wordlist>
+					<wordlist>challenge nessy island 10</wordlist>
+					<wordlist>challenge nessy all islands</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="">false</reading>
+			<spelling splash="">false</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		
+		<!--
+		<feature name="template game" path="resources/games/template/template.swf" available="true" connectionId="A91KGYLI" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/template/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>cvc a</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/template_game.png">true</reading>
+			<spelling splash="resources/thumbnails/games_rsi/template_game.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule>
+				<rule wordlistLinkage="ar">ar</rule>
+				<rule wordlistLinkage="or">or</rule>
+			</associatedRule>
+		</feature>
+		
+		<feature name="templateGame2" path="resources/games/template/template.swf" available="true" connectionId="4IN71W29" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/template/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>cvc a</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/template_game.png">true</reading>
+			<spelling splash="resources/thumbnails/games_rsi/template_game.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule></associatedRule>
+		</feature>
+		-->
+		<!--
+		<feature name="template game" path="resources/games/template/template.swf" available="true" connectionId="A91KGYLI" game="true" debug="true">
+			<dynamic>true</dynamic>
+			<custom>false</custom>
+			<customConfig>
+				<customConfigXML path="resources/games/template/custom_game_config.xml" />
+				<wordlists>
+					<wordlist>cvc a</wordlist>
+				</wordlists>
+			</customConfig>
+			<sentenceSupport>false</sentenceSupport>
+			<reading splash="resources/thumbnails/games_rsi/template_game.png">true</reading>
+			<spelling splash="resources/thumbnails/games_rsi/template_game.png">true</spelling>
+			<useSounds>true</useSounds>
+			<autoLoadSounds>true</autoLoadSounds>
+			<associatedRule>
+				<rule wordlistLinkage="ar">ar</rule>
+				<rule wordlistLinkage="or">or</rule>
+			</associatedRule>
+		</feature>
+		-->
+	</features>
+
+</config>

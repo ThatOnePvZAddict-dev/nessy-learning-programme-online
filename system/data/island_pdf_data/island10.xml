@@ -1,0 +1,585 @@
+<PDFData>
+
+	<lesson id="1">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="silent_letters_2/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/silent_letters_2/worksheets/">
+		
+			<item name="silent letters 2">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>silent_letters_2_tn.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="silent letters 2">
+				<description><![CDATA[match word to picture]]></description>
+				<fileName>silent_letters_2_cirw.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="silent letters 2">
+				<description><![CDATA[crossword]]></description>
+				<fileName>silent_letters_2_cw.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_cw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="silent letters 2">
+				<description><![CDATA[word list]]></description>
+				<fileName>silent_letters_2_wl.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="silent_letters_2/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/silent_letters_2/card_games/">
+		
+			<item name="silent letters 2">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>silent_letters_2_cg_st.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_cg_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="silent letters 2">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>silent_letters_2_cg_cut.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_cg_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="silent letters 2">
+				<description><![CDATA[follow on stickers]]></description>
+				<fileName>silent_letters_2_fo_st.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_fo_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="silent letters 2">
+				<description><![CDATA[follow on cut out]]></description>
+				<fileName>silent_letters_2_fo_cut.pdf</fileName>
+				<thumbnailFileName>silent_letters_2_fo_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		
+		</cardGames>
+		
+	</lesson>
+
+	<lesson id="2">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="word_endings_6/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/word_endings_6/worksheets/">
+		
+			<item name="word endings 6">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>word_endings_6_tn.pdf</fileName>
+				<thumbnailFileName>word_endings_6_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="word endings 6">
+				<description><![CDATA[flash cards]]></description>
+				<fileName>word_endings_6_fc.pdf</fileName>
+				<thumbnailFileName>word_endings_6_fc.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 6">
+				<description><![CDATA[word list]]></description>
+				<fileName>word_endings_6_wl.pdf</fileName>
+				<thumbnailFileName>word_endings_6_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>			
+		
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="word_endings_6/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/word_endings_6/card_games/">
+		
+			<item name="ate">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>word_end_6_cg_st.pdf</fileName>
+				<thumbnailFileName>word_end_6_cg_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ate">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>word_end_6_cg_cut.pdf</fileName>
+				<thumbnailFileName>word_end_6_cg_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 6">
+				<description><![CDATA[follow on stickers]]></description>
+				<fileName>word_end_6_fo_st.pdf</fileName>
+				<thumbnailFileName>word_end_6_fo_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="word endings 6">
+				<description><![CDATA[follow on cut out]]></description>
+				<fileName>word_end_6_fo_cut.pdf</fileName>
+				<thumbnailFileName>word_end_6_fo_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="3">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="connective_ti_ci/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/connective_ti_ci/worksheets/">
+		
+			<item name="connective ti ci">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>connective_ti_ci_tn.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="connective ti ci">
+				<description><![CDATA[flash cards]]></description>
+				<fileName>connective_ti_ci_fc.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_fc.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ation ssion">
+				<description><![CDATA[complete the word]]></description>
+				<fileName>connective_ti_ci_cplw_1.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_cplw_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ition mission">
+				<description><![CDATA[complete the word]]></description>
+				<fileName>connective_ti_ci_cplw_2.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_cplw_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="connective ti ci">
+				<description><![CDATA[sentences]]></description>
+				<fileName>connective_ti_ci_sent.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_sent.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="connective ti ci">
+				<description><![CDATA[word list]]></description>
+				<fileName>connective_ti_ci_wl.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>			
+		
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="connective_ti_ci/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/connective_ti_ci/card_games/">
+		
+			<item name="connective ti ci">
+				<description><![CDATA[fix-it]]></description>
+				<fileName>connective_ti_ci_fi.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_fi.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ation ssion">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>connective_ti_ci_cg_1_st.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_cg_1_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ation ssion">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>connective_ti_ci_cg_1_cut.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_cg_1_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ition mission">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>connective_ti_ci_cg_2_st.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_cg_2_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="ition mission">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>connective_ti_ci_cg_2_cut.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_cg_2_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="connective ti ci">
+				<description><![CDATA[follow on stickers]]></description>
+				<fileName>connective_ti_ci_fo_st.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_fo_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="connective ti ci">
+				<description><![CDATA[follow on cut out]]></description>
+				<fileName>connective_ti_ci_fo_cut.pdf</fileName>
+				<thumbnailFileName>connective_ti_ci_fo_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="4">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="j_choices/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/j_choices/worksheets/">
+		
+			<item name="j choices">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>j_choices_tn.pdf</fileName>
+				<thumbnailFileName>j_choices_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="j choices">
+				<description><![CDATA[read sentence spell word]]></description>
+				<fileName>j_choices_mw.pdf</fileName>
+				<thumbnailFileName>j_choices_mw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="j choices">
+				<description><![CDATA[sentences]]></description>
+				<fileName>j_choices_sent.pdf</fileName>
+				<thumbnailFileName>j_choices_sent.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="j choices">
+				<description><![CDATA[word list]]></description>
+				<fileName>j_choices_wl.pdf</fileName>
+				<thumbnailFileName>j_choices_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="j_choices/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/j_choices/card_games/">
+		
+			<item name="j choices">
+				<description><![CDATA[fix-it]]></description>
+				<fileName>j_choices_fi.pdf</fileName>
+				<thumbnailFileName>j_choices_fi.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</cardGames>
+		
+	</lesson>
+
+	<lesson id="5">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="-ar_-or/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/-ar_-or/worksheets/">
+		
+			<item name="-ar -or">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>-ar_-or_tn.pdf</fileName>
+				<thumbnailFileName>-ar_-or_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="-ar -or">
+				<description><![CDATA[complete the word]]></description>
+				<fileName>-ar_-or_cplw.pdf</fileName>
+				<thumbnailFileName>-ar_-or_cplw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="-ar -or">
+				<description><![CDATA[word list]]></description>
+				<fileName>-ar_-or_wl.pdf</fileName>
+				<thumbnailFileName>-ar_-or_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>			
+		
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="-ar_-or/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/-ar_-or/card_games/">
+		
+			<item name="-ar -or">
+				<description><![CDATA[fix-it]]></description>
+				<fileName>-ar_-or_fi.pdf</fileName>
+				<thumbnailFileName>-ar_-or_fi.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="6">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="eu/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/eu/worksheets/">
+		
+			<item name="eu">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>eu_tn.pdf</fileName>
+				<thumbnailFileName>eu_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="eu">
+				<description><![CDATA[match word to clue]]></description>
+				<fileName>eu_cirw.pdf</fileName>
+				<thumbnailFileName>eu_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="eu">
+				<description><![CDATA[word list]]></description>
+				<fileName>eu_wl.pdf</fileName>
+				<thumbnailFileName>eu_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="eu/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/eu/card_games/">
+		
+			<item name="eu">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>eu_cg_st.pdf</fileName>
+				<thumbnailFileName>eu_cg_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="eu">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>eu_cg_cut.pdf</fileName>
+				<thumbnailFileName>eu_cg_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="7">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="y_as_a_vowel/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/y_as_a_vowel/worksheets/">
+		
+			<item name="y as a vowel">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>y_as_a_vowel_tn.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="y as a vowel">
+				<description><![CDATA[match word to clue]]></description>
+				<fileName>y_as_a_vowel_cirw.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="y as a vowel">
+				<description><![CDATA[word list]]></description>
+				<fileName>y_as_a_vowel_wl.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="y_as_a_vowel/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/y_as_a_vowel/card_games/">
+		
+			<item name="y as a vowel">
+				<description><![CDATA[chain game stickers]]></description>
+				<fileName>y_as_a_vowel_cg_st.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_cg_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="y as a vowel">
+				<description><![CDATA[chain game cut out]]></description>
+				<fileName>y_as_a_vowel_cg_cut.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_cg_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="y as a vowel">
+				<description><![CDATA[follow on stickers]]></description>
+				<fileName>y_as_a_vowel_fo_st.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_fo_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="y as a vowel">
+				<description><![CDATA[follow on cut out]]></description>
+				<fileName>y_as_a_vowel_fo_cut.pdf</fileName>
+				<thumbnailFileName>y_as_a_vowel_fo_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="8">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="assimilated_prefixes/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/assimilated_prefixes/worksheets/">
+		
+			<item name="assimilated prefixes">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>assim_prefix_tn.pdf</fileName>
+				<thumbnailFileName>assim_prefix_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="assimilated prefixes">
+				<description><![CDATA[word sums 1]]></description>
+				<fileName>assim_prefix_wdsms_1.pdf</fileName>
+				<thumbnailFileName>assim_prefix_wdsms_1.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="assimilated prefixes">
+				<description><![CDATA[word sums 2]]></description>
+				<fileName>assim_prefix_wdsms_2.pdf</fileName>
+				<thumbnailFileName>assim_prefix_wdsms_2.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="assimilated prefixes">
+				<description><![CDATA[word list]]></description>
+				<fileName>assim_prefix_wl.pdf</fileName>
+				<thumbnailFileName>assim_prefix_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+		</worksheets>
+		
+		<cardGames resourceType="cardGames" mediaType="pdf" location="assimilated_prefixes/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/assimilated_prefixes/card_games/">
+		
+			<item name="assimilated prefixes">
+				<description><![CDATA[follow on stickers]]></description>
+				<fileName>assim_prefix_fo_st.pdf</fileName>
+				<thumbnailFileName>assim_prefix_fo_st.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="assimilated prefixes">
+				<description><![CDATA[follow on cut out]]></description>
+				<fileName>assim_prefix_fo_cut.pdf</fileName>
+				<thumbnailFileName>assim_prefix_fo_cut.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="how to play all games">
+				<description><![CDATA[]]></description>
+				<fileName>{APPPATH}resources/pdfs/card_game_rules.pdf</fileName>
+				<thumbnailFileName>../../card_game_rules.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="9">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="advanced_prefixes/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/advanced_prefixes/worksheets/">
+		
+			<item name="advanced prefixes">
+				<description><![CDATA[teaching notes]]></description>
+				<fileName>advanced_prefixes_tn.pdf</fileName>
+				<thumbnailFileName>advanced_prefixes_tn.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+
+			<item name="advanced prefixes">
+				<description><![CDATA[match word to clue 1]]></description>
+				<fileName>advanced_prefixes_cirw.pdf</fileName>
+				<thumbnailFileName>advanced_prefixes_cirw.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>
+			
+			<item name="advanced prefixes">
+				<description><![CDATA[word list]]></description>
+				<fileName>advanced_prefixes_wl.pdf</fileName>
+				<thumbnailFileName>advanced_prefixes_wl.png</thumbnailFileName>
+				<interactive>false</interactive>
+			</item>	
+			
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="advanced_prefixes/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/advanced_prefixes/card_games/">
+		
+		
+		</cardGames>
+		
+	</lesson>
+	
+	<lesson id="10">
+		
+		<worksheets resourceType="workSheets" mediaType="pdf" location="xxxxx/worksheets/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/xxxxx/worksheets/">
+		</worksheets>
+
+		<cardGames resourceType="cardGames" mediaType="pdf" location="xxxxx/card_games/" thumbnailLocation="resources/thumbnails/image_flow/island_pdfs/xxxxx/card_games/">
+		</cardGames>
+		
+	</lesson>
+	
+</PDFData>

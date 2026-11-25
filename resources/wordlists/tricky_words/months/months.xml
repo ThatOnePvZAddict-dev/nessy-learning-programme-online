@@ -1,0 +1,14 @@
+<list name="months" location="" sentence="">
+	<word soundFileName="January.mp3"><![CDATA[January]]></word>
+	<word soundFileName="February.mp3"><![CDATA[February]]></word>
+	<word soundFileName="March.mp3"><![CDATA[March]]></word>
+	<word soundFileName="April.mp3"><![CDATA[April]]></word>
+	<word soundFileName="May.mp3"><![CDATA[May]]></word>
+	<word soundFileName="June.mp3"><![CDATA[June]]></word>
+	<word soundFileName="July.mp3"><![CDATA[July]]></word>
+	<word soundFileName="August.mp3"><![CDATA[August]]></word>
+	<word soundFileName="September.mp3"><![CDATA[September]]></word>
+	<word soundFileName="October.mp3"><![CDATA[October]]></word>
+	<word soundFileName="November.mp3"><![CDATA[November]]></word>
+	<word soundFileName="December.mp3"><![CDATA[December]]></word>
+</list>

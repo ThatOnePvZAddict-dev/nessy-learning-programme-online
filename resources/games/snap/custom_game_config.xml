@@ -1,0 +1,642 @@
+<customGame>
+	
+<!--
+
+The data in the 'standard' node uses the same schema for all non-dynamic games, so that
+it can be parsed by the game API. It's task is to define all 'word' and 'sentence' word
+lists for automated declaration and sound loading.
+
+The lists include their sound file locations so that punctuations can be used if required.
+
+-->
+
+	<standard>
+		<words>
+			<list name = "soft g 2" location = "resources/games/snap/sounds/soft_g_2/" sentence = "">
+				<word soundFileName = "pencil.mp3"><![CDATA[pencil]]></word>
+				<word soundFileName = "acid.mp3"><![CDATA[acid]]></word>
+				<word soundFileName = "police.mp3"><![CDATA[police]]></word>
+				<word soundFileName = "circle.mp3"><![CDATA[circle]]></word>
+				<word soundFileName = "cider.mp3"><![CDATA[cider]]></word>
+				<word soundFileName = "decide.mp3"><![CDATA[decide]]></word>
+				<word soundFileName = "cycle.mp3"><![CDATA[cycle]]></word>
+				<word soundFileName = "fancy.mp3"><![CDATA[fancy]]></word>
+				<word soundFileName = "concern.mp3"><![CDATA[concern]]></word>
+				<word soundFileName = "cancel.mp3"><![CDATA[cancel]]></word>
+				<word soundFileName = "concert.mp3"><![CDATA[concert]]></word>
+				<word soundFileName = "circus.mp3"><![CDATA[circus]]></word>
+				<word soundFileName = "juice.mp3"><![CDATA[juice]]></word>
+				<word soundFileName = "huge.mp3"><![CDATA[huge]]></word>
+				<word soundFileName = "giant.mp3"><![CDATA[giant]]></word>
+				<word soundFileName = "charge.mp3"><![CDATA[charge]]></word>
+				<word soundFileName = "orange.mp3"><![CDATA[orange]]></word>
+				<word soundFileName = "legend.mp3"><![CDATA[legend]]></word>
+				<word soundFileName = "stage.mp3"><![CDATA[stage]]></word>
+				<word soundFileName = "energy.mp3"><![CDATA[energy]]></word>
+				<word soundFileName = "magic.mp3"><![CDATA[magic]]></word>
+				<word soundFileName = "engine.mp3"><![CDATA[engine]]></word>
+				<word soundFileName = "angel.mp3"><![CDATA[angel]]></word>
+				<word soundFileName = "giraffe.mp3"><![CDATA[giraffe]]></word>
+				<word soundFileName = "pigeon.mp3"><![CDATA[pigeon]]></word>
+				<word soundFileName = "urgent.mp3"><![CDATA[urgent]]></word>
+				<word soundFileName = "coffee.mp3"><![CDATA[coffee]]></word>
+				<word soundFileName = "cannon.mp3"><![CDATA[cannon]]></word>
+				<word soundFileName = "panic.mp3"><![CDATA[panic]]></word>
+				<word soundFileName = "picnic.mp3"><![CDATA[picnic]]></word>
+				<word soundFileName = "scrap.mp3"><![CDATA[scrap]]></word>
+				<word soundFileName = "comfort.mp3"><![CDATA[comfort]]></word>
+				<word soundFileName = "arctic.mp3"><![CDATA[arctic]]></word>
+				<word soundFileName = "cotton.mp3"><![CDATA[cotton]]></word>
+				<word soundFileName = "corner.mp3"><![CDATA[corner]]></word>
+				<word soundFileName = "abacus.mp3"><![CDATA[abacus]]></word>
+				<word soundFileName = "scrub.mp3"><![CDATA[scrub]]></word>
+				<word soundFileName = "connect.mp3"><![CDATA[connect]]></word>
+				<word soundFileName = "scarlet.mp3"><![CDATA[scarlet]]></word>
+				<word soundFileName = "garden.mp3"><![CDATA[garden]]></word>
+				<word soundFileName = "gossip.mp3"><![CDATA[gossip]]></word>
+				<word soundFileName = "argue.mp3"><![CDATA[argue]]></word>
+				<word soundFileName = "graphic.mp3"><![CDATA[graphic]]></word>
+				<word soundFileName = "gallop.mp3"><![CDATA[gallop]]></word>
+				<word soundFileName = "graph.mp3"><![CDATA[graph]]></word>
+				<word soundFileName = "garlic.mp3"><![CDATA[garlic]]></word>
+				<word soundFileName = "gold.mp3"><![CDATA[gold]]></word>
+				<word soundFileName = "grab.mp3"><![CDATA[grab]]></word>
+				<word soundFileName = "glass.mp3"><![CDATA[glass]]></word>
+				<word soundFileName = "single.mp3"><![CDATA[single]]></word>
+				<word soundFileName = "degree.mp3"><![CDATA[degree]]></word>
+				<word soundFileName = "ground.mp3"><![CDATA[ground]]></word>
+			</list>
+
+			<list name = "ow" location = "resources/games/snap/sounds/ow/" sentence = "">
+				<word soundFileName = "paint.mp3"><![CDATA[paint]]></word>
+				<word soundFileName = "rain.mp3"><![CDATA[rain]]></word>
+				<word soundFileName = "snail.mp3"><![CDATA[snail]]></word>
+				<word soundFileName = "wait.mp3"><![CDATA[wait]]></word>
+				<word soundFileName = "tray.mp3"><![CDATA[tray]]></word>
+				<word soundFileName = "play.mp3"><![CDATA[play]]></word>
+				<word soundFileName = "clay.mp3"><![CDATA[clay]]></word>
+				<word soundFileName = "stay.mp3"><![CDATA[stay]]></word>
+				<word soundFileName = "deep.mp3"><![CDATA[deep]]></word>
+				<word soundFileName = "green.mp3"><![CDATA[green]]></word>
+				<word soundFileName = "heat.mp3"><![CDATA[heat]]></word>
+				<word soundFileName = "chief.mp3"><![CDATA[chief]]></word>
+				<word soundFileName = "field.mp3"><![CDATA[field]]></word>
+				<word soundFileName = "key.mp3"><![CDATA[key]]></word>
+				<word soundFileName = "valley.mp3"><![CDATA[valley]]></word>
+				<word soundFileName = "bean.mp3"><![CDATA[bean]]></word>
+				<word soundFileName = "boat.mp3"><![CDATA[boat]]></word>
+				<word soundFileName = "toast.mp3"><![CDATA[toast]]></word>
+				<word soundFileName = "road.mp3"><![CDATA[road]]></word>
+				<word soundFileName = "snow.mp3"><![CDATA[snow]]></word>
+				<word soundFileName = "grow.mp3"><![CDATA[grow]]></word>
+				<word soundFileName = "show.mp3"><![CDATA[show]]></word>
+				<word soundFileName = "goal.mp3"><![CDATA[goal]]></word>
+				<word soundFileName = "throw.mp3"><![CDATA[throw]]></word>
+				<word soundFileName = "right.mp3"><![CDATA[right]]></word>
+				<word soundFileName = "tight.mp3"><![CDATA[tight]]></word>
+				<word soundFileName = "high.mp3"><![CDATA[high]]></word>
+				<word soundFileName = "light.mp3"><![CDATA[light]]></word>
+				<word soundFileName = "die.mp3"><![CDATA[die]]></word>
+				<word soundFileName = "tie.mp3"><![CDATA[tie]]></word>
+				<word soundFileName = "pie.mp3"><![CDATA[pie]]></word>
+				<word soundFileName = "moon.mp3"><![CDATA[moon]]></word>
+				<word soundFileName = "hoop.mp3"><![CDATA[hoop]]></word>
+				<word soundFileName = "roof.mp3"><![CDATA[roof]]></word>
+				<word soundFileName = "new.mp3"><![CDATA[new]]></word>
+				<word soundFileName = "stew.mp3"><![CDATA[stew]]></word>
+				<word soundFileName = "blue.mp3"><![CDATA[blue]]></word>
+				<word soundFileName = "true.mp3"><![CDATA[true]]></word>
+				<word soundFileName = "fruit.mp3"><![CDATA[fruit]]></word>
+				<word soundFileName = "juice.mp3"><![CDATA[juice]]></word>
+				<word soundFileName = "ground.mp3"><![CDATA[ground]]></word>
+				<word soundFileName = "cloud.mp3"><![CDATA[cloud]]></word>
+				<word soundFileName = "mouse.mp3"><![CDATA[mouse]]></word>
+				<word soundFileName = "crown.mp3"><![CDATA[crown]]></word>
+				<word soundFileName = "owl.mp3"><![CDATA[owl]]></word>
+				<word soundFileName = "shower.mp3"><![CDATA[shower]]></word>
+				<word soundFileName = "boy.mp3"><![CDATA[boy]]></word>
+				<word soundFileName = "toy.mp3"><![CDATA[toy]]></word>
+				<word soundFileName = "coin.mp3"><![CDATA[coin]]></word>
+				<word soundFileName = "soil.mp3"><![CDATA[soil]]></word>
+				<word soundFileName = "point.mp3"><![CDATA[point]]></word>
+				<word soundFileName = "voice.mp3"><![CDATA[voice]]></word>
+			</list>
+		</words>
+		
+		<sentences>
+		
+			<list name="" location="">
+			</list>
+		
+		</sentences>
+		
+	</standard>
+	
+<!--
+
+The data in the 'cutom' node is sent directly through to the game for it to handle. It is
+advised to wrap data within nodes with the same name attributes as the word lists that
+their data supports.
+
+-->
+	
+	<custom>
+
+		<wordlist name = "soft g 2">
+			<set sound = "ci/ce/cy">
+				<word name = "pencil">
+					<w match = "0">pen</w>
+					<w match = "1">ci</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "acid">
+					<w match = "0">a</w>
+					<w match = "1">ci</w>
+					<w match = "0">d</w>
+				</word>
+				<word name = "police">
+					<w match = "0">poli</w>
+					<w match = "1">ce</w>
+				</word>
+				<word name = "juice">
+					<w match = "0">jui</w>
+					<w match = "1">ce</w>
+				</word>
+				<word name = "circle">
+					<w match = "1">ci</w>
+					<w match = "0">rcle</w>
+				</word>
+				<word name = "cider">
+					<w match = "1">ci</w>
+					<w match = "0">der</w>
+				</word>
+				<word name = "decide">
+					<w match = "0">de</w>
+					<w match = "1">ci</w>
+					<w match = "0">de</w>
+				</word>
+				<word name = "cycle">
+					<w match = "1">cy</w>
+					<w match = "0">cle</w>
+				</word>
+				<word name = "fancy">
+					<w match = "0">fan</w>
+					<w match = "1">cy</w>
+				</word>
+				<word name = "concern">
+					<w match = "0">con</w>
+					<w match = "1">ce</w>
+					<w match = "0">rn</w>
+				</word>
+				<word name = "cancel">
+					<w match = "0">can</w>
+					<w match = "1">ce</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "concert">
+					<w match = "0">con</w>
+					<w match = "1">ce</w>
+					<w match = "0">rt</w>
+				</word>
+				<word name = "circus">
+					<w match = "1">ci</w>
+					<w match = "0">rcus</w>
+				</word>
+			</set>
+			<set sound = "gi/ge/gy">
+				<word name = "huge">
+					<w match = "0">hu</w>
+					<w match = "1">ge</w>
+				</word>
+				<word name = "giant">
+					<w match = "1">gi</w>
+					<w match = "0">ant</w>
+				</word>
+				<word name = "charge">
+					<w match = "0">char</w>
+					<w match = "1">ge</w>
+				</word>
+				<word name = "orange">
+					<w match = "0">oran</w>
+					<w match = "1">ge</w>
+				</word>
+				<word name = "legend">
+					<w match = "0">le</w>
+					<w match = "1">ge</w>
+					<w match = "0">nd</w>
+				</word>
+				<word name = "stage">
+					<w match = "0">sta</w>
+					<w match = "1">ge</w>
+				</word>
+				<word name = "energy">
+					<w match = "0">ener</w>
+					<w match = "1">gy</w>
+				</word>
+				<word name = "magic">
+					<w match = "0">ma</w>
+					<w match = "1">gi</w>
+					<w match = "0">c</w>
+				</word>
+				<word name = "engine">
+					<w match = "0">en</w>
+					<w match = "1">gi</w>
+					<w match = "0">ne</w>
+				</word>
+				<word name = "angel">
+					<w match = "0">an</w>
+					<w match = "1">ge</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "giraffe">
+					<w match = "1">gi</w>
+					<w match = "0">raffe</w>
+				</word>
+				<word name = "pigeon">
+					<w match = "0">pi</w>
+					<w match = "1">ge</w>
+					<w match = "0">on</w>
+				</word>
+				<word name = "urgent">
+					<w match = "0">ur</w>
+					<w match = "1">ge</w>
+					<w match = "0">nt</w>
+				</word>
+			</set>
+			<set sound = "c">
+				<word name = "coffee">
+					<w match = "1">c</w>
+					<w match = "0">offee</w>
+				</word>
+				<word name = "cannon">
+					<w match = "1">c</w>
+					<w match = "0">annon</w>
+				</word>
+				<word name = "panic">
+					<w match = "0">pani</w>
+					<w match = "1">c</w>
+				</word>
+				<word name = "picnic">
+					<w match = "0">pi</w>
+					<w match = "1">c</w>
+					<w match = "0">nic</w>
+				</word>
+				<word name = "scrap">
+					<w match = "0">s</w>
+					<w match = "1">c</w>
+					<w match = "0">rap</w>
+				</word>
+				<word name = "comfort">
+					<w match = "1">c</w>
+					<w match = "0">omfort</w>
+				</word>
+				<word name = "arctic">
+					<w match = "0">ar</w>
+					<w match = "1">c</w>
+					<w match = "0">tic</w>
+				</word>
+				<word name = "cotton">
+					<w match = "1">c</w>
+					<w match = "0">otton</w>
+				</word>
+				<word name = "corner">
+					<w match = "1">c</w>
+					<w match = "0">orner</w>
+				</word>
+				<word name = "abacus">
+					<w match = "0">aba</w>
+					<w match = "1">c</w>
+					<w match = "0">us</w>
+				</word>
+				<word name = "scrub">
+					<w match = "0">s</w>
+					<w match = "1">c</w>
+					<w match = "0">rub</w>
+				</word>
+				<word name = "connect">
+					<w match = "1">c</w>
+					<w match = "0">onnect</w>
+				</word>
+				<word name = "scarlet">
+					<w match = "0">s</w>
+					<w match = "1">c</w>
+					<w match = "0">arlet</w>
+				</word>
+			</set>
+			<set sound = "g">
+				<word name = "garden">
+					<w match = "1">g</w>
+					<w match = "0">arden</w>
+				</word>
+				<word name = "gossip">
+					<w match = "1">g</w>
+					<w match = "0">ossip</w>
+				</word>
+				<word name = "argue">
+					<w match = "0">ar</w>
+					<w match = "1">g</w>
+					<w match = "0">ue</w>
+				</word>
+				<word name = "graphic">
+					<w match = "1">g</w>
+					<w match = "0">aphic</w>
+				</word>
+				<word name = "gallop">
+					<w match = "1">g</w>
+					<w match = "0">allop</w>
+				</word>
+				<word name = "graph">
+					<w match = "1">g</w>
+					<w match = "0">raph</w>
+				</word>
+				<word name = "garlic">
+					<w match = "1">g</w>
+					<w match = "0">arlic</w>
+				</word>
+				<word name = "gold">
+					<w match = "1">g</w>
+					<w match = "0">old</w>
+				</word>
+				<word name = "grab">
+					<w match = "1">g</w>
+					<w match = "0">rab</w>
+				</word>
+				<word name = "glass">
+					<w match = "1">g</w>
+					<w match = "0">lass</w>
+				</word>
+				<word name = "single">
+					<w match = "0">sin</w>
+					<w match = "1">g</w>
+					<w match = "0">le</w>
+				</word>
+				<word name = "degree">
+					<w match = "0">de</w>
+					<w match = "1">g</w>
+					<w match = "0">ree</w>
+				</word>
+				<word name = "ground">
+					<w match = "1">g</w>
+					<w match = "0">round</w>
+				</word>
+			</set>
+		</wordlist>
+
+		<wordlist name = "ow">
+			<set sound = "ai/ay">
+				<word name = "paint">
+					<w match = "0">p</w>
+					<w match = "1">ai</w>
+					<w match = "0">nt</w>
+				</word>
+				<word name = "rain">
+					<w match = "0">r</w>
+					<w match = "1">ai</w>
+					<w match = "0">n</w>
+				</word>
+				<word name = "snail">
+					<w match = "0">sn</w>
+					<w match = "1">ai</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "wait">
+					<w match = "0">w</w>
+					<w match = "1">ai</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "tray">
+					<w match = "0">tr</w>
+					<w match = "1">ay</w>
+				</word>
+				<word name = "play">
+					<w match = "0">pl</w>
+					<w match = "1">ay</w>
+				</word>
+				<word name = "clay">
+					<w match = "0">cl</w>
+					<w match = "1">ay</w>
+				</word>
+				<word name = "stay">
+					<w match = "0">st</w>
+					<w match = "1">ay</w>
+				</word>
+			</set>
+			<set sound = "ee/ea/ie/ey">
+				<word name = "deep">
+					<w match = "0">d</w>
+					<w match = "1">ee</w>
+					<w match = "0">p</w>
+				</word>
+				<word name = "green">
+					<w match = "0">gr</w>
+					<w match = "1">ee</w>
+					<w match = "0">n</w>
+				</word>
+				<word name = "heat">
+					<w match = "0">h</w>
+					<w match = "1">ea</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "chief">
+					<w match = "0">ch</w>
+					<w match = "1">ie</w>
+					<w match = "0">f</w>
+				</word>
+				<word name = "field">
+					<w match = "0">f</w>
+					<w match = "1">ie</w>
+					<w match = "0">ld</w>
+				</word>
+				<word name = "key">
+					<w match = "0">k</w>
+					<w match = "1">ey</w>
+				</word>
+				<word name = "valley">
+					<w match = "0">vall</w>
+					<w match = "1">ey</w>
+				</word>
+				<word name = "bean">
+					<w match = "0">b</w>
+					<w match = "1">ea</w>
+					<w match = "0">n</w>
+				</word>
+			</set>
+			<set sound = "oa/ow/oe">
+				<word name = "boat">
+					<w match = "0">b</w>
+					<w match = "1">oa</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "toast">
+					<w match = "0">t</w>
+					<w match = "1">oa</w>
+					<w match = "0">st</w>
+				</word>
+				<word name = "road">
+					<w match = "0">r</w>
+					<w match = "1">oa</w>
+					<w match = "0">d</w>
+				</word>
+				<word name = "snow">
+					<w match = "0">sn</w>
+					<w match = "1">ow</w>
+				</word>
+				<word name = "grow">
+					<w match = "0">gr</w>
+					<w match = "1">ow</w>
+				</word>
+				<word name = "show">
+					<w match = "0">sh</w>
+					<w match = "1">ow</w>
+				</word>
+				<word name = "goal">
+					<w match = "0">g</w>
+					<w match = "1">oa</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "throw">
+					<w match = "0">thr</w>
+					<w match = "1">ow</w>
+				</word>
+			</set>
+			<set sound = "igh/ie">
+				<word name = "right">
+					<w match = "0">r</w>
+					<w match = "1">igh</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "tight">
+					<w match = "0">t</w>
+					<w match = "1">igh</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "high">
+					<w match = "0">h</w>
+					<w match = "1">igh</w>
+				</word>
+				<word name = "light">
+					<w match = "0">l</w>
+					<w match = "1">igh</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "die">
+					<w match = "0">d</w>
+					<w match = "1">ie</w>
+				</word>
+				<word name = "tie">
+					<w match = "0">t</w>
+					<w match = "1">ie</w>
+				</word>
+				<word name = "pie">
+					<w match = "0">p</w>
+					<w match = "1">ie</w>
+				</word>
+			</set>
+			<set sound = "oo/ue/ui/ew">
+				<word name = "moon">
+					<w match = "0">m</w>
+					<w match = "1">oo</w>
+					<w match = "0">n</w>
+				</word>
+				<word name = "hoop">
+					<w match = "0">h</w>
+					<w match = "1">oo</w>
+					<w match = "0">p</w>
+				</word>
+				<word name = "roof">
+					<w match = "0">r</w>
+					<w match = "1">oo</w>
+					<w match = "0">f</w>
+				</word>
+				<word name = "new">
+					<w match = "0">n</w>
+					<w match = "1">ew</w>
+				</word>
+				<word name = "stew">
+					<w match = "0">st</w>
+					<w match = "1">ew</w>
+				</word>
+				<word name = "blue">
+					<w match = "0">bl</w>
+					<w match = "1">ue</w>
+				</word>
+				<word name = "true">
+					<w match = "0">tr</w>
+					<w match = "1">ue</w>
+				</word>
+				<word name = "fruit">
+					<w match = "0">fr</w>
+					<w match = "1">ui</w>
+					<w match = "0">t</w>
+				</word>
+				<word name = "juice">
+					<w match = "0">j</w>
+					<w match = "1">ui</w>
+					<w match = "0">ce</w>
+				</word>
+			</set>
+			<set sound = "ou/ow">
+				<word name = "ground">
+					<w match = "0">gr</w>
+					<w match = "1">ou</w>
+					<w match = "0">nd</w>
+				</word>
+				<word name = "cloud">
+					<w match = "0">cl</w>
+					<w match = "1">ou</w>
+					<w match = "0">d</w>
+				</word>
+				<word name = "mouse">
+					<w match = "0">m</w>
+					<w match = "1">ou</w>
+					<w match = "0">se</w>
+				</word>
+				<word name = "crown">
+					<w match = "0">cr</w>
+					<w match = "1">ow</w>
+					<w match = "0">n</w>
+				</word>
+				<word name = "owl">
+					<w match = "1">ow</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "shower">
+					<w match = "0">sh</w>
+					<w match = "1">ow</w>
+					<w match = "0">er</w>
+				</word>
+			</set>
+			<set sound = "oi/oy">
+				<word name = "boy">
+					<w match = "0">b</w>
+					<w match = "1">oy</w>
+				</word>
+				<word name = "toy">
+					<w match = "0">t</w>
+					<w match = "1">oy</w>
+				</word>
+				<word name = "coin">
+					<w match = "0">c</w>
+					<w match = "1">oi</w>
+					<w match = "0">n</w>
+				</word>
+				<word name = "soil">
+					<w match = "0">s</w>
+					<w match = "1">oi</w>
+					<w match = "0">l</w>
+				</word>
+				<word name = "point">
+					<w match = "0">p</w>
+					<w match = "1">oi</w>
+					<w match = "0">nt</w>
+				</word>
+				<word name = "voice">
+					<w match = "0">v</w>
+					<w match = "1">oi</w>
+					<w match = "0">ce</w>
+				</word>
+			</set>
+		</wordlist>
+
+	</custom>
+</customGame>

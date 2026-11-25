@@ -1,0 +1,29 @@
+<list name="-age" location="" sentence="">
+	<word soundFileName="damage.mp3"><![CDATA[damage]]></word>
+	<word soundFileName="cottage.mp3"><![CDATA[cottage]]></word>
+	<word soundFileName="baggage.mp3"><![CDATA[baggage]]></word>
+	<word soundFileName="voltage.mp3"><![CDATA[voltage]]></word>
+	<word soundFileName="luggage.mp3"><![CDATA[luggage]]></word>
+	<word soundFileName="image.mp3"><![CDATA[image]]></word>
+	<word soundFileName="message.mp3"><![CDATA[message]]></word>
+	<word soundFileName="bandage.mp3"><![CDATA[bandage]]></word>
+	<word soundFileName="cabbage.mp3"><![CDATA[cabbage]]></word>
+	<word soundFileName="salvage.mp3"><![CDATA[salvage]]></word>
+	<word soundFileName="postage.mp3"><![CDATA[postage]]></word>
+	<word soundFileName="package.mp3"><![CDATA[package]]></word>
+	<word soundFileName="shortage.mp3"><![CDATA[shortage]]></word>
+	<word soundFileName="manage.mp3"><![CDATA[manage]]></word>
+	<word soundFileName="courage.mp3"><![CDATA[courage]]></word>
+	<word soundFileName="sausage.mp3"><![CDATA[sausage]]></word>
+	<word soundFileName="language.mp3"><![CDATA[language]]></word>
+	<word soundFileName="advantage.mp3"><![CDATA[advantage]]></word>
+	<word soundFileName="average.mp3"><![CDATA[average]]></word>
+	<word soundFileName="voyage.mp3"><![CDATA[voyage]]></word>
+	<word soundFileName="garbage.mp3"><![CDATA[garbage]]></word>
+	<word soundFileName="wreckage.mp3"><![CDATA[wreckage]]></word>
+	<word soundFileName="storage.mp3"><![CDATA[storage]]></word>
+	<word soundFileName="drainage.mp3"><![CDATA[drainage]]></word>
+	<word soundFileName="carriage.mp3"><![CDATA[carriage]]></word>
+	<word soundFileName="marriage.mp3"><![CDATA[marriage]]></word>
+
+</list>

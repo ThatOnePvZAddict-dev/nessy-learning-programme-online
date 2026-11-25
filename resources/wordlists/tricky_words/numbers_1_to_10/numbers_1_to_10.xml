@@ -1,0 +1,12 @@
+<list name="numbers 1-10" location="" sentence="">
+	<word soundFileName="one.mp3"><![CDATA[one]]></word>
+	<word soundFileName="two.mp3"><![CDATA[two]]></word>
+	<word soundFileName="three.mp3"><![CDATA[three]]></word>
+	<word soundFileName="four.mp3"><![CDATA[four]]></word>
+	<word soundFileName="five.mp3"><![CDATA[five]]></word>
+	<word soundFileName="six.mp3"><![CDATA[six]]></word>
+	<word soundFileName="seven.mp3"><![CDATA[seven]]></word>
+	<word soundFileName="eight.mp3"><![CDATA[eight]]></word>
+	<word soundFileName="nine.mp3"><![CDATA[nine]]></word>
+	<word soundFileName="ten.mp3"><![CDATA[ten]]></word>
+</list>

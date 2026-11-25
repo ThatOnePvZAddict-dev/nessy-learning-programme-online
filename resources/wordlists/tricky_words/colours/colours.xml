@@ -1,0 +1,13 @@
+<list name="colours" location="" sentence="">
+	<word soundFileName="red.mp3"><![CDATA[red]]></word>
+	<word soundFileName="green.mp3"><![CDATA[green]]></word>
+	<word soundFileName="yellow.mp3"><![CDATA[yellow]]></word>
+	<word soundFileName="brown.mp3"><![CDATA[brown]]></word>
+	<word soundFileName="blue.mp3"><![CDATA[blue]]></word>
+	<word soundFileName="pink.mp3"><![CDATA[pink]]></word>
+	<word soundFileName="black.mp3"><![CDATA[black]]></word>
+	<word soundFileName="purple.mp3"><![CDATA[purple]]></word>
+	<word soundFileName="orange.mp3"><![CDATA[orange]]></word>
+	<word soundFileName="white.mp3"><![CDATA[white]]></word>
+	<word soundFileName="grey.mp3"><![CDATA[grey]]></word>
+</list>

@@ -1,0 +1,1116 @@
+<islands>
+	
+	<island id="1" name="Aqua Marine 1">
+		<!--<welcomeMessage><![CDATA[welcome message for island 1]]></welcomeMessage>-->
+		
+		<lesson id="1" name="letter sounds">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<!--<information><![CDATA[learn to recognise letter sounds  (grapheme-phoneme correspondence GPC)||s a t p n||i h d m r||o g f b l||e c k ck j w||u qu y v x z||includes strategies for remembering vowels and consonants||activities for learning letter formation]]></information>-->
+			<information><![CDATA[Learn 26 letter sounds and how to write them. Learn about <b>vowels</b> and <b>consonants</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="a" />
+				<phonicSound name="b" />
+				<phonicSound name="c" />
+				<phonicSound name="d" />
+				<phonicSound name="e" />
+				<phonicSound name="f" />
+				<phonicSound name="g" />
+				<phonicSound name="h" />
+				<phonicSound name="i" />
+				<phonicSound name="j" />
+				<phonicSound name="k" />
+				<phonicSound name="l" />
+				<phonicSound name="m" />
+				<phonicSound name="n" />
+				<phonicSound name="o" />
+				<phonicSound name="p" />
+				<phonicSound name="q" />
+				<phonicSound name="r" />
+				<phonicSound name="s" />
+				<phonicSound name="t" />
+				<phonicSound name="u" />
+				<phonicSound name="v" />
+				<phonicSound name="w" />
+				<phonicSound name="x" />
+				<phonicSound name="y" />
+				<phonicSound name="z" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="three letter 'cvc' words">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[Words that have a <b>c</b>onsonant-<b>v</b>owel-<b>c</b>onsonant are called 'cvc' e.g. cat.]]></information>
+			<rules>
+				<rule name="Beginning Middle End" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="help with 'b' 'd' confusion">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[<b>Strategies</b> to help overcome '<b>b</b>' '<b>d</b>' confusion.]]></information>
+			<rules>
+				<rule name="b d" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="closed and open syllables">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[Meet Silly Bull and learn about closed and open syllables.]]></information>
+			<rules>
+				<rule name="closed and open syllables" />
+				<rule name="silly bull" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="words with 'sh'">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[Make the 'sh' flash card and <b>start</b> collecting the <b>Nessy phonic pack</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="sh" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="words with 'ch'">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA['ch' is the second phonic flash card.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ch" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="words with 'th'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Learn the two sounds made by 'th'. Use <b>speech therapy techniques</b> to hear the difference between '<b>th</b>', '<b>f</b>' and '<b>v</b>'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="th" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="initial consonants (ccvc)">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[Words that begin with two consonants e.g. <b>fr</b>om, have a <b>c</b>onsonant-<b>c</b>onsonant-<b>v</b>owel-<b>c</b>onsonant or 'ccvc'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="'y' as an 'i' sound">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[Where 'y' is at the end of a word it makes an 'i' sound e.g. fl<b>y</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="y x 3" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="2" name="Sunshine Yellow 2">
+		<!--<welcomeMessage><![CDATA[welcome message for island 2]]></welcomeMessage>-->
+		
+		<lesson id="1" name="flossy words end in 'ff' 'll' 'ss'">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[<b>Flossy words</b> is a rule to help spell words ending in 'ff', 'll' and 'ss' e.g. stu<b>ff</b>, sti<b>ll</b>, fu<b>ss</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="end consonants (cvcc)">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[Words that end with two consonants e.g. pi<b>nk</b>, have a <b>c</b>onsonant-<b>v</b>owel-<b>c</b>onsonant-<b>c</b>onsonant or 'cvcc'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="protector 'ck'">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[Find out about <b>Protectors</b> with Norman the knight. This spelling rule will help you to spell with either a 'ck' or 'k'. You will also learn about <b>kicking 'k'</b> and <b>cuddly 'c'</b>.]]></information>
+			<rules>
+				<rule name="ck k" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="words with 'ar'">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA['r' is using his love magic on 'a'. Together they make a new sound, '<b>ar</b>' as in car. 'ar' is the first of five sounds called  <b>vowel 'r'</b>.]]></information>
+			<rules>
+				<rule name="ar" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ar" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="words with 'or'">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA['r' is back again and this time he is using his magic on 'o'. Together they make a new sound, '<b>or</b>' as in corn.]]></information>
+			<rules>
+				<rule name="or" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="or" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="words with 'er' 'ir' 'ur'">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[The last three vowel 'r' sounds, '<b>er</b>', '<b>ir</b>' and '<b>ur</b>', all make the same sound e.g. fern, fir, fur.]]></information>
+			<rules>
+				<rule name="er ir ur" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="er" />
+				<phonicSound name="ir" />
+				<phonicSound name="ur" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="2 syllable words (cvc-cvc)">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Join the <b>Syllable Division</b> and learn how to split and read words into smaller, more manageable chunks. <b>Play Chimp Fu</b> and see if you can chop up giant hotdogs!.]]></information>
+			<rules>
+				<rule name="syllable division (part 1)" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="word endings 1">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[<b>Dr Strange</b> explains about the <b>Head Body and Tail</b> of words. Word endings are also called suffixes but Nessy calls them 'tails'. Learn the tails '<b>ing</b>', '<b>s</b>', '<b>es</b>', '<b>y</b>' and '<b>er</b>'. Find out about <b>plurals</b>.]]></information>
+			<rules>
+				<rule name="head body tail" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-s" />
+				<wordEnding name="-es" />
+				<wordEnding name="-ing" />
+				<wordEnding name="-er" />
+				<wordEnding name="-y" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="9" name="phonic sounds: 'ee' and 'ea'">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[Together the two vowels make one sound e.g. m<b>ee</b>t, m<b>ea</b>t. Add these flash cards to your pack of Phonic Sounds.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ee" />
+				<phonicSound name="ea" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="3" name="Black Rock 3">
+		<!--<welcomeMessage><![CDATA[welcome message for island 3]]></welcomeMessage>-->
+		
+		<lesson id="1" name="magic 'e'">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[Watch the heroic sacrifice of <b>magic 'e'</b> who gives all his power to the vowel. 'e' at the end of a word changes the vowel sound but remains silent e.g. can - c<b>a</b>n<b>e</b>.]]></information>
+			<rules>
+				<rule name="magic e" />
+				<rule name="ck k ke" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="soft 'c' and soft 'g'">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[You might think 'c' has a hard sound as '<b>c</b>at' but it can also be a great big softy! Where 'c' or 'g' is followed by '<b>i</b>', '<b>y</b>', '<b>e</b>' the sound changes to become soft e.g. ri<b>ce</b>, ra<b>ge</b>.]]></information>
+			<rules>
+				<rule name="soft c" />
+				<rule name="soft g" />
+				</rules>
+			<phonicSounds>
+				<phonicSound name="ce" />
+				<phonicSound name="ge" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="words with 'wh' and 'qu'">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA['<b>wh</b>' and '<b>qu</b>' are two new sounds to add to the phonic sounds pack of flash cards e.g. <b>wh</b>en, <b>qu</b>iz.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="wh" />
+				<phonicSound name="qu" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="phonic sounds: 'ai' and 'ay'">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[Listen to the <b>phonic sounds rap</b> to find out why these two letters make one sound! e.g. tr<b>ai</b>n, tr<b>ay</b>.]]></information>
+			<rules>
+				<rule name="phonic sounds" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ai" />
+				<phonicSound name="ay" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="phonic sounds: 'igh','ie' and 'y'">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[Meet the incredible <b>knight in tights</b>! These phonic sounds make the 'i' sound e.g. l<b>igh</b>t, l<b>ie</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="igh" />
+				<phonicSound name="ie" />
+				<phonicSound name="y x 3" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="phonic sounds: 'oa', 'ow' and 'oe'">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[Can you find the <b>coat in a goat</b>? All these phonic sounds make an 'o' sound e.g. g<b>oa</b>t, sn<b>ow</b>, t<b>oe</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="oa" />
+				<phonicSound name="ow" />
+				<phonicSound name="oe" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="phonic sound: 'oo'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[The phonic sound 'oo' makes two sounds e.g. m<b>oo</b>n, w<b>oo</b>d.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="oo" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="protector 'tch'">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[See Norman the knight battle Gorgo the monster. The second <b>Protector</b> will tell you when to spell with a '<b>tch</b>' or '<b>ch</b>' e.g. pitch, pinch.]]></information>
+			<rules>
+				<rule name="tch ch" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="tch" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="2 syllable vowel 'r' (ar/or/ir/ur)">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[Now read '<b>ar</b>', '<b>or</b>', '<b>ir</b>' and '<b>ur</b>' in two syllable words e.g. carpet, corner, thirsty, murder.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="4" name="Emerald Green 4">
+		<!--<welcomeMessage><![CDATA[welcome message for island 4]]></welcomeMessage>-->
+		
+		<lesson id="1" name="triple consonants (cccvc)">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[These words have three consonants together (<b>shr</b>/<b>spr</b>/<b>scr</b>/<b>str</b>/<b>thr</b>/<b>spl</b>) e.g. <b>shr</b>ug.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="harder 2 syllable words">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[These two syllable words are even harder than the ones in Island 2 because they have double consonants at the beginning or end e.g. <b>tr</b>umpet, contra<b>ct</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="'a' sounds like 'ar' before s/f/th">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[This spelling rule will be helpful if you put an extra 'r' in words by mistake. There is no 'r' before the letters 's', 'f' and 'th' e.g. pa<b>s</b>t, a<b>f</b>ter, fa<b>th</b>er.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="open syllables 2">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[Return to the <b>Syllable Division</b> to continue your training with Chimp Fu. Learn where to split the word to find an <b>open syllable</b> e.g. pi-lot by chopping giant vegetables.]]></information>
+			<rules>
+				<rule name="syllable division (part 2)" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="magic 'e' 2">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[Now the <b>magic 'e'</b> is at the end of two syllable words! e.g. panc<b>a</b>k<b>e</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="words ending in 'ed'">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[Add '<b>ed</b>' to your pack of tails flash cards. Learn the <b>three sounds</b> '<b>id</b>', '<b>t</b>' and '<b>d</b>' e.g. hunted, hopped, played.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-ed (x3)" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="7" name="phonic sounds: 'ui', 'ue' and 'ew'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[All these phonic sounds make an 'oo' sound e.g. fr<b>ui</b>t, cl<b>ue</b>, st<b>ew</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ui" />
+				<phonicSound name="ue" />
+				<phonicSound name="ew" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="phonic sounds: 'oi' and 'oy'">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA['<b>oi</b>' and '<b>oy</b>' make the same sound e.g. c<b>oi</b>n, t<b>oy</b>.  Add them to your pack of phonic sounds flash cards.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="oi" />
+				<phonicSound name="oy" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="phonic sounds: 'ou' and 'ow'">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA['<b>ou</b>' and '<b>ow</b>' make the same sound e.g. c<b>ou</b>nt, c<b>ow</b>.  Find out the spelling rule to help you know which one to use.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ou" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="5" name="Deep Purple 5">
+		<!--<welcomeMessage><![CDATA[welcome message for island 5]]></welcomeMessage>-->
+		
+		<lesson id="1" name="words with 'ph'">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[The ancient Greeks gave us the '<b>ph</b>' <b>sound</b> of '<b>f</b>' e.g. dolphin.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ph" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="protector 'dge'">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[The third and final <b>Protector</b> will explain when to spell with a '<b>dge</b>' or '<b>ge</b>' e.g. fridge, fringe.]]></information>
+			<rules>
+				<rule name="dge ge" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="dge" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="prefixes (heads)">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[The beginning of a word can be called a prefix but Dr Strange will explain them as 'heads' e.g. <b>in</b>vent.]]></information>
+			<rules>
+				<rule name="head body tail" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="word endings 2">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[The second stage of 'tails'. Add the flash cards '<b>en</b>', '<b>ful</b>', '<b>et</b>', '<b>ty</b>', '<b>ly</b>' and '<b>ish</b>' to your pack.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-en" />
+				<wordEnding name="-ful" />
+				<wordEnding name="-et" />
+				<wordEnding name="-ty" />
+				<wordEnding name="-ly" />
+				<wordEnding name="-ish" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="5" name="rabbit and tiger">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[Watch the lovely <b>rabbit words</b> with a <b>double consonant</b> e.g. ho<b>pp</b>ing. <b>Tiger words</b> only have a <b>single consonant</b> e.g. ho<b>p</b>ing.]]></information>
+			<rules>
+				<rule name="rabbit words" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="vowel 'rr' (vrr)">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[Find out why a vowel next to 'rr' makes a different sound to a vowel in front of one 'r' e.g. c<b>ar</b> - c<b>arr</b>y.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="words ending in 'le'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Discover how <b>lifting elephants</b> can help you remember the sound of this word ending.]]></information>
+			<rules>
+				<rule name="le" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-le" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="8" name="phonic sounds: 'ear' and 'air'">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[Watch the <b>hairy fairy</b> and <b>search for the ear</b>. Add the phonic sounds '<b>ear</b>' and '<b>air</b>' to your pack of flash cards.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ear" />
+				<phonicSound name="air" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="sounds saying 'or' (au/aw/oar)">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[Learn a rule to help you spell '<b>au</b>' and '<b>aw</b>' and add these phonic sounds to your flash card pack.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="aw" />
+				<phonicSound name="au" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="6" name="Juicy Orange 6">
+		<!--<welcomeMessage><![CDATA[welcome message for island 6]]></welcomeMessage>-->
+		
+		<lesson id="1" name="the 'w' rule: 'wa' 'wor' 'war'">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[Find out why 'w' is such a wicked wizard! Learn the phonic sounds '<b>wa</b>', '<b>wor</b>' and '<b>war</b>' e.g. wash, worm, warm.]]></information>
+			<rules>
+				<rule name="w the wicked wizard" />
+			</rules>
+			<phonicSounds>
+				<phonicSound name="wa" />
+				<phonicSound name="wor" />
+				<phonicSound name="war" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="suffixing - double, drop e">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[The <b>doubling rule</b> explains when to spell with a double consonant e.g. hop+ed=ho<b>pp</b>ed. The <b>drop 'e' rule</b> explains when to keep or remove the 'e' e.g. hope+ed=hoped. These are both suffixing rules because it is the suffix (tail) that changes the body of the word.]]></information>
+			<rules>
+				<rule name="drop e" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="silent letters">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[These words all have <b>silent letters</b> 'k' e.g. <b>k</b>nife, 'w' e.g. '<b>w</b>rite', 'b' e.g. thum<b>b</b>, 'u' e.g. b<b>u</b>ild.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="a vowel with an 're' (are/ire/ure)">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA['r' and 'e' are both trying to use their power on the vowel. All together they make a new sound e.g.c<b>are</b>, f<b>ire</b>, p<b>ure</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="'o' making an 'u' sound">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[Sometimes 'o' makes an 'u' sound e.g. h<b>o</b>ney. <b>The 'v' rule</b> explains why you can't have two 'v's together.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="words ending in 'ce' and 'se'">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA['<b>ce</b>' and '<b>se</b>' make the same sound at the end of a word so are easily confused e.g. rice, rinse.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="harder soft 'c' and soft 'g'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Where 'c' or 'g' is followed by '<b>i</b>', '<b>y</b>', '<b>e</b>' the sound changes to become soft e.g. <b>ci</b>rcle, oran<b>ge</b>. This lesson builds upon the rule introduced in Island 3.]]></information>
+			<rules>
+				<rule name="soft c" />
+				<rule name="soft g" />
+				</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="word endings 3">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[The third stage of word endings (tails) includes '<b>ment</b>', '<b>less</b>', '<b>est</b>', '<b>some</b>', '<b>age</b>'.]]></information>
+			<rules>
+				<rule name="head body tail" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-ment" />
+				<wordEnding name="-ness" />
+				<wordEnding name="-less" />
+				<wordEnding name="-est" />
+				<wordEnding name="-some" />
+				<wordEnding name="-age" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="9" name="compound words">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[Where two words join together to make a new one it is called a compound word e.g. firework.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="7" name="Ice White 7">
+		<!--<welcomeMessage><![CDATA[welcome message for island 7]]></welcomeMessage>-->
+		
+		<lesson id="1" name="the 'y' rule: change 'y' to 'i'">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[The 'why aye' man will explain when to keep the 'y' and when to change it into an 'i'. This <b>'y' rule</b> is the third and final suffixing rule.]]></information>
+			<rules>
+				<rule name="y to i" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="links">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[A '<b>link</b>' joins the body and the tail of the word e.g. funn<b>i</b>est. It is squeezed together and makes an unusual sound.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="words ending in 'tion' and 'sion' ">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA['i' connects to 't' making a 'sh' sound e.g. sta<b>tion</b>. 'i' connects to 's' making a 'zhun' sound e.g. explo<b>sion</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-tion" />
+				<wordEnding name="-sion" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="4" name="queen of witches: 'qua' 'squa'">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[The queen of witches knows the same spell as the 'w' rule in Island 6. After 'qu' the 'a' says 'o' e.g. s<b>qua</b>sh.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="advanced plurals">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[Making a word plural becomes quite complicated. You need to know the 'y' rule, when to change an 'f' to a 'v' and what to do about words ending in 'o'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="'ou' making an 'u' sound">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA['ou' makes three sounds but this lesson includes words with an 'u' sound e.g. c<b>ou</b>rage.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="monster words: 'ough' and 'augh'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Meet the Hairy Thing who will explain about <b>monster words.</b> '<b>ough</b>' words make so many sounds they are monstrously difficult to read.]]></information>
+			<rules>
+				<rule name="ough" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="split vowels">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[In most words, two vowels together make one sound e.g. '<b>oi</b>', c<b>oi</b>n. These words split up the vowels, each making their own sound e.g. '<b>io</b>', v<b>io</b>lin.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="sounds saying 'a' (a-e/ai/ei/ea)">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[All these letter combinations (<b>a-e</b>/<b>ai</b>/<b>ei</b>/<b>ea</b>/<b>ay</b>/<b>ey</b>) make an 'a' sound. Words that make the same sound but are spelt differently are called homophones e.g. pale, pail.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="8" name="Sky Blue 8">
+		<!--<welcomeMessage><![CDATA[welcome message for island 8]]></welcomeMessage>-->
+		
+		<lesson id="1" name="sounds saying 'i' (i-e/igh/y/ie)">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[All these letter combinations (<b>i-e</b>/<b>igh</b>/<b>y</b>/<b>ie</b>) make an 'i' sound. Resources include homophones for the 'i' sound e.g. sight, site.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="sounds saying 'o' (o-e/oa/ow)">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[All these letter combinations (<b>o-e</b>/<b>oa</b>/<b>ow</b>/<b>oe</b>) make an 'o' sound. Resources include homophones for the 'o' sound e.g. groan, grown.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="sounds saying 'oo' (u-e/ew/ui)">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[All these letter combinations (<b>u-e</b>/<b>ew</b>/<b>ui</b>/<b>ue</b>) make an 'oo' sound. Resources include homophones for the 'oo' sound e.g. root, route.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="words with 'ie' and 'ei'">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[Most people have heard the rhyme 'i' before 'e' except after 'c' but here is the complete rule with all the exceptions.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ei" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="sounds saying 'e' (ee/ea/ie/ei/ey)">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[All these letter combinations (<b>ee</b>/<b>ea</b>/<b>ie</b>/<b>ei</b>/<b>ey</b>) make an 'e' sound. Resources include homophones for the 'e' sound e.g. heal, heel.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+				<phonicSound name="ey" />
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="homophones">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[Some words have 'twin' that sound the same but is spelt differently e.g. <b>their</b>, <b>there</b>. Some of these 'homophones' have already been introduced but this lesson includes some of the most tricky. Enter the House of Fear to play a game with 'there' and 'their'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="harder words with 'ir' 'ur'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[All these letter combinations (<b>ir</b>/<b>ur</b>/<b>ear</b>/<b>our</b>) make an 'er' sound e.g. girder, hurtle, learn, glamour.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="even harder soft 'c' and soft 'g'">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[The third and final stage of words with a soft 'c' and soft 'g' includes the hardest multi-syllable words e.g. <b>ci</b>rculate, fra<b>gi</b>le.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="word endings 4">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[The fourth stage of word endings (tails) includes '<b>ily</b>', '<b>ity</b>', '<b>ic</b>', '<b>ical</b>', '<b>ture</b>','<b>sure</b>', '<b>oon</b>', and '<b>eer</b>'.]]></information>
+			<rules>
+				<rule name="head body tail" />
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-ily" />
+				<wordEnding name="-ity" />
+				<wordEnding name="-ic -ical (x2)" />
+				<wordEnding name="-ture -sure (x2)" />
+				<wordEnding name="-oon" />
+				<wordEnding name="-eer" />
+				<wordEnding name="-ous" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="9" name="Silver Lightning 9">
+		<!--<welcomeMessage><![CDATA[welcome message for island 9]]></welcomeMessage>-->
+		
+		<lesson id="1" name="words ending in 'al' and 'el'">
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[The word endings '<b>al</b>' and '<b>el</b>' make the same sound 'ul' e.g. signal, tunnel. They do not usually cause problems for reading but are tricky to spell.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-al -el (x2)" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="2" name="advanced suffixing">
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[These are the most advanced suffixing rules e.g. label+ing=labe<b>ll</b>ing.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="3" name="harder words with 'au'">
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[Multi-syllable words with 'au' and 'aw' e.g. appl<b>au</b>se.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="harder links">
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[Advanced words that have a '<b>link</b>' joining the body and the tail of the word e.g. lenient.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="word endings 5">
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[The fifth stage of word endings (tails) includes '<b>able</b>', '<b>ible</b>', '<b>ant</b>', '<b>ent</b>', '<b>ive</b>', '<b>ine</b>', '<b>our</b>', '<b>ice</b>', '<b>ite</b>' and '<b>cy</b>'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-ain" />
+				<wordEnding name="-able -ible (x2)" />
+				<wordEnding name="-ant -ent (x2)" />
+				<wordEnding name="-ive (x2)" />
+				<wordEnding name="-ine (x3)" />
+				<wordEnding name="-our" />
+				<wordEnding name="-ice (x3)" />
+				<wordEnding name="-ite (x2)" />
+				<wordEnding name="-cy" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="6" name="words where 'ch' says 'k' and 'sh'">
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[Greek and French words have influenced English. 'ch' makes a <b>'k' sound</b> in words that came from Greek e.g. chaos. 'ch' makes a <b>'sh' sound</b> in words that came from French e.g. champagne.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="harder words with 'ph'">
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Multi-syllable words that include the <b>'ph' sound</b> of '<b>f</b>' e.g. phenomenon.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="words with 'que'">
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[<b>que</b>' makes a <b>'k' sound</b> e.g. unique.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="words ending in 'ly'">
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[Learn how adding 'ly' can change the spelling of words e.g. basic - basic<b>ally</b>.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game">
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+
+	<island id="10" name="Red Fire 10">
+		<!--<welcomeMessage><![CDATA[welcome message for island 10]]></welcomeMessage>-->
+
+		<lesson id="1" name="harder silent letters"><!--lesson:silent letters 2-->
+			<guidance><![CDATA[This is your guidance for lesson 1]]></guidance>
+			<information><![CDATA[Learn the hardest silent letter words e.g. <b>p</b>sychologist.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="2" name="word endings 6"><!--lesson:word endings 6-->
+			<guidance><![CDATA[This is your guidance for lesson 2]]></guidance>
+			<information><![CDATA[The sixth and final stage of word endings will complete your pack of flash cards.  Includes '<b>ary</b>', '<b>ory</b>', '<b>ate</b>', '<b>ance</b>', '<b>ence</b>', '<b>ism</b>' and '<b>ology</b>'.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+			<wordEndings>
+				<wordEnding name="-ary" />
+				<wordEnding name="-ory" />
+				<wordEnding name="-ate (x2)" />
+				<wordEnding name="-ance -ence (x2)" />
+				<wordEnding name="-ism" />
+				<wordEnding name="-ology" />
+				<wordEnding name="-ique" />
+			</wordEndings>
+		</lesson>
+		
+		<lesson id="3" name="connective 'i' says 'sh' (ti/ci)"><!--lesson:connective ti ci-->
+			<guidance><![CDATA[This is your guidance for lesson 3]]></guidance>
+			<information><![CDATA[Learn the most advanced words that include 'i' connecting to 't' and 'c' to make a 'sh' sound e.g. '<b>ci</b>' in special.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="4" name="sounds saying 'j'"><!--lesson:j choices-->
+			<guidance><![CDATA[This is your guidance for lesson 4]]></guidance>
+			<information><![CDATA[Learn the many letter combinations make a 'j' sound (<b>j</b>/<b>gi</b>/<b>gy</b>/<b>ge</b>/<b>dge</b>/<b>du</b>/<b>di</b>) e.g. sol<b>di</b>er.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="5" name="words ending in 'ar' and 'or'"><!--lesson:-ar -or-->
+			<guidance><![CDATA[This is your guidance for lesson 5]]></guidance>
+			<information><![CDATA[The word endings 'ar' and 'or' make the same 'er' sound e.g. calculat<b>or</b>. This spelling rule will help you use the correct one.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="6" name="words with 'eu'"><!--lesson:eu-->
+			<guidance><![CDATA[This is your guidance for lesson 6]]></guidance>
+			<information><![CDATA[The vowel combination 'eu' makes an 'oo' sound e.g. <b>eu</b>phoria.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="7" name="'y' as a vowel sound"><!--lesson:y as a vowel-->
+			<guidance><![CDATA[This is your guidance for lesson 7]]></guidance>
+			<information><![CDATA[Multi-syllable words where 'y' makes several vowel sounds e.g. h<b>y</b>sterical, p<b>y</b>thagoras.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="8" name="assimilated prefixes"><!--lesson:assimilated prefixes-->
+			<guidance><![CDATA[This is your guidance for lesson 8]]></guidance>
+			<information><![CDATA[The prefix (head) of a word can sometimes be changed or 'assimilated' to become more like the body e.g. ad + fair becomes affair.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="9" name="advanced prefixes"><!--lesson:advanced prefixes-->
+			<guidance><![CDATA[This is your guidance for lesson 9]]></guidance>
+			<information><![CDATA[This final lesson includes the most advanced multi-syllable words with prefixes (<b>trans</b>/<b>non</b>/<b>per</b>/<b>sub</b>/<b>anti</b>/<b>bi</b>/<b>ob</b>/<b>pre</b>/<b>co</b>) e.g. transparency.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+		<lesson id="10" name="Nessy Challenge game"><!--lesson:Nessy Challenge game-->
+			<guidance><![CDATA[This is your guidance for lesson 10]]></guidance>
+			<information><![CDATA[Are you ready for the next island? Play the Nessy Challenge game to see if you have learnt all the lessons in this island.]]></information>
+			<rules>
+			</rules>
+			<phonicSounds>
+			</phonicSounds>
+		</lesson>
+		
+	</island>
+	
+</islands>

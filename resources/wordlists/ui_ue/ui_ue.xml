@@ -1,0 +1,19 @@
+<list name="ui_ue" location="" sentence="">
+	<word soundFileName="blue.mp3"><![CDATA[blue]]></word>
+	<word soundFileName="clue.mp3"><![CDATA[clue]]></word>
+	<word soundFileName="true.mp3"><![CDATA[true]]></word>
+	<word soundFileName="rescue.mp3"><![CDATA[rescue]]></word>
+	<word soundFileName="avenue.mp3"><![CDATA[avenue]]></word>
+	<word soundFileName="continue.mp3"><![CDATA[continue]]></word>
+	<word soundFileName="statue.mp3"><![CDATA[statue]]></word>
+	<word soundFileName="tissue.mp3"><![CDATA[tissue]]></word>
+	<word soundFileName="issue.mp3"><![CDATA[issue]]></word>
+	<word soundFileName="argue.mp3"><![CDATA[argue]]></word>
+	<word soundFileName="value.mp3"><![CDATA[value]]></word>
+	<word soundFileName="fruit.mp3"><![CDATA[fruit]]></word>
+	<word soundFileName="suit.mp3"><![CDATA[suit]]></word>
+	<word soundFileName="bruise.mp3"><![CDATA[bruise]]></word>
+	<word soundFileName="cruise.mp3"><![CDATA[cruise]]></word>
+	<word soundFileName="juice.mp3"><![CDATA[juice]]></word>
+
+</list>

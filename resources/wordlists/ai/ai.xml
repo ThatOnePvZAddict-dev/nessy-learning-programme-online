@@ -1,0 +1,28 @@
+<list name="ai" location="" sentence="">
+	<word soundFileName="brain.mp3"><![CDATA[brain]]></word>
+	<!--<word soundFileName="pain.mp3"><![CDATA[pain]]></word>-->
+	<word soundFileName="rain.mp3"><![CDATA[rain]]></word>
+	<word soundFileName="main.mp3"><![CDATA[main]]></word>
+	<word soundFileName="drain.mp3"><![CDATA[drain]]></word>
+	<word soundFileName="train.mp3"><![CDATA[train]]></word>
+	<word soundFileName="stain.mp3"><![CDATA[stain]]></word>
+	<word soundFileName="rail.mp3"><![CDATA[rail]]></word>
+	<word soundFileName="snail.mp3"><![CDATA[snail]]></word>
+	<word soundFileName="tail.mp3"><![CDATA[tail]]></word>
+	<word soundFileName="nail.mp3"><![CDATA[nail]]></word>
+	<word soundFileName="fail.mp3"><![CDATA[fail]]></word>
+	<!--<word soundFileName="sail.mp3"><![CDATA[sail]]></word>-->
+	<word soundFileName="aid.mp3"><![CDATA[aid]]></word>
+	<word soundFileName="paid.mp3"><![CDATA[paid]]></word>
+	<word soundFileName="raid.mp3"><![CDATA[raid]]></word>
+	<word soundFileName="laid.mp3"><![CDATA[laid]]></word>
+	<word soundFileName="saint.mp3"><![CDATA[saint]]></word>
+	<word soundFileName="faint.mp3"><![CDATA[faint]]></word>
+	<word soundFileName="paint.mp3"><![CDATA[paint]]></word>
+	<word soundFileName="aim.mp3"><![CDATA[aim]]></word>
+	<word soundFileName="claim.mp3"><![CDATA[claim]]></word>
+	<word soundFileName="faith.mp3"><![CDATA[faith]]></word>
+	<word soundFileName="wait.mp3"><![CDATA[wait]]></word>
+	<word soundFileName="waist.mp3"><![CDATA[waist]]></word>
+
+</list>

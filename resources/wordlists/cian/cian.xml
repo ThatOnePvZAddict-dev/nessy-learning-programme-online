@@ -1,0 +1,13 @@
+<list name="cian" location="" sentence="">
+	<word soundFileName="magician.mp3"><![CDATA[magician]]></word>
+	<word soundFileName="musician.mp3"><![CDATA[musician]]></word>
+	<word soundFileName="optician.mp3"><![CDATA[optician]]></word>
+	<word soundFileName="electrician.mp3"><![CDATA[electrician]]></word>
+	<word soundFileName="technician.mp3"><![CDATA[technician]]></word>
+	<word soundFileName="politician.mp3"><![CDATA[politician]]></word>
+	<word soundFileName="beautician.mp3"><![CDATA[beautician]]></word>
+	<word soundFileName="mortician.mp3"><![CDATA[mortician]]></word>
+	<word soundFileName="dietician.mp3"><![CDATA[dietician]]></word>
+	<word soundFileName="physician.mp3"><![CDATA[physician]]></word>
+
+</list>

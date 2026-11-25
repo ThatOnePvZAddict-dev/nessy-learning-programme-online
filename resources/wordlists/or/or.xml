@@ -1,0 +1,34 @@
+<list name="or" location="" sentence="">
+	<word soundFileName="born.mp3"><![CDATA[born]]></word>
+	<word soundFileName="cord.mp3"><![CDATA[cord]]></word>
+	<word soundFileName="cork.mp3"><![CDATA[cork]]></word>
+	<word soundFileName="corn.mp3"><![CDATA[corn]]></word>
+	<word soundFileName="for.mp3"><![CDATA[for]]></word>
+	<word soundFileName="fork.mp3"><![CDATA[fork]]></word>
+	<word soundFileName="form.mp3"><![CDATA[form]]></word>
+	<word soundFileName="fort.mp3"><![CDATA[fort]]></word>
+	<word soundFileName="horn.mp3"><![CDATA[horn]]></word>
+	<word soundFileName="horse.mp3"><![CDATA[horse]]></word>
+	<word soundFileName="lord.mp3"><![CDATA[lord]]></word>
+	<word soundFileName="more.mp3"><![CDATA[more]]></word>
+	<word soundFileName="north.mp3"><![CDATA[north]]></word>
+	<word soundFileName="porch.mp3"><![CDATA[porch]]></word>
+	<word soundFileName="pork.mp3"><![CDATA[pork]]></word>
+	<word soundFileName="port.mp3"><![CDATA[port]]></word>
+	<word soundFileName="scorch.mp3"><![CDATA[scorch]]></word>
+	<word soundFileName="score.mp3"><![CDATA[score]]></word>
+	<word soundFileName="shore.mp3"><![CDATA[shore]]></word>
+	<word soundFileName="short.mp3"><![CDATA[short]]></word>
+	<word soundFileName="snore.mp3"><![CDATA[snore]]></word>
+	<word soundFileName="sore.mp3"><![CDATA[sore]]></word>
+	<word soundFileName="sort.mp3"><![CDATA[sort]]></word>
+	<word soundFileName="snort.mp3"><![CDATA[snort]]></word>
+	<word soundFileName="sport.mp3"><![CDATA[sport]]></word>
+	<word soundFileName="store.mp3"><![CDATA[store]]></word>
+	<word soundFileName="storm.mp3"><![CDATA[storm]]></word>
+	<word soundFileName="story.mp3"><![CDATA[story]]></word>
+	<word soundFileName="thorn.mp3"><![CDATA[thorn]]></word>
+	<word soundFileName="torch.mp3"><![CDATA[torch]]></word>
+	<word soundFileName="torn.mp3"><![CDATA[torn]]></word>
+
+</list>

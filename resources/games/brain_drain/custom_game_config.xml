@@ -1,0 +1,234 @@
+<customGame>
+	
+<!--
+
+The data in the 'standard' node uses the same schema for all non-dynamic games, so that
+it can be parsed by the game API. It's task is to define all 'word' and 'sentence' word
+lists for automated declaration and sound loading.
+
+The lists include their sound file locations so that punctuations can be used if required.
+
+-->
+
+	<standard>
+		
+		<words>
+			
+			<list name="cvc mixed" location="" sentence="" />
+			<list name="sk sm sn sp st sw" location="" sentence="" />
+			<list name="pt ft ct sk sp st xt" location="" sentence="" />
+			<list name="or" location="" sentence="" />
+			<list name="mixed magic e" location="" sentence="" />
+			<list name="two syllable words" location="" sentence="" />
+			<list name="magic e 2" location="" sentence="" />
+		</words>
+		
+		<sentences>
+		
+			<list name="" location="">
+			</list>
+		
+		</sentences>
+		
+	</standard>
+	
+<!--
+
+The data in the 'cutom' node is sent directly through to the game for it to handle. It is
+advised to wrap data within nodes with the same name attributes as the word lists that
+their data supports.
+
+-->
+	
+	<custom>
+
+		<wordlist name="cvc mixed">
+			<question correct='1' a='hat' b='ham' c='had' d='has'>A cap is a ...</question>
+			<question correct='4' a='hid' b='hot' c='his' d='hat'>The man has a ...</question>
+			<question correct='1' a='wet' b='win' c='wig' d='was'>The dog is ...</question>
+			<question correct='3' a='fig' b='fan' c='fat' d='fizz'>The pig is ...</question>
+			<question correct='2' a='hit' b='hot' c='him' d='hut'>The pan is ...</question>
+			<question correct='1' a='hut' b='hog' c='ham' d='had'>I hid in the ...</question>
+			<question correct='1' a='ham' b='hat' c='hot' d='hut'>I fed the dog...</question>
+			<question correct='2' a='pit' b='pin' c='pop' d='pat'>I will not sit on a ...</question>
+			<question correct='4' a='ham' b='hop' c='him' d='hot'>The sun was...</question>
+			<question correct='2' a='mad' b='mud' c='mum' d='met'>The pig is in the ...</question>
+			<question correct='4' a='bug' b='bat' c='bad' d='big'>The mug is ...</question>
+			<question correct='1' a='mad' b='mop' c='mug' d='men'>The man is ...</question>
+			<question correct='2' a='sin' b='sad' c='sip' d='sun'>The pup is ...</question>
+			<question correct='3' a='sit' b='sap' c='sun' d='sag'>I am in the ...</question>
+			<question correct='1' a='bag' b='bum' c='bug' d='bit'>The pen is in the ...</question>
+			<question correct='4' a='hat' b='hum' c='hog' d='hit'>A bat can ...</question>
+		</wordlist>
+
+		<wordlist name="sk sm sn sp st sw">
+			<question correct='2' a='dress' b='drip' c='drum' d='drug'>A wet rag will ...</question>
+			<question correct='1' a='crab' b='cross' c='crop' d='cram'>A ... can pinch.</question>
+			<question correct='4' a='drag' b='drop' c='drip' d='drum'>You can hit a ...</question>
+			<question correct='3' a='smack' b='smash' c='smell' d='snap'>A dog can sniff a ...</question>
+			<question correct='1' a='swim' b='spin' c='stop' d='slap'>I get wet if I ...</question>
+			<question correct='2' a='trip' b='trap' c='trim' d='trot'>A cat can ... a rat.</question>
+			<question correct='4' a='skill' b='skin' c='skip' d='skid'>A truck can ... in the wet.</question>
+			<question correct='2' a='spill' b='snack' c='snip' d='spell'>His pet had a ...</question>
+			<question correct='2' a='from' b='frog' c='fresh' d='frill'>A ... can hop.</question>
+			<question correct='2' a='clap' b='spot' c='stop' d='plan'>She has a ... on her skin.</question>
+			<question correct='3' a='cross' b='grass' c='glass' d='press'>Did you smash the ...?</question>
+			<question correct='1' a='brim' b='spill' c='plum' d='swig'>Fill the glass to the ...</question>
+			<question correct='3' a='spot' b='cliff' c='twig' d='flop'>A ... can snap.</question>
+			<question correct='2' a='stop' b='steps' c='stab' d='stag'>Go up the ...</question>
+			<question correct='1' a='flag' b='flat' c='flop' d='flab'>A ... can flap.</question>
+			<question correct='4' a='grub' b='grip' c='grin' d='grill'>A ... can get hot.</question>
+		</wordlist>
+
+		<wordlist name="pt ft ct sk sp st xt">
+			<question correct='2' a='shelf' b='silk' c='sold' d='soft'>The cloth was as soft as ...</question>
+			<question correct='2' a='left' b='lift' c='lung' d='long'>I will ... the chest on to the desk.</question>
+			<question correct='1' a='drink' b='drunk' c='dust' d='desk'>I will have a ... from the glass.</question>
+			<question correct='4' a='grand' b='grunt' c='grill' d='gust'>A big ... of wind hit me.</question>
+			<question correct='4' a='crept' b='wept' c='slept' d='kept'>She ... the ring.</question>
+			<question correct='1' a='plank' b='pulp' c='pant' d='punt'>A long bit of wood.</question>
+			<question correct='3' a='lift' b='land' c='lend' d='left'>I can ... you a pen.</question>
+			<question correct='4' a='blink' b='blank' c='blend' d='blast'>This is a big bang.</question>
+			<question correct='2' a='held' b='hump' c='hand' d='hilt'>A camel has a ...</question>
+			<question correct='2' a='tank' b='trust' c='tramp' d='tilt'>I ... my Mum and Dad.</question>
+			<question correct='2' a='lump' b='jump' c='pump' d='lamp'>A frog will ...into the pond.</question>
+			<question correct='4' a='loft' b='left' c='list' d='last'>I was ... in the maths test.</question>
+			<question correct='3' a='melt' b='shelf' c='held' d='cold'>He ... up his hand.</question>
+			<question correct='2' a='bang' b='rang' c='hang' d='gang'>I ... the bell.</question>
+			<question correct='2' a='blunt' b='hunt' c='grunt' d='dent'>The dogs will ... the fox.</question>
+			<question correct='3' a='bulk' b='sulk' c='milk' d='help'>I had a cold drink of ...</question>
+		</wordlist>
+
+		<wordlist name="or">
+			<question correct='2' a='ford' b='port' c='porch' d='short'>The ship will dock at a ...</question>
+			<question correct='1' a='story' b='storm' c='stork' d='horse'>Tell me a ...</question>
+			<question correct='1' a='short' b='horn' c='cork' d='born'>I cut it ...</question>
+			<question correct='1' a='horn' b='north' c='fort' d='sort'>A bull has a ...</question>
+			<question correct='4' a='horse' b='stork' c='lord' d='thorn'>A ... will prick the skin.</question>
+			<question correct='3' a='sport' b='north' c='storm' d='story'>I got wet in the ...</question>
+			<question correct='2' a='torch' b='horse' c='fork' d='porch'>Get on the ...</question>
+			<question correct='2' a='short' b='torn' c='score' d='more'>I have ... my best scarf.</question>
+			<question correct='1' a='corn' b='born' c='snort' d='storm'>The farm has ... in the barn.</question>
+			<question correct='4' a='scorch' b='north' c='store' d='more'>Can I get a bit ...</question>
+			<question correct='3' a='cork' b='scorch' c='form' d='fork'>Fill in the ...</question>
+			<question correct='4' a='port' b='horse' c='pork' d='sport'>... will get you fit.</question>
+			<question correct='2' a='store' b='torch' c='corn' d='more'>Pass the ... so I can see.</question>
+			<question correct='1' a='snore' b='thorn' c='storm' d='corn'>Dad will ... if he sleeps.</question>
+			<question correct='3' a='fort' b='sport' c='score' d='sort'>The ... was 2-0.</question>
+		</wordlist>
+
+		<wordlist name="mixed magic e">
+			<question correct='3' a='made' b='shade' c='spade' d='trade'>Dig with it.</question>
+			<question correct='3' a='lime' b='tim' c='time' d='slime'>A clock tells the ...</question>
+			<question correct='4' a='smoke' b='joke' c='bloke' d='poke'>Prod or jab.</question>
+			<question correct='3' a='pole' b='stole' c='hole' d='mole'>A pit.</question>
+			<question correct='4' a='plan' b='lane' c='can' d='plane'>It can fly.</question>
+			<question correct='4' a='shin' b='smile' c='fine' d='shine'>On a hot day the sun will...</question>
+			<question correct='3' a='line' b='wine' c='mine' d='spine'>To dig for gold.</question>
+			<question correct='2' a='bone' b='stone' c='cone' d='tone'>A rock.</question>
+			<question correct='1' a='fume' b='tune' c='plume' d='prune'>Smoke or gas.</question>
+			<question correct='2' a='cub' b='cube' c='tube' d='cute'>In the shape of a block.</question>
+			<question correct='4' a='while' b='stile' c='file' d='smile'>You do this if you are happy.</question>
+			<question correct='4' a='cave' b='save' c='pave' d='brave'>Bold and strong.</question>
+			<question correct='3' a='chose' b='hose' c='nose' d='those'>Smell with it.</question>
+			<question correct='3' a='cute' b='flake' c='flute' d='mute'>Make a tune with it.</question>
+			<question correct='4' a='sale' b='male' c='pal' d='pale'>Going white.</question>
+		</wordlist>
+
+		<wordlist name="two syllable words">
+			<question correct='3' a='traffic' b='trusted' c='tractor' d='trumpet'>The farmer has a red ...</question>
+			<question correct='4' a='problem' b='pamper' c='planted' d='plastic'>I have a ... lunch box.</question>
+			<question correct='4' a='children' b='chanted' c='charming' d='chickens'>The ... peck corn in the farm yard.</question>
+			<question correct='2' a='convict' b='control' c='consent' d='contact'>He lost ... of the barking dog.</question>
+			<question correct='2' a='infect' b='insect' c='insult' d='inject'>A buzzing fly is an ...</question>
+			<question correct='1' a='problem' b='publish' c='pumpkin' d='punish'>I have a ... as my car will not start.</question>
+			<question correct='1' a='dentist' b='damper' c='duster' d='distant'>The ... will inject my gum.</question>
+			<question correct='3' a='disgust' b='distant' c='doctor' d='dentist'>I have to go to the ... if I am ill.</question>
+			<question correct='2' a='bluster' b='button' c='busted' d='blasted'>My jacket has lost a ...</question>
+			<question correct='1' a='sudden' b='suspect' c='seldom' d='subtract'>There was a ... bang.</question>
+			<question correct='3' a='plastic' b='hundred' c='inspect' d='dentist'>The doctor will ... my rash.</question>
+			<question correct='4' a='insult' b='inject' c='invest' d='infect'>Germs can ... a cut.</question>
+			<question correct='4' a='trumpet' b='tractor' c='ostrich' d='blanket'>I was cold until I got a thicker ...</question>
+			<question correct='1' a='husband' b='pumpkin' c='hundred' d='plastic'>Her ... is looking after the children.</question>
+			<question correct='2' a='contact' b='children' c='cotton' d='connect'>She has six ...</question>
+			<question correct='3' a='trellis' b='trumpet' c='traffic' d='tractor'>The ... was stuck in a jam.</question>
+		</wordlist>
+
+		<wordlist name="magic e 2">
+			<question correct='2' a='invade' b='insane' c='inside' d='inhale'>Mad or crazy.</question>
+			<question correct='4' a='rotate' b='tadpole' c='textile' d='reptile'>A lizard.</question>
+			<question correct='2' a='expose' b='explode' c='extreme' d='excuse'>Blow up with a bang.</question>
+			<question correct='1' a='surprise' b='suppose' c='sunrise' d='subscribe'>Not expected.</question>
+			<question correct='3' a='divide' b='collect' c='collide' d='inside'>When two things crash together.</question>
+			<question correct='4' a='debate' b='donate' c='rotate' d='locate'>To find.</question>
+			<question correct='4' a='invite' b='inside' c='inhale' d='inflate'>Blow up a balloon.</question>
+			<question correct='2' a='compete' b='complete' c='costume' d='confuse'>To finish.</question>
+			<question correct='3' a='tadpole' b='polite' c='athlete' d='escape'>A fit person.</question>
+			<question correct='2' a='estate' b='escape' c='expose' d='explode'>To get away.</question>
+			<question correct='1' a='rotate' b='donate' c='debate' d='locate'>To turn around.</question>
+			<question correct='2' a='divine' b='divide' c='dilute' d='describe'>Split in two.</question>
+			<question correct='3' a='refuse' b='excuse' c='confuse' d='accuse'>To mix up or mistake.</question>
+			<question correct='2' a='bagpipe' b='trombone' c='backbone' d='translate'>Used to make jazz music.</question>
+			<question correct='1' a='pollute' b='polite' c='profile' d='pancake'>Sending out dirty waste.</question>
+		</wordlist>
+
+		<!--
+		<wordlist name="soft c g 2">
+			<question correct='3' a='cider' b='circle' c='cigar' d='cinder'>Smoking this is bad for you.</question>
+			<question correct='4' a='cement' b='acid' c='pencil' d='sauce'>Put this on food to make it more tasty.</question>
+			<question correct='1' a='concert' b='certain' c='concern' d='circus'>A music show.</question>
+			<question correct='1' a='gentle' b='gerbil' c='ginger' d='general'>Soft and tender.</question>
+			<question correct='2' a='cottage' b='village' c='garage' d='German'>A group of houses in the country.</question>
+			<question correct='3' a='fringe' b='finger' c='fridge' d='fudge'>A place to keep food cool.</question>
+			<question correct='4' a='central' b='cellar' c='grocer' d='decide'>Making a choice.</question>
+			<question correct='2' a='concert' b='cinema' c='circus' d='cellar'>A place where you watch films.</question>
+			<question correct='3' a='ceiling' b='cancer' c='ulcer' d='certain'>A sore spot in your mouth.</question>
+			<question correct='2' a='giraffe' b='danger' c='legend' d='urgent'>Unsafe or risky.</question>
+			<question correct='4' a='gadget' b='pigeon' c='garage' d='engine'>Gives a car power.</question>
+			<question correct='2' a='magic' b='strange' c='margin' d='suggest'>Odd: not normal.</question>
+			<question correct='3' a='circus' b='pencil' c='circle' d='circuit'>A round shape.</question>
+			<question correct='1' a='centre' b='circle' c='juice' d='choice'>In the middle.</question>
+			<question correct='2' a='cancel' b='bicycle' c='peace' d='sauce'>Uses pedals to turn wheels.</question>
+		</wordlist>
+
+		<wordlist name="links 1">
+			<question correct='3' a='serious' b='silliest' c='sunnier' d='sorriest'>The weather was ... on Thursday.</question>
+			<question correct='1' a='glorious' b='grubbier' c='greediest' d='gradual'>We had a ... holiday in Spain.</question>
+			<question correct='3' a='enemies' b='earlier' c='easiest' d='emptiest'>This maths sum is the ... to get right.</question>
+			<question correct='3' a='manual' b='merrier' c='marries' d='messiest'>The groom ... the bride on Saturday.</question>
+			<question correct='4' a='heavier' b='healthier' c='happiest' d='hungriest'>He ate all the sandwiches because he was the ... of all the boys.</question>
+			<question correct='1' a='enemies' b='exterior' c='easier' d='earlier'>They are not my friends, they are my ...</question>
+			<question correct='2' a='companion' b='champion' c='chariot' d='Canadian'>Tom was the ...runner in the Olympics.</question>
+			<question correct='4' a='sorriest' b='senior' c='serious' d='stallion'>A male horse is called a ...</question>
+			<question correct='4' a='medium' b='magnesium' c='marries' d='maniac'>The ... went mad in the shopping mall.</question>
+			<question correct='1' a='injuries' b='iciest' c='industrial' d='individual'>His ... were so bad that he had to go to hospital.</question>
+			<question correct='4' a='studio' b='stallion' c='steadier' d='stadium'>A great roar went up in the ... as the footballers ran on.</question>
+			<question correct='1' a='curious' b='furious' c='glorious' d='obvious'>Pat was ... to know who won the match.</question>
+			<question correct='4' a='loveliest' b='luckiest' c='loneliest' d='laziest'>Jack is the ... lad in the class because he never does any work.</question>
+			<question correct='1' a='dirtiest' b='denies' c='dopiest' d='dreamiest'>Ted is the ... boy because he is covered in dark brown mud.</question>
+			<question correct='1' a='opinion' b='onion' c='obvious' d='ugliest'>In my ... we will win the race.</question>
+			<question correct='4' a='cherries' b='supplies' c='sodium' d='chariot'>Each Roman drove their own ...</question>
+		</wordlist>
+
+		<wordlist name="ch as k sh">
+			<question correct='3' a='chemistry' b='chemical' c='character' d='charisma'>The actor gave an excellent performance of a drunken ...</question>
+			<question correct='2' a='chauvinist' b='chauffeur' c='charades' d='chivalry'>The driver of this limousine is the ...</question>
+			<question correct='1' a='psychology' b='psychiatry' c='psychic' d='psychopath'>... is the study of the mind.</question>
+			<question correct='1' a='chaos' b='chronic' c='chronicle' d='chrysalis'>A state of turmoil and unrest is often called ...</question>
+			<question correct='2' a='chandelier' b='champagne' c='charades' d='chamois'>... is an alcoholic, bubbly drink.</question>
+			<question correct='2' a='Christmas' b='Christian' c='christen' d='chronicle'>Someone who believes in Jesus is a ...</question>
+			<question correct='2' a='machine' b='melancholy' c='moustache' d='monarchy'>... is when we are very sad or depressed.</question>
+			<question correct='4' a='Cholera' b='stomach' c='pistachio' d='architect'>An ... is someone who designs buildings.</question>
+			<question correct='3' a='chartered' b='champagne' c='cholera' d='chlorine'>... is a highly infectious and deadly disease.</question>
+			<question correct='1' a='scholar' b='schedule' c='synchronize' d='scheme'>A ... is someone who studies hard.</question>
+			<question correct='3' a='architect' b='ache' c='anchor' d='archive'>The ship's captain gave the order to drop ...</question>
+			<question correct='1' a='orchestra' b='orchid' c='ochre' d='orchard'>A violinist will play in the ...</question>
+			<question correct='2' a='technical' b='technique' c='technology' d='torch'>A skill or method of performance is called a ...</question>
+			<question correct='3' a='chaos' b='choir' c='chorus' d='charted'>A band of singers or dancers make up the ...</question>
+			<question correct='3' a='choreography' b='chronological' c='chronicled' d='chrysalis'>Another term for written down or recorded is ...</question>
+			<question correct='3' a='chevron' b='chauffeur' c='charades' d='chivalry'>... is a game which can be played at parties.</question>
+		</wordlist>
+		-->
+		
+	</custom>
+</customGame>

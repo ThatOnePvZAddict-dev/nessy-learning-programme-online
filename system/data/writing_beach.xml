@@ -1,0 +1,65 @@
+<writingBeach>
+	
+	<lesson id="1" name="motivate writing">
+		<!--<guidance><![CDATA[Guidance for lesson 1]]></guidance>-->
+		<information><![CDATA[some quick and easy activities to motivate reluctant writers.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="2" name="sentence construction">
+		<!--<guidance><![CDATA[Guidance for lesson 2]]></guidance>-->
+		<information><![CDATA[meet an amazing newt that vibrates to learn about adjectives nouns and verbs.]]></information>
+		<rules>
+			<rule name="adjective noun verb" />
+		</rules>
+	</lesson>
+	
+	<lesson id="3" name="descriptive writing">
+		<!--<guidance><![CDATA[Guidance for lesson 3]]></guidance>-->
+		<information><![CDATA[quickly create poems and descriptive paragraphs following the nessy plan.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="4" name="story plans">
+		<!--<guidance><![CDATA[Guidance for lesson 4]]></guidance>-->
+		<information><![CDATA[create character portraits and follow a simple structure to connect story ideas.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="5" name="linking paragraphs">
+		<!--<guidance><![CDATA[Guidance for lesson 5]]></guidance>-->
+		<information><![CDATA[learn how to construct a simple paragraph using colour and bullet points.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="6" name="past tense">
+		<!--<guidance><![CDATA[Guidance for lesson 6]]></guidance>-->
+		<information><![CDATA[practise activities to know which forms of the verb are used in the past tense.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="7" name="thinking skills">
+		<!--<guidance><![CDATA[Guidance for lesson 7]]></guidance>-->
+		<information><![CDATA[sequencing, memory strategies and listening skills are all important areas for dyslexics to develop.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="8" name="punctuation">
+		<!--<guidance><![CDATA[Guidance for lesson 8]]></guidance>-->
+		<information><![CDATA[exercises and strategies to help develop an awareness of punctuation.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="9" name="reading accuracy">
+		<!--<guidance><![CDATA[Guidance for lesson 9]]></guidance>-->
+		<information><![CDATA[visual tracking exercises help prevent the eye from skipping letters and words as they are read.]]></information>
+		<rules />
+	</lesson>
+	
+	<lesson id="10" name="dictionary skills">
+		<!--<guidance><![CDATA[Guidance for lesson 10]]></guidance>-->
+		<information><![CDATA[a strategy for using the dictionary that will be helpful for those who have difficulty recalling the sequence of the alphabet.]]></information>
+		<rules />
+	</lesson>
+		
+</writingBeach>

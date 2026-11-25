@@ -1,0 +1,26 @@
+<list name="sion" location="" sentence="">
+	<word soundFileName="mission.mp3"><![CDATA[mission]]></word>
+	<word soundFileName="permission.mp3"><![CDATA[permission]]></word>
+	<word soundFileName="admission.mp3"><![CDATA[admission]]></word>
+	<word soundFileName="transmission.mp3"><![CDATA[transmission]]></word>
+	<word soundFileName="expression.mp3"><![CDATA[expression]]></word>
+	<word soundFileName="depression.mp3"><![CDATA[depression]]></word>
+	<word soundFileName="confession.mp3"><![CDATA[confession]]></word>
+	<word soundFileName="impression.mp3"><![CDATA[impression]]></word>
+	<word soundFileName="discussion.mp3"><![CDATA[discussion]]></word>
+	<word soundFileName="percussion.mp3"><![CDATA[percussion]]></word>
+	<word soundFileName="concussion.mp3"><![CDATA[concussion]]></word>
+	<word soundFileName="vision.mp3"><![CDATA[vision]]></word>
+	<word soundFileName="television.mp3"><![CDATA[television]]></word>
+	<word soundFileName="division.mp3"><![CDATA[division]]></word>
+	<word soundFileName="revision.mp3"><![CDATA[revision]]></word>
+	<word soundFileName="supervision.mp3"><![CDATA[supervision]]></word>
+	<word soundFileName="confusion.mp3"><![CDATA[confusion]]></word>
+	<word soundFileName="conclusion.mp3"><![CDATA[conclusion]]></word>
+	<word soundFileName="exclusion.mp3"><![CDATA[exclusion]]></word>
+	<word soundFileName="invasion.mp3"><![CDATA[invasion]]></word>
+	<word soundFileName="explosion.mp3"><![CDATA[explosion]]></word>
+	<word soundFileName="version.mp3"><![CDATA[version]]></word>
+	<word soundFileName="conversion.mp3"><![CDATA[conversion]]></word>
+
+</list>

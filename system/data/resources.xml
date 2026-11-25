@@ -1,0 +1,1496 @@
+<resources>
+	
+	<!-- videos -->
+	
+	<resource resourceType="videos" mediaType="video" location="resources/videos/" thumbnailLocation="">
+		
+		<item name="intro film">
+			<description><![CDATA[]]></description>
+			<fileName>intro_film.flv</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="what is dyslexia?">
+			<description><![CDATA[]]></description>
+			<fileName>what_is_dyslexia.flv</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+	</resource>
+	
+	<!-- PDFs -->
+	
+	<resource resourceType="pdfs" mediaType="pdf" location="resources/pdfs/" thumbnailLocation="">
+		
+		<item name="user guide">
+			<description><![CDATA[]]></description>
+			<fileName>user_guide.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="what is dyslexia?">
+			<description><![CDATA[]]></description>
+			<fileName>what_is_dyslexia.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="help at home">
+			<description><![CDATA[]]></description>
+			<fileName>help_at_home.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="learning record">
+			<description><![CDATA[]]></description>
+			<fileName>learning_record.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="tricky word record">
+			<description><![CDATA[]]></description>
+			<fileName>tricky_word_record.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<!-- card game rules -->
+		
+		<item name="card game rules">
+			<description><![CDATA[]]></description>
+			<fileName>card_game_rules.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+
+		<!-- printable assessments -->
+
+		<item name="reading check A">
+			<description><![CDATA[]]></description>
+			<fileName>reading_check_A.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="reading check B">
+			<description><![CDATA[]]></description>
+			<fileName>reading_check_B.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="spelling check A">
+			<description><![CDATA[]]></description>
+			<fileName>spelling_check_A.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="spelling check B">
+			<description><![CDATA[]]></description>
+			<fileName>spelling_check_B.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="sentence check A">
+			<description><![CDATA[]]></description>
+			<fileName>sentence_check_A.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="sentence check B">
+			<description><![CDATA[]]></description>
+			<fileName>sentence_check_B.pdf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+		
+	</resource>
+	
+	<!-- cardGames -->
+	
+	<resource resourceType="cardGames" mediaType="pdf" location="resources/card_games/" thumbnailLocation="resources/thumbnails/image_flow/card_games/">
+		
+		<item name="card_game_1">
+			<description><![CDATA[Description_for_card_game_1]]></description>
+			<fileName>card_game_1.swf</fileName>
+			<thumbnailFileName>card_game_thumbnail_1.gif</thumbnailFileName>
+			<interactive>true</interactive>
+		</item>
+	
+	</resource>
+	
+	<!-- mnemonicStrategies -->
+	
+	<resource resourceType="mnemonicStrategies" mediaType="animation" location="resources/mnemonic_strategies/" thumbnailLocation="">
+		
+		<item name="intro">
+			<description><![CDATA[]]></description>
+			<fileName>intro.swf</fileName>
+			<thumbnailFileName />
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="all">
+			<description><![CDATA[]]></description>
+			<fileName>all_little.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="any">
+			<description><![CDATA[]]></description>
+			<fileName>any_you.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="ask">
+			<description><![CDATA[]]></description>
+			<fileName>ask_king.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="beautiful">
+			<description><![CDATA[]]></description>
+			<fileName>beautiful_lovely.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="because">
+			<description><![CDATA[]]></description>
+			<fileName>because_elephants.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="believe">
+			<description><![CDATA[]]></description>
+			<fileName>believe_lie.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="bird">
+			<description><![CDATA[]]></description>
+			<fileName>bird_dumb.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="busy">
+			<description><![CDATA[]]></description>
+			<fileName>busy_bus.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="come">
+			<description><![CDATA[]]></description>
+			<fileName>come_elephant.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="could">
+			<description><![CDATA[]]></description>
+			<fileName>could_dogs.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="does">
+			<description><![CDATA[]]></description>
+			<fileName>does_sweets.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="down">
+			<description><![CDATA[]]></description>
+			<fileName>down_nose.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="every">
+			<description><![CDATA[]]></description>
+			<fileName>every_yoghurt.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="first">
+			<description><![CDATA[]]></description>
+			<fileName>first_i.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="girl">
+			<description><![CDATA[]]></description>
+			<fileName>girl_leggings.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="great">
+			<description><![CDATA[]]></description>
+			<fileName>great_eat.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="have">
+			<description><![CDATA[]]></description>
+			<fileName>have_e.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="here">
+			<description><![CDATA[]]></description>
+			<fileName>here_everywhere.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="know">
+			<description><![CDATA[]]></description>
+			<fileName>Know_k.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="laugh">
+			<description><![CDATA[]]></description>
+			<fileName>laugh_hair.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="little">
+			<description><![CDATA[]]></description>
+			<fileName>little_evil.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="many">
+			<description><![CDATA[]]></description>
+			<fileName>many_you.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="month">
+			<description><![CDATA[]]></description>
+			<fileName>month_days.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="necessary">
+			<description><![CDATA[]]></description>
+			<fileName>necessary_young.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="new">
+			<description><![CDATA[]]></description>
+			<fileName>new_wiggle.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="old">
+			<description><![CDATA[]]></description>
+			<fileName>old_dribble.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="once">
+			<description><![CDATA[]]></description>
+			<fileName>once_eggs.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="one">
+			<description><![CDATA[]]></description>
+			<fileName>one_elephant.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="only">
+			<description><![CDATA[]]></description>
+			<fileName>only_yawn.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="other">
+			<description><![CDATA[]]></description>
+			<fileName>other_mother.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="piece">
+			<description><![CDATA[]]></description>
+			<fileName>piece_pie.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="said">
+			<description><![CDATA[]]></description>
+			<fileName>said_dance.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="shoe">
+			<description><![CDATA[]]></description>
+			<fileName>shoe_elephants.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="some">
+			<description><![CDATA[]]></description>
+			<fileName>some_elephant.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="success">
+			<description><![CDATA[]]></description>
+			<fileName>success_socks.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="sure">
+			<description><![CDATA[]]></description>
+			<fileName>sure_elephants.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="their">
+			<description><![CDATA[]]></description>
+			<fileName>their_red.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="they">
+			<description><![CDATA[]]></description>
+			<fileName>they_e.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="want">
+			<description><![CDATA[]]></description>
+			<fileName>want_toy.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="was">
+			<description><![CDATA[]]></description>
+			<fileName>was_sausage.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="water">
+			<description><![CDATA[]]></description>
+			<fileName>water_right.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="what">
+			<description><![CDATA[]]></description>
+			<fileName>what_hat.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="which">
+			<description><![CDATA[]]></description>
+			<fileName>which_having.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="who">
+			<description><![CDATA[]]></description>
+			<fileName>who_otter.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="with">
+			<description><![CDATA[]]></description>
+			<fileName>with_her.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="write">
+			<description><![CDATA[]]></description>
+			<fileName>write_eddy.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="you">
+			<description><![CDATA[]]></description>
+			<fileName>you_umbrellas.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="your">
+			<description><![CDATA[]]></description>
+			<fileName>your_rip.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+	</resource>
+	
+	<!-- phonicSounds -->
+	
+	<resource resourceType="phonicSounds" mediaType="animation" location="resources/phonic_sounds/" thumbnailLocation="resources/thumbnails/image_flow/phonic_sounds/">
+
+		<item name="intro">
+			<description><![CDATA[]]></description>
+			<fileName>intro.swf</fileName>
+			<thumbnailFileName />
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="a">
+			<description><![CDATA[]]></description>
+			<fileName>ant.swf</fileName>
+			<thumbnailFileName>ant.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="b">
+			<description><![CDATA[]]></description>
+			<fileName>bat_and_ball.swf</fileName>
+			<thumbnailFileName>bat_and_ball.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="c">
+			<description><![CDATA[]]></description>
+			<fileName>cat.swf</fileName>
+			<thumbnailFileName>cat.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+	    <item name="d">
+			<description><![CDATA[]]></description>
+			<fileName>dog.swf</fileName>
+			<thumbnailFileName>dog.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+		<item name="e">
+			<description><![CDATA[]]></description>
+			<fileName>egg.swf</fileName>
+			<thumbnailFileName>egg.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="f">
+			<description><![CDATA[]]></description>
+			<fileName>fish.swf</fileName>
+			<thumbnailFileName>fish.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="g">
+			<description><![CDATA[]]></description>
+			<fileName>girl.swf</fileName>
+			<thumbnailFileName>girl.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="h">
+			<description><![CDATA[]]></description>
+			<fileName>hat.swf</fileName>
+			<thumbnailFileName>hat.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="i">
+			<description><![CDATA[]]></description>
+			<fileName>igloo.swf</fileName>
+			<thumbnailFileName>igloo.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="j">
+			<description><![CDATA[]]></description>
+			<fileName>jet.swf</fileName>
+			<thumbnailFileName>jet.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="k">
+			<description><![CDATA[]]></description>
+			<fileName>kick.swf</fileName>
+			<thumbnailFileName>kick.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="l">
+			<description><![CDATA[]]></description>
+			<fileName>lick.swf</fileName>
+			<thumbnailFileName>lick.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="m">
+			<description><![CDATA[]]></description>
+			<fileName>monkey.swf</fileName>
+			<thumbnailFileName>monkey.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="n">
+			<description><![CDATA[]]></description>
+			<fileName>net.swf</fileName>
+			<thumbnailFileName>net.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="o">
+			<description><![CDATA[]]></description>
+			<fileName>on_off.swf</fileName>
+			<thumbnailFileName>on_off.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="p">
+			<description><![CDATA[]]></description>
+			<fileName>penguin.swf</fileName>
+			<thumbnailFileName>penguin.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="q">
+			<description><![CDATA[]]></description>
+			<fileName>queen.swf</fileName>
+			<thumbnailFileName>queen.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="r">
+			<description><![CDATA[]]></description>
+			<fileName>robot.swf</fileName>
+			<thumbnailFileName>robot.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="s">
+			<description><![CDATA[]]></description>
+			<fileName>snake.swf</fileName>
+			<thumbnailFileName>snake.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="t">
+			<description><![CDATA[]]></description>
+			<fileName>tennis.swf</fileName>
+			<thumbnailFileName>tennis.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="u">
+			<description><![CDATA[]]></description>
+			<fileName>umbrella.swf</fileName>
+			<thumbnailFileName>umbrella.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="v">
+			<description><![CDATA[]]></description>
+			<fileName>van.swf</fileName>
+			<thumbnailFileName>van.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="w">
+			<description><![CDATA[]]></description>
+			<fileName>wig.swf</fileName>
+			<thumbnailFileName>wig.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="x">
+			<description><![CDATA[]]></description>
+			<fileName>x-ray.swf</fileName>
+			<thumbnailFileName>x-ray.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="y">
+			<description><![CDATA[]]></description>
+			<fileName>yeti.swf</fileName>
+			<thumbnailFileName>yeti.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="z">
+			<description><![CDATA[]]></description>
+			<fileName>zebra.swf</fileName>
+			<thumbnailFileName>zebra.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="sh">
+			<description><![CDATA[]]></description>
+			<fileName>sh_shell.swf</fileName>
+			<thumbnailFileName>sh_shell.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+					
+		<item name="ch">
+			<description><![CDATA[]]></description>
+			<fileName>ch_chop.swf</fileName>
+			<thumbnailFileName>ch_chop.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="th x 2">
+			<description><![CDATA[]]></description>
+			<fileName>th_teeth.swf</fileName>
+			<thumbnailFileName>th_teeth.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="y x 3">
+			<description><![CDATA[]]></description>
+			<fileName>y_hairy_yeti.swf</fileName>
+			<thumbnailFileName>y_hairy_yeti.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="ar">
+			<description><![CDATA[]]></description>
+			<fileName>ar_farm.swf</fileName>
+			<thumbnailFileName>ar_farm.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="or">
+			<description><![CDATA[]]></description>
+			<fileName>or_horse.swf</fileName>
+			<thumbnailFileName>or_horse.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="er">
+			<description><![CDATA[]]></description>
+			<fileName>er_runner.swf</fileName>
+			<thumbnailFileName>er_runner.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ir">
+			<description><![CDATA[]]></description>
+			<fileName>ir_bird.swf</fileName>
+			<thumbnailFileName>ir_bird.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ur">
+			<description><![CDATA[]]></description>
+			<fileName>ur_surf.swf</fileName>
+			<thumbnailFileName>ur_surf.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ee">
+			<description><![CDATA[]]></description>
+			<fileName>ee_sheep.swf</fileName>
+			<thumbnailFileName>ee_sheep.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+			
+		<item name="ea x 2">
+			<description><![CDATA[]]></description>
+			<fileName>ea_teapot_head.swf</fileName>
+			<thumbnailFileName>ea_teapot_head.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ce">
+			<description><![CDATA[]]></description>
+			<fileName>ce_fence.swf</fileName>
+			<thumbnailFileName>ce_fence.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+	
+		<item name="ge">
+			<description><![CDATA[]]></description>
+			<fileName>ge_cage.swf</fileName>
+			<thumbnailFileName>ge_cage.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+		<item name="wh">
+			<description><![CDATA[]]></description>
+			<fileName>wh_whale.swf</fileName>
+			<thumbnailFileName>wh_whale.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+		<item name="qu">
+			<description><![CDATA[]]></description>
+			<fileName>qu_queen.swf</fileName>
+			<thumbnailFileName>qu_queen.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="ai">
+			<description><![CDATA[]]></description>
+			<fileName>ai_trainers.swf</fileName>
+			<thumbnailFileName>ai_trainers.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="ay">
+			<description><![CDATA[]]></description>
+			<fileName>ay_play.swf</fileName>
+			<thumbnailFileName>ay_play.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="igh">
+			<description><![CDATA[]]></description>
+			<fileName>igh_knight.swf</fileName>
+			<thumbnailFileName>igh_knight.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ie x 2">
+			<description><![CDATA[]]></description>
+			<fileName>ie_thief.swf</fileName>
+			<thumbnailFileName>ie_thief.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="oa">
+			<description><![CDATA[]]></description>
+			<fileName>oa_goat.swf</fileName>
+			<thumbnailFileName>oa_goat.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>		
+		
+		<item name="ow x 2">
+			<description><![CDATA[]]></description>
+			<fileName>ow_cow.swf</fileName>
+			<thumbnailFileName>ow_cow.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="oe">
+			<description><![CDATA[]]></description>
+			<fileName>oe_toe.swf</fileName>
+			<thumbnailFileName>oe_toe.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="oo x 2">
+			<description><![CDATA[]]></description>
+			<fileName>oo_moon.swf</fileName>
+			<thumbnailFileName>oo_moon.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="tch">
+			<description><![CDATA[]]></description>
+			<fileName>tch_match.swf</fileName>
+			<thumbnailFileName>tch_match.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="ui">
+			<description><![CDATA[]]></description>
+			<fileName>ui_fruit.swf</fileName>
+			<thumbnailFileName>ui_fruit.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>		
+		
+		<item name="ue">
+			<description><![CDATA[]]></description>
+			<fileName>ue_clue.swf</fileName>
+			<thumbnailFileName>ue_clue.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="ew">
+			<description><![CDATA[]]></description>
+			<fileName>ew_stew.swf</fileName>
+			<thumbnailFileName>ew_stew.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="oi">
+			<description><![CDATA[]]></description>
+			<fileName>oi_coin.swf</fileName>
+			<thumbnailFileName>oi_coin.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="oy">
+			<description><![CDATA[]]></description>
+			<fileName>oy_toy.swf</fileName>
+			<thumbnailFileName>oy_toy.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ou x 3">
+			<description><![CDATA[]]></description>
+			<fileName>ou_mouse.swf</fileName>
+			<thumbnailFileName>ou_mouse.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="ph">
+			<description><![CDATA[]]></description>
+			<fileName>ph_phone.swf</fileName>
+			<thumbnailFileName>ph_phone.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="dge">
+			<description><![CDATA[]]></description>
+			<fileName>dge_badger.swf</fileName>
+			<thumbnailFileName>dge_badger.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>	
+		
+		<item name="ear x 2">
+			<description><![CDATA[]]></description>
+			<fileName>ear.swf</fileName>
+			<thumbnailFileName>ear.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="air">
+			<description><![CDATA[]]></description>
+			<fileName>air_fairy.swf</fileName>
+			<thumbnailFileName>air_fairy.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="aw">
+			<description><![CDATA[]]></description>
+			<fileName>aw_saw.swf</fileName>
+			<thumbnailFileName>aw_saw.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="au">
+			<description><![CDATA[]]></description>
+			<fileName>au_haunt.swf</fileName>
+			<thumbnailFileName>au_haunt.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+			<item name="wa">
+			<description><![CDATA[]]></description>
+			<fileName>wa_wasp.swf</fileName>
+			<thumbnailFileName>wa_wasp.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="wor">
+			<description><![CDATA[]]></description>
+			<fileName>wor_worm.swf</fileName>
+			<thumbnailFileName>wor_worm.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="war">
+			<description><![CDATA[]]></description>
+			<fileName>war.swf</fileName>
+			<thumbnailFileName>war.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ei x 2">
+			<description><![CDATA[]]></description>
+			<fileName>ei_ceiling.swf</fileName>
+			<thumbnailFileName>ei_ceiling.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ey x 2">
+			<description><![CDATA[]]></description>
+			<fileName>ey_honey.swf</fileName>
+			<thumbnailFileName>ey_honey.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+	</resource>
+	
+	<!-- rules -->
+	
+	<resource resourceType="rules" mediaType="animation" location="resources/animated_rules/" thumbnailLocation="resources/thumbnails/image_flow/animated_rules/">
+		
+		<item name="Beginning Middle End">
+			<description><![CDATA[]]></description>
+			<fileName>beginning_middle_end.swf</fileName>
+			<thumbnailFileName>beginning_middle_end.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="b d">
+			<description><![CDATA[]]></description>
+			<fileName>b_d.swf</fileName>
+			<thumbnailFileName>b_d.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="silly bull">
+			<description><![CDATA[]]></description>
+			<fileName>silly_bull.swf</fileName>
+			<thumbnailFileName>silly_bull.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="closed and open syllables">
+			<description><![CDATA[]]></description>
+			<fileName>closed_and_open_syllables.swf</fileName>
+			<thumbnailFileName>closed_and_open_syllables.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ck k">
+			<description><![CDATA[]]></description>
+			<fileName>ck_k.swf</fileName>
+			<thumbnailFileName>ck_k.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ar">
+			<description><![CDATA[]]></description>
+			<fileName>ar.swf</fileName>
+			<thumbnailFileName>ar.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="or">
+			<description><![CDATA[]]></description>
+			<fileName>or.swf</fileName>
+			<thumbnailFileName>or.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="er ir ur">
+			<description><![CDATA[]]></description>
+			<fileName>er_ir_ur.swf</fileName>
+			<thumbnailFileName>er_ir_ur.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="syllable division (part 1)">
+			<description><![CDATA[]]></description>
+			<fileName>syllable_division_part_1.swf</fileName>
+			<thumbnailFileName>syllable_division_part_1.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="head body tail">
+			<description><![CDATA[]]></description>
+			<fileName>head_body_tail.swf</fileName>
+			<thumbnailFileName>head_body_tail.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+		<item name="magic e">
+			<description><![CDATA[]]></description>
+			<fileName>magic_e.swf</fileName>
+			<thumbnailFileName>magic_e.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ck k ke">
+			<description><![CDATA[]]></description>
+			<fileName>ck_k_ke.swf</fileName>
+			<thumbnailFileName>ck_k_ke.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="soft c">
+			<description><![CDATA[]]></description>
+			<fileName>soft_c.swf</fileName>
+			<thumbnailFileName>soft_c.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="soft g">
+			<description><![CDATA[]]></description>
+			<fileName>soft_g.swf</fileName>
+			<thumbnailFileName>soft_g.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="phonic sounds">
+			<description><![CDATA[]]></description>
+			<fileName>phonic_sounds.swf</fileName>
+			<thumbnailFileName>phonic_sounds.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="tch ch">
+			<description><![CDATA[]]></description>
+			<fileName>tch_ch.swf</fileName>
+			<thumbnailFileName>tch_ch.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="syllable division (part 2)">
+			<description><![CDATA[]]></description>
+			<fileName>syllable_division_part_2.swf</fileName>
+			<thumbnailFileName>syllable_division_part_2.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+		<item name="dge ge">
+			<description><![CDATA[]]></description>
+			<fileName>dge_ge.swf</fileName>
+			<thumbnailFileName>dge_ge.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="rabbit words">
+			<description><![CDATA[]]></description>
+			<fileName>rabbit_words.swf</fileName>
+			<thumbnailFileName>rabbit_words.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="le">
+			<description><![CDATA[]]></description>
+			<fileName>le.swf</fileName>
+			<thumbnailFileName>le.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>		
+		
+			<item name="w the wicked wizard">
+			<description><![CDATA[]]></description>
+			<fileName>w_the_wicked_wizard.swf</fileName>
+			<thumbnailFileName>w_the_wicked_wizard.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="drop e">
+			<description><![CDATA[]]></description>
+			<fileName>drop_e.swf</fileName>
+			<thumbnailFileName>drop_e.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="y to i">
+			<description><![CDATA[]]></description>
+			<fileName>y_to_i.swf</fileName>
+			<thumbnailFileName>y_to_i.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="ough">
+			<description><![CDATA[]]></description>
+			<fileName>ough.swf</fileName>
+			<thumbnailFileName>ough.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+		<item name="adjective noun verb">
+			<description><![CDATA[]]></description>
+			<fileName>noun_adjective_verb.swf</fileName>
+			<thumbnailFileName>noun_adjective_verb.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>		
+		
+	</resource>
+	
+	<!-- wordEndings -->
+	
+	<resource resourceType="wordEndings" mediaType="animation" location="resources/word_endings/" thumbnailLocation="resources/thumbnails/image_flow/word_endings/">
+
+		<item name="intro">
+			<description><![CDATA[]]></description>
+			<fileName>intro.swf</fileName>
+			<thumbnailFileName />
+			<interactive>true</interactive>
+		</item>
+		
+		<item name="-s">
+			<description><![CDATA[]]></description>
+			<fileName>s_legs.swf</fileName>
+			<thumbnailFileName>s.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-es">
+			<description><![CDATA[]]></description>
+			<fileName>es_foxes.swf</fileName>
+			<thumbnailFileName>es.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ing">
+			<description><![CDATA[]]></description>
+			<fileName>ing_swimming.swf</fileName>
+			<thumbnailFileName>ing.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-er">
+			<description><![CDATA[]]></description>
+			<fileName>er_runner.swf</fileName>
+			<thumbnailFileName>er.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-y">
+			<description><![CDATA[]]></description>
+			<fileName>y_hairy.swf</fileName>
+			<thumbnailFileName>y.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ed (x3)">
+			<description><![CDATA[]]></description>
+			<fileName>ed_hunted_hopped_played.swf</fileName>
+			<thumbnailFileName>ed.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-en">
+			<description><![CDATA[]]></description>
+			<fileName>en_broken.swf</fileName>
+			<thumbnailFileName>en.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ful">
+			<description><![CDATA[]]></description>
+			<fileName>ful_painful.swf</fileName>
+			<thumbnailFileName>ful.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-et">
+			<description><![CDATA[]]></description>
+			<fileName>et_rocket.swf</fileName>
+			<thumbnailFileName>et.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ty">
+			<description><![CDATA[]]></description>
+			<fileName>ty_sixty.swf</fileName>
+			<thumbnailFileName>ty.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ly">
+			<description><![CDATA[]]></description>
+			<fileName>ly_slowly.swf</fileName>
+			<thumbnailFileName>ly.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ish">
+			<description><![CDATA[]]></description>
+			<fileName>ish_punish.swf</fileName>
+			<thumbnailFileName>ish.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-le">
+			<description><![CDATA[]]></description>
+			<fileName>le_bottle.swf</fileName>
+			<thumbnailFileName>le.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ment">
+			<description><![CDATA[]]></description>
+			<fileName>ment_experiment.swf</fileName>
+			<thumbnailFileName>ment.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ness">
+			<description><![CDATA[]]></description>
+			<fileName>ness_happiness.swf</fileName>
+			<thumbnailFileName>ness.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-less">
+			<description><![CDATA[]]></description>
+			<fileName>less_fearless.swf</fileName>
+			<thumbnailFileName>less.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-est">
+			<description><![CDATA[]]></description>
+			<fileName>est_coldest.swf</fileName>
+			<thumbnailFileName>est.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-some">
+			<description><![CDATA[]]></description>
+			<fileName>some_handsome.swf</fileName>
+			<thumbnailFileName>some.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-age">
+			<description><![CDATA[]]></description>
+			<fileName>age_message.swf</fileName>
+			<thumbnailFileName>age.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-tion">
+			<description><![CDATA[]]></description>
+			<fileName>tion_fraction.swf</fileName>
+			<thumbnailFileName>tion.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-sion">
+			<description><![CDATA[]]></description>
+			<fileName>sion_explosion.swf</fileName>
+			<thumbnailFileName>sion.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ily">
+			<description><![CDATA[]]></description>
+			<fileName>ily_luckily.swf</fileName>
+			<thumbnailFileName>ily.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ity">
+			<description><![CDATA[]]></description>
+			<fileName>ity_gravity.swf</fileName>
+			<thumbnailFileName>ity.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ic -ical (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ic_music_musical.swf</fileName>
+			<thumbnailFileName>ic.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ture -sure (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ture_picture_treasure.swf</fileName>
+			<thumbnailFileName>ture.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-oon">
+			<description><![CDATA[]]></description>
+			<fileName>oon_balloon.swf</fileName>
+			<thumbnailFileName>oon.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-eer">
+			<description><![CDATA[]]></description>
+			<fileName>eer_mountaineer.swf</fileName>
+			<thumbnailFileName>eer.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ous">
+			<description><![CDATA[]]></description>
+			<fileName>ous_dangerous.swf</fileName>
+			<thumbnailFileName>ous.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ain">
+			<description><![CDATA[]]></description>
+			<fileName>ain_fountain.swf</fileName>
+			<thumbnailFileName>ain.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-al -el (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>al_signal_tunnel.swf</fileName>
+			<thumbnailFileName>al_el.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-able -ible (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ible_horrible_vegetable.swf</fileName>
+			<thumbnailFileName>able_ible.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ant -ent (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ant_giant_present.swf</fileName>
+			<thumbnailFileName>ant_ent.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ive (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ive_massive_arrive.swf</fileName>
+			<thumbnailFileName>ive.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ine (x3)">
+			<description><![CDATA[]]></description>
+			<fileName>ine_med_sub_div.swf</fileName>
+			<thumbnailFileName>ine.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-our">
+			<description><![CDATA[]]></description>
+			<fileName>our_armour.swf</fileName>
+			<thumbnailFileName>our.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ice (x3)">
+			<description><![CDATA[]]></description>
+			<fileName>ice_sac_off_pol.swf</fileName>
+			<thumbnailFileName>ice.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ite (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ite_favourite_satillite.swf</fileName>
+			<thumbnailFileName>ite.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-cy">
+			<description><![CDATA[]]></description>
+			<fileName>cy_spicy.swf</fileName>
+			<thumbnailFileName>cy.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ary">
+			<description><![CDATA[]]></description>
+			<fileName>ary_salary.swf</fileName>
+			<thumbnailFileName>ary.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ory">
+			<description><![CDATA[]]></description>
+			<fileName>ory_history.swf</fileName>
+			<thumbnailFileName>ory.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ate (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ate_pirate_investigate.swf</fileName>
+			<thumbnailFileName>ate.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ance -ence (x2)">
+			<description><![CDATA[]]></description>
+			<fileName>ance_balance_audience.swf</fileName>
+			<thumbnailFileName>ance_ence.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ism">
+			<description><![CDATA[]]></description>
+			<fileName>ism_magnetism.swf</fileName>
+			<thumbnailFileName>ism.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ology">
+			<description><![CDATA[]]></description>
+			<fileName>ology_apology.swf</fileName>
+			<thumbnailFileName>ology.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+
+		<item name="-ique">
+			<description><![CDATA[]]></description>
+			<fileName>ique_physique.swf</fileName>
+			<thumbnailFileName>ique.png</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+		
+	</resource>
+	
+	<!-- workSheets -->
+	
+	<resource resourceType="workSheets" mediaType="pdf" location="resources/work_sheets/" thumbnailLocation="resources/thumbnails/image_flow/work_sheets/">
+		
+		<item name="work_sheet_1">
+			<description><![CDATA[Description_for_work_sheet_1]]></description>
+			<fileName>work_sheet_1.swf</fileName>
+			<thumbnailFileName>work_sheet_thumbnail_1.gif</thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+	</resource>
+
+	<!-- test -->
+	
+	<resource resourceType="test" mediaType="animation" location="resources/test_files/" thumbnailLocation="resources/thumbnails/image_flow/test/">
+		
+		<item name="test">
+			<description><![CDATA[]]></description>
+			<fileName>test.swf</fileName>
+			<thumbnailFileName></thumbnailFileName>
+			<interactive>false</interactive>
+		</item>
+	
+	</resource>
+	
+</resources>

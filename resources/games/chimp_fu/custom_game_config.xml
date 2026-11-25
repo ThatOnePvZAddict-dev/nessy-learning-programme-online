@@ -1,0 +1,443 @@
+<customGame>
+	
+<!--
+
+The data in the 'standard' node uses the same schema for all non-dynamic games, so that
+it can be parsed by the game API. It's task is to define all 'word' and 'sentence' word
+lists for automated declaration and sound loading.
+
+The lists include their sound file locations so that punctuations can be used if required.
+
+-->
+
+	<standard>
+		
+		<words>
+			
+			<list name="cvc-cvc" location="resources/games/chimp_fu/sounds/cvc-cvc/" sentence="">
+				<word soundFileName="hotdog.mp3"><![CDATA[hotdog]]></word>
+				<word soundFileName="cannon.mp3"><![CDATA[cannon]]></word>
+				<word soundFileName="ribbon.mp3"><![CDATA[ribbon]]></word>
+				<word soundFileName="button.mp3"><![CDATA[button]]></word>
+				<word soundFileName="cotton.mp3"><![CDATA[cotton]]></word>
+				<word soundFileName="kitten.mp3"><![CDATA[kitten]]></word>
+				<word soundFileName="bottom.mp3"><![CDATA[bottom]]></word>
+				<word soundFileName="common.mp3"><![CDATA[common]]></word>
+				<word soundFileName="hiccup.mp3"><![CDATA[hiccup]]></word>
+				<word soundFileName="rabbit.mp3"><![CDATA[rabbit]]></word>
+				<word soundFileName="gallop.mp3"><![CDATA[gallop]]></word>
+				<word soundFileName="gossip.mp3"><![CDATA[gossip]]></word>
+				<word soundFileName="lesson.mp3"><![CDATA[lesson]]></word>
+				<word soundFileName="coffin.mp3"><![CDATA[coffin]]></word>
+				<word soundFileName="muffin.mp3"><![CDATA[muffin]]></word>
+				<word soundFileName="gallon.mp3"><![CDATA[gallon]]></word>
+				<word soundFileName="puppet.mp3"><![CDATA[puppet]]></word>
+				<word soundFileName="tennis.mp3"><![CDATA[tennis]]></word>
+				<word soundFileName="bitten.mp3"><![CDATA[bitten]]></word>
+				<word soundFileName="batman.mp3"><![CDATA[batman]]></word>
+			</list>
+			
+			<list name="magic e 2" location="resources/games/chimp_fu/sounds/magic_e_2/" sentence="">
+				<word soundFileName="pancake.mp3"><![CDATA[pancake]]></word>
+				<word soundFileName="mistake.mp3"><![CDATA[mistake]]></word>
+				<word soundFileName="inflate.mp3"><![CDATA[inflate]]></word>
+				<word soundFileName="landscape.mp3"><![CDATA[landscape]]></word>
+				<word soundFileName="invade.mp3"><![CDATA[invade]]></word>
+				<word soundFileName="insane.mp3"><![CDATA[insane]]></word>
+				<word soundFileName="donate.mp3"><![CDATA[donate]]></word>
+				<word soundFileName="rotate.mp3"><![CDATA[rotate]]></word>
+				<word soundFileName="explode.mp3"><![CDATA[explode]]></word>
+				<word soundFileName="suppose.mp3"><![CDATA[suppose]]></word>
+				<word soundFileName="tadpole.mp3"><![CDATA[tadpole]]></word>
+				<word soundFileName="handsome.mp3"><![CDATA[handsome]]></word>
+				<word soundFileName="trombone.mp3"><![CDATA[trombone]]></word>
+				<word soundFileName="backbone.mp3"><![CDATA[backbone]]></word>
+				<word soundFileName="compete.mp3"><![CDATA[compete]]></word>
+				<word soundFileName="extreme.mp3"><![CDATA[extreme]]></word>
+				<word soundFileName="stampede.mp3"><![CDATA[stampede]]></word>
+				<word soundFileName="trapeze.mp3"><![CDATA[trapeze]]></word>
+				<word soundFileName="athlete.mp3"><![CDATA[athlete]]></word>
+				<word soundFileName="concrete.mp3"><![CDATA[concrete]]></word>
+				<word soundFileName="complete.mp3"><![CDATA[complete]]></word>
+				<word soundFileName="reptile.mp3"><![CDATA[reptile]]></word>
+				<word soundFileName="sunrise.mp3"><![CDATA[sunrise]]></word>
+				<word soundFileName="divide.mp3"><![CDATA[divide]]></word>
+				<word soundFileName="inside.mp3"><![CDATA[inside]]></word>
+				<word soundFileName="sunshine.mp3"><![CDATA[sunshine]]></word>
+				<word soundFileName="bagpipe.mp3"><![CDATA[bagpipe]]></word>
+				<word soundFileName="invite.mp3"><![CDATA[invite]]></word>
+				<word soundFileName="polite.mp3"><![CDATA[polite]]></word>
+				<word soundFileName="campsite.mp3"><![CDATA[campsite]]></word>
+				<!--<word soundFileName="surprise.mp3"><![CDATA[surprise]]></word>-->
+				<word soundFileName="outside.mp3"><![CDATA[outside]]></word>
+				<word soundFileName="confuse.mp3"><![CDATA[confuse]]></word>
+				<word soundFileName="refuse.mp3"><![CDATA[refuse]]></word>
+				<word soundFileName="include.mp3"><![CDATA[include]]></word>
+				<word soundFileName="costume.mp3"><![CDATA[costume]]></word>
+				<word soundFileName="excuse.mp3"><![CDATA[excuse]]></word>
+				<word soundFileName="pollute.mp3"><![CDATA[pollute]]></word>
+				<word soundFileName="female.mp3"><![CDATA[female]]></word>
+				<word soundFileName="ignite.mp3"><![CDATA[ignite]]></word>
+			</list>
+			
+			<list name="advanced prefixes" location="resources/games/chimp_fu/sounds/advanced_prefixes/" sentence="">
+				<word soundFileName="lemonade.mp3"><![CDATA[lemonade]]></word>
+				<word soundFileName="innocent.mp3"><![CDATA[innocent]]></word>
+				<word soundFileName="important.mp3"><![CDATA[important]]></word>
+				<word soundFileName="intensive.mp3"><![CDATA[intensive]]></word>
+				<word soundFileName="interval.mp3"><![CDATA[interval]]></word>
+				<word soundFileName="sensitive.mp3"><![CDATA[sensitive]]></word>
+				<word soundFileName="compartment.mp3"><![CDATA[compartment]]></word>
+				<word soundFileName="delicate.mp3"><![CDATA[delicate]]></word>
+				<word soundFileName="organism.mp3"><![CDATA[organism]]></word>
+				<word soundFileName="defective.mp3"><![CDATA[defective]]></word>
+				<word soundFileName="repulsive.mp3"><![CDATA[repulsive]]></word>
+				<word soundFileName="productive.mp3"><![CDATA[productive]]></word>
+				<word soundFileName="document.mp3"><![CDATA[document]]></word>
+				<word soundFileName="equipment.mp3"><![CDATA[equipment]]></word>
+				<word soundFileName="eternal.mp3"><![CDATA[eternal]]></word>
+				<word soundFileName="microscope.mp3"><![CDATA[microscope]]></word>
+				<word soundFileName="instrument.mp3"><![CDATA[instrument]]></word>
+				<word soundFileName="mineral.mp3"><![CDATA[mineral]]></word>
+			</list>
+			
+			<list name="open 2" location="resources/games/chimp_fu/sounds/open_2/" sentence="">
+				<word soundFileName="paper.mp3"><![CDATA[paper]]></word>
+				<word soundFileName="later.mp3"><![CDATA[later]]></word>
+				<word soundFileName="lazy.mp3"><![CDATA[lazy]]></word>
+				<word soundFileName="crazy.mp3"><![CDATA[crazy]]></word>
+				<word soundFileName="navy.mp3"><![CDATA[navy]]></word>
+				<word soundFileName="lady.mp3"><![CDATA[lady]]></word>
+				<word soundFileName="gravy.mp3"><![CDATA[gravy]]></word>
+				<word soundFileName="baby.mp3"><![CDATA[baby]]></word>
+				<word soundFileName="bacon.mp3"><![CDATA[bacon]]></word>
+				<word soundFileName="hotel.mp3"><![CDATA[hotel]]></word>
+				<word soundFileName="pony.mp3"><![CDATA[pony]]></word>
+				<word soundFileName="holy.mp3"><![CDATA[holy]]></word>
+				<word soundFileName="open.mp3"><![CDATA[open]]></word>
+				<word soundFileName="moment.mp3"><![CDATA[moment]]></word>
+				<word soundFileName="poker.mp3"><![CDATA[poker]]></word>
+				<word soundFileName="total.mp3"><![CDATA[total]]></word>
+				<word soundFileName="local.mp3"><![CDATA[local]]></word>
+				<word soundFileName="solo.mp3"><![CDATA[solo]]></word>
+				<word soundFileName="frozen.mp3"><![CDATA[frozen]]></word>
+				<word soundFileName="evil.mp3"><![CDATA[evil]]></word>
+				<word soundFileName="even.mp3"><![CDATA[even]]></word>
+				<word soundFileName="event.mp3"><![CDATA[event]]></word>
+				<word soundFileName="legal.mp3"><![CDATA[legal]]></word>
+				<word soundFileName="demon.mp3"><![CDATA[demon]]></word>
+				<word soundFileName="fever.mp3"><![CDATA[fever]]></word>
+				<word soundFileName="secret.mp3"><![CDATA[secret]]></word>
+				<word soundFileName="begin.mp3"><![CDATA[begin]]></word>
+				<word soundFileName="tiger.mp3"><![CDATA[tiger]]></word>
+				<word soundFileName="spider.mp3"><![CDATA[spider]]></word>
+				<word soundFileName="final.mp3"><![CDATA[final]]></word>
+				<word soundFileName="tiny.mp3"><![CDATA[tiny]]></word>
+				<word soundFileName="silent.mp3"><![CDATA[silent]]></word>
+				<word soundFileName="pilot.mp3"><![CDATA[pilot]]></word>
+				<word soundFileName="ivy.mp3"><![CDATA[ivy]]></word>
+				<word soundFileName="diver.mp3"><![CDATA[diver]]></word>
+				<word soundFileName="music.mp3"><![CDATA[music]]></word>
+				<word soundFileName="stupid.mp3"><![CDATA[stupid]]></word>
+				<word soundFileName="super.mp3"><![CDATA[super]]></word>
+				<word soundFileName="human.mp3"><![CDATA[human]]></word>
+				<word soundFileName="student.mp3"><![CDATA[student]]></word>
+			</list>
+			
+			<list name="two syllable words" location="resources/games/chimp_fu/sounds/two_syllable_words/" sentence="">
+				<word soundFileName="traffic.mp3"><![CDATA[traffic]]></word>
+				<word soundFileName="blanket.mp3"><![CDATA[blanket]]></word>
+				<word soundFileName="problem.mp3"><![CDATA[problem]]></word>
+				<word soundFileName="trumpet.mp3"><![CDATA[trumpet]]></word>
+				<word soundFileName="channel.mp3"><![CDATA[channel]]></word>
+				<word soundFileName="children.mp3"><![CDATA[children]]></word>
+				<word soundFileName="hundred.mp3"><![CDATA[hundred]]></word>
+				<word soundFileName="address.mp3"><![CDATA[address]]></word>
+				<word soundFileName="control.mp3"><![CDATA[control]]></word>
+				<word soundFileName="plastic.mp3"><![CDATA[plastic]]></word>
+				<word soundFileName="blossom.mp3"><![CDATA[blossom]]></word>
+				<word soundFileName="dentist.mp3"><![CDATA[dentist]]></word>
+			</list>
+
+			<list name="tion" location="resources/games/chimp_fu/sounds/tion/" sentence="">
+				<word soundFileName="section.mp3">    <![CDATA[section]]></word>
+				<word soundFileName="mention.mp3">    <![CDATA[mention]]></word>
+				<word soundFileName="station.mp3">    <![CDATA[station]]></word>
+				<word soundFileName="lotion.mp3">     <![CDATA[lotion]]></word>
+				<word soundFileName="action.mp3">     <![CDATA[action]]></word>
+				<word soundFileName="inspection.mp3"> <![CDATA[inspection]]></word>
+				<word soundFileName="infection.mp3">  <![CDATA[infection]]></word>
+				<word soundFileName="confusion.mp3">  <![CDATA[confusion]]></word>
+				<word soundFileName="conversion.mp3"> <![CDATA[conversion]]></word>
+				<word soundFileName="invasion.mp3">   <![CDATA[invasion]]></word>
+				<word soundFileName="version.mp3">    <![CDATA[version]]></word>
+				<word soundFileName="explosion.mp3">  <![CDATA[explosion]]></word>
+				<word soundFileName="conclusion.mp3"> <![CDATA[conclusion]]></word>
+				<word soundFileName="confession.mp3"> <![CDATA[confession]]></word>
+				<word soundFileName="permission.mp3"> <![CDATA[permission]]></word>
+				<word soundFileName="concussion.mp3"> <![CDATA[concussion]]></word>
+				<word soundFileName="expression.mp3"> <![CDATA[expression]]></word>
+				<word soundFileName="depression.mp3"> <![CDATA[depression]]></word>
+				<word soundFileName="discussion.mp3"> <![CDATA[discussion]]></word>
+				<word soundFileName="percussion.mp3"> <![CDATA[percussion]]></word>
+				<word soundFileName="transfusion.mp3"><![CDATA[transfusion]]></word>
+				<word soundFileName="exclusion.mp3">  <![CDATA[exclusion]]></word>
+			</list>
+			
+			<list name="or 2" location="resources/games/chimp_fu/sounds/or_2/" sentence="">
+				<word soundFileName="target.mp3"><![CDATA[target]]></word>
+				<word soundFileName="carpet.mp3"><![CDATA[carpet]]></word>
+				<word soundFileName="carton.mp3"><![CDATA[carton]]></word>
+				<word soundFileName="darling.mp3"><![CDATA[darling]]></word>
+				<word soundFileName="garden.mp3"><![CDATA[garden]]></word>
+				<word soundFileName="market.mp3"><![CDATA[market]]></word>
+				<word soundFileName="scarlet.mp3"><![CDATA[scarlet]]></word>
+				<word soundFileName="garlic.mp3"><![CDATA[garlic]]></word>
+				<word soundFileName="pardon.mp3"><![CDATA[pardon]]></word>
+				<word soundFileName="harvest.mp3"><![CDATA[harvest]]></word>
+				<word soundFileName="alarm.mp3"><![CDATA[alarm]]></word>
+				<word soundFileName="varnish.mp3"><![CDATA[varnish]]></word>
+				<word soundFileName="corner.mp3"><![CDATA[corner]]></word>
+				<word soundFileName="orbit.mp3"><![CDATA[orbit]]></word>
+				<word soundFileName="forget.mp3"><![CDATA[forget]]></word>
+				<word soundFileName="order.mp3"><![CDATA[order]]></word>
+				<word soundFileName="cornet.mp3"><![CDATA[cornet]]></word>
+				<word soundFileName="normal.mp3"><![CDATA[normal]]></word>
+				<word soundFileName="support.mp3"><![CDATA[support]]></word>
+				<word soundFileName="border.mp3"><![CDATA[border]]></word>
+				<word soundFileName="permit.mp3"><![CDATA[permit]]></word>
+				<word soundFileName="murder.mp3"><![CDATA[murder]]></word>
+				<word soundFileName="turban.mp3"><![CDATA[turban]]></word>
+				<word soundFileName="confirm.mp3"><![CDATA[confirm]]></word>
+				<word soundFileName="birthday.mp3"><![CDATA[birthday]]></word>
+			</list>
+
+		</words>
+		
+		<sentences>
+		
+			<list name="" location="">
+			</list>
+		
+		</sentences>
+		
+	</standard>
+	
+<!--
+
+The data in the 'cutom' node is sent directly through to the game for it to handle. It is
+advised to wrap data within nodes with the same name attributes as the word lists that
+their data supports.
+
+-->
+	
+	<custom>
+
+		<wordlist name = "cvc-cvc">
+			<headband>yellow</headband>
+
+			<word name="hotdog" bg="hotdog"><w>hot</w><w>dog</w></word>
+			<word name="cannon" bg="hotdog"><w>can</w><w>non</w></word>
+			<word name="ribbon" bg="hotdog"><w>rib</w><w>bon</w></word>
+			<word name="button" bg="hotdog"><w>but</w><w>ton</w></word>
+			<word name="cotton" bg="hotdog"><w>cot</w><w>ton</w></word>
+			<word name="kitten" bg="hotdog"><w>kit</w><w>ten</w></word>
+			<word name="bottom" bg="hotdog"><w>bot</w><w>tom</w></word>
+			<word name="common" bg="hotdog"><w>com</w><w>mon</w></word>
+			<word name="hiccup" bg="hotdog"><w>hic</w><w>cup</w></word>
+			<word name="rabbit" bg="hotdog"><w>rab</w><w>bit</w></word>
+			<word name="gallop" bg="hotdog"><w>gal</w><w>lop</w></word>
+			<word name="gossip" bg="hotdog"><w>gos</w><w>sip</w></word>
+			<word name="lesson" bg="hotdog"><w>les</w><w>son</w></word>
+			<word name="coffin" bg="hotdog"><w>cof</w><w>fin</w></word>
+			<word name="muffin" bg="hotdog"><w>muf</w><w>fin</w></word>
+			<word name="gallon" bg="hotdog"><w>gal</w><w>lon</w></word>
+			<word name="puppet" bg="hotdog"><w>pup</w><w>pet</w></word>
+			<word name="tennis" bg="hotdog"><w>ten</w><w>nis</w></word>
+			<word name="bitten" bg="hotdog"><w>bit</w><w>ten</w></word>
+			<word name="batman" bg="hotdog"><w>bat</w><w>man</w></word>
+		</wordlist>
+		
+		<wordlist name = "magic e 2">
+			<headband>brown</headband>
+			<word name="pancake"   bg="wood"><w>pan</w><w>cake</w></word>
+			<word name="mistake"   bg="wood"><w>mis</w><w>take</w></word>
+			<word name="inflate"   bg="wood"><w>in</w><w>flate</w></word>
+			<word name="landscape" bg="wood"><w>land</w><w>scape</w></word>
+			<word name="invade"    bg="wood"><w>in</w><w>vade</w></word>
+			<word name="insane"    bg="wood"><w>in</w><w>sane</w></word>
+			<word name="donate"    bg="wood"><w>do</w><w>nate</w></word>
+			<word name="rotate"    bg="wood"><w>ro</w><w>tate</w></word>
+			<word name="explode"   bg="wood"><w>ex</w><w>plode</w></word>
+			<word name="suppose"   bg="wood"><w>sup</w><w>pose</w></word>
+			<word name="tadpole"   bg="wood"><w>tad</w><w>pole</w></word>
+			<word name="handsome"  bg="wood"><w>hand</w><w>some</w></word>
+			<word name="trombone"  bg="wood"><w>trom</w><w>bone</w></word>
+			<word name="backbone"  bg="wood"><w>back</w><w>bone</w></word>
+			<word name="compete"   bg="wood"><w>com</w><w>pete</w></word>
+			<word name="extreme"   bg="wood"><w>ex</w><w>treme</w></word>
+			<word name="stampede"  bg="wood"><w>stam</w><w>pede</w></word>
+			<word name="trapeze"   bg="wood"><w>trap</w><w>eze</w></word>
+			<word name="athlete"   bg="wood"><w>ath</w><w>lete</w></word>
+			<word name="concrete"  bg="wood"><w>con</w><w>crete</w></word>
+			<word name="complete"  bg="wood"><w>com</w><w>plete</w></word>
+			<word name="reptile"   bg="wood"><w>rep</w><w>tile</w></word>
+			<word name="sunrise"   bg="wood"><w>sun</w><w>rise</w></word>
+			<word name="divide"    bg="wood"><w>div</w><w>ide</w></word>
+			<word name="inside"    bg="wood"><w>in</w><w>side</w></word>
+			<word name="sunshine"  bg="wood"><w>sun</w><w>shine</w></word>
+			<word name="bagpipe"   bg="wood"><w>bag</w><w>pipe</w></word>
+			<word name="invite"    bg="wood"><w>in</w><w>vite</w></word>
+			<word name="polite"    bg="wood"><w>pol</w><w>ite</w></word>
+			<word name="campsite"  bg="wood"><w>camp</w><w>site</w></word>
+			<!--<word name="surprise"  bg="wood"><w>sur</w><w>prise</w></word>-->
+			<word name="outside"   bg="wood"><w>out</w><w>side</w></word>
+			<word name="confuse"   bg="wood"><w>con</w><w>fuse</w></word>
+			<word name="refuse"    bg="wood"><w>re</w><w>fuse</w></word>
+			<word name="include"   bg="wood"><w>in</w><w>clude</w></word>
+			<word name="costume"   bg="wood"><w>cos</w><w>tume</w></word>
+			<word name="excuse"    bg="wood"><w>ex</w><w>cuse</w></word>
+			<word name="pollute"   bg="wood"><w>pol</w><w>lute</w></word>
+			<word name="female"    bg="wood"><w>fe</w><w>male</w></word>
+			<word name="ignite"    bg="wood"><w>ig</w><w>nite</w></word>
+		</wordlist>
+		
+		<wordlist name = "advanced prefixes">
+			<headband>final</headband>
+			<word name="lemonade"    bg="steel"><w>lem</w><w>on</w><w>ade</w></word>
+			<word name="innocent"    bg="steel"><w>in</w><w>no</w><w>cent</w></word>
+			<word name="important"   bg="steel"><w>im</w><w>port</w><w>ant</w></word>
+			<word name="intensive"   bg="steel"><w>in</w><w>ten</w><w>sive</w></word>
+			<word name="interval"    bg="steel"><w>in</w><w>ter</w><w>val</w></word>
+			<word name="sensitive"   bg="steel"><w>sen</w><w>sit</w><w>ive</w></word>
+			<word name="compartment" bg="steel"><w>com</w><w>part</w><w>ment</w></word>
+			<word name="delicate"    bg="steel"><w>del</w><w>ic</w><w>ate</w></word>
+			<word name="organism"    bg="steel"><w>or</w><w>gan</w><w>ism</w></word>
+			<word name="defective"   bg="steel"><w>de</w><w>fect</w><w>ive</w></word>
+			<word name="repulsive"   bg="steel"><w>re</w><w>pul</w><w>sive</w></word>
+			<word name="productive"  bg="steel"><w>pro</w><w>duc</w><w>tive</w></word>
+			<word name="document"    bg="steel"><w>doc</w><w>u</w><w>ment</w></word>
+			<word name="equipment"   bg="steel"><w>e</w><w>quip</w><w>ment</w></word>
+			<word name="eternal"     bg="steel"><w>e</w><w>ter</w><w>nal</w></word>
+			<word name="microscope"  bg="steel"><w>mi</w><w>cro</w><w>scope</w></word>
+			<word name="instrument"  bg="steel"><w>in</w><w>stru</w><w>ment</w></word>
+			<word name="mineral"     bg="steel"><w>min</w><w>er</w><w>al</w></word>
+		</wordlist>
+		
+		<wordlist name = "open 2">
+			<headband>blue</headband>
+			<word name="paper"   bg="marrow"><w>pa</w><w>per</w></word>
+			<word name="later"   bg="marrow"><w>la</w><w>ter</w></word>
+			<word name="lazy"    bg="marrow"><w>la</w><w>zy</w></word>
+			<word name="crazy"   bg="marrow"><w>cra</w><w>zy</w></word>
+			<word name="navy"    bg="marrow"><w>na</w><w>vy</w></word>
+			<word name="lady"    bg="marrow"><w>la</w><w>dy</w></word>
+			<word name="gravy"   bg="marrow"><w>gra</w><w>vy</w></word>
+			<word name="baby"    bg="marrow"><w>ba</w><w>by</w></word>
+			<word name="bacon"   bg="marrow"><w>ba</w><w>con</w></word>
+			<word name="hotel"   bg="marrow"><w>ho</w><w>tel</w></word>
+			<word name="pony"    bg="marrow"><w>po</w><w>ny</w></word>
+			<word name="holy"    bg="marrow"><w>ho</w><w>ly</w></word>
+			<word name="open"    bg="marrow"><w>o</w><w>pen</w></word>
+			<word name="moment"  bg="marrow"><w>mo</w><w>ment</w></word>
+			<word name="poker"   bg="marrow"><w>po</w><w>ker</w></word>
+			<word name="total"   bg="marrow"><w>to</w><w>tal</w></word>
+			<word name="local"   bg="marrow"><w>lo</w><w>cal</w></word>
+			<word name="solo"    bg="marrow"><w>so</w><w>lo</w></word>
+			<word name="frozen"  bg="marrow"><w>fro</w><w>zen</w></word>
+			<word name="evil"    bg="marrow"><w>e</w><w>vil</w></word>
+			<word name="even"    bg="carrots"><w>e</w><w>ven</w></word>
+			<word name="event"   bg="carrots"><w>e</w><w>vent</w></word>
+			<word name="legal"   bg="carrots"><w>le</w><w>gal</w></word>
+			<word name="demon"   bg="carrots"><w>de</w><w>mon</w></word>
+			<word name="fever"   bg="carrots"><w>fe</w><w>ver</w></word>
+			<word name="secret"  bg="carrots"><w>se</w><w>cret</w></word>
+			<word name="begin"   bg="carrots"><w>be</w><w>gin</w></word>
+			<word name="tiger"   bg="carrots"><w>ti</w><w>ger</w></word>
+			<word name="spider"  bg="carrots"><w>spi</w><w>der</w></word>
+			<word name="final"   bg="carrots"><w>fi</w><w>nal</w></word>
+			<word name="tiny"    bg="carrots"><w>ti</w><w>ny</w></word>
+			<word name="silent"  bg="carrots"><w>si</w><w>lent</w></word>
+			<word name="pilot"   bg="carrots"><w>pi</w><w>lot</w></word>
+			<word name="ivy"     bg="carrots"><w>i</w><w>vy</w></word>
+			<word name="diver"   bg="carrots"><w>di</w><w>ver</w></word>
+			<word name="music"   bg="carrots"><w>mu</w><w>sic</w></word>
+			<word name="stupid"  bg="carrots"><w>stu</w><w>pid</w></word>
+			<word name="super"   bg="carrots"><w>su</w><w>per</w></word>
+			<word name="human"   bg="carrots"><w>hu</w><w>man</w></word>
+			<word name="student" bg="carrots"><w>stu</w><w>dent</w></word>
+		</wordlist>
+		
+		<wordlist name = "two syllable words">
+			<headband>orange</headband>
+			<word name="traffic"  bg="banana"><w>traf</w><w>fic</w></word>
+			<word name="blanket"  bg="banana"><w>blan</w><w>ket</w></word>
+			<word name="blossom"  bg="banana"><w>blos</w><w>som</w></word>
+			<word name="problem"  bg="banana"><w>prob</w><w>lem</w></word>
+			<word name="trumpet"  bg="banana"><w>trum</w><w>pet</w></word>
+			<word name="channel"  bg="banana"><w>chan</w><w>nel</w></word>
+			<word name="children" bg="banana"><w>chil</w><w>dren</w></word>
+			<word name="hundred"  bg="banana"><w>hun</w><w>dred</w></word>
+			<word name="address"  bg="banana"><w>ad</w><w>dress</w></word>
+			<word name="control"  bg="eclair"><w>con</w><w>trol</w></word>
+			<word name="plastic"  bg="eclair"><w>plas</w><w>tic</w></word>
+			<word name="dentist"  bg="eclair"><w>den</w><w>tist</w></word>
+		</wordlist>		
+		
+		<wordlist name = "tion">
+			<headband>black</headband>
+			<word name="section"     bg="brick"><w>sec</w><w>tion</w></word>
+			<word name="mention"     bg="brick"><w>men</w><w>tion</w></word>
+			<word name="station"     bg="brick"><w>sta</w><w>tion</w></word>
+			<word name="lotion"      bg="brick"><w>lo</w><w>tion</w></word>
+			<word name="action"      bg="brick"><w>ac</w><w>tion</w></word>
+			<word name="inspection"  bg="concrete"><w>in</w><w>spec</w><w>tion</w></word>
+			<word name="infection"   bg="brick"><w>in</w><w>fec</w><w>tion</w></word>
+			<word name="confusion"   bg="brick"><w>con</w><w>fu</w><w>sion</w></word>
+			<word name="conversion"  bg="concrete"><w>con</w><w>ver</w><w>sion</w></word>
+			<word name="invasion"    bg="brick"><w>in</w><w>va</w><w>sion</w></word>
+			<word name="version"     bg="brick"><w>ver</w><w>sion</w></word>
+			<word name="explosion"   bg="brick"><w>ex</w><w>plo</w><w>sion</w></word>
+			<word name="conclusion"  bg="concrete"><w>con</w><w>clu</w><w>sion</w></word>
+			<word name="confession"  bg="concrete"><w>con</w><w>fes</w><w>sion</w></word>
+			<word name="permission"  bg="concrete"><w>per</w><w>mis</w><w>sion</w></word>
+			<word name="concussion"  bg="concrete"><w>con</w><w>cus</w><w>sion</w></word>
+			<word name="expression"  bg="concrete"><w>ex</w><w>pres</w><w>sion</w></word>
+			<word name="depression"  bg="concrete"><w>de</w><w>pres</w><w>sion</w></word>
+			<word name="discussion"  bg="concrete"><w>dis</w><w>cus</w><w>sion</w></word>
+			<word name="percussion"  bg="concrete"><w>per</w><w>cus</w><w>sion</w></word>
+			<word name="transfusion" bg="concrete"><w>trans</w><w>fu</w><w>sion</w></word>
+			<word name="exclusion"   bg="brick"><w>ex</w><w>clu</w><w>sion</w></word>
+		</wordlist>
+
+		<wordlist name = "or 2">
+			<headband>green</headband>
+			<word name="target"   bg="baguette"><w>tar</w><w>get</w></word>
+			<word name="carpet"   bg="baguette"><w>car</w><w>pet</w></word>
+			<word name="carton"   bg="baguette"><w>car</w><w>ton</w></word>
+			<word name="darling"  bg="baguette"><w>dar</w><w>ling</w></word>
+			<word name="garden"   bg="baguette"><w>gar</w><w>den</w></word>
+			<word name="market"   bg="baguette"><w>mar</w><w>ket</w></word>
+			<word name="scarlet"  bg="baguette"><w>scar</w><w>let</w></word>
+			<word name="garlic"   bg="baguette"><w>gar</w><w>lic</w></word>
+			<word name="pardon"   bg="baguette"><w>par</w><w>don</w></word>
+			<word name="harvest"  bg="baguette"><w>har</w><w>vest</w></word>
+			<word name="alarm"    bg="baguette"><w>al</w><w>arm</w></word>
+			<word name="varnish"  bg="baguette"><w>var</w><w>nish</w></word>
+			<word name="corner"   bg="baguette"><w>cor</w><w>ner</w></word>
+			<word name="orbit"    bg="baguette"><w>or</w><w>bit</w></word>
+			<word name="forget"   bg="baguette"><w>for</w><w>get</w></word>
+			<word name="order"    bg="baguette"><w>or</w><w>der</w></word>
+			<word name="cornet"   bg="baguette"><w>cor</w><w>net</w></word>
+			<word name="normal"   bg="baguette"><w>nor</w><w>mal</w></word>
+			<word name="support"  bg="baguette"><w>sup</w><w>port</w></word>
+			<word name="border"   bg="baguette"><w>bor</w><w>der</w></word>
+			<word name="permit"   bg="baguette"><w>per</w><w>mit</w></word>
+			<word name="murder"   bg="baguette"><w>mur</w><w>der</w></word>
+			<word name="turban"   bg="baguette"><w>tur</w><w>ban</w></word>
+			<word name="confirm"  bg="baguette"><w>con</w><w>firm</w></word>
+			<word name="birthday" bg="baguette"><w>birth</w><w>day</w></word>
+		</wordlist>
+		
+	</custom>
+</customGame>

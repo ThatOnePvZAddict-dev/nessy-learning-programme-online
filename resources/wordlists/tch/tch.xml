@@ -1,0 +1,18 @@
+<list name="tch" location="" sentence="">
+	<word soundFileName="catch.mp3"><![CDATA[catch]]></word>
+	<word soundFileName="hatch.mp3"><![CDATA[hatch]]></word>
+	<word soundFileName="match.mp3"><![CDATA[match]]></word>
+	<word soundFileName="patch.mp3"><![CDATA[patch]]></word>
+	<word soundFileName="snatch.mp3"><![CDATA[snatch]]></word>
+	<word soundFileName="itch.mp3"><![CDATA[itch]]></word>
+	<word soundFileName="ditch.mp3"><![CDATA[ditch]]></word>
+	<word soundFileName="pitch.mp3"><![CDATA[pitch]]></word>
+	<word soundFileName="stitch.mp3"><![CDATA[stitch]]></word>
+	<word soundFileName="switch.mp3"><![CDATA[switch]]></word>
+	<word soundFileName="witch.mp3"><![CDATA[witch]]></word>
+	<word soundFileName="hutch.mp3"><![CDATA[hutch]]></word>
+	<word soundFileName="fetch.mp3"><![CDATA[fetch]]></word>
+	<word soundFileName="ketchup.mp3"><![CDATA[ketchup]]></word>
+	<word soundFileName="stretch.mp3"><![CDATA[stretch]]></word>
+
+</list>

@@ -1,0 +1,14 @@
+<list name="ff" location="" sentence="">
+	<word soundFileName="bluff.mp3"><![CDATA[bluff]]></word>
+	<word soundFileName="cliff.mp3"><![CDATA[cliff]]></word>
+	<word soundFileName="cuff.mp3"><![CDATA[cuff]]></word>
+	<word soundFileName="fluff.mp3"><![CDATA[fluff]]></word>
+	<word soundFileName="gruff.mp3"><![CDATA[gruff]]></word>
+	<word soundFileName="off.mp3"><![CDATA[off]]></word>
+	<word soundFileName="puff.mp3"><![CDATA[puff]]></word>
+	<word soundFileName="sniff.mp3"><![CDATA[sniff]]></word>
+	<word soundFileName="snuff.mp3"><![CDATA[snuff]]></word>
+	<word soundFileName="stiff.mp3"><![CDATA[stiff]]></word>
+	<word soundFileName="stuff.mp3"><![CDATA[stuff]]></word>
+
+</list>

@@ -1,0 +1,26 @@
+<list name="ss zz" location="" sentence="">
+	<word soundFileName="boss.mp3"><![CDATA[boss]]></word>
+	<word soundFileName="buzz.mp3"><![CDATA[buzz]]></word>
+	<word soundFileName="chess.mp3"><![CDATA[chess]]></word>
+	<word soundFileName="class.mp3"><![CDATA[class]]></word>
+	<word soundFileName="cross.mp3"><![CDATA[cross]]></word>
+	<word soundFileName="dress.mp3"><![CDATA[dress]]></word>
+	<word soundFileName="fizz.mp3"><![CDATA[fizz]]></word>
+	<word soundFileName="floss.mp3"><![CDATA[floss]]></word>
+	<word soundFileName="fuzz.mp3"><![CDATA[fuzz]]></word>
+	<word soundFileName="glass.mp3"><![CDATA[glass]]></word>
+	<word soundFileName="gloss.mp3"><![CDATA[gloss]]></word>
+	<word soundFileName="grass.mp3"><![CDATA[grass]]></word>
+	<word soundFileName="hiss.mp3"><![CDATA[hiss]]></word>
+	<word soundFileName="jazz.mp3"><![CDATA[jazz]]></word>
+	<word soundFileName="kiss.mp3"><![CDATA[kiss]]></word>
+	<word soundFileName="less.mp3"><![CDATA[less]]></word>
+	<word soundFileName="loss.mp3"><![CDATA[loss]]></word>
+	<word soundFileName="mess.mp3"><![CDATA[mess]]></word>
+	<word soundFileName="miss.mp3"><![CDATA[miss]]></word>
+	<word soundFileName="moss.mp3"><![CDATA[moss]]></word>
+	<word soundFileName="pass.mp3"><![CDATA[pass]]></word>
+	<word soundFileName="press.mp3"><![CDATA[press]]></word>
+	<word soundFileName="toss.mp3"><![CDATA[toss]]></word>
+
+</list>
